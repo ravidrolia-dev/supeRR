@@ -2,38 +2,53 @@
 
 @layer base {
   :root {
-    --bg-main: #0a0f1d;
-    --bg-card: #131b2e;
-    --bg-card-hover: #1c2640;
-    --border-color: #23314d;
-    --rr-pink: #ff1493;
-    --rr-blue: #2563eb;
-    --rr-gold: #f59e0b;
-    --rr-cyan: #06b6d4;
+    --background: #F7F8FA;
+    --surface: #FFFFFF;
+    --surface-muted: #F1F3F6;
+
+    --text-primary: #17263C;
+    --text-secondary: #64748B;
+    --text-muted: #94A3B8;
+
+    --border: #E5E7EB;
+
+    --accent: #D92779;
+    --accent-soft: #FCEAF2;
+
+    --positive: #16845B;
+    --negative: #C44545;
+    --warning: #B7791F;
   }
 
-  body {
-    background-color: #0a0f1d;
-    color: #e2e8f0;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  html, body {
+    background-color: #F7F8FA !important;
+    color: #17263C !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    background-color: #F7F8FA !important;
+    min-height: 100vh;
   }
 }
 
-/* Custom scrollbars */
+/* Subtle neutral scrollbars */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a0f1d;
+  background: #F7F8FA;
 }
 ::-webkit-scrollbar-thumb {
-  background: #23314d;
+  background: #E5E7EB;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3b82f6;
+  background: #94A3B8;
 }

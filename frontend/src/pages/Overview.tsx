@@ -1,17 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { fetchOverview, OverviewData } from '../services/api';
-import {
-  Flame,
-  Target,
-  Users,
-  ShieldAlert,
-  ArrowUpRight,
-  TrendingUp,
-  Award,
-  Zap,
-  Info
-} from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { ArrowRight, ChevronDown, ChevronUp } from 'lucide-react';
 import {
   BarChart,
   Bar,
@@ -25,6 +15,7 @@ import {
 export const Overview: React.FC = () => {
   const [data, setData] = useState<OverviewData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [showMetadata, setShowMetadata] = useState(false);
 
   useEffect(() => {
     fetchOverview()
@@ -35,286 +26,254 @@ export const Overview: React.FC = () => {
 
   if (loading || !data) {
     return (
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="flex flex-col items-center gap-3">
-          <div className="w-10 h-10 border-4 border-pink-500 border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-xs text-slate-400 font-mono">Loading ClutchIQ analytical engine...</p>
-        </div>
+      <div className="flex items-center justify-center min-h-[50vh]">
+        <div className="text-xs text-[#64748b]">Loading intelligence overview...</div>
       </div>
     );
   }
 
   const kpis = data.kpis;
-  const colors = ['#38bdf8', '#3b82f6', '#f59e0b', '#f97316', '#ec4899'];
+  const barColors = ['#94a3b8', '#64748b', '#365e91', '#d92779', '#9d174d'];
 
   return (
-    <div className="space-y-6">
-      {/* Header Banner */}
-      <div className="p-6 rounded-2xl bg-gradient-to-r from-[#1c1a3e] via-[#121c38] to-[#0d1527] border border-[#23314d] relative overflow-hidden shadow-xl">
-        <div className="relative z-10 max-w-3xl">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-wide uppercase bg-pink-500/20 text-pink-400 border border-pink-500/30">
-              Official Scouting Dossier
-            </span>
-            <span className="text-xs text-slate-400 font-mono">IPL & Senior T20I Cohort</span>
-          </div>
-          <h1 className="text-2xl font-black text-white tracking-tight">
-            ClutchIQ — Pressure Performance & Scouting Intelligence
-          </h1>
-          <p className="text-xs text-slate-300 mt-2 leading-relaxed">
-            Quantifying high-leverage clutch impact across 853 elite T20 matches using empirical Bayes shrinkage (<span className="text-pink-400 font-mono">k = 150.0</span>) and pre-delivery dynamic leverage. Objectively isolating true match-winning execution when win probability is volatile.
-          </p>
+    <div className="space-y-8 max-w-6xl mx-auto">
+      {/* Section A: Editorial Introduction */}
+      <div className="border-b border-[#e2e6ec] pb-6">
+        <div className="text-[11px] font-semibold uppercase tracking-wider text-[#d92779] mb-1">
+          SupeRR Selector Season 2 &bull; Independent analytics prototype
         </div>
-        <div className="absolute right-0 top-0 bottom-0 w-80 bg-gradient-to-l from-pink-500/10 to-transparent pointer-events-none"></div>
+        <h1 className="text-2xl font-bold text-[#17263c] tracking-tight">
+          ClutchIQ — Pressure Performance Intelligence
+        </h1>
+        <p className="text-sm text-[#64748b] mt-1 max-w-3xl leading-relaxed">
+          Identifying players who outperform expectations when match situations become difficult. Evaluated using pre-delivery leverage modeling and empirical Bayes shrinkage (<span className="font-mono text-[#17263c]">k = 150.0</span>) across elite T20 cricket.
+        </p>
       </div>
 
-      {/* KPI Cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
-        <div className="p-4 rounded-xl bg-[#131b2e] border border-[#23314d] flex flex-col justify-between">
-          <div className="flex items-center justify-between text-slate-400 mb-2">
-            <span className="text-[11px] font-medium">Audited Matches</span>
-            <Award className="w-4 h-4 text-blue-400" />
-          </div>
-          <div className="text-xl font-black text-white font-mono">{kpis.total_matches.toLocaleString()}</div>
-          <div className="text-[10px] text-slate-400 mt-1 font-mono">371 IPL / 482 T20I</div>
-        </div>
-
-        <div className="p-4 rounded-xl bg-[#131b2e] border border-[#23314d] flex flex-col justify-between">
-          <div className="flex items-center justify-between text-slate-400 mb-2">
-            <span className="text-[11px] font-medium">Legal Balls</span>
-            <TrendingUp className="w-4 h-4 text-emerald-400" />
-          </div>
-          <div className="text-xl font-black text-white font-mono">{kpis.total_legal_balls.toLocaleString()}</div>
-          <div className="text-[10px] text-slate-400 mt-1 font-mono">{kpis.total_deliveries.toLocaleString()} recorded</div>
-        </div>
-
-        <div className="p-4 rounded-xl bg-[#131b2e] border border-[#23314d] flex flex-col justify-between">
-          <div className="flex items-center justify-between text-slate-400 mb-2">
-            <span className="text-[11px] font-medium">High Pressure Balls</span>
-            <ShieldAlert className="w-4 h-4 text-pink-400" />
-          </div>
-          <div className="text-xl font-black text-pink-400 font-mono">{kpis.high_pressure_deliveries.toLocaleString()}</div>
-          <div className="text-[10px] text-slate-400 mt-1 font-mono">24.7% of total balls (PI &ge; 65)</div>
-        </div>
-
-        <div className="p-4 rounded-xl bg-[#131b2e] border border-[#23314d] flex flex-col justify-between">
-          <div className="flex items-center justify-between text-slate-400 mb-2">
-            <span className="text-[11px] font-medium">Eligible Batters</span>
-            <Flame className="w-4 h-4 text-amber-400" />
-          </div>
-          <div className="text-xl font-black text-amber-400 font-mono">{kpis.eligible_batters}</div>
-          <div className="text-[10px] text-slate-400 mt-1 font-mono">&ge;150 balls &amp; &ge;40 HP balls</div>
-        </div>
-
-        <div className="p-4 rounded-xl bg-[#131b2e] border border-[#23314d] flex flex-col justify-between">
-          <div className="flex items-center justify-between text-slate-400 mb-2">
-            <span className="text-[11px] font-medium">Eligible Bowlers</span>
-            <Target className="w-4 h-4 text-purple-400" />
-          </div>
-          <div className="text-xl font-black text-purple-400 font-mono">{kpis.eligible_bowlers}</div>
-          <div className="text-[10px] text-slate-400 mt-1 font-mono">&ge;150 balls &amp; &ge;40 HP balls</div>
-        </div>
-
-        <div className="p-4 rounded-xl bg-[#131b2e] border border-[#23314d] flex flex-col justify-between">
-          <div className="flex items-center justify-between text-slate-400 mb-2">
-            <span className="text-[11px] font-medium">Shrinkage Factor</span>
-            <Zap className="w-4 h-4 text-cyan-400" />
-          </div>
-          <div className="text-xl font-black text-cyan-400 font-mono">k = 150.0</div>
-          <div className="text-[10px] text-slate-400 mt-1 font-mono">Laplacian / Bayes prior</div>
-        </div>
-      </div>
-
-      {/* Top 5 Batters & Bowlers Spotlight Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Batters Top 5 */}
-        <div className="p-5 rounded-2xl bg-[#131b2e] border border-[#23314d]">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center gap-2">
-              <Flame className="w-5 h-5 text-amber-400" />
-              <h2 className="text-sm font-bold text-white uppercase tracking-wider">Top 5 Pressure Batters</h2>
+      {/* Section B: Essential Key Statistics */}
+      <div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="p-4 rounded-md bg-white border border-[#e2e6ec]">
+            <div className="text-xs text-[#64748b]">Matches Analysed</div>
+            <div className="text-2xl font-bold text-[#17263c] mt-1 font-mono">
+              {kpis.total_matches.toLocaleString()}
             </div>
-            <Link
-              to="/batters"
-              className="text-xs font-semibold text-pink-400 hover:text-pink-300 flex items-center gap-1"
-            >
-              View Full Top 10 <ArrowUpRight className="w-3.5 h-3.5" />
-            </Link>
+            <div className="text-[11px] text-[#94a3b8] mt-0.5">371 IPL &bull; 482 T20I</div>
           </div>
 
-          <div className="space-y-2.5">
-            {data.top5_batters.map((b, i) => (
-              <Link
-                key={b.player_id}
-                to={`/players?id=${b.player_id}`}
-                className="p-3 rounded-xl bg-[#0e1628] hover:bg-[#18233c] border border-[#23314d]/60 flex items-center justify-between transition-colors group"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 rounded-full bg-amber-400/10 text-amber-400 flex items-center justify-center font-mono font-bold text-xs">
-                    #{i + 1}
-                  </div>
-                  <div>
-                    <div className="text-xs font-bold text-white group-hover:text-pink-400 transition-colors flex items-center gap-2">
-                      {b.player_name}
-                      <span className="text-[10px] font-mono text-slate-400">{b.teams.join(', ')}</span>
-                    </div>
-                    <div className="text-[10px] text-slate-400 mt-0.5 font-mono flex items-center gap-3">
-                      <span>HP SR: <span className="text-white font-medium">{b.high_pressure_metric.toFixed(1)}</span></span>
-                      <span>SR Delta: <span className="text-emerald-400 font-medium">+{b.metric_delta?.toFixed(1)}</span></span>
-                      <span>Balls: {b.legal_balls}</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="text-right">
-                  <div className="text-xs font-black font-mono text-amber-400">
-                    +{b.clutch_rating.toFixed(2)}
-                  </div>
-                  <div className="text-[9px] text-slate-400 font-mono">
-                    95% CI: [{b.ci_lower.toFixed(1)}, {b.ci_upper.toFixed(1)}]
-                  </div>
-                </div>
-              </Link>
-            ))}
+          <div className="p-4 rounded-md bg-white border border-[#e2e6ec]">
+            <div className="text-xs text-[#64748b]">Legal Balls Analysed</div>
+            <div className="text-2xl font-bold text-[#17263c] mt-1 font-mono">
+              {kpis.total_legal_balls.toLocaleString()}
+            </div>
+            <div className="text-[11px] text-[#94a3b8] mt-0.5">Fair deliveries only</div>
+          </div>
+
+          <div className="p-4 rounded-md bg-white border border-[#e2e6ec]">
+            <div className="text-xs text-[#64748b]">High-Pressure Legal Balls</div>
+            <div className="text-2xl font-bold text-[#d92779] mt-1 font-mono">
+              {kpis.high_pressure_deliveries.toLocaleString()}
+            </div>
+            <div className="text-[11px] text-[#94a3b8] mt-0.5">24.7% of total (PI &ge; 65.0)</div>
+          </div>
+
+          <div className="p-4 rounded-md bg-white border border-[#e2e6ec]">
+            <div className="text-xs text-[#64748b]">Eligible Players</div>
+            <div className="text-2xl font-bold text-[#17263c] mt-1 font-mono">
+              {kpis.eligible_batters + kpis.eligible_bowlers}
+            </div>
+            <div className="text-[11px] text-[#94a3b8] mt-0.5">180 Batters &bull; 222 Bowlers</div>
           </div>
         </div>
 
-        {/* Bowlers Top 5 */}
-        <div className="p-5 rounded-2xl bg-[#131b2e] border border-[#23314d]">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center gap-2">
-              <Target className="w-5 h-5 text-purple-400" />
-              <h2 className="text-sm font-bold text-white uppercase tracking-wider">Top 5 Pressure Bowlers</h2>
-            </div>
-            <Link
-              to="/bowlers"
-              className="text-xs font-semibold text-pink-400 hover:text-pink-300 flex items-center gap-1"
-            >
-              View Full Top 10 <ArrowUpRight className="w-3.5 h-3.5" />
-            </Link>
-          </div>
+        {/* Collapsible Dataset Metadata */}
+        <div className="mt-3">
+          <button
+            onClick={() => setShowMetadata(!showMetadata)}
+            className="text-xs text-[#365e91] hover:text-[#25446b] flex items-center gap-1 font-medium"
+          >
+            {showMetadata ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+            {showMetadata ? 'Hide dataset scope & accounting details' : 'View dataset scope & accounting details'}
+          </button>
 
-          <div className="space-y-2.5">
-            {data.top5_bowlers.map((b, i) => (
-              <Link
-                key={b.player_id}
-                to={`/players?id=${b.player_id}`}
-                className="p-3 rounded-xl bg-[#0e1628] hover:bg-[#18233c] border border-[#23314d]/60 flex items-center justify-between transition-colors group"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 rounded-full bg-purple-400/10 text-purple-400 flex items-center justify-center font-mono font-bold text-xs">
-                    #{i + 1}
-                  </div>
-                  <div>
-                    <div className="text-xs font-bold text-white group-hover:text-pink-400 transition-colors flex items-center gap-2">
-                      {b.player_name}
-                      <span className="text-[10px] font-mono text-slate-400">{b.teams.join(', ')}</span>
-                    </div>
-                    <div className="text-[10px] text-slate-400 mt-0.5 font-mono flex items-center gap-3">
-                      <span>HP Econ: <span className="text-white font-medium">{b.high_pressure_metric.toFixed(2)}</span></span>
-                      <span>Econ &Delta;: <span className="text-emerald-400 font-medium">{b.metric_delta?.toFixed(2)}</span></span>
-                      <span>Balls: {b.legal_balls}</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="text-right">
-                  <div className="text-xs font-black font-mono text-purple-400">
-                    +{b.clutch_rating.toFixed(2)}
-                  </div>
-                  <div className="text-[9px] text-slate-400 font-mono">
-                    95% CI: [{b.ci_lower.toFixed(1)}, {b.ci_upper.toFixed(1)}]
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Pressure Tier Distribution & Scouting Insights Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Delivery Distribution Chart */}
-        <div className="p-5 rounded-2xl bg-[#131b2e] border border-[#23314d] flex flex-col justify-between">
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <ActivityIcon className="w-4 h-4 text-cyan-400" />
-              <h3 className="text-xs font-bold uppercase tracking-wider text-white">Pressure Index Distribution</h3>
-            </div>
-            <p className="text-[11px] text-slate-400">185,715 legal balls categorized by pre-delivery pressure tiers</p>
-          </div>
-
-          <div className="h-56 mt-4">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={data.pressure_tier_distribution}>
-                <XAxis dataKey="tier" tick={{ fill: '#94a3b8', fontSize: 10 }} />
-                <YAxis tick={{ fill: '#94a3b8', fontSize: 10 }} />
-                <Tooltip
-                  contentStyle={{ backgroundColor: '#0d1527', borderColor: '#23314d', borderRadius: 8, fontSize: 11 }}
-                  formatter={(val: any) => [val.toLocaleString(), 'Deliveries']}
-                />
-                <Bar dataKey="deliveries" radius={[4, 4, 0, 0]}>
-                  {data.pressure_tier_distribution.map((_, index) => (
-                    <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
-                  ))}
-                </Bar>
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-
-          <div className="text-[10px] text-slate-400 font-mono mt-2 flex justify-between border-t border-[#23314d] pt-2">
-            <span>High Pressure threshold: &ge; 65.0</span>
-            <span className="text-pink-400 font-semibold">45,825 Balls (24.7%)</span>
-          </div>
-        </div>
-
-        {/* Key Scouting Insights */}
-        <div className="lg:col-span-2 p-5 rounded-2xl bg-[#131b2e] border border-[#23314d]">
-          <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-2">
-              <Zap className="w-4 h-4 text-pink-400" />
-              <h3 className="text-xs font-bold uppercase tracking-wider text-white">Scouting Intelligence Highlights</h3>
-            </div>
-            <span className="text-[10px] font-mono text-slate-400">Audited Key Findings</span>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {data.insights.map((ins, idx) => (
-              <div
-                key={idx}
-                className="p-3.5 rounded-xl bg-[#0e1628] border border-[#23314d]/70 flex flex-col justify-between"
-              >
-                <div>
-                  <div className="flex items-center justify-between mb-1">
-                    <span className="text-[9px] font-bold font-mono tracking-wider uppercase px-2 py-0.5 rounded bg-pink-500/10 text-pink-400 border border-pink-500/20">
-                      {ins.category.replace('_', ' ')}
-                    </span>
-                    <Link
-                      to={`/players?id=${ins.player_id}`}
-                      className="text-[10px] font-medium text-blue-400 hover:text-blue-300 flex items-center gap-0.5"
-                    >
-                      Dossier <ArrowUpRight className="w-3 h-3" />
-                    </Link>
-                  </div>
-                  <h4 className="text-xs font-bold text-white mt-1">{ins.title}</h4>
-                  <p className="text-[11px] text-slate-300 mt-1 leading-relaxed">{ins.detail}</p>
-                </div>
+          {showMetadata && (
+            <div className="mt-2 p-3.5 rounded-md bg-[#f8fafc] border border-[#e2e6ec] text-xs text-[#64748b] space-y-1.5 leading-relaxed">
+              <div>
+                <strong>Accounting Breakdown:</strong> The master database encompasses <strong>194,014 total recorded deliveries</strong>, of which <strong>185,715 are legal deliveries</strong> and <strong>8,299 are extras</strong> (wides and no-balls). Rate calculations and balls-faced metrics strictly use fair legal balls as denominators.
               </div>
-            ))}
+              <div>
+                <strong>Eligibility Thresholds:</strong> Minimum 150 legal balls overall and &ge;40 high-pressure legal balls (&ge;65.0 pressure index) within the respective discipline.
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Section C: Leading Performers Side by Side */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* Top Batters */}
+        <div className="bg-white rounded-md border border-[#e2e6ec] p-5 shadow-xs flex flex-col justify-between">
+          <div>
+            <div className="flex items-center justify-between pb-3 border-b border-[#e2e6ec] mb-3">
+              <h2 className="text-sm font-bold text-[#17263c]">Top Batters Under Pressure</h2>
+              <Link
+                to="/batters"
+                className="text-xs font-semibold text-[#d92779] hover:underline flex items-center gap-1"
+              >
+                Complete Top 10 <ArrowRight className="w-3 h-3" />
+              </Link>
+            </div>
+
+            <table className="w-full text-left text-xs">
+              <thead>
+                <tr className="border-b border-[#f1f5f9] text-[11px] text-[#94a3b8] pb-1">
+                  <th className="py-1 text-center w-8">#</th>
+                  <th className="py-1">Player</th>
+                  <th className="py-1 text-right">HP SR</th>
+                  <th className="py-1 text-right">Balls</th>
+                  <th className="py-1 text-right">Rating</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[#f8fafc]">
+                {data.top5_batters.map((b, i) => (
+                  <tr key={b.player_id} className="hover:bg-[#f8fafc]">
+                    <td className="py-2.5 text-center font-mono text-[#64748b]">{i + 1}</td>
+                    <td className="py-2.5">
+                      <Link to={`/players?id=${b.player_id}`} className="font-semibold text-[#17263c] hover:text-[#d92779]">
+                        {b.player_name}
+                      </Link>
+                      <div className="text-[10px] text-[#94a3b8]">{b.teams.join(', ')}</div>
+                    </td>
+                    <td className="py-2.5 text-right font-mono text-[#17263c]">{b.high_pressure_metric.toFixed(1)}</td>
+                    <td className="py-2.5 text-right font-mono text-[#64748b]">{b.legal_balls}</td>
+                    <td className="py-2.5 text-right font-mono font-bold text-[#365e91]">+{b.clutch_rating.toFixed(2)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="text-[11px] text-[#94a3b8] pt-3 border-t border-[#f1f5f9] mt-3">
+            Ranked by Bayesian shrunk runs added per 100 balls (k=150.0).
+          </div>
+        </div>
+
+        {/* Top Bowlers */}
+        <div className="bg-white rounded-md border border-[#e2e6ec] p-5 shadow-xs flex flex-col justify-between">
+          <div>
+            <div className="flex items-center justify-between pb-3 border-b border-[#e2e6ec] mb-3">
+              <h2 className="text-sm font-bold text-[#17263c]">Top Bowlers Under Pressure</h2>
+              <Link
+                to="/bowlers"
+                className="text-xs font-semibold text-[#d92779] hover:underline flex items-center gap-1"
+              >
+                Complete Top 10 <ArrowRight className="w-3 h-3" />
+              </Link>
+            </div>
+
+            <table className="w-full text-left text-xs">
+              <thead>
+                <tr className="border-b border-[#f1f5f9] text-[11px] text-[#94a3b8] pb-1">
+                  <th className="py-1 text-center w-8">#</th>
+                  <th className="py-1">Player</th>
+                  <th className="py-1 text-right">HP Econ</th>
+                  <th className="py-1 text-right">Balls</th>
+                  <th className="py-1 text-right">Rating</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[#f8fafc]">
+                {data.top5_bowlers.map((b, i) => (
+                  <tr key={b.player_id} className="hover:bg-[#f8fafc]">
+                    <td className="py-2.5 text-center font-mono text-[#64748b]">{i + 1}</td>
+                    <td className="py-2.5">
+                      <Link to={`/players?id=${b.player_id}`} className="font-semibold text-[#17263c] hover:text-[#d92779]">
+                        {b.player_name}
+                      </Link>
+                      <div className="text-[10px] text-[#94a3b8]">{b.teams.join(', ')}</div>
+                    </td>
+                    <td className="py-2.5 text-right font-mono text-[#17263c]">{b.high_pressure_metric.toFixed(2)}</td>
+                    <td className="py-2.5 text-right font-mono text-[#64748b]">{b.legal_balls}</td>
+                    <td className="py-2.5 text-right font-mono font-bold text-[#16845b]">+{b.clutch_rating.toFixed(2)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="text-[11px] text-[#94a3b8] pt-3 border-t border-[#f1f5f9] mt-3">
+            Ranked by runs saved + wicket replacement equity (Vw=15, k=150.0).
+          </div>
+        </div>
+      </div>
+
+      {/* Section D: Evidence-Based Scouting Highlights (Max 3) */}
+      <div className="bg-white rounded-md border border-[#e2e6ec] p-5 shadow-xs">
+        <h2 className="text-sm font-bold text-[#17263c] mb-3">Key Evidence-Based Highlights</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="p-3.5 rounded bg-[#f8fafc] border border-[#e2e6ec] flex flex-col justify-between">
+            <div>
+              <div className="text-[11px] font-semibold text-[#365e91] mb-1">Batting Acceleration</div>
+              <h3 className="text-xs font-bold text-[#17263c]">Naman Dhir</h3>
+              <p className="text-xs text-[#64748b] mt-1 leading-relaxed">
+                Accelerates from 158.7 to 206.1 strike rate under high pressure (+47.3 delta), generating the highest clutch score (+33.34) across 180 qualified batters.
+              </p>
+            </div>
+            <Link to="/players?id=37052" className="mt-3 text-xs font-semibold text-[#d92779] hover:underline flex items-center gap-1">
+              View Dossier <ArrowRight className="w-3 h-3" />
+            </Link>
           </div>
 
-          <div className="mt-4 p-3 rounded-xl bg-[#0a0f1d] border border-amber-500/20 flex items-start gap-2.5">
-            <Info className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
-            <p className="text-[11px] text-slate-300 leading-relaxed">
-              <strong className="text-amber-400 font-semibold">Dual-League Equivalence Note:</strong> IPL and T20I exhibit statistically divergent scoring environments (IPL mean 8.52 rpo vs T20I 7.91 rpo). Player clutch ratings incorporate league-standardized baselines to prevent cross-competition dilution.
-            </p>
+          <div className="p-3.5 rounded bg-[#f8fafc] border border-[#e2e6ec] flex flex-col justify-between">
+            <div>
+              <div className="text-[11px] font-semibold text-[#16845b] mb-1">High-Volume Reliability</div>
+              <h3 className="text-xs font-bold text-[#17263c]">Tim David</h3>
+              <p className="text-xs text-[#64748b] mt-1 leading-relaxed">
+                Faces the heaviest high-pressure diet (33.8% of balls at &ge;65 pressure), sustaining a 181.3 high-pressure strike rate across 1,210 legal deliveries.
+              </p>
+            </div>
+            <Link to="/players?id=6396" className="mt-3 text-xs font-semibold text-[#d92779] hover:underline flex items-center gap-1">
+              View Dossier <ArrowRight className="w-3 h-3" />
+            </Link>
           </div>
+
+          <div className="p-3.5 rounded bg-[#f8fafc] border border-[#e2e6ec] flex flex-col justify-between">
+            <div>
+              <div className="text-[11px] font-semibold text-[#d92779] mb-1">Strike Wicket Impact</div>
+              <h3 className="text-xs font-bold text-[#17263c]">Mark Wood</h3>
+              <p className="text-xs text-[#64748b] mt-1 leading-relaxed">
+                Took 14 high-pressure wickets at an 8.18 economy, producing +101.6 raw runs saved/100 balls and leading combined bowlers with a +66.95 shrunk rating.
+              </p>
+            </div>
+            <Link to="/players?id=2985" className="mt-3 text-xs font-semibold text-[#d92779] hover:underline flex items-center gap-1">
+              View Dossier <ArrowRight className="w-3 h-3" />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Section E: Pressure Distribution Chart */}
+      <div className="bg-white rounded-md border border-[#e2e6ec] p-5 shadow-xs">
+        <div className="mb-4">
+          <h2 className="text-sm font-bold text-[#17263c]">Pre-Delivery Pressure Tier Distribution</h2>
+          <p className="text-xs text-[#64748b]">Distribution across 185,715 fair deliveries, highlighting the 24.7% high-pressure threshold (&ge;65.0).</p>
+        </div>
+
+        <div className="h-56">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={data.pressure_tier_distribution}>
+              <XAxis dataKey="tier" tick={{ fill: '#64748b', fontSize: 11 }} />
+              <YAxis tick={{ fill: '#64748b', fontSize: 11 }} />
+              <Tooltip
+                contentStyle={{ backgroundColor: '#ffffff', borderColor: '#e2e6ec', borderRadius: 6, fontSize: 11, color: '#17263c' }}
+                formatter={(val: any) => [val.toLocaleString(), 'Deliveries']}
+              />
+              <Bar dataKey="deliveries" radius={[3, 3, 0, 0]}>
+                {data.pressure_tier_distribution.map((_, index) => (
+                  <Cell key={`cell-${index}`} fill={barColors[index % barColors.length]} />
+                ))}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
         </div>
       </div>
     </div>
   );
 };
-
-const ActivityIcon = ({ className }: { className?: string }) => (
-  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-  </svg>
-);

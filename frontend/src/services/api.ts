@@ -1,7 +1,12 @@
 import axios from 'axios';
 
+// Resolve base URL dynamically: use VITE_API_URL if configured, otherwise fallback to local proxy '/api'
+const API_BASE_URL = import.meta.env.VITE_API_URL
+  ? `${import.meta.env.VITE_API_URL.replace(/\/$/, '')}/api`
+  : '/api';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: API_BASE_URL,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -165,4 +170,3 @@ export const fetchBowlingIntelligence = () => api.get<any>('/bowling/intelligenc
 export const fetchPressureIntelligence = () => api.get<any>('/pressure/intelligence').then(r => r.data);
 
 export default api;
-

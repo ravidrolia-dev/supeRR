@@ -44,8 +44,8 @@ class PlayerService:
                 "pace_or_spin": clean_val(r.get("pace_or_spin")),
                 "batting_eligible": bool(r.get("is_eligible_for_ranking_batting", False)),
                 "bowling_eligible": bool(r.get("is_eligible_for_ranking_bowling", False)),
-                "batting_rating": clean_val(r.get("batting_clutch_shrunk_rating")),
-                "bowling_rating": clean_val(r.get("bowling_clutch_shrunk_rating")),
+                "batting_rating": clean_val(r.get("batting_clutch_shrunk_rating")) if bool(r.get("is_eligible_for_ranking_batting", False)) else None,
+                "bowling_rating": clean_val(r.get("bowling_clutch_shrunk_rating")) if bool(r.get("is_eligible_for_ranking_bowling", False)) else None,
                 "teams": list(teams[:3]) if len(teams) > 0 else []
             }
             results.append(res)
@@ -65,9 +65,7 @@ class PlayerService:
         
         # Phase Breakdown
         phase_list = []
-        # Batting phase
         b_ph = data_loader.bat_phase[data_loader.bat_phase["striker_id"] == pid]
-        # Bowling phase
         bw_ph = data_loader.bowl_phase[data_loader.bowl_phase["bowler_id"] == pid]
         
         all_phases = ["Powerplay", "Middle", "Death", "SuperOver"]
@@ -131,7 +129,22 @@ class PlayerService:
 
         has_bat = bool(pd.notna(r.get("legal_balls_faced")) and r.get("legal_balls_faced", 0) > 0)
         has_bowl = bool(pd.notna(r.get("legal_balls_bowled")) and r.get("legal_balls_bowled", 0) > 0)
+        bat_eligible = bool(r.get("is_eligible_for_ranking_batting", False))
+        bowl_eligible = bool(r.get("is_eligible_for_ranking_bowling", False))
         
+        # Pull distinct HP legal balls from rankings if available
+        hp_legal_faced = clean_val(r.get("high_pressure_balls_batting"))
+        hp_legal_bowled = clean_val(r.get("high_pressure_balls_bowling"))
+        
+        # Check top combined tables for exact hp_legal_balls count
+        m_b = data_loader.top_combined_batters[data_loader.top_combined_batters["player_id"] == pid]
+        if len(m_b) > 0:
+            hp_legal_faced = int(m_b["hp_legal_balls"].iloc[0])
+            
+        m_bw = data_loader.top_combined_bowlers[data_loader.top_combined_bowlers["player_id"] == pid]
+        if len(m_bw) > 0:
+            hp_legal_bowled = int(m_bw["hp_legal_balls"].iloc[0])
+
         raw_dict = {
             "player_id": pid,
             "player_name": str(r["player_name"]),
@@ -141,20 +154,24 @@ class PlayerService:
             "teams": teams[:6],
             "competitions": comps[:6],
             "has_batting": has_bat,
-            "batting_eligible": bool(r.get("is_eligible_for_ranking_batting", False)),
+            "batting_eligible": bat_eligible,
             "legal_balls_faced": clean_val(r.get("legal_balls_faced")) if has_bat else None,
+            "total_balls_faced": clean_val(r.get("total_balls_faced")) if has_bat else None,
+            "hp_legal_balls_faced": hp_legal_faced if has_bat else None,
             "hp_balls_faced": clean_val(r.get("high_pressure_balls_batting")) if has_bat else None,
             "overall_strike_rate": clean_val(r.get("overall_strike_rate")) if has_bat else None,
             "hp_strike_rate": clean_val(r.get("high_pressure_strike_rate")) if has_bat else None,
             "strike_rate_delta": clean_val(r.get("strike_rate_delta")) if has_bat else None,
             "batting_raw_clutch": clean_val(r.get("raw_clutch_runs_added_per_100")) if has_bat else None,
-            "batting_shrunk_rating": clean_val(r.get("batting_clutch_shrunk_rating")) if has_bat else None,
-            "batting_ci_lower": clean_val(r.get("batting_clutch_ci_lower")) if has_bat else None,
-            "batting_ci_upper": clean_val(r.get("batting_clutch_ci_upper")) if has_bat else None,
+            "batting_shrunk_rating": clean_val(r.get("batting_clutch_shrunk_rating")) if bat_eligible else None,
+            "batting_ci_lower": clean_val(r.get("batting_clutch_ci_lower")) if bat_eligible else None,
+            "batting_ci_upper": clean_val(r.get("batting_clutch_ci_upper")) if bat_eligible else None,
             
             "has_bowling": has_bowl,
-            "bowling_eligible": bool(r.get("is_eligible_for_ranking_bowling", False)),
+            "bowling_eligible": bowl_eligible,
             "legal_balls_bowled": clean_val(r.get("legal_balls_bowled")) if has_bowl else None,
+            "total_balls_bowled": clean_val(r.get("total_balls_bowled")) if has_bowl else None,
+            "hp_legal_balls_bowled": hp_legal_bowled if has_bowl else None,
             "hp_balls_bowled": clean_val(r.get("high_pressure_balls_bowling")) if has_bowl else None,
             "overall_economy": clean_val(r.get("overall_economy")) if has_bowl else None,
             "hp_economy": clean_val(r.get("high_pressure_economy")) if has_bowl else None,
@@ -162,9 +179,9 @@ class PlayerService:
             "actual_wickets": clean_val(r.get("overall_wickets")) if has_bowl else None,
             "hp_wickets": clean_val(r.get("high_pressure_wickets")) if has_bowl else None,
             "bowling_raw_clutch": clean_val(r.get("raw_clutch_runs_saved_per_100")) if has_bowl else None,
-            "bowling_shrunk_rating": clean_val(r.get("bowling_clutch_shrunk_rating")) if has_bowl else None,
-            "bowling_ci_lower": clean_val(r.get("bowling_clutch_ci_lower")) if has_bowl else None,
-            "bowling_ci_upper": clean_val(r.get("bowling_clutch_ci_upper")) if has_bowl else None,
+            "bowling_shrunk_rating": clean_val(r.get("bowling_clutch_shrunk_rating")) if bowl_eligible else None,
+            "bowling_ci_lower": clean_val(r.get("bowling_clutch_ci_lower")) if bowl_eligible else None,
+            "bowling_ci_upper": clean_val(r.get("bowling_clutch_ci_upper")) if bowl_eligible else None,
             
             "phase_breakdown": phase_list,
             "comp_breakdown": comp_list
