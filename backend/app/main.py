@@ -20,7 +20,7 @@ app.add_middleware(
 
 app.include_router(api_router, prefix=settings.API_V1_STR)
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def root():
     return {
         "project": settings.PROJECT_NAME,
@@ -28,6 +28,10 @@ def root():
         "documentation": "/docs",
         "api_prefix": settings.API_V1_STR
     }
+
+@app.api_route("/health", methods=["GET", "HEAD"])
+def health():
+    return {"status": "ok", "service": settings.PROJECT_NAME}
 
 if __name__ == "__main__":
     import uvicorn

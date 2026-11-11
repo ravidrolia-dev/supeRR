@@ -6,7 +6,7 @@ from typing import List, Optional
 
 router = APIRouter()
 
-@router.get("/health")
+@router.api_route("/health", methods=["GET", "HEAD"])
 def health_check():
     return {"status": "ok", "service": "ClutchIQ Analytics API"}
 
