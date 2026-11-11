@@ -19,6 +19,7 @@ const navItems = [
   { name: 'Player Comparison', path: '/compare', icon: GitCompare },
   { name: 'Pressure Intelligence', path: '/pressure', icon: Activity },
   { name: 'Bowling Intelligence', path: '/bowling-intelligence', icon: ShieldCheck },
+  { name: 'RR Auction & Squad Fit', path: '/auction', icon: Target },
   { name: 'Methodology & Reliability', path: '/methodology', icon: BookOpen },
 ];
 
@@ -32,20 +33,37 @@ export const Sidebar: React.FC = () => {
         <nav className="space-y-0.5">
           {navItems.map((item) => {
             const Icon = item.icon;
+            const isAuction = item.path === '/auction';
+
             return (
               <NavLink
                 key={item.path}
                 to={item.path}
-                className={({ isActive }) =>
-                  `flex items-center gap-2.5 px-3 py-2 rounded-md text-xs font-medium transition-colors ${
+                className={({ isActive }) => {
+                  if (isAuction) {
+                    return `flex items-center justify-between px-3 py-2.5 rounded-md text-xs font-bold transition-all relative ${
+                      isActive
+                        ? 'bg-[#be185d] text-white shadow-sm border border-[#9d174d]'
+                        : 'bg-[#fdf2f8] text-[#be185d] border border-[#fbcfe8] hover:bg-[#fce7f3] hover:border-[#f472b6] shadow-xs'
+                    }`;
+                  }
+
+                  return `flex items-center gap-2.5 px-3 py-2 rounded-md text-xs font-medium transition-colors ${
                     isActive
                       ? 'bg-white text-[#d92779] shadow-xs border-l-2 border-[#d92779] font-semibold'
                       : 'text-[#64748b] hover:text-[#17263c] hover:bg-[#f1f5f9]'
-                  }`
-                }
+                  }`;
+                }}
               >
-                <Icon className="w-4 h-4 shrink-0" />
-                <span>{item.name}</span>
+                {({ isActive }) => (
+                  <>
+                    <div className="flex items-center gap-2.5">
+                      <Icon className={`w-4 h-4 shrink-0 ${isAuction && !isActive ? 'text-[#be185d]' : ''}`} />
+                      <span>{item.name}</span>
+                    </div>
+                    
+                  </>
+                )}
               </NavLink>
             );
           })}

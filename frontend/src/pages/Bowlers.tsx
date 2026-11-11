@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { fetchSupeRR10Bowlers, SupeRR10Item } from '../services/api';
 import { Link } from 'react-router-dom';
+import { getEvidenceTier } from '../utils/evidenceTiers';
 
 export const Bowlers: React.FC = () => {
   const [data, setData] = useState<SupeRR10Item[]>([]);
@@ -47,7 +48,10 @@ export const Bowlers: React.FC = () => {
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-[#16a34a]"></span>
           <span>
-            <strong>Unified Eligibility:</strong> Minimum 150 overall legal balls bowled. Incorporates <strong>Three-Tier Direct Evidence Classification</strong> to distinguish battle-tested death specialists from high-economy early-phase controllers.
+            <strong>Unified Scoring Model (70/20/10):</strong> 70% V3 Match Pressure + 20% PPI Prevention + 10% Consistency. Objective rankings remain separate from franchise availability. For RR-specific auction strategy, visit{' '}
+            <Link to="/auction" className="text-[#16845b] font-bold hover:underline">
+              RR Auction Strategy &rarr;
+            </Link>
           </span>
         </div>
         <span className="font-mono text-[11px] text-[#64748b]">
@@ -67,8 +71,8 @@ export const Bowlers: React.FC = () => {
                   <th className="py-3 px-4 text-center w-12">Rank</th>
                   <th className="py-3 px-4">Bowler</th>
                   <th className="py-3 px-4">Evidence Tier</th>
-                  <th className="py-3 px-3 text-right">HP Balls</th>
-                  <th className="py-3 px-3 text-right">Legal Balls</th>
+                  <th className="py-3 px-3 text-right">HP Legal Balls</th>
+                  <th className="py-3 px-3 text-right">Overall Legal Balls</th>
                   <th className="py-3 px-3 text-right font-semibold text-[#0369a1]">
                     V3 Clutch <span className="font-normal text-[10px] text-[#64748b]">(70%)</span>
                   </th>
@@ -103,13 +107,14 @@ export const Bowlers: React.FC = () => {
                       </div>
                     </td>
                     <td className="py-3.5 px-4">
-                      <span className={`px-2 py-0.5 rounded text-[10px] font-medium border ${
-                        p.evidence_tier?.includes('Strong') ? 'bg-[#f0fdf4] text-[#166534] border-[#bbf7d0]' :
-                        p.evidence_tier?.includes('Moderate') ? 'bg-[#eff6ff] text-[#1e40af] border-[#bfdbfe]' :
-                        'bg-[#fffbeb] text-[#92400e] border-[#fef3c7]'
-                      }`}>
-                        {p.evidence_tier}
-                      </span>
+                      {(() => {
+                        const tierInfo = getEvidenceTier('BOWLER', p.hp_balls);
+                        return (
+                          <span className={`px-2 py-0.5 rounded text-[10px] font-medium border ${tierInfo.badgeClass}`}>
+                            {tierInfo.tier}
+                          </span>
+                        );
+                      })()}
                     </td>
                     <td className="py-3.5 px-3 text-right font-mono font-semibold text-[#be185d]">
                       {p.hp_balls}

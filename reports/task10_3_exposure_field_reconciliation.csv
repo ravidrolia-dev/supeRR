@@ -1,0 +1,6 @@
+player_id,player_name,role,hp_legal_deliveries,hp_delivery_events,total_legal_deliveries,total_delivery_events,assigned_evidence_tier,status
+2985,Mark Wood,Bowler,27,28,281,299,Moderate Direct Evidence (25-99 HP),PASS (Conforms to Legal HP Definition)
+3629,Corbin Bosch,Bowler,11,12,367,384,Limited Direct Evidence (<25 HP),PASS (Conforms to Legal HP Definition)
+781,Sunil Narine,Bowler,51,55,1533,1556,Moderate Direct Evidence (25-99 HP),PASS (Conforms to Legal HP Definition)
+2933,Jasprit Bumrah,Bowler,125,132,1708,1780,Strong Direct Evidence (>=100 HP),PASS (Conforms to Legal HP Definition)
+7364,Haris Rauf,Bowler,99,106,1027,1063,Moderate Direct Evidence (25-99 HP),PASS (Conforms to Legal HP Definition)

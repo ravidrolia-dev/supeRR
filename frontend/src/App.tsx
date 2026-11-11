@@ -10,6 +10,7 @@ import { PlayerComparison } from './pages/PlayerComparison';
 import { PressureIntelligence } from './pages/PressureIntelligence';
 import { BowlingIntelligence } from './pages/BowlingIntelligence';
 import { Methodology } from './pages/Methodology';
+import { AuctionIntelligence } from './pages/AuctionIntelligence';
 
 export const App: React.FC = () => {
   return (
@@ -28,6 +29,7 @@ export const App: React.FC = () => {
               <Route path="/compare" element={<PlayerComparison />} />
               <Route path="/pressure" element={<PressureIntelligence />} />
               <Route path="/bowling-intelligence" element={<BowlingIntelligence />} />
+              <Route path="/auction" element={<AuctionIntelligence />} />
               <Route path="/methodology" element={<Methodology />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>

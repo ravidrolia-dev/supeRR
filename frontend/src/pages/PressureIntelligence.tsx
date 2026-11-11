@@ -96,9 +96,9 @@ export const PressureIntelligence: React.FC = () => {
         </div>
 
         <div className="p-4 rounded-md bg-white border border-[#e2e6ec] shadow-xs">
-          <div className="text-xs font-bold text-[#17263c] mb-1">Three-Tier Direct Evidence Hierarchy</div>
+          <div className="text-xs font-bold text-[#17263c] mb-1">Role-Specific Evidence Hierarchy</div>
           <p className="text-xs text-[#64748b] leading-relaxed">
-            Instead of arbitrary exclusion cutoffs, players are stratified into Strong (&ge;150 HP balls), Moderate (40–149 HP balls), and Limited (&lt;40 HP balls) direct evidence tiers.
+            Players are stratified using role-calibrated standards: Batters at 150 / 40 HP deliveries, and Bowlers at 100 / 25 HP deliveries, reflecting real-world match exposure asymmetries.
           </p>
         </div>
       </div>

@@ -54,6 +54,16 @@ export const Methodology: React.FC = () => {
           </div>
         </div>
 
+        {/* Strategic Separation Notice (Tasks 11.6 - 11.8) */}
+        <div className="p-3.5 rounded bg-[#fffbeb] border border-[#fef3c7] text-xs text-[#92400e] space-y-1">
+          <div className="font-bold uppercase tracking-wider text-[10px] text-[#b45309]">
+            Strict Separation of Performance vs Auction Availability
+          </div>
+          <div className="leading-relaxed">
+            In compliance with Task 11.6–11.8 standards, objective ClutchIQ ratings remain purely performance-based and are <strong>never modified</strong> by contract status or team needs. Auction availability is evaluated across 4 independent axes (Nationality, Professional Status, IPL Retirement Status, and BCCI Retention Deadline: Nov 17, 2026). Andre Russell is officially categorized as <strong>IPL_RETIRED</strong> and excluded from bidding shortlists.
+          </div>
+        </div>
+
         <p className="text-[11px] text-[#94a3b8] italic">
           Scouting Notice: The 70/20/10 weighting structure is provisional and subject to ongoing seasonal calibration. It is designed to ensure scouts evaluate crisis ability first while recognizing the real-world value of proactive advantage creation.
         </p>
@@ -72,34 +82,27 @@ export const Methodology: React.FC = () => {
           <table className="w-full text-left text-xs">
             <thead>
               <tr className="border-b border-[#e2e6ec] bg-[#f8fafc] text-[11px] font-semibold text-[#64748b]">
-                <th className="py-2.5 px-3">Evidence Tier</th>
-                <th className="py-2.5 px-3 font-mono">HP Balls</th>
-                <th className="py-2.5 px-3">Batter Cohort (N=239)</th>
-                <th className="py-2.5 px-3">Bowler Cohort (N=258)</th>
-                <th className="py-2.5 px-3">Scouting Interpretation</th>
+                <th className="py-2.5 px-3">Role</th>
+                <th className="py-2.5 px-3">Strong Direct Evidence</th>
+                <th className="py-2.5 px-3">Moderate Direct Evidence</th>
+                <th className="py-2.5 px-3">Limited Direct Evidence</th>
+                <th className="py-2.5 px-3">Total Eligible Cohort</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-[#f1f5f9]">
               <tr className="hover:bg-[#f8fafc]">
-                <td className="py-2.5 px-3 font-semibold text-[#16845b]">Strong Direct Evidence</td>
-                <td className="py-2.5 px-3 font-mono text-[#16845b]">&ge; 150</td>
-                <td className="py-2.5 px-3 text-[#17263c]">93 (38.9%)</td>
-                <td className="py-2.5 px-3 text-[#17263c]">4 (1.6%)</td>
-                <td className="py-2.5 px-3 text-[#64748b]">Established crisis performers with narrow credible intervals.</td>
+                <td className="py-2.5 px-3 font-semibold text-[#17263c]">Batters</td>
+                <td className="py-2.5 px-3 font-mono text-[#16845b]">&ge; 150 HP (93, 38.9%)</td>
+                <td className="py-2.5 px-3 font-mono text-[#365e91]">40 – 149 HP (92, 38.5%)</td>
+                <td className="py-2.5 px-3 font-mono text-[#be185d]">&lt; 40 HP (54, 22.6%)</td>
+                <td className="py-2.5 px-3 text-[#64748b]">239 players (&ge; 150 legal balls)</td>
               </tr>
               <tr className="hover:bg-[#f8fafc]">
-                <td className="py-2.5 px-3 font-semibold text-[#365e91]">Moderate Direct Evidence</td>
-                <td className="py-2.5 px-3 font-mono text-[#365e91]">40 – 149</td>
-                <td className="py-2.5 px-3 text-[#17263c]">92 (38.5%)</td>
-                <td className="py-2.5 px-3 text-[#17263c]">89 (34.5%)</td>
-                <td className="py-2.5 px-3 text-[#64748b]">Statistically meaningful exposure; reliable for primary tactical planning.</td>
-              </tr>
-              <tr className="hover:bg-[#f8fafc]">
-                <td className="py-2.5 px-3 font-semibold text-[#be185d]">Limited Direct Evidence</td>
-                <td className="py-2.5 px-3 font-mono text-[#be185d]">&lt; 40</td>
-                <td className="py-2.5 px-3 text-[#17263c]">54 (22.6%)</td>
-                <td className="py-2.5 px-3 text-[#17263c]">165 (64.0%)</td>
-                <td className="py-2.5 px-3 text-[#64748b]">High posterior uncertainty. Early suppressors require verification before death-over deployment.</td>
+                <td className="py-2.5 px-3 font-semibold text-[#17263c]">Bowlers</td>
+                <td className="py-2.5 px-3 font-mono text-[#16845b]">&ge; 100 HP (24, 9.3%)</td>
+                <td className="py-2.5 px-3 font-mono text-[#365e91]">25 – 99 HP (123, 47.7%)</td>
+                <td className="py-2.5 px-3 font-mono text-[#be185d]">&lt; 25 HP (111, 43.0%)</td>
+                <td className="py-2.5 px-3 text-[#64748b]">258 players (&ge; 150 legal balls)</td>
               </tr>
             </tbody>
           </table>

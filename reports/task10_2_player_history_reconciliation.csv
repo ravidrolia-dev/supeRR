@@ -1,0 +1,7 @@
+player_id,player_name,role,total_delivery_events,primary_delivery_events,primary_legal_deliveries,v2_hp_legal_deliveries,v3_hp_legal_deliveries,v3_hp_all_events,v3_shrunk_rating,posterior_uncertainty_se,integrated_score_70_20_10,role_specific_evidence_tier
+2985,Mark Wood,Bowler,299,299,281,113,27,28,32.86,7.93,73.89,Moderate Direct Evidence (25-99 HP)
+3629,Corbin Bosch,Bowler,384,384,367,107,11,12,21.39,7.24,65.68,Limited Direct Evidence (<25 HP)
+2933,Jasprit Bumrah,Bowler,1780,1780,1708,486,125,132,9.62,3.82,61.8,Strong Direct Evidence (>=100 HP)
+7364,Haris Rauf,Bowler,1063,1063,1027,294,99,106,20.11,4.8,64.46,Strong Direct Evidence (>=100 HP)
+781,Sunil Narine,Bowler,1556,1556,1533,400,51,55,16.42,4.01,64.48,Moderate Direct Evidence (25-99 HP)
+50284,Vaibhav Sooryavanshi,Batter,714,612,575,1,8,8,46.04,9.03,81.83,Limited Direct Evidence (<40 HP)

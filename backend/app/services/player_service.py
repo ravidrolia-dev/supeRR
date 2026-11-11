@@ -224,6 +224,33 @@ class PlayerService:
                 "distinct_matches": int(bw_row["distinct_matches"])
             }
 
+        # Task 11: Auction Scouting Status Lookup
+        auction_meta = None
+        import os
+        from app.config import settings
+        audit_p = os.path.join(settings.ROOT_DIR, "reports", "ipl_2027", "task11_6_candidate_status_audit.csv")
+        if os.path.exists(audit_p):
+            try:
+                adf = pd.read_csv(audit_p)
+                p_aud = adf[adf["player_id"] == pid]
+                if len(p_aud) > 0:
+                    a_row = p_aud.iloc[0]
+                    auction_meta = {
+                        "status": str(a_row.get("status", "")),
+                        "franchise_2026": str(a_row.get("franchise_2026", "")),
+                        "franchise_2027_status": str(a_row.get("franchise_2027_status", "")),
+                        "auction_reg_status": str(a_row.get("auction_reg_status", "")),
+                        "exclusion_reason": str(a_row.get("exclusion_reason", "")),
+                        "rr_weakness_addressed": str(a_row.get("rr_weakness_addressed", "")),
+                        "primary_tactical_role": str(a_row.get("primary_tactical_role", "")),
+                        "next_verification_requirement": str(a_row.get("next_verification_requirement", "")),
+                        "verification_date": str(a_row.get("verification_date", "2026-11-12")),
+                        "is_ipl_retired": str(a_row.get("status", "")) == "IPL_RETIRED",
+                        "is_nationality_ineligible": str(a_row.get("status", "")) == "NATIONALITY_INELIGIBLE"
+                    }
+            except Exception:
+                pass
+
         raw_dict = {
             "player_id": pid,
             "player_name": str(r["player_name"]),
@@ -232,6 +259,7 @@ class PlayerService:
             "pace_or_spin": clean_val(r.get("pace_or_spin")),
             "teams": teams[:6],
             "competitions": comps[:6],
+            "auction_scouting": auction_meta,
 
             # Unified Integrated Scouting Data (Task 10)
             "integrated_batting": integrated_bat,

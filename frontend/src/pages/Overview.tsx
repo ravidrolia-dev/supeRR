@@ -38,18 +38,34 @@ export const Overview: React.FC = () => {
   return (
     <div className="space-y-8 max-w-6xl mx-auto">
       {/* Section A: Editorial Introduction */}
-      <div className="border-b border-[#e2e6ec] pb-6">
-        <div className="text-[11px] font-semibold uppercase tracking-wider text-[#be185d] mb-1">
-          SupeRR Selector Season 2 &bull; Independent analytics prototype
+      <div className="border-b border-[#e2e6ec] pb-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-bold text-[#17263c] tracking-tight">
+            ClutchIQ — Unified Pressure-First Scouting Intelligence
+          </h1>
+          <p className="text-sm text-[#64748b] mt-1 max-w-3xl leading-relaxed">
+            Evaluating player capability across the entire match arc using our validated three-dimensional framework: 
+            <strong> 70% V3 Match Pressure Performance</strong>, <strong>20% PPI Pressure Prevention</strong>, and <strong>10% Match Consistency</strong>, 
+            stratified by direct crisis evidence tiers.
+          </p>
         </div>
-        <h1 className="text-2xl font-bold text-[#17263c] tracking-tight">
-          ClutchIQ — Unified Pressure-First Scouting Intelligence
-        </h1>
-        <p className="text-sm text-[#64748b] mt-1 max-w-3xl leading-relaxed">
-          Evaluating player capability across the entire match arc using our validated three-dimensional framework: 
-          <strong> 70% V3 Match Pressure Performance</strong>, <strong>20% PPI Pressure Prevention</strong>, and <strong>10% Match Consistency</strong>, 
-          stratified by direct crisis evidence tiers.
-        </p>
+
+        {/* RR Auction Strategy Quick Action */}
+        <Link
+          to="/auction"
+          className="p-3 rounded-md bg-[#fdf2f8] border border-[#fbcfe8] hover:border-[#be185d] transition-all text-left shrink-0 shadow-xs group"
+        >
+          <div className="text-[10px] uppercase font-bold text-[#be185d] tracking-wider flex items-center gap-1.5">
+            <span>RR IPL 2027 Strategy</span>
+            <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+          </div>
+          <div className="text-xs font-bold text-[#17263c] mt-0.5">
+            Top 10 Batters &amp; Bowlers Shortlist &rarr;
+          </div>
+          <div className="text-[10px] text-[#64748b]">
+            Strict Availability &amp; Retention Deadline Gating
+          </div>
+        </Link>
       </div>
 
       {/* Section B: Essential Key Statistics */}
@@ -104,10 +120,10 @@ export const Overview: React.FC = () => {
                 <strong>Unified Architecture (70 / 20 / 10):</strong> Combines Crisis Execution (70% V3), Early Prevention (20% PPI), and Match-to-Match Consistency (10%). Calibrated onto a standardized $[0, 100]$ scale where $50.0$ represents baseline replacement equity.
               </div>
               <div>
-                <strong>Three-Tier Evidence Classification:</strong> Replaces hard cutoffs with transparent exposure labels: 
-                <span className="text-[#166534] font-medium"> Strong Direct Evidence (&ge;150 HP balls)</span>, 
-                <span className="text-[#1e40af] font-medium"> Moderate Direct Evidence (40–149 HP balls)</span>, and 
-                <span className="text-[#92400e] font-medium"> Limited Direct Evidence (&lt;40 HP balls)</span>.
+                <strong>Role-Specific Evidence Classification:</strong> Replaces hard cutoffs with transparent exposure labels: 
+                <span className="text-[#166534] font-medium"> Strong Direct Evidence</span>, 
+                <span className="text-[#1e40af] font-medium"> Moderate Direct Evidence</span>, and 
+                <span className="text-[#92400e] font-medium"> Limited Direct Evidence</span> based on role-specific standards (Batters: 150 / 40 HP; Bowlers: 100 / 25 HP).
               </div>
             </div>
           )}

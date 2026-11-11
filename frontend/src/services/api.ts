@@ -148,6 +148,20 @@ export interface IntegratedProfileData {
   distinct_matches: number;
 }
 
+export interface AuctionScoutingInfo {
+  status: string;
+  franchise_2026: string;
+  franchise_2027_status: string;
+  auction_reg_status: string;
+  exclusion_reason: string;
+  rr_weakness_addressed: string;
+  primary_tactical_role: string;
+  next_verification_requirement: string;
+  verification_date: string;
+  is_ipl_retired: boolean;
+  is_nationality_ineligible: boolean;
+}
+
 export interface PlayerProfile {
   player_id: number;
   player_name: string;
@@ -156,6 +170,7 @@ export interface PlayerProfile {
   pace_or_spin: string | null;
   teams: string[];
   competitions: string[];
+  auction_scouting?: AuctionScoutingInfo | null;
   
   // Task 10: Unified Integrated Scouting Profiles
   integrated_batting?: IntegratedProfileData | null;
@@ -277,5 +292,6 @@ export const fetchPlayerProfile = (id: number) => api.get<PlayerProfile>(`/playe
 export const comparePlayers = (role: string, ids: number[]) => api.post<{ role: string; count: number; players: PlayerProfile[] }>('/compare', { role, player_ids: ids }).then(r => r.data);
 export const fetchBowlingIntelligence = () => api.get<any>('/bowling/intelligence').then(r => r.data);
 export const fetchPressureIntelligence = () => api.get<any>('/pressure/intelligence').then(r => r.data);
+export const fetchAuctionSquadFit = () => api.get<any>('/auction/squad-fit').then(r => r.data);
 
 export default api;

@@ -1,259 +1,259 @@
-rank,v3_rank,player_id,player_name,teams,integrated_pressure_score,pressure_performance_score,pressure_performance_contribution,pressure_prevention_score,pressure_prevention_contribution,consistency_score,consistency_contribution,evidence_tier,total_legal_balls,high_pressure_legal_balls,distinct_matches,posterior_uncertainty,ci_lower_95,ci_upper_95
-1,1,7699,Abbas Afridi,"['Pakistan', 'Pakistan A']",78.5,42.86,24.99,2.16,0.63,77.27272727272727,2.88,Moderate Direct Evidence (40-149 HP),399.0,66.0,22,7.03,29.09,56.64
-2,2,2985,Mark Wood,"['England', 'Lucknow Super Giants']",73.89,32.86,19.71,6.81,1.33,76.92307692307693,2.85,Limited Direct Evidence (<40 HP),281.0,28.0,13,7.93,17.32,48.41
-3,16,3578,Imad Wasim,['Pakistan'],66.66,14.95,10.27,24.83,4.02,71.42857142857143,2.37,Limited Direct Evidence (<40 HP),246.0,6.0,14,8.27,-1.26,31.17
-4,5,8661,Matheesha Pathirana,"['Chennai Super Kings', 'Kolkata Knight Riders', 'Sri Lanka']",66.37,21.29,13.61,1.17,0.49,70.37037037037037,2.28,Moderate Direct Evidence (40-149 HP),1132.0,88.0,54,4.6,12.28,30.31
-5,4,3629,Corbin Bosch,"['Mumbai Indians', 'Rajasthan Royals', 'South Africa']",65.68,21.39,13.66,-2.69,-0.09,68.42105263157895,2.11,Limited Direct Evidence (<40 HP),367.0,12.0,19,7.24,7.2,35.59
-6,3,3720,Craig Young,['Ireland'],64.99,24.67,15.39,-16.99,-2.23,65.21739130434783,1.83,Limited Direct Evidence (<40 HP),466.0,31.0,23,6.63,11.67,37.67
-7,12,781,Sunil Narine,['Kolkata Knight Riders'],64.48,16.42,11.04,12.83,2.23,58.2089552238806,1.22,Moderate Direct Evidence (40-149 HP),1533.0,55.0,67,4.01,8.56,24.29
-8,6,7364,Haris Rauf,['Pakistan'],64.46,20.11,12.99,-1.66,0.06,60.416666666666664,1.41,Moderate Direct Evidence (40-149 HP),1027.0,106.0,48,4.8,10.71,29.52
-9,18,6450,Mujeeb Ur Rahman,"['Afghanistan', 'Kolkata Knight Riders', 'Mumbai Indians']",64.38,14.22,9.88,17.02,2.85,63.1578947368421,1.65,Limited Direct Evidence (<40 HP),820.0,18.0,38,5.29,3.86,24.58
-10,8,161,Dwayne Bravo,['Chennai Super Kings'],64.09,18.41,12.09,2.11,0.63,60.0,1.37,Limited Direct Evidence (<40 HP),206.0,9.0,10,8.73,1.31,35.52
-11,27,5750,Ehsan Khan,['Hong Kong'],63.82,12.14,8.78,21.01,3.45,62.5,1.59,Limited Direct Evidence (<40 HP),186.0,30.0,8,8.98,-5.46,29.74
-12,7,2490,Mohammad Nawaz,['Pakistan'],63.81,18.61,12.2,4.26,0.95,51.92307692307693,0.67,Limited Direct Evidence (<40 HP),1004.0,20.0,52,4.85,9.11,28.11
-13,14,34485,Sufiyan Muqeem,"['Pakistan', 'Pakistan A']",63.61,15.59,10.6,6.13,1.23,64.70588235294117,1.78,Limited Direct Evidence (<40 HP),344.0,0.0,17,7.41,1.07,30.11
-14,25,20704,Salman Mirza,"['Pakistan', 'Pakistan A']",63.53,12.48,8.96,19.33,3.2,60.0,1.37,Limited Direct Evidence (<40 HP),328.0,6.0,15,7.53,-2.28,27.24
-15,33,28756,Haider Ali,['United Arab Emirates'],63.4,11.07,8.22,24.42,3.96,58.333333333333336,1.23,Limited Direct Evidence (<40 HP),270.0,12.0,12,8.03,-4.67,26.82
-16,11,4499,Saqib Mahmood,['England'],63.23,16.99,11.34,4.55,0.99,54.54545454545454,0.9,Limited Direct Evidence (<40 HP),228.0,9.0,11,8.47,0.39,33.59
-17,17,7920,Nathan Ellis,"['Australia', 'Chennai Super Kings', 'Punjab Kings']",62.66,14.92,10.25,10.04,1.81,51.162790697674424,0.6,Moderate Direct Evidence (40-149 HP),916.0,89.0,43,5.04,5.03,24.8
-18,13,5979,Abrar Ahmed,['Pakistan'],62.63,16.08,10.86,2.24,0.65,57.14285714285714,1.12,Limited Direct Evidence (<40 HP),764.0,20.0,35,5.45,5.4,26.75
-19,9,6097,Brydon Carse,"['England', 'Sunrisers Hyderabad']",62.46,17.21,11.46,-5.48,-0.51,61.53846153846154,1.51,Limited Direct Evidence (<40 HP),268.0,31.0,13,8.05,1.42,32.99
-20,21,6669,Mohsin Khan,['Lucknow Super Giants'],62.34,13.1,9.29,13.05,2.26,53.333333333333336,0.79,Limited Direct Evidence (<40 HP),654.0,35.0,30,5.81,1.72,24.48
-21,22,3281,Mosaddek Hossain,['Bangladesh'],62.09,12.98,9.23,11.08,1.97,54.54545454545454,0.9,Limited Direct Evidence (<40 HP),159.0,4.0,11,9.37,-5.38,31.34
-22,19,22471,Matthew Humphreys,['Ireland'],62.06,14.19,9.87,5.12,1.08,57.14285714285714,1.12,Limited Direct Evidence (<40 HP),305.0,14.0,14,7.72,-0.94,29.32
-23,37,4812,Harry Tector,['Ireland'],62.0,10.41,7.87,22.19,3.63,50.0,0.5,Limited Direct Evidence (<40 HP),228.0,22.0,16,8.47,-6.18,27.01
-24,32,46378,Kyle Klein,['Netherlands'],61.99,11.18,8.28,12.12,2.12,62.5,1.59,Limited Direct Evidence (<40 HP),163.0,3.0,8,9.31,-7.06,29.42
-25,23,4807,Joshua Little,"['Gujarat Titans', 'Ireland']",61.81,12.92,9.2,12.09,2.12,50.0,0.5,Limited Direct Evidence (<40 HP),780.0,33.0,36,5.4,2.34,23.5
-26,39,2933,Jasprit Bumrah,"['India', 'Mumbai Indians']",61.8,9.62,7.46,21.69,3.55,53.333333333333336,0.79,Moderate Direct Evidence (40-149 HP),1708.0,132.0,75,3.82,2.14,17.11
-27,31,830,Josh Hazlewood,"['Australia', 'Royal Challengers Bengaluru']",61.5,11.2,8.29,12.05,2.11,56.92307692307692,1.1,Moderate Direct Evidence (40-149 HP),1476.0,65.0,65,4.08,3.2,19.21
-28,10,4900,Wanindu Hasaranga,"['Lucknow Super Giants', 'Rajasthan Royals', 'Royal Challengers Bengaluru', 'Sri Lanka', 'Sunrisers Hyderabad']",61.46,17.07,11.39,-9.09,-1.05,57.14285714285714,1.12,Moderate Direct Evidence (40-149 HP),2035.0,84.0,91,3.52,10.17,23.97
-29,28,6256,Varun Chakravarthy,"['India', 'Kolkata Knight Riders']",61.14,12.05,8.74,8.5,1.58,53.68421052631579,0.82,Moderate Direct Evidence (40-149 HP),2128.0,76.0,95,3.45,5.29,18.81
-30,36,4722,Rashid Khan,"['Afghanistan', 'Gujarat Titans']",60.76,10.45,7.89,9.91,1.79,56.557377049180324,1.07,Moderate Direct Evidence (40-149 HP),2747.0,90.0,122,3.06,4.45,16.44
-31,30,6355,Shaheen Afridi,['Pakistan'],60.59,11.21,8.29,6.81,1.33,55.319148936170215,0.96,Moderate Direct Evidence (40-149 HP),990.0,53.0,47,4.88,1.65,20.76
-32,35,42548,Muhammad Jawadullah,['United Arab Emirates'],60.54,10.46,7.9,9.05,1.66,55.55555555555556,0.98,Limited Direct Evidence (<40 HP),204.0,25.0,9,8.75,-6.69,27.61
-33,26,23,Piyush Chawla,['Mumbai Indians'],60.4,12.37,8.91,-0.82,0.19,59.25925925925925,1.31,Limited Direct Evidence (<40 HP),576.0,35.0,27,6.11,0.4,24.35
-34,29,818,Mitchell Marsh,"['Australia', 'Delhi Capitals', 'Lucknow Super Giants']",60.21,11.6,8.5,10.63,1.9,42.10526315789473,-0.19,Moderate Direct Evidence (40-149 HP),295.0,44.0,19,7.8,-3.7,26.9
-35,24,7967,Noor Ahmad,"['Afghanistan', 'Chennai Super Kings', 'Gujarat Titans']",59.96,12.61,9.03,1.66,0.56,48.57142857142857,0.37,Limited Direct Evidence (<40 HP),1467.0,7.0,70,4.09,4.59,20.64
-36,60,499,Shakib Al Hasan,"['Bangladesh', 'Kolkata Knight Riders']",59.57,4.55,4.78,24.89,4.03,52.94117647058824,0.75,Limited Direct Evidence (<40 HP),340.0,9.0,17,7.44,-10.03,19.13
-37,48,2681,Taskin Ahmed,['Bangladesh'],59.36,7.92,6.56,9.54,1.74,56.52173913043478,1.07,Moderate Direct Evidence (40-149 HP),1040.0,42.0,46,4.77,-1.43,17.28
-38,51,5837,Mahedi Hasan,['Bangladesh'],59.2,6.85,5.99,16.77,2.82,48.78048780487805,0.39,Limited Direct Evidence (<40 HP),914.0,20.0,41,5.05,-3.05,16.74
-39,42,5809,Naveen ul Haq,"['Afghanistan', 'Lucknow Super Giants']",59.09,8.55,6.89,2.22,0.64,62.16216216216216,1.56,Limited Direct Evidence (<40 HP),786.0,32.0,37,5.38,-1.99,19.1
-40,44,28,Ishant Sharma,"['Delhi Capitals', 'Gujarat Titans']",58.64,8.42,6.82,1.88,0.59,58.333333333333336,1.23,Limited Direct Evidence (<40 HP),422.0,12.0,24,6.88,-5.07,21.91
-41,46,8009,Junaid Siddique,['United Arab Emirates'],58.5,8.25,6.73,0.54,0.39,60.0,1.37,Limited Direct Evidence (<40 HP),330.0,22.0,15,7.51,-6.48,22.98
-42,53,278,Tim Southee,"['Kolkata Knight Riders', 'New Zealand']",58.1,5.91,5.5,5.5,1.13,61.111111111111114,1.47,Limited Direct Evidence (<40 HP),826.0,26.0,36,5.27,-4.42,16.24
-43,70,6523,Blessing Muzarabani,"['Kolkata Knight Riders', 'Royal Challengers Bengaluru', 'Zimbabwe']",57.95,3.55,4.25,16.98,2.85,54.054054054054056,0.85,Moderate Direct Evidence (40-149 HP),820.0,54.0,37,5.29,-6.81,13.91
-44,47,4856,Benjamin Sears,['New Zealand'],57.95,8.03,6.62,-4.47,-0.36,63.63636363636363,1.69,Limited Direct Evidence (<40 HP),453.0,11.0,22,6.7,-5.11,21.17
-45,40,7690,Saim Ayub,['Pakistan'],57.91,8.94,7.1,1.82,0.58,46.875,0.22,Limited Direct Evidence (<40 HP),510.0,0.0,32,6.41,-3.62,21.5
-46,52,6643,Hasan Mahmud,['Bangladesh'],57.81,6.74,5.94,1.28,0.5,60.0,1.37,Limited Direct Evidence (<40 HP),396.0,12.0,20,7.05,-7.07,20.55
-47,71,360,Bhuvneshwar Kumar,"['India', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",57.81,3.51,4.23,19.42,3.21,48.51485148514851,0.37,Moderate Direct Evidence (40-149 HP),2221.0,149.0,101,3.38,-3.12,10.13
-48,43,1596,Moeen Ali,"['Chennai Super Kings', 'England', 'Kolkata Knight Riders']",57.79,8.5,6.87,2.77,0.72,46.55172413793103,0.2,Limited Direct Evidence (<40 HP),805.0,0.0,58,5.33,-1.95,18.94
-49,58,2320,Trent Boult,"['Mumbai Indians', 'New Zealand', 'Rajasthan Royals']",57.76,4.92,4.98,14.92,2.54,47.14285714285714,0.25,Moderate Direct Evidence (40-149 HP),1543.0,60.0,70,4.0,-2.93,12.76
-50,45,3641,Ben Dwarshuis,"['Australia', 'Punjab Kings']",57.74,8.39,6.81,-3.38,-0.19,57.14285714285714,1.12,Moderate Direct Evidence (40-149 HP),324.0,51.0,14,7.56,-6.43,23.21
-51,61,4816,Khaleel Ahmed,"['Chennai Super Kings', 'Delhi Capitals', 'India']",57.62,4.49,4.75,11.73,2.06,53.57142857142857,0.81,Moderate Direct Evidence (40-149 HP),1198.0,91.0,56,4.48,-4.3,13.27
-52,72,4101,Mitchell Santner,"['Chennai Super Kings', 'Mumbai Indians', 'New Zealand']",57.62,3.24,4.09,16.46,2.77,53.01204819277109,0.76,Moderate Direct Evidence (40-149 HP),1737.0,59.0,83,3.79,-4.19,10.67
-53,34,829,Mitchell Starc,"['Australia', 'Delhi Capitals', 'Kolkata Knight Riders']",57.56,10.57,7.96,-5.85,-0.56,46.15384615384615,0.16,Moderate Direct Evidence (40-149 HP),808.0,50.0,39,5.32,0.14,20.99
-54,63,1219,David Willey,"['England', 'Lucknow Super Giants', 'Royal Challengers Bengaluru']",57.48,4.42,4.71,11.6,2.04,52.63157894736842,0.73,Limited Direct Evidence (<40 HP),380.0,19.0,19,7.15,-9.59,18.44
-55,15,25132,Praful Hinge,['Sunrisers Hyderabad'],57.47,15.36,10.48,-21.42,-2.89,42.857142857142854,-0.13,Moderate Direct Evidence (40-149 HP),156.0,51.0,7,9.41,-3.09,33.8
-56,50,722,Liam Dawson,['England'],57.46,6.93,6.04,6.78,1.32,45.45454545454545,0.1,Limited Direct Evidence (<40 HP),415.0,18.0,22,6.93,-6.64,20.51
-57,38,5577,Sai Kishore,"['Gujarat Titans', 'India A']",57.36,10.35,7.84,-16.23,-2.11,62.96296296296296,1.63,Limited Direct Evidence (<40 HP),465.0,30.0,27,6.64,-2.66,23.36
-58,20,3644,Kuldeep Yadav,"['Delhi Capitals', 'India']",57.29,13.32,9.41,-21.87,-2.96,53.93258426966292,0.84,Moderate Direct Evidence (40-149 HP),1914.0,70.0,89,3.62,6.22,20.42
-59,55,7503,Ravi Bishnoi,"['India', 'Lucknow Super Giants', 'Rajasthan Royals']",57.21,5.7,5.39,7.02,1.36,49.54128440366973,0.46,Moderate Direct Evidence (40-149 HP),2327.0,54.0,109,3.31,-0.79,12.18
-60,62,6237,Manimaran Siddharth,['Lucknow Super Giants'],57.08,4.46,4.73,7.03,1.36,55.55555555555556,0.98,Limited Direct Evidence (<40 HP),186.0,12.0,9,8.98,-13.14,22.07
-61,75,1566,Mohammed Shami,"['Gujarat Titans', 'India', 'Lucknow Super Giants', 'Sunrisers Hyderabad']",57.02,3.07,4.0,17.35,2.9,45.614035087719294,0.11,Limited Direct Evidence (<40 HP),1275.0,29.0,57,4.36,-5.48,11.61
-62,65,2054,Jason Behrendorff,"['Australia', 'Mumbai Indians', 'Royal Challengers Bengaluru']",56.65,4.26,4.63,8.11,1.52,50.0,0.5,Limited Direct Evidence (<40 HP),438.0,30.0,20,6.79,-9.05,17.57
-63,54,1612,Yuzvendra Chahal,"['India', 'Punjab Kings', 'Rajasthan Royals']",56.58,5.73,5.4,6.05,1.21,43.87755102040816,-0.04,Moderate Direct Evidence (40-149 HP),2138.0,58.0,98,3.44,-1.02,12.47
-64,78,6512,Michael Bracewell,"['New Zealand', 'Royal Challengers Bengaluru']",56.2,2.6,3.75,11.69,2.06,48.78048780487805,0.39,Limited Direct Evidence (<40 HP),678.0,6.0,41,5.72,-8.62,13.81
-65,59,5034,Murugan Ashwin,"['Mumbai Indians', 'Rajasthan Royals']",55.81,4.8,4.91,6.46,1.28,40.0,-0.38,Limited Direct Evidence (<40 HP),198.0,0.0,10,8.83,-12.5,22.1
-66,49,5189,Faheem Ashraf,['Pakistan'],55.77,6.95,6.05,0.02,0.31,37.5,-0.59,Limited Direct Evidence (<40 HP),442.0,31.0,32,6.77,-6.31,20.21
-67,80,4489,Prasidh Krishna,"['Gujarat Titans', 'India', 'Rajasthan Royals']",55.6,2.3,3.6,12.49,2.18,42.30769230769231,-0.17,Moderate Direct Evidence (40-149 HP),1173.0,95.0,52,4.53,-6.58,11.17
-68,41,8634,Ashwani Kumar,['Mumbai Indians'],55.47,8.71,6.98,-15.47,-2.0,50.0,0.5,Limited Direct Evidence (<40 HP),183.0,6.0,10,9.02,-8.98,26.39
-69,66,4219,Krunal Pandya,"['Lucknow Super Giants', 'Royal Challengers Bengaluru']",55.37,3.99,4.49,3.19,0.79,45.45454545454545,0.1,Limited Direct Evidence (<40 HP),1257.0,35.0,66,4.39,-4.62,12.59
-70,87,5379,Mark Adair,['Ireland'],55.36,0.97,2.89,13.99,2.4,45.0,0.06,Moderate Direct Evidence (40-149 HP),845.0,83.0,40,5.22,-9.26,11.2
-71,97,152,Ravindra Jadeja,"['Chennai Super Kings', 'India', 'Rajasthan Royals']",55.28,0.15,2.46,19.75,3.26,39.189189189189186,-0.45,Limited Direct Evidence (<40 HP),1396.0,15.0,74,4.19,-8.06,8.36
-72,67,22920,Jacob Duffy,"['New Zealand', 'Royal Challengers Bengaluru']",55.24,3.91,4.44,1.32,0.51,47.61904761904761,0.29,Moderate Direct Evidence (40-149 HP),877.0,64.0,42,5.14,-6.16,13.98
-73,64,1101,George Dockrell,['Ireland'],55.14,4.37,4.69,7.39,1.41,33.33333333333333,-0.96,Limited Direct Evidence (<40 HP),186.0,0.0,15,8.98,-13.23,21.98
-74,69,8746,Vaibhav Arora,"['India A', 'Kolkata Knight Riders', 'Punjab Kings']",54.97,3.85,4.41,-1.7,0.06,50.0,0.5,Moderate Direct Evidence (40-149 HP),866.0,66.0,42,5.17,-6.28,13.97
-75,116,3056,Iftikhar Ahmed,['Pakistan'],54.84,-2.53,1.05,32.52,5.17,28.57142857142857,-1.37,Limited Direct Evidence (<40 HP),186.0,0.0,14,8.98,-20.13,15.07
-76,57,286,Kane Richardson,['Australia'],54.59,5.54,5.3,-13.43,-1.69,55.55555555555556,0.98,Limited Direct Evidence (<40 HP),198.0,12.0,9,8.83,-11.75,22.84
-77,102,5892,Blair Tickner,['New Zealand'],54.54,-0.76,1.98,9.03,1.66,54.54545454545454,0.9,Limited Direct Evidence (<40 HP),215.0,23.0,11,8.62,-17.65,16.13
-78,74,7896,Akash Singh,"['Chennai Super Kings', 'Lucknow Super Giants', 'Sunrisers Hyderabad']",54.49,3.15,4.04,-5.1,-0.45,54.54545454545454,0.9,Limited Direct Evidence (<40 HP),223.0,0.0,11,8.52,-13.55,19.86
-79,56,2261,Harshal Patel,"['India', 'Punjab Kings', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",54.45,5.57,5.32,-9.38,-1.09,46.835443037974684,0.22,Moderate Direct Evidence (40-149 HP),1643.0,135.0,79,3.89,-2.05,13.19
-80,81,2636,Adam Zampa,"['Australia', 'Rajasthan Royals', 'Sunrisers Hyderabad']",54.4,2.17,3.53,2.71,0.72,46.15384615384615,0.16,Moderate Direct Evidence (40-149 HP),1152.0,71.0,52,4.56,-6.77,11.11
-81,76,39657,Eshan Malinga,"['Sri Lanka', 'Sri Lanka A', 'Sunrisers Hyderabad']",54.08,3.05,3.99,-8.55,-0.97,56.41025641025641,1.06,Moderate Direct Evidence (40-149 HP),807.0,83.0,39,5.32,-7.38,13.48
-82,89,4658,Nasum Ahmed,['Bangladesh'],54.04,0.8,2.8,7.88,1.49,41.37931034482759,-0.26,Limited Direct Evidence (<40 HP),600.0,6.0,29,6.01,-10.98,12.59
-83,85,7250,Mukesh Choudhary,['Chennai Super Kings'],54.03,1.43,3.14,0.58,0.4,50.0,0.5,Limited Direct Evidence (<40 HP),483.0,15.0,24,6.54,-11.4,14.25
-84,84,914,Krishnappa Gowtham,['Lucknow Super Giants'],53.98,1.54,3.19,-8.16,-0.91,63.63636363636363,1.69,Limited Direct Evidence (<40 HP),180.0,0.0,11,9.06,-16.22,19.3
-85,108,403,Umesh Yadav,"['Gujarat Titans', 'India', 'Kolkata Knight Riders']",53.8,-1.37,1.66,9.93,1.79,48.275862068965516,0.35,Limited Direct Evidence (<40 HP),558.0,20.0,29,6.19,-13.5,10.76
-86,111,21784,Brad Evans,['Zimbabwe'],53.75,-2.04,1.31,9.58,1.74,52.38095238095239,0.71,Moderate Direct Evidence (40-149 HP),438.0,53.0,21,6.79,-15.35,11.27
-87,98,2876,Axar Patel,"['Delhi Capitals', 'India']",53.63,0.12,2.45,4.67,1.01,46.32352941176471,0.18,Moderate Direct Evidence (40-149 HP),2670.0,108.0,136,3.1,-5.96,6.2
-88,88,6464,Arshdeep Singh,"['India', 'Punjab Kings']",53.48,0.9,2.86,0.95,0.45,46.25850340136054,0.17,Strong Direct Evidence (>=150 HP),3207.0,270.0,147,2.84,-4.67,6.47
-89,90,6284,Anukul Roy,['Kolkata Knight Riders'],53.47,0.79,2.8,-5.13,-0.46,57.14285714285714,1.12,Limited Direct Evidence (<40 HP),311.0,0.0,21,7.67,-14.24,15.82
-90,101,1813,Deepak Chahar,"['Chennai Super Kings', 'India', 'Mumbai Indians']",53.44,-0.73,2.0,6.66,1.31,45.83333333333333,0.13,Limited Direct Evidence (<40 HP),917.0,36.0,48,5.04,-10.61,9.15
-91,113,479,Adil Rashid,"['England', 'Sunrisers Hyderabad']",53.42,-2.42,1.11,4.83,1.03,59.01639344262295,1.29,Moderate Direct Evidence (40-149 HP),1324.0,91.0,61,4.29,-10.82,5.99
-92,67,1171,Chris Woakes,"['England', 'Punjab Kings']",53.42,3.91,4.44,1.04,0.47,27.27272727272727,-1.49,Limited Direct Evidence (<40 HP),164.0,0.0,11,9.29,-14.3,22.12
-93,91,7741,Gareth Delany,['Ireland'],53.31,0.66,2.73,-0.71,0.21,48.57142857142857,0.37,Limited Direct Evidence (<40 HP),552.0,37.0,35,6.21,-11.51,12.84
-94,79,1071,Jaydev Unadkat,"['Lucknow Super Giants', 'Mumbai Indians', 'Sunrisers Hyderabad']",53.24,2.46,3.68,-4.45,-0.35,43.333333333333336,-0.08,Limited Direct Evidence (<40 HP),575.0,39.0,30,6.11,-9.52,14.45
-95,128,2997,Paul van Meekeren,['Netherlands'],53.2,-3.91,0.32,8.04,1.51,60.0,1.37,Limited Direct Evidence (<40 HP),187.0,0.0,10,8.97,-21.48,13.67
-96,92,5940,Riley Meredith,"['Australia', 'Mumbai Indians']",53.12,0.65,2.73,1.38,0.52,42.857142857142854,-0.13,Limited Direct Evidence (<40 HP),310.0,8.0,14,7.68,-14.4,15.69
-97,82,28915,Trevor Gwandu,['Zimbabwe'],52.93,1.71,3.28,-0.49,0.24,37.5,-0.59,Limited Direct Evidence (<40 HP),150.0,0.0,8,9.51,-16.92,20.34
-98,83,7325,Harpreet Brar,['Punjab Kings'],52.84,1.59,3.22,-4.88,-0.42,44.73684210526316,0.04,Limited Direct Evidence (<40 HP),667.0,33.0,38,5.76,-9.69,12.88
-99,100,6676,Azmatullah Omarzai,"['Afghanistan', 'Gujarat Titans', 'Punjab Kings']",52.57,-0.26,2.25,1.72,0.57,41.53846153846154,-0.24,Limited Direct Evidence (<40 HP),1067.0,37.0,65,4.72,-9.51,8.99
-100,103,7545,Kuldeep Sen,"['Punjab Kings', 'Rajasthan Royals']",52.54,-1.02,1.84,4.14,0.93,41.66666666666667,-0.23,Limited Direct Evidence (<40 HP),241.0,6.0,12,8.33,-17.34,15.3
-101,99,8380,Mohammad Rishad Hossain,['Bangladesh'],52.48,-0.07,2.35,-2.75,-0.1,46.93877551020408,0.23,Limited Direct Evidence (<40 HP),1018.0,36.0,49,4.82,-9.52,9.37
-102,110,2417,Akeal Hosein,"['Chennai Super Kings', 'Sunrisers Hyderabad', 'West Indies']",52.47,-1.91,1.37,2.3,0.65,49.36708860759494,0.44,Moderate Direct Evidence (40-149 HP),1692.0,49.0,79,3.84,-9.43,5.61
-103,105,305,Ravichandran Ashwin,"['Chennai Super Kings', 'India', 'Rajasthan Royals']",52.4,-1.12,1.79,3.92,0.9,40.98360655737705,-0.29,Limited Direct Evidence (<40 HP),1404.0,12.0,61,4.18,-9.31,7.06
-104,125,7344,Shoriful Islam,['Bangladesh'],52.39,-3.52,0.53,12.33,2.15,41.02564102564102,-0.29,Limited Direct Evidence (<40 HP),790.0,39.0,39,5.37,-14.05,7.0
-105,86,2687,Roston Chase,['West Indies'],52.38,1.42,3.13,-7.22,-0.77,44.44444444444444,0.01,Moderate Direct Evidence (40-149 HP),834.0,58.0,45,5.25,-8.87,11.71
-106,95,8177,Akash Madhwal,"['Chennai Super Kings', 'Mumbai Indians', 'Rajasthan Royals']",52.34,0.28,2.53,1.94,0.6,35.294117647058826,-0.79,Moderate Direct Evidence (40-149 HP),352.0,65.0,17,7.35,-14.12,14.68
-107,118,1617,Rishi Dhawan,['Punjab Kings'],52.29,-2.69,0.96,6.14,1.23,45.45454545454545,0.1,Limited Direct Evidence (<40 HP),174.0,0.0,11,9.15,-20.62,15.23
-108,142,56685,Abdullah Ahmadzai,"['Afghanistan', 'Afghanistan A']",52.24,-5.82,-0.69,8.35,1.56,60.0,1.37,Limited Direct Evidence (<40 HP),190.0,26.0,10,8.93,-23.32,11.68
-109,115,8614,William ORourke,"['Lucknow Super Giants', 'New Zealand']",52.24,-2.51,1.06,2.48,0.68,50.0,0.5,Limited Direct Evidence (<40 HP),182.0,6.0,8,9.04,-20.21,15.2
-110,106,1541,Sean Williams,['Zimbabwe'],51.91,-1.3,1.7,4.38,0.97,35.714285714285715,-0.75,Limited Direct Evidence (<40 HP),162.0,0.0,14,9.32,-19.57,16.97
-111,94,4823,Washington Sundar,"['Gujarat Titans', 'India', 'Sunrisers Hyderabad']",51.89,0.51,2.65,-3.06,-0.15,37.254901960784316,-0.62,Limited Direct Evidence (<40 HP),789.0,18.0,51,5.37,-10.02,11.04
-112,117,7312,Nandre Burger,"['Rajasthan Royals', 'South Africa']",51.89,-2.54,1.04,-5.08,-0.45,59.09090909090909,1.29,Limited Direct Evidence (<40 HP),441.0,24.0,22,6.77,-15.81,10.73
-113,137,5944,Mohammed Siraj,"['Gujarat Titans', 'India', 'Royal Challengers Bengaluru']",51.72,-5.31,-0.42,10.69,1.91,46.98795180722892,0.23,Moderate Direct Evidence (40-149 HP),1806.0,112.0,83,3.72,-12.6,1.99
-114,77,2382,Jamie Overton,"['Chennai Super Kings', 'England']",51.57,3.03,3.98,-23.51,-3.2,53.333333333333336,0.79,Limited Direct Evidence (<40 HP),497.0,28.0,30,6.47,-9.66,15.71
-115,123,3298,Jofra Archer,"['England', 'Mumbai Indians', 'Rajasthan Royals']",51.52,-3.39,0.59,-0.29,0.27,51.78571428571429,0.65,Moderate Direct Evidence (40-149 HP),1259.0,139.0,56,4.39,-11.99,5.2
-116,119,29888,Harshit Rana,"['India', 'Kolkata Knight Riders']",51.37,-2.78,0.92,-7.69,-0.84,59.09090909090909,1.29,Moderate Direct Evidence (40-149 HP),901.0,41.0,44,5.08,-12.74,7.17
-117,109,4229,George Linde,"['Lucknow Super Giants', 'South Africa']",51.33,-1.83,1.42,6.06,1.22,29.411764705882355,-1.3,Limited Direct Evidence (<40 HP),283.0,5.0,17,7.91,-17.33,13.68
-118,73,41503,Yash Punja,['Rajasthan Royals'],51.32,3.23,4.09,-23.96,-3.27,50.0,0.5,Limited Direct Evidence (<40 HP),180.0,22.0,8,9.06,-14.53,21.0
-119,114,27964,Anshul Kamboj,"['Chennai Super Kings', 'India A', 'Mumbai Indians']",51.23,-2.45,1.09,-8.02,-0.89,56.00000000000001,1.02,Limited Direct Evidence (<40 HP),491.0,26.0,25,6.5,-15.19,10.3
-120,93,6272,William Jacks,"['England', 'Mumbai Indians', 'Royal Challengers Bengaluru']",51.01,0.59,2.69,-12.5,-1.56,42.857142857142854,-0.13,Limited Direct Evidence (<40 HP),413.0,9.0,35,6.94,-13.01,14.19
-121,96,2984,Sikandar Raza,"['Punjab Kings', 'Zimbabwe']",50.87,0.19,2.48,-9.44,-1.1,38.46153846153847,-0.51,Moderate Direct Evidence (40-149 HP),1091.0,58.0,52,4.67,-8.97,9.35
-122,150,6518,Daniel Sams,"['Australia', 'Lucknow Super Giants', 'Mumbai Indians']",50.86,-6.77,-1.19,16.89,2.83,35.294117647058826,-0.79,Limited Direct Evidence (<40 HP),350.0,26.0,17,7.36,-21.2,7.67
-123,154,4373,Mustafizur Rahman,"['Bangladesh', 'Chennai Super Kings', 'Delhi Capitals', 'Kolkata Knight Riders']",50.56,-7.33,-1.48,13.64,2.35,40.845070422535215,-0.3,Moderate Direct Evidence (40-149 HP),1576.0,123.0,71,3.96,-15.1,0.43
-124,147,19316,Maheesh Theekshana,"['Chennai Super Kings', 'Rajasthan Royals', 'Sri Lanka']",50.3,-6.4,-0.99,7.66,1.46,42.42424242424242,-0.16,Moderate Direct Evidence (40-149 HP),2265.0,99.0,99,3.35,-12.96,0.17
-125,145,35318,Sakib Hussain,"['Kolkata Knight Riders', 'Sunrisers Hyderabad']",50.16,-6.21,-0.89,-6.34,-0.64,63.63636363636363,1.69,Limited Direct Evidence (<40 HP),252.0,33.0,11,8.21,-22.31,9.88
-126,126,8805,Ottneil Baartman,['South Africa'],50.04,-3.63,0.47,-4.65,-0.38,43.75,-0.05,Limited Direct Evidence (<40 HP),323.0,24.0,16,7.57,-18.47,11.21
-127,167,1159,Tendai Chatara,['Zimbabwe'],50.01,-9.81,-2.79,13.36,2.31,50.0,0.5,Limited Direct Evidence (<40 HP),217.0,13.0,10,8.59,-26.66,7.03
-128,135,4641,Lungi Ngidi,"['Delhi Capitals', 'Royal Challengers Bengaluru', 'South Africa']",49.87,-5.1,-0.31,-4.96,-0.43,51.28205128205128,0.61,Moderate Direct Evidence (40-149 HP),798.0,130.0,39,5.35,-15.58,5.38
-129,124,2526,Ish Sodhi,['New Zealand'],49.73,-3.41,0.58,-7.69,-0.84,44.06779661016949,-0.02,Limited Direct Evidence (<40 HP),1175.0,28.0,59,4.52,-12.27,5.46
-130,136,2463,Ryan Burl,['Zimbabwe'],49.72,-5.12,-0.32,0.14,0.33,40.909090909090914,-0.3,Limited Direct Evidence (<40 HP),318.0,15.0,22,7.61,-20.04,9.8
-131,148,29066,Zakary Foulkes,"['Chennai Super Kings', 'New Zealand']",49.54,-6.44,-1.01,-1.71,0.06,50.0,0.5,Limited Direct Evidence (<40 HP),364.0,25.0,18,7.26,-20.67,7.8
-132,112,1944,Keshav Maharaj,"['Mumbai Indians', 'Rajasthan Royals', 'South Africa']",49.45,-2.4,1.12,-10.71,-1.29,40.0,-0.38,Limited Direct Evidence (<40 HP),598.0,39.0,30,6.02,-14.2,9.39
-133,127,27743,DT Doram,['Netherlands'],49.4,-3.7,0.43,-9.1,-1.05,44.44444444444444,0.01,Limited Direct Evidence (<40 HP),192.0,0.0,9,8.9,-21.15,13.75
-134,139,494,Kieron Pollard,"['Mumbai Indians', 'West Indies']",49.35,-5.42,-0.48,3.14,0.78,33.33333333333333,-0.96,Limited Direct Evidence (<40 HP),185.0,5.0,12,9.0,-23.06,12.21
-135,138,6161,Rahul Chahar,"['Chennai Super Kings', 'India A', 'Punjab Kings', 'Sunrisers Hyderabad']",49.26,-5.41,-0.47,-1.05,0.15,39.473684210526315,-0.42,Moderate Direct Evidence (40-149 HP),794.0,42.0,38,5.36,-15.92,5.09
-136,130,38855,Mohammad Saifuddin,['Bangladesh'],49.23,-4.17,0.18,-4.83,-0.41,38.095238095238095,-0.54,Limited Direct Evidence (<40 HP),442.0,12.0,21,6.77,-17.43,9.1
-137,129,1487,Adam Milne,"['Chennai Super Kings', 'New Zealand', 'Rajasthan Royals']",49.21,-4.07,0.24,-5.51,-0.51,38.46153846153847,-0.51,Moderate Direct Evidence (40-149 HP),545.0,40.0,26,6.25,-16.31,8.17
-138,153,6806,Tushar Deshpande,"['Chennai Super Kings', 'India', 'Rajasthan Royals']",49.18,-7.31,-1.47,1.31,0.51,46.0,0.15,Moderate Direct Evidence (40-149 HP),1037.0,117.0,50,4.78,-16.68,2.06
-139,152,1758,Patrick Cummins,"['Australia', 'Kolkata Knight Riders', 'Sunrisers Hyderabad']",48.97,-7.13,-1.38,-2.02,0.01,48.148148148148145,0.34,Moderate Direct Evidence (40-149 HP),1215.0,107.0,54,4.46,-15.86,1.61
-140,131,7327,Rasikh Salam,"['Delhi Capitals', 'India A', 'Kolkata Knight Riders', 'Royal Challengers Bengaluru']",48.97,-4.18,0.18,-8.6,-0.97,41.66666666666667,-0.23,Moderate Direct Evidence (40-149 HP),464.0,41.0,24,6.64,-17.21,8.84
-141,151,24475,Rehan Ahmed,"['Delhi Capitals', 'England']",48.96,-6.92,-1.27,-6.54,-0.67,54.54545454545454,0.9,Limited Direct Evidence (<40 HP),210.0,0.0,11,8.68,-23.92,10.09
-142,173,25030,Zaman Khan,"['Pakistan', 'Pakistan A']",48.96,-10.67,-3.25,15.2,2.58,40.0,-0.38,Limited Direct Evidence (<40 HP),189.0,15.0,10,8.94,-28.2,6.85
-143,133,395,Karn Sharma,"['Mumbai Indians', 'Royal Challengers Bengaluru']",48.96,-4.6,-0.04,-7.92,-0.87,42.857142857142854,-0.13,Limited Direct Evidence (<40 HP),363.0,0.0,21,7.27,-18.85,9.65
-144,104,3282,Mehidy Hasan Miraz,['Bangladesh'],48.91,-1.08,1.81,-19.67,-2.63,41.17647058823529,-0.27,Limited Direct Evidence (<40 HP),234.0,16.0,17,8.4,-17.54,15.39
-145,145,2399,Dushmantha Chameera,"['Delhi Capitals', 'Kolkata Knight Riders', 'Lucknow Super Giants', 'Sri Lanka']",48.84,-6.21,-0.89,-0.02,0.31,37.735849056603776,-0.57,Moderate Direct Evidence (40-149 HP),1151.0,62.0,53,4.56,-15.15,2.74
-146,143,5562,Richard Gleeson,"['Chennai Super Kings', 'England', 'Mumbai Indians', 'Royal Challengers Bengaluru']",48.79,-6.02,-0.79,1.56,0.54,33.33333333333333,-0.96,Limited Direct Evidence (<40 HP),194.0,10.0,9,8.88,-23.42,11.38
-147,156,4837,Obed McCoy,"['Rajasthan Royals', 'West Indies']",48.74,-7.8,-1.73,3.24,0.8,40.625,-0.32,Limited Direct Evidence (<40 HP),641.0,37.0,32,5.85,-19.27,3.68
-148,167,7052,Dunith Wellalage,"['Sri Lanka', 'Sri Lanka A']",48.7,-9.81,-2.79,9.45,1.72,41.66666666666667,-0.23,Limited Direct Evidence (<40 HP),255.0,6.0,12,8.18,-25.85,6.22
-149,134,6354,Spencer Johnson,"['Australia', 'Chennai Super Kings', 'Gujarat Titans', 'Kolkata Knight Riders']",48.53,-4.83,-0.17,-7.8,-0.85,39.130434782608695,-0.45,Limited Direct Evidence (<40 HP),438.0,26.0,23,6.79,-18.14,8.47
-150,165,4874,Richard Ngarava,['Zimbabwe'],48.31,-9.71,-2.74,11.38,2.01,33.33333333333333,-0.96,Limited Direct Evidence (<40 HP),846.0,35.0,39,5.22,-19.93,0.52
-151,148,3330,Hardik Pandya,"['Gujarat Titans', 'India', 'Mumbai Indians']",48.24,-6.44,-1.01,-2.8,-0.11,36.93693693693694,-0.64,Moderate Direct Evidence (40-149 HP),1825.0,86.0,111,3.7,-13.7,0.82
-152,120,4201,Fareed Malik,['Afghanistan'],48.06,-2.91,0.85,-15.45,-2.0,35.294117647058826,-0.79,Limited Direct Evidence (<40 HP),308.0,18.0,17,7.69,-17.99,12.17
-153,158,58134,Digvesh Rathi,['Lucknow Super Giants'],48.05,-8.08,-1.88,-2.05,0.0,43.47826086956522,-0.07,Limited Direct Evidence (<40 HP),546.0,11.0,23,6.24,-20.31,4.15
-154,187,2411,Sandeep Sharma,"['Punjab Kings', 'Rajasthan Royals']",48.01,-12.23,-4.07,15.95,2.69,37.2093023255814,-0.62,Moderate Direct Evidence (40-149 HP),965.0,106.0,43,4.93,-21.9,-2.57
-155,122,4840,Odean Smith,"['Gujarat Titans', 'Punjab Kings', 'West Indies']",47.99,-3.11,0.74,-16.5,-2.15,37.5,-0.59,Limited Direct Evidence (<40 HP),384.0,27.0,24,7.12,-17.08,10.85
-156,144,2334,Dwaine Pretorius,"['Chennai Super Kings', 'South Africa']",47.99,-6.16,-0.87,-4.74,-0.4,35.714285714285715,-0.75,Limited Direct Evidence (<40 HP),308.0,17.0,14,7.69,-21.24,8.91
-157,166,4692,Lockie Ferguson,"['Gujarat Titans', 'Kolkata Knight Riders', 'New Zealand', 'Punjab Kings', 'Royal Challengers Bengaluru']",47.95,-9.77,-2.77,4.38,0.97,41.509433962264154,-0.24,Moderate Direct Evidence (40-149 HP),1076.0,72.0,53,4.7,-18.99,-0.55
-158,132,4895,Charith Asalanka,"['Mumbai Indians', 'Sri Lanka']",47.9,-4.51,0.0,-6.97,-0.73,28.57142857142857,-1.37,Limited Direct Evidence (<40 HP),161.0,0.0,14,9.34,-22.8,13.79
-159,171,4755,Shivam Dube,"['Chennai Super Kings', 'India']",47.88,-10.45,-3.13,7.21,1.39,40.0,-0.38,Limited Direct Evidence (<40 HP),469.0,18.0,40,6.62,-23.42,2.52
-160,121,1318,Andre Russell,"['Kolkata Knight Riders', 'West Indies']",47.74,-3.04,0.78,-26.26,-3.61,50.877192982456144,0.57,Moderate Direct Evidence (40-149 HP),754.0,128.0,57,5.48,-13.77,7.69
-161,201,4926,Shadab Khan,['Pakistan'],47.63,-14.38,-5.2,21.87,3.58,35.714285714285715,-0.75,Limited Direct Evidence (<40 HP),832.0,34.0,42,5.25,-24.68,-4.08
-162,162,4265,T Natarajan,"['Delhi Capitals', 'Sunrisers Hyderabad']",47.62,-9.3,-2.52,0.93,0.45,40.816326530612244,-0.3,Strong Direct Evidence (>=150 HP),1052.0,163.0,49,4.75,-18.61,0.0
-163,141,25138,Harsh Dubey,"['India', 'India A', 'Sunrisers Hyderabad']",47.5,-5.62,-0.58,-15.59,-2.02,45.45454545454545,0.1,Limited Direct Evidence (<40 HP),192.0,8.0,11,8.9,-23.07,11.83
-164,161,1772,Sheldon Cottrell,['West Indies'],47.42,-8.81,-2.26,0.42,0.37,36.36363636363637,-0.69,Limited Direct Evidence (<40 HP),215.0,0.0,11,8.62,-25.7,8.08
-165,189,6423,Riyan Parag,"['India', 'Rajasthan Royals']",47.37,-12.52,-4.22,14.98,2.55,33.33333333333333,-0.96,Limited Direct Evidence (<40 HP),260.0,0.0,24,8.13,-28.46,3.42
-166,181,6398,Aaron Hardie,"['Australia', 'Punjab Kings']",47.26,-11.61,-3.74,3.23,0.79,46.666666666666664,0.21,Limited Direct Evidence (<40 HP),271.0,10.0,15,8.02,-27.34,4.12
-167,180,3628,Kagiso Rabada,"['Gujarat Titans', 'Punjab Kings', 'South Africa']",47.19,-11.55,-3.71,0.16,0.34,50.72463768115942,0.56,Moderate Direct Evidence (40-149 HP),1533.0,136.0,69,4.01,-19.41,-3.68
-168,159,8049,Naseem Shah,['Pakistan'],47.07,-8.42,-2.06,0.64,0.41,29.629629629629626,-1.28,Limited Direct Evidence (<40 HP),576.0,19.0,27,6.11,-20.4,3.56
-169,172,7905,Tanzim Sakib,['Bangladesh'],47.05,-10.53,-3.17,-1.09,0.15,45.16129032258064,0.08,Moderate Direct Evidence (40-149 HP),677.0,54.0,31,5.73,-21.75,0.69
-170,178,4391,Liam Livingstone,"['England', 'Punjab Kings', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",46.66,-11.16,-3.5,3.43,0.82,36.734693877551024,-0.66,Limited Direct Evidence (<40 HP),594.0,26.0,49,6.04,-22.99,0.67
-171,164,8424,Tanveer Sangha,['Australia'],46.65,-9.59,-2.68,-5.74,-0.55,42.857142857142854,-0.13,Limited Direct Evidence (<40 HP),168.0,12.0,7,9.23,-27.69,8.5
-172,155,4842,Shamar Springer,['West Indies'],46.46,-7.52,-1.58,-10.57,-1.27,36.36363636363637,-0.69,Moderate Direct Evidence (40-149 HP),196.0,44.0,11,8.85,-24.87,9.83
-173,184,838,Glenn Maxwell,"['Australia', 'Punjab Kings', 'Royal Challengers Bengaluru']",46.38,-12.04,-3.97,2.53,0.69,40.38461538461539,-0.34,Limited Direct Evidence (<40 HP),638.0,34.0,52,5.86,-23.53,-0.54
-174,177,6515,Benjamin Lister,['New Zealand'],46.31,-11.04,-3.44,-2.21,-0.02,41.66666666666667,-0.23,Limited Direct Evidence (<40 HP),245.0,35.0,12,8.28,-27.28,5.2
-175,184,295,Wayne Parnell,"['Royal Challengers Bengaluru', 'South Africa']",46.03,-12.04,-3.97,-2.18,-0.01,44.44444444444444,0.01,Moderate Direct Evidence (40-149 HP),400.0,46.0,18,7.02,-25.8,1.72
-176,207,7240,FazalHaq Farooqi,"['Afghanistan', 'Rajasthan Royals', 'Sunrisers Hyderabad']",46.02,-15.35,-5.71,12.03,2.11,40.0,-0.38,Moderate Direct Evidence (40-149 HP),1027.0,57.0,50,4.8,-24.75,-5.94
-177,192,2972,Yasim Murtaza,['Hong Kong'],45.97,-13.1,-4.53,5.23,1.09,37.5,-0.59,Limited Direct Evidence (<40 HP),192.0,6.0,8,8.9,-30.55,4.35
-178,169,3323,Jimmy Neesham,"['New Zealand', 'Rajasthan Royals']",45.87,-9.83,-2.8,-15.08,-1.94,51.35135135135135,0.62,Moderate Direct Evidence (40-149 HP),526.0,45.0,37,6.33,-22.24,2.58
-179,191,32862,Allah Ghazanfar,"['Afghanistan', 'Afghanistan A', 'Kolkata Knight Riders', 'Mumbai Indians']",45.85,-12.66,-4.29,-6.42,-0.65,53.333333333333336,0.79,Limited Direct Evidence (<40 HP),305.0,13.0,15,7.72,-27.79,2.47
-180,107,25048,Umran Malik,"['India', 'Kolkata Knight Riders', 'Sunrisers Hyderabad']",45.82,-1.33,1.68,-41.86,-5.94,45.16129032258064,0.08,Limited Direct Evidence (<40 HP),560.0,23.0,31,6.18,-13.44,10.78
-181,175,5738,Xavier Bartlett,"['Australia', 'Punjab Kings']",45.81,-10.87,-3.35,-10.07,-1.19,48.38709677419355,0.36,Moderate Direct Evidence (40-149 HP),624.0,53.0,31,5.92,-22.47,0.73
-182,176,2633,Jason Holder,"['Gujarat Titans', 'Lucknow Super Giants', 'Rajasthan Royals', 'West Indies']",45.71,-10.88,-3.36,-4.33,-0.34,37.5,-0.59,Strong Direct Evidence (>=150 HP),1928.0,154.0,88,3.61,-17.96,-3.8
-183,206,4639,Wellington Masakadza,['Zimbabwe'],45.71,-14.82,-5.43,7.68,1.46,40.74074074074074,-0.31,Limited Direct Evidence (<40 HP),480.0,19.0,27,6.56,-27.68,-1.97
-184,199,2315,Reece Topley,"['England', 'Mumbai Indians', 'Royal Challengers Bengaluru']",45.67,-14.09,-5.05,4.44,0.97,41.37931034482759,-0.26,Moderate Direct Evidence (40-149 HP),615.0,65.0,29,5.95,-25.76,-2.42
-185,186,2639,Marcus Stoinis,"['Australia', 'Lucknow Super Giants', 'Punjab Kings']",45.56,-12.08,-3.99,-0.44,0.25,36.36363636363637,-0.69,Moderate Direct Evidence (40-149 HP),747.0,53.0,55,5.5,-22.85,-1.3
-186,157,6286,Shivam Mavi,"['Gujarat Titans', 'India', 'Kolkata Knight Riders', 'Lucknow Super Giants', 'Sunrisers Hyderabad']",45.5,-7.85,-1.76,-9.13,-1.05,25.0,-1.69,Limited Direct Evidence (<40 HP),216.0,12.0,12,8.61,-24.71,9.02
-187,188,67036,Brijesh Sharma,['Rajasthan Royals'],45.39,-12.29,-4.1,-11.09,-1.35,53.84615384615385,0.83,Limited Direct Evidence (<40 HP),273.0,38.0,13,8.0,-27.98,3.4
-188,160,3622,Hayden Walsh,['West Indies'],45.05,-8.56,-2.13,-14.56,-1.86,33.33333333333333,-0.96,Limited Direct Evidence (<40 HP),186.0,6.0,9,8.98,-26.17,9.04
-189,174,46066,Vipraj Nigam,"['Delhi Capitals', 'India']",44.97,-10.82,-3.32,-7.12,-0.75,33.33333333333333,-0.96,Limited Direct Evidence (<40 HP),288.0,8.0,18,7.87,-26.23,4.6
-190,197,58246,Prince Yadav,"['India', 'Lucknow Super Giants']",44.83,-13.69,-4.84,-0.35,0.26,37.5,-0.59,Moderate Direct Evidence (40-149 HP),710.0,88.0,32,5.61,-24.69,-2.68
-191,193,5041,Mukesh Kumar,"['Delhi Capitals', 'India']",44.77,-13.31,-4.64,-5.93,-0.57,44.06779661016949,-0.02,Moderate Direct Evidence (40-149 HP),1148.0,95.0,59,4.57,-22.27,-4.35
-192,183,2878,Mohit Sharma,"['Delhi Capitals', 'Gujarat Titans']",44.71,-11.93,-3.91,-12.01,-1.48,45.45454545454545,0.1,Moderate Direct Evidence (40-149 HP),649.0,57.0,33,5.82,-23.34,-0.51
-193,194,7689,Dilshan Madushanka,"['Mumbai Indians', 'Sri Lanka', 'Sunrisers Hyderabad']",44.41,-13.32,-4.64,-4.07,-0.3,36.84210526315789,-0.65,Limited Direct Evidence (<40 HP),362.0,14.0,19,7.28,-27.59,0.94
-194,163,1389,Sean Abbott,"['Australia', 'Sunrisers Hyderabad']",44.37,-9.4,-2.58,-21.69,-2.93,42.857142857142854,-0.13,Moderate Direct Evidence (40-149 HP),442.0,52.0,21,6.77,-22.66,3.86
-195,202,7322,Yash Dayal,"['Gujarat Titans', 'India', 'Royal Challengers Bengaluru']",44.27,-14.43,-5.23,-4.01,-0.29,41.86046511627907,-0.21,Moderate Direct Evidence (40-149 HP),871.0,42.0,43,5.15,-24.53,-4.33
-196,204,6683,Mayank Markande,"['Kolkata Knight Riders', 'Mumbai Indians', 'Sunrisers Hyderabad']",44.14,-14.74,-5.39,-3.25,-0.17,40.909090909090914,-0.3,Limited Direct Evidence (<40 HP),432.0,18.0,22,6.82,-28.12,-1.37
-197,203,8295,Matthew Forde,['West Indies'],44.1,-14.73,-5.39,-1.89,0.03,38.095238095238095,-0.54,Limited Direct Evidence (<40 HP),408.0,24.0,21,6.97,-28.39,-1.07
-198,170,28018,Ashok Sharma,"['Gujarat Titans', 'India', 'Kolkata Knight Riders', 'Rajasthan Royals']",43.98,-10.42,-3.11,-17.59,-2.32,37.5,-0.59,Limited Direct Evidence (<40 HP),174.0,13.0,8,9.15,-28.35,7.51
-199,190,3653,Avesh Khan,"['India', 'Lucknow Super Giants', 'Rajasthan Royals']",43.94,-12.56,-4.24,-9.05,-1.04,35.44303797468354,-0.77,Moderate Direct Evidence (40-149 HP),1672.0,105.0,79,3.86,-20.12,-5.0
-200,212,27960,Mayank Yadav,"['India', 'Lucknow Super Giants']",43.88,-16.39,-6.26,-1.8,0.04,45.45454545454545,0.1,Limited Direct Evidence (<40 HP),493.0,31.0,22,6.49,-29.11,-3.66
-201,200,27959,Hrithik Shokeen,"['India A', 'Mumbai Indians']",43.84,-14.35,-5.19,8.34,1.56,15.384615384615385,-2.53,Limited Direct Evidence (<40 HP),204.0,0.0,13,8.75,-31.5,2.8
-202,196,3623,Hasan Ali,['Pakistan'],43.68,-13.54,-4.76,-15.86,-2.06,50.0,0.5,Limited Direct Evidence (<40 HP),158.0,11.0,8,9.38,-31.93,4.84
-203,221,19312,Nuwan Thushara,"['Mumbai Indians', 'Royal Challengers Bengaluru', 'Sri Lanka']",43.51,-17.65,-6.93,5.22,1.09,36.84210526315789,-0.65,Moderate Direct Evidence (40-149 HP),775.0,64.0,38,5.41,-28.26,-7.04
-204,225,36982,Suyash Sharma,"['India A', 'Kolkata Knight Riders', 'Royal Challengers Bengaluru']",43.1,-18.54,-7.4,9.12,1.67,30.76923076923077,-1.18,Limited Direct Evidence (<40 HP),803.0,33.0,39,5.33,-28.99,-8.09
-205,220,3664,Binura Fernando,['Sri Lanka'],43.06,-17.5,-6.85,1.26,0.5,37.5,-0.59,Limited Direct Evidence (<40 HP),342.0,16.0,16,7.42,-32.05,-2.95
-206,210,5939,Cameron Green,"['Australia', 'Kolkata Knight Riders', 'Mumbai Indians', 'Royal Challengers Bengaluru']",43.04,-15.82,-5.96,-6.91,-0.72,41.17647058823529,-0.27,Moderate Direct Evidence (40-149 HP),753.0,42.0,51,5.48,-26.55,-5.08
-207,198,2847,Shardul Thakur,"['Chennai Super Kings', 'Delhi Capitals', 'India', 'Kolkata Knight Riders', 'Lucknow Super Giants', 'Mumbai Indians']",43.01,-13.99,-5.0,-16.44,-2.14,46.0,0.15,Moderate Direct Evidence (40-149 HP),966.0,85.0,50,4.93,-23.65,-4.33
-208,140,7574,Kumar Kartikeya Singh,"['Mumbai Indians', 'Rajasthan Royals']",42.99,-5.48,-0.51,-45.28,-6.45,43.75,-0.05,Limited Direct Evidence (<40 HP),282.0,8.0,16,7.92,-21.0,10.05
-209,213,4904,Kamindu Mendis,"['Sri Lanka', 'Sunrisers Hyderabad']",42.96,-16.44,-6.29,-2.11,-0.0,35.714285714285715,-0.75,Limited Direct Evidence (<40 HP),150.0,25.0,14,9.51,-35.07,2.19
-210,205,47050,Shamar Joseph,"['Lucknow Super Giants', 'West Indies']",42.95,-14.8,-5.42,-16.3,-2.12,50.0,0.5,Moderate Direct Evidence (40-149 HP),471.0,70.0,24,6.61,-27.75,-1.85
-211,216,7533,Simarjeet Singh,"['Chennai Super Kings', 'Sunrisers Hyderabad']",42.76,-16.64,-6.39,-6.89,-0.72,42.857142857142854,-0.13,Limited Direct Evidence (<40 HP),240.0,19.0,14,8.34,-32.98,-0.3
-212,226,6628,Gerald Coetzee,"['Gujarat Titans', 'Mumbai Indians', 'South Africa', 'Sunrisers Hyderabad']",42.41,-18.63,-7.44,-3.35,-0.19,44.827586206896555,0.05,Moderate Direct Evidence (40-149 HP),592.0,91.0,29,6.04,-30.48,-6.79
-213,182,1107,Mohammad Nabi,"['Afghanistan', 'Kolkata Knight Riders', 'Mumbai Indians']",42.2,-11.7,-3.79,-24.28,-3.32,36.36363636363637,-0.69,Limited Direct Evidence (<40 HP),680.0,17.0,44,5.71,-22.9,-0.5
-214,219,6160,Chamika Karunaratne,"['Kolkata Knight Riders', 'Sri Lanka']",42.14,-17.31,-6.75,-1.16,0.14,30.0,-1.25,Limited Direct Evidence (<40 HP),336.0,8.0,20,7.47,-31.94,-2.67
-215,223,3660,Luke Wood,"['England', 'Gujarat Titans', 'Mumbai Indians']",42.07,-17.77,-6.99,-6.55,-0.67,41.17647058823529,-0.27,Limited Direct Evidence (<40 HP),324.0,32.0,17,7.56,-32.59,-2.95
-216,217,2436,Dasun Shanaka,"['Gujarat Titans', 'Rajasthan Royals', 'Sri Lanka']",41.85,-16.69,-6.42,-9.52,-1.11,37.2093023255814,-0.62,Moderate Direct Evidence (40-149 HP),529.0,53.0,43,6.32,-29.08,-4.31
-217,214,3276,Gudakesh Motie,['West Indies'],41.42,-16.46,-6.3,-12.97,-1.63,36.84210526315789,-0.65,Moderate Direct Evidence (40-149 HP),738.0,82.0,38,5.52,-27.29,-5.63
-218,237,5441,Barry McCarthy,['Ireland'],41.38,-21.91,-9.17,3.35,0.81,41.37931034482759,-0.26,Limited Direct Evidence (<40 HP),619.0,29.0,29,5.94,-33.55,-10.28
-219,232,5808,Karim Janat,"['Afghanistan', 'Afghanistan A', 'Gujarat Titans']",41.31,-20.47,-8.41,-2.42,-0.05,41.66666666666667,-0.23,Limited Direct Evidence (<40 HP),155.0,7.0,12,9.43,-38.95,-1.99
-220,231,23467,Gurjapneet Singh,"['Chennai Super Kings', 'India A']",41.3,-20.24,-8.29,6.45,1.27,25.0,-1.69,Limited Direct Evidence (<40 HP),151.0,7.0,8,9.49,-38.84,-1.64
-221,228,6287,Yash Thakur,"['India', 'India A', 'Lucknow Super Giants', 'Punjab Kings']",41.28,-19.39,-7.84,-10.11,-1.2,48.0,0.32,Moderate Direct Evidence (40-149 HP),527.0,49.0,25,6.33,-31.79,-6.99
-222,235,7808,Marco Jansen,"['Punjab Kings', 'South Africa', 'Sunrisers Hyderabad']",41.25,-21.56,-8.99,-1.87,0.03,46.666666666666664,0.21,Strong Direct Evidence (>=150 HP),1317.0,167.0,60,4.3,-29.98,-13.13
-223,209,22134,Luke Jongwe,['Zimbabwe'],41.05,-15.76,-5.93,-22.4,-3.03,44.44444444444444,0.01,Limited Direct Evidence (<40 HP),330.0,13.0,18,7.51,-30.49,-1.03
-224,195,8530,Kartik Tyagi,"['Gujarat Titans', 'Kolkata Knight Riders', 'Sunrisers Hyderabad']",40.95,-13.49,-4.73,-23.53,-3.2,31.57894736842105,-1.11,Limited Direct Evidence (<40 HP),415.0,32.0,19,6.93,-27.06,0.09
-225,222,3697,Kyle Jamieson,"['Chennai Super Kings', 'Delhi Capitals', 'New Zealand', 'Punjab Kings']",40.94,-17.67,-6.94,-13.76,-1.74,40.0,-0.38,Moderate Direct Evidence (40-149 HP),627.0,61.0,30,5.91,-29.25,-6.09
-226,238,7696,Mohammad Wasim,['Pakistan'],40.82,-22.23,-9.34,0.82,0.43,41.17647058823529,-0.27,Moderate Direct Evidence (40-149 HP),355.0,45.0,17,7.33,-36.59,-7.87
-227,211,2483,Lizaad Williams,"['Delhi Capitals', 'Mumbai Indians', 'South Africa']",40.75,-16.03,-6.07,-22.49,-3.05,42.857142857142854,-0.13,Moderate Direct Evidence (40-149 HP),259.0,52.0,14,8.14,-31.98,-0.07
-228,233,3174,Matt Henry,"['Chennai Super Kings', 'Lucknow Super Giants', 'New Zealand']",40.27,-21.21,-8.8,-5.78,-0.55,40.0,-0.38,Limited Direct Evidence (<40 HP),622.0,33.0,30,5.93,-32.82,-9.59
-229,229,4409,Sam Curran,"['Chennai Super Kings', 'England', 'Punjab Kings', 'Rajasthan Royals']",40.2,-19.4,-7.85,-7.67,-0.83,31.506849315068493,-1.12,Moderate Direct Evidence (40-149 HP),1350.0,144.0,73,4.25,-27.73,-11.07
-230,224,3275,Alzarri Joseph,"['Gujarat Titans', 'Royal Challengers Bengaluru', 'West Indies']",40.17,-17.81,-7.01,-19.32,-2.57,41.509433962264154,-0.24,Moderate Direct Evidence (40-149 HP),1153.0,81.0,53,4.56,-26.75,-8.87
-231,215,4815,Benjamin White,['Ireland'],39.46,-16.49,-6.31,-22.04,-2.98,30.0,-1.25,Moderate Direct Evidence (40-149 HP),390.0,56.0,20,7.08,-30.38,-2.61
-232,234,20005,Arshad Khan,"['Gujarat Titans', 'Lucknow Super Giants', 'Mumbai Indians']",38.8,-21.48,-8.95,-9.96,-1.18,32.0,-1.07,Limited Direct Evidence (<40 HP),376.0,29.0,25,7.18,-35.55,-7.41
-233,218,3727,Matthew Short,"['Australia', 'Chennai Super Kings', 'Punjab Kings']",38.49,-16.77,-6.46,-17.74,-2.34,13.333333333333334,-2.71,Limited Direct Evidence (<40 HP),151.0,7.0,15,9.49,-35.37,1.83
-234,241,17424,Graham Hume,['Ireland'],38.49,-22.95,-9.72,-11.54,-1.41,40.0,-0.38,Limited Direct Evidence (<40 HP),188.0,38.0,10,8.96,-40.5,-5.4
-235,243,6671,Lalit Yadav,['Delhi Capitals'],37.95,-23.1,-9.8,-7.96,-0.88,28.57142857142857,-1.37,Limited Direct Evidence (<40 HP),204.0,9.0,14,8.75,-40.25,-5.95
-236,227,6726,Romario Shepherd,"['Lucknow Super Giants', 'Mumbai Indians', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad', 'West Indies']",37.91,-19.29,-7.79,-27.2,-3.75,38.04347826086957,-0.55,Moderate Direct Evidence (40-149 HP),1539.0,136.0,92,4.01,-27.14,-11.44
-237,236,6281,Abhishek Sharma,"['India', 'India A', 'Sunrisers Hyderabad']",37.11,-21.67,-9.05,-12.77,-1.6,18.6046511627907,-2.25,Limited Direct Evidence (<40 HP),427.0,0.0,43,6.85,-35.1,-8.24
-238,244,4636,Bjorn Fortuin,['South Africa'],37.03,-23.22,-9.86,-14.93,-1.92,30.76923076923077,-1.18,Limited Direct Evidence (<40 HP),210.0,25.0,13,8.68,-40.23,-6.21
-239,208,25128,Nqabayomzi Peter,['South Africa'],36.9,-15.6,-5.85,-44.27,-6.3,33.33333333333333,-0.96,Limited Direct Evidence (<40 HP),162.0,15.0,9,9.32,-33.87,2.67
-240,245,7094,Curtis Campher,['Ireland'],36.31,-24.01,-10.28,-11.09,-1.35,20.689655172413794,-2.06,Limited Direct Evidence (<40 HP),396.0,13.0,29,7.05,-37.82,-10.2
-241,230,3272,Fabian Allen,"['Mumbai Indians', 'West Indies']",36.28,-19.75,-8.03,-19.11,-2.54,8.333333333333332,-3.14,Limited Direct Evidence (<40 HP),179.0,0.0,12,9.08,-37.54,-1.96
-242,242,7472,Shahbaz Ahmed,"['India', 'Lucknow Super Giants', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",35.92,-23.02,-9.76,-16.26,-2.12,19.047619047619047,-2.21,Limited Direct Evidence (<40 HP),535.0,0.0,42,6.29,-35.35,-10.69
-243,246,4487,Vyshak Kumar,"['India', 'India A', 'Punjab Kings', 'Royal Challengers Bengaluru']",35.77,-25.75,-11.2,-22.19,-3.0,44.0,-0.03,Moderate Direct Evidence (40-149 HP),519.0,67.0,25,6.37,-38.23,-13.27
-244,247,4824,Zeeshan Ansari,['Sunrisers Hyderabad'],35.33,-27.63,-12.19,-4.49,-0.36,20.0,-2.12,Limited Direct Evidence (<40 HP),203.0,25.0,10,8.76,-44.8,-10.45
-245,249,19530,Shahnawaz Dhani,"['Pakistan', 'Pakistan A']",35.28,-31.5,-14.23,-5.41,-0.5,44.44444444444444,0.01,Limited Direct Evidence (<40 HP),170.0,19.0,9,9.2,-49.54,-13.46
-246,240,27466,Dhruv Parashar,['United Arab Emirates'],34.96,-22.91,-9.7,-17.76,-2.34,10.0,-3.0,Limited Direct Evidence (<40 HP),186.0,9.0,10,8.98,-40.52,-5.31
-247,248,7270,Anrich Nortje,"['Delhi Capitals', 'Kolkata Knight Riders', 'Lucknow Super Giants', 'South Africa']",34.29,-29.56,-13.21,-16.92,-2.22,41.02564102564102,-0.29,Moderate Direct Evidence (40-149 HP),836.0,118.0,39,5.24,-39.83,-19.28
-248,179,56817,Shivang Kumar,['Sunrisers Hyderabad'],33.48,-11.46,-3.66,-84.73,-12.34,38.46153846153847,-0.51,Limited Direct Evidence (<40 HP),234.0,18.0,13,8.4,-27.93,5.01
-249,239,4237,Tabraiz Shamsi,['South Africa'],33.3,-22.89,-9.69,-37.73,-5.32,25.0,-1.69,Limited Direct Evidence (<40 HP),310.0,35.0,16,7.68,-37.94,-7.85
-250,252,2304,Tymal Mills,"['England', 'Mumbai Indians']",32.25,-32.28,-14.64,-16.46,-2.15,33.33333333333333,-0.96,Limited Direct Evidence (<40 HP),229.0,34.0,12,8.46,-48.86,-15.71
-251,255,6677,Mohammad Hasnain,['Pakistan'],32.16,-36.26,-16.74,4.78,1.03,20.0,-2.12,Limited Direct Evidence (<40 HP),222.0,35.0,10,8.54,-52.99,-19.53
-252,251,33969,Tinotenda Maposa,['Zimbabwe'],32.1,-32.1,-14.55,-8.34,-0.93,16.666666666666664,-2.41,Limited Direct Evidence (<40 HP),176.0,6.0,12,9.12,-49.98,-14.23
-253,250,7473,Akash Deep,"['Kolkata Knight Riders', 'Lucknow Super Giants', 'Royal Challengers Bengaluru']",31.53,-32.09,-14.54,-14.97,-1.92,21.428571428571427,-2.0,Limited Direct Evidence (<40 HP),278.0,10.0,14,7.96,-47.69,-16.5
-254,253,786,Chris Jordan,"['Chennai Super Kings', 'England', 'Mumbai Indians']",31.05,-34.67,-15.9,-11.75,-1.44,25.925925925925924,-1.61,Moderate Direct Evidence (40-149 HP),550.0,106.0,27,6.22,-46.87,-22.48
-255,254,8326,Jayden Seales,['West Indies'],29.53,-34.96,-16.06,-18.69,-2.48,22.22222222222222,-1.93,Limited Direct Evidence (<40 HP),180.0,18.0,9,9.06,-52.72,-17.2
-256,256,8221,Nitish Reddy,"['India', 'Sunrisers Hyderabad']",28.18,-38.95,-18.16,-18.65,-2.47,30.76923076923077,-1.18,Moderate Direct Evidence (40-149 HP),565.0,111.0,39,6.16,-51.02,-26.88
-257,257,26663,Kwena Maphaka,"['Mumbai Indians', 'Rajasthan Royals', 'South Africa']",27.47,-40.84,-19.16,-24.37,-3.33,43.75,-0.05,Moderate Direct Evidence (40-149 HP),305.0,65.0,16,7.72,-55.97,-25.71
-258,258,3605,Aiden Markram,"['Lucknow Super Giants', 'South Africa', 'Sunrisers Hyderabad']",24.15,-45.99,-21.87,-16.71,-2.18,23.809523809523807,-1.79,Limited Direct Evidence (<40 HP),397.0,35.0,42,7.04,-59.79,-32.19
+rank,v3_rank,player_id,player_name,teams,integrated_pressure_score,pressure_performance_score,pressure_performance_contribution,pressure_prevention_score,pressure_prevention_contribution,consistency_score,consistency_contribution,evidence_tier,total_legal_balls,high_pressure_legal_balls,distinct_matches,posterior_uncertainty,ci_lower_95,ci_upper_95,high_pressure_delivery_events,total_delivery_events
+1,1,7699,Abbas Afridi,"['Pakistan', 'Pakistan A']",78.5,42.86,24.99,2.16,0.63,77.27272727272727,2.88,Moderate Direct Evidence (25-99 HP),399.0,64,22,7.03,29.09,56.64,66,418
+2,2,2985,Mark Wood,"['England', 'Lucknow Super Giants']",73.89,32.86,19.71,6.81,1.33,76.92307692307693,2.85,Moderate Direct Evidence (25-99 HP),281.0,27,13,7.93,17.32,48.41,28,299
+3,16,3578,Imad Wasim,['Pakistan'],66.66,14.95,10.27,24.83,4.02,71.42857142857143,2.37,Limited Direct Evidence (<25 HP),246.0,6,14,8.27,-1.26,31.17,6,254
+4,5,8661,Matheesha Pathirana,"['Chennai Super Kings', 'Kolkata Knight Riders', 'Sri Lanka']",66.37,21.29,13.61,1.17,0.49,70.37037037037037,2.28,Moderate Direct Evidence (25-99 HP),1132.0,82,54,4.6,12.28,30.31,88,1279
+5,4,3629,Corbin Bosch,"['Mumbai Indians', 'Rajasthan Royals', 'South Africa']",65.68,21.39,13.66,-2.69,-0.09,68.42105263157895,2.11,Limited Direct Evidence (<25 HP),367.0,11,19,7.24,7.2,35.59,12,384
+6,3,3720,Craig Young,['Ireland'],64.99,24.67,15.39,-16.99,-2.23,65.21739130434783,1.83,Moderate Direct Evidence (25-99 HP),466.0,31,23,6.63,11.67,37.67,31,480
+7,12,781,Sunil Narine,['Kolkata Knight Riders'],64.48,16.42,11.04,12.83,2.23,58.2089552238806,1.22,Moderate Direct Evidence (25-99 HP),1533.0,51,67,4.01,8.56,24.29,55,1556
+8,6,7364,Haris Rauf,['Pakistan'],64.46,20.11,12.99,-1.66,0.06,60.41666666666666,1.41,Moderate Direct Evidence (25-99 HP),1027.0,99,48,4.8,10.71,29.52,106,1063
+9,18,6450,Mujeeb Ur Rahman,"['Afghanistan', 'Kolkata Knight Riders', 'Mumbai Indians']",64.38,14.22,9.88,17.02,2.85,63.1578947368421,1.65,Limited Direct Evidence (<25 HP),820.0,18,38,5.29,3.86,24.58,18,849
+10,8,161,Dwayne Bravo,['Chennai Super Kings'],64.09,18.41,12.09,2.11,0.63,60.0,1.37,Limited Direct Evidence (<25 HP),206.0,8,10,8.73,1.31,35.52,9,229
+11,27,5750,Ehsan Khan,['Hong Kong'],63.82,12.14,8.78,21.01,3.45,62.5,1.59,Moderate Direct Evidence (25-99 HP),186.0,28,8,8.98,-5.46,29.74,30,191
+12,7,2490,Mohammad Nawaz,['Pakistan'],63.81,18.61,12.2,4.26,0.95,51.92307692307693,0.67,Limited Direct Evidence (<25 HP),1004.0,18,52,4.85,9.11,28.11,20,1017
+13,14,34485,Sufiyan Muqeem,"['Pakistan', 'Pakistan A']",63.61,15.59,10.6,6.13,1.23,64.70588235294117,1.78,Limited Direct Evidence (<25 HP),344.0,0,17,7.41,1.07,30.11,0,351
+14,25,20704,Salman Mirza,"['Pakistan', 'Pakistan A']",63.53,12.48,8.96,19.33,3.2,60.0,1.37,Limited Direct Evidence (<25 HP),328.0,6,15,7.53,-2.28,27.24,6,339
+15,33,28756,Haider Ali,['United Arab Emirates'],63.4,11.07,8.22,24.42,3.96,58.333333333333336,1.23,Limited Direct Evidence (<25 HP),270.0,12,12,8.03,-4.67,26.82,12,273
+16,11,4499,Saqib Mahmood,['England'],63.23,16.99,11.34,4.55,0.99,54.54545454545454,0.9,Limited Direct Evidence (<25 HP),228.0,9,11,8.47,0.39,33.59,9,243
+17,17,7920,Nathan Ellis,"['Australia', 'Chennai Super Kings', 'Punjab Kings']",62.66,14.92,10.25,10.04,1.81,51.16279069767442,0.6,Moderate Direct Evidence (25-99 HP),916.0,84,43,5.04,5.03,24.8,89,959
+18,13,5979,Abrar Ahmed,['Pakistan'],62.63,16.08,10.86,2.24,0.65,57.14285714285714,1.12,Limited Direct Evidence (<25 HP),764.0,19,35,5.45,5.4,26.75,20,776
+19,9,6097,Brydon Carse,"['England', 'Sunrisers Hyderabad']",62.46,17.21,11.46,-5.48,-0.51,61.53846153846154,1.51,Moderate Direct Evidence (25-99 HP),268.0,30,13,8.05,1.42,32.99,31,283
+20,21,6669,Mohsin Khan,['Lucknow Super Giants'],62.34,13.1,9.29,13.05,2.26,53.333333333333336,0.79,Moderate Direct Evidence (25-99 HP),654.0,35,30,5.81,1.72,24.48,35,678
+21,22,3281,Mosaddek Hossain,['Bangladesh'],62.09,12.98,9.23,11.08,1.97,54.54545454545454,0.9,Limited Direct Evidence (<25 HP),159.0,4,11,9.37,-5.38,31.34,4,163
+22,19,22471,Matthew Humphreys,['Ireland'],62.06,14.19,9.87,5.12,1.08,57.14285714285714,1.12,Limited Direct Evidence (<25 HP),305.0,12,14,7.72,-0.94,29.32,14,315
+23,37,4812,Harry Tector,['Ireland'],62.0,10.41,7.87,22.19,3.63,50.0,0.5,Limited Direct Evidence (<25 HP),228.0,18,16,8.47,-6.18,27.01,22,248
+24,32,46378,Kyle Klein,['Netherlands'],61.99,11.18,8.28,12.12,2.12,62.5,1.59,Limited Direct Evidence (<25 HP),163.0,3,8,9.31,-7.06,29.42,3,173
+25,23,4807,Joshua Little,"['Gujarat Titans', 'Ireland']",61.81,12.92,9.2,12.09,2.12,50.0,0.5,Moderate Direct Evidence (25-99 HP),780.0,30,36,5.4,2.34,23.5,33,815
+26,39,2933,Jasprit Bumrah,"['India', 'Mumbai Indians']",61.8,9.62,7.46,21.69,3.55,53.333333333333336,0.79,Strong Direct Evidence (>=100 HP),1708.0,125,75,3.82,2.14,17.11,132,1780
+27,31,830,Josh Hazlewood,"['Australia', 'Royal Challengers Bengaluru']",61.5,11.2,8.29,12.05,2.11,56.92307692307692,1.1,Moderate Direct Evidence (25-99 HP),1476.0,63,65,4.08,3.2,19.21,65,1515
+28,10,4900,Wanindu Hasaranga,"['Lucknow Super Giants', 'Rajasthan Royals', 'Royal Challengers Bengaluru', 'Sri Lanka', 'Sunrisers Hyderabad']",61.46,17.07,11.39,-9.09,-1.05,57.14285714285714,1.12,Moderate Direct Evidence (25-99 HP),2035.0,84,91,3.52,10.17,23.97,84,2054
+29,28,6256,Varun Chakravarthy,"['India', 'Kolkata Knight Riders']",61.14,12.05,8.74,8.5,1.58,53.68421052631579,0.82,Moderate Direct Evidence (25-99 HP),2128.0,73,95,3.45,5.29,18.81,76,2182
+30,36,4722,Rashid Khan,"['Afghanistan', 'Gujarat Titans']",60.76,10.45,7.89,9.91,1.79,56.55737704918032,1.07,Moderate Direct Evidence (25-99 HP),2747.0,89,122,3.06,4.45,16.44,90,2780
+31,30,6355,Shaheen Afridi,['Pakistan'],60.59,11.21,8.29,6.81,1.33,55.319148936170215,0.96,Moderate Direct Evidence (25-99 HP),990.0,52,47,4.88,1.65,20.76,53,1036
+32,35,42548,Muhammad Jawadullah,['United Arab Emirates'],60.54,10.46,7.9,9.05,1.66,55.55555555555556,0.98,Limited Direct Evidence (<25 HP),204.0,24,9,8.75,-6.69,27.61,25,214
+33,26,23,Piyush Chawla,['Mumbai Indians'],60.4,12.37,8.91,-0.82,0.19,59.25925925925925,1.31,Moderate Direct Evidence (25-99 HP),576.0,33,27,6.11,0.4,24.35,35,586
+34,29,818,Mitchell Marsh,"['Australia', 'Delhi Capitals', 'Lucknow Super Giants']",60.21,11.6,8.5,10.63,1.9,42.10526315789473,-0.19,Moderate Direct Evidence (25-99 HP),295.0,36,19,7.8,-3.7,26.9,44,320
+35,24,7967,Noor Ahmad,"['Afghanistan', 'Chennai Super Kings', 'Gujarat Titans']",59.96,12.61,9.03,1.66,0.56,48.57142857142857,0.37,Limited Direct Evidence (<25 HP),1467.0,7,70,4.09,4.59,20.64,7,1537
+36,60,499,Shakib Al Hasan,"['Bangladesh', 'Kolkata Knight Riders']",59.57,4.55,4.78,24.89,4.03,52.94117647058824,0.75,Limited Direct Evidence (<25 HP),340.0,9,17,7.44,-10.03,19.13,9,344
+37,48,2681,Taskin Ahmed,['Bangladesh'],59.36,7.92,6.56,9.54,1.74,56.52173913043478,1.07,Moderate Direct Evidence (25-99 HP),1040.0,36,46,4.77,-1.43,17.28,42,1083
+38,51,5837,Mahedi Hasan,['Bangladesh'],59.2,6.85,5.99,16.77,2.82,48.78048780487805,0.39,Limited Direct Evidence (<25 HP),914.0,20,41,5.05,-3.05,16.74,20,935
+39,42,5809,Naveen ul Haq,"['Afghanistan', 'Lucknow Super Giants']",59.09,8.55,6.89,2.22,0.64,62.16216216216216,1.56,Moderate Direct Evidence (25-99 HP),786.0,31,37,5.38,-1.99,19.1,32,824
+40,44,28,Ishant Sharma,"['Delhi Capitals', 'Gujarat Titans']",58.64,8.42,6.82,1.88,0.59,58.333333333333336,1.23,Limited Direct Evidence (<25 HP),422.0,11,24,6.88,-5.07,21.91,12,456
+41,46,8009,Junaid Siddique,['United Arab Emirates'],58.5,8.25,6.73,0.54,0.39,60.0,1.37,Limited Direct Evidence (<25 HP),330.0,21,15,7.51,-6.48,22.98,22,354
+42,53,278,Tim Southee,"['Kolkata Knight Riders', 'New Zealand']",58.1,5.91,5.5,5.5,1.13,61.11111111111112,1.47,Moderate Direct Evidence (25-99 HP),826.0,25,36,5.27,-4.42,16.24,26,861
+43,70,6523,Blessing Muzarabani,"['Kolkata Knight Riders', 'Royal Challengers Bengaluru', 'Zimbabwe']",57.95,3.55,4.25,16.98,2.85,54.054054054054056,0.85,Moderate Direct Evidence (25-99 HP),820.0,50,37,5.29,-6.81,13.91,54,846
+44,47,4856,Benjamin Sears,['New Zealand'],57.95,8.03,6.62,-4.47,-0.36,63.63636363636363,1.69,Limited Direct Evidence (<25 HP),453.0,11,22,6.7,-5.11,21.17,11,463
+45,40,7690,Saim Ayub,['Pakistan'],57.91,8.94,7.1,1.82,0.58,46.875,0.22,Limited Direct Evidence (<25 HP),510.0,0,32,6.41,-3.62,21.5,0,523
+46,52,6643,Hasan Mahmud,['Bangladesh'],57.81,6.74,5.94,1.28,0.5,60.0,1.37,Limited Direct Evidence (<25 HP),396.0,12,20,7.05,-7.07,20.55,12,412
+47,71,360,Bhuvneshwar Kumar,"['India', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",57.81,3.51,4.23,19.42,3.21,48.51485148514851,0.37,Strong Direct Evidence (>=100 HP),2221.0,140,101,3.38,-3.12,10.13,149,2314
+48,43,1596,Moeen Ali,"['Chennai Super Kings', 'England', 'Kolkata Knight Riders']",57.79,8.5,6.87,2.77,0.72,46.55172413793103,0.2,Limited Direct Evidence (<25 HP),805.0,0,58,5.33,-1.95,18.94,0,821
+49,58,2320,Trent Boult,"['Mumbai Indians', 'New Zealand', 'Rajasthan Royals']",57.76,4.92,4.98,14.92,2.54,47.14285714285714,0.25,Moderate Direct Evidence (25-99 HP),1543.0,55,70,4.0,-2.93,12.76,60,1605
+50,45,3641,Ben Dwarshuis,"['Australia', 'Punjab Kings']",57.74,8.39,6.81,-3.38,-0.19,57.14285714285714,1.12,Moderate Direct Evidence (25-99 HP),324.0,49,14,7.56,-6.43,23.21,51,334
+51,61,4816,Khaleel Ahmed,"['Chennai Super Kings', 'Delhi Capitals', 'India']",57.62,4.49,4.75,11.73,2.06,53.57142857142857,0.81,Moderate Direct Evidence (25-99 HP),1198.0,80,56,4.48,-4.3,13.27,91,1267
+52,72,4101,Mitchell Santner,"['Chennai Super Kings', 'Mumbai Indians', 'New Zealand']",57.62,3.24,4.09,16.46,2.77,53.01204819277109,0.76,Moderate Direct Evidence (25-99 HP),1737.0,57,83,3.79,-4.19,10.67,59,1793
+53,34,829,Mitchell Starc,"['Australia', 'Delhi Capitals', 'Kolkata Knight Riders']",57.56,10.57,7.96,-5.85,-0.56,46.15384615384615,0.16,Moderate Direct Evidence (25-99 HP),808.0,46,39,5.32,0.14,20.99,50,866
+54,63,1219,David Willey,"['England', 'Lucknow Super Giants', 'Royal Challengers Bengaluru']",57.48,4.42,4.71,11.6,2.04,52.63157894736842,0.73,Limited Direct Evidence (<25 HP),380.0,18,19,7.15,-9.59,18.44,19,396
+55,15,25132,Praful Hinge,['Sunrisers Hyderabad'],57.47,15.36,10.48,-21.42,-2.89,42.85714285714285,-0.13,Moderate Direct Evidence (25-99 HP),156.0,48,7,9.41,-3.09,33.8,51,168
+56,50,722,Liam Dawson,['England'],57.46,6.93,6.04,6.78,1.32,45.45454545454545,0.1,Limited Direct Evidence (<25 HP),415.0,17,22,6.93,-6.64,20.51,18,424
+57,38,5577,Sai Kishore,"['Gujarat Titans', 'India A']",57.36,10.35,7.84,-16.23,-2.11,62.96296296296296,1.63,Moderate Direct Evidence (25-99 HP),465.0,30,27,6.64,-2.66,23.36,30,477
+58,20,3644,Kuldeep Yadav,"['Delhi Capitals', 'India']",57.29,13.32,9.41,-21.87,-2.96,53.93258426966292,0.84,Moderate Direct Evidence (25-99 HP),1914.0,67,89,3.62,6.22,20.42,70,1965
+59,55,7503,Ravi Bishnoi,"['India', 'Lucknow Super Giants', 'Rajasthan Royals']",57.21,5.7,5.39,7.02,1.36,49.54128440366973,0.46,Moderate Direct Evidence (25-99 HP),2327.0,51,109,3.31,-0.79,12.18,54,2429
+60,62,6237,Manimaran Siddharth,['Lucknow Super Giants'],57.08,4.46,4.73,7.03,1.36,55.55555555555556,0.98,Limited Direct Evidence (<25 HP),186.0,12,9,8.98,-13.14,22.07,12,193
+61,75,1566,Mohammed Shami,"['Gujarat Titans', 'India', 'Lucknow Super Giants', 'Sunrisers Hyderabad']",57.02,3.07,4.0,17.35,2.9,45.614035087719294,0.11,Moderate Direct Evidence (25-99 HP),1275.0,26,57,4.36,-5.48,11.61,29,1329
+62,65,2054,Jason Behrendorff,"['Australia', 'Mumbai Indians', 'Royal Challengers Bengaluru']",56.65,4.26,4.63,8.11,1.52,50.0,0.5,Moderate Direct Evidence (25-99 HP),438.0,29,20,6.79,-9.05,17.57,30,455
+63,54,1612,Yuzvendra Chahal,"['India', 'Punjab Kings', 'Rajasthan Royals']",56.58,5.73,5.4,6.05,1.21,43.87755102040816,-0.04,Moderate Direct Evidence (25-99 HP),2138.0,51,98,3.44,-1.02,12.47,58,2218
+64,78,6512,Michael Bracewell,"['New Zealand', 'Royal Challengers Bengaluru']",56.2,2.6,3.75,11.69,2.06,48.78048780487805,0.39,Limited Direct Evidence (<25 HP),678.0,5,41,5.72,-8.62,13.81,6,701
+65,59,5034,Murugan Ashwin,"['Mumbai Indians', 'Rajasthan Royals']",55.81,4.8,4.91,6.46,1.28,40.0,-0.38,Limited Direct Evidence (<25 HP),198.0,0,10,8.83,-12.5,22.1,0,204
+66,49,5189,Faheem Ashraf,['Pakistan'],55.77,6.95,6.05,0.02,0.31,37.5,-0.59,Moderate Direct Evidence (25-99 HP),442.0,31,32,6.77,-6.31,20.21,31,452
+67,80,4489,Prasidh Krishna,"['Gujarat Titans', 'India', 'Rajasthan Royals']",55.6,2.3,3.6,12.49,2.18,42.30769230769231,-0.17,Moderate Direct Evidence (25-99 HP),1173.0,89,52,4.53,-6.58,11.17,95,1234
+68,41,8634,Ashwani Kumar,['Mumbai Indians'],55.47,8.71,6.98,-15.47,-2.0,50.0,0.5,Limited Direct Evidence (<25 HP),183.0,6,10,9.02,-8.98,26.39,6,196
+69,66,4219,Krunal Pandya,"['Lucknow Super Giants', 'Royal Challengers Bengaluru']",55.37,3.99,4.49,3.19,0.79,45.45454545454545,0.1,Moderate Direct Evidence (25-99 HP),1257.0,32,66,4.39,-4.62,12.59,35,1286
+70,87,5379,Mark Adair,['Ireland'],55.36,0.97,2.89,13.99,2.4,45.0,0.06,Moderate Direct Evidence (25-99 HP),845.0,77,40,5.22,-9.26,11.2,83,906
+71,97,152,Ravindra Jadeja,"['Chennai Super Kings', 'India', 'Rajasthan Royals']",55.28,0.15,2.46,19.75,3.26,39.18918918918919,-0.45,Limited Direct Evidence (<25 HP),1396.0,14,74,4.19,-8.06,8.36,15,1423
+72,67,22920,Jacob Duffy,"['New Zealand', 'Royal Challengers Bengaluru']",55.24,3.91,4.44,1.32,0.51,47.61904761904761,0.29,Moderate Direct Evidence (25-99 HP),877.0,60,42,5.14,-6.16,13.98,64,933
+73,64,1101,George Dockrell,['Ireland'],55.14,4.37,4.69,7.39,1.41,33.33333333333333,-0.96,Limited Direct Evidence (<25 HP),186.0,0,15,8.98,-13.23,21.98,0,190
+74,69,8746,Vaibhav Arora,"['India A', 'Kolkata Knight Riders', 'Punjab Kings']",54.97,3.85,4.41,-1.7,0.06,50.0,0.5,Moderate Direct Evidence (25-99 HP),866.0,58,42,5.17,-6.28,13.97,66,931
+75,116,3056,Iftikhar Ahmed,['Pakistan'],54.84,-2.53,1.05,32.52,5.17,28.57142857142857,-1.37,Limited Direct Evidence (<25 HP),186.0,0,14,8.98,-20.13,15.07,0,189
+76,57,286,Kane Richardson,['Australia'],54.59,5.54,5.3,-13.43,-1.69,55.55555555555556,0.98,Limited Direct Evidence (<25 HP),198.0,12,9,8.83,-11.75,22.84,12,207
+77,102,5892,Blair Tickner,['New Zealand'],54.54,-0.76,1.98,9.03,1.66,54.54545454545454,0.9,Limited Direct Evidence (<25 HP),215.0,21,11,8.62,-17.65,16.13,23,225
+78,74,7896,Akash Singh,"['Chennai Super Kings', 'Lucknow Super Giants', 'Sunrisers Hyderabad']",54.49,3.15,4.04,-5.1,-0.45,54.54545454545454,0.9,Limited Direct Evidence (<25 HP),223.0,0,11,8.52,-13.55,19.86,0,232
+79,56,2261,Harshal Patel,"['India', 'Punjab Kings', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",54.45,5.57,5.32,-9.38,-1.09,46.83544303797469,0.22,Strong Direct Evidence (>=100 HP),1643.0,121,79,3.89,-2.05,13.19,135,1748
+80,81,2636,Adam Zampa,"['Australia', 'Rajasthan Royals', 'Sunrisers Hyderabad']",54.4,2.17,3.53,2.71,0.72,46.15384615384615,0.16,Moderate Direct Evidence (25-99 HP),1152.0,68,52,4.56,-6.77,11.11,71,1175
+81,76,39657,Eshan Malinga,"['Sri Lanka', 'Sri Lanka A', 'Sunrisers Hyderabad']",54.08,3.05,3.99,-8.55,-0.97,56.41025641025641,1.06,Moderate Direct Evidence (25-99 HP),807.0,76,39,5.32,-7.38,13.48,83,868
+82,89,4658,Nasum Ahmed,['Bangladesh'],54.04,0.8,2.8,7.88,1.49,41.37931034482759,-0.26,Limited Direct Evidence (<25 HP),600.0,6,29,6.01,-10.98,12.59,6,607
+83,85,7250,Mukesh Choudhary,['Chennai Super Kings'],54.03,1.43,3.14,0.58,0.4,50.0,0.5,Limited Direct Evidence (<25 HP),483.0,15,24,6.54,-11.4,14.25,15,512
+84,84,914,Krishnappa Gowtham,['Lucknow Super Giants'],53.98,1.54,3.19,-8.16,-0.91,63.63636363636363,1.69,Limited Direct Evidence (<25 HP),180.0,0,11,9.06,-16.22,19.3,0,185
+85,108,403,Umesh Yadav,"['Gujarat Titans', 'India', 'Kolkata Knight Riders']",53.8,-1.37,1.66,9.93,1.79,48.27586206896552,0.35,Limited Direct Evidence (<25 HP),558.0,17,29,6.19,-13.5,10.76,20,572
+86,111,21784,Brad Evans,['Zimbabwe'],53.75,-2.04,1.31,9.58,1.74,52.38095238095239,0.71,Moderate Direct Evidence (25-99 HP),438.0,50,21,6.79,-15.35,11.27,53,457
+87,98,2876,Axar Patel,"['Delhi Capitals', 'India']",53.63,0.12,2.45,4.67,1.01,46.32352941176471,0.18,Strong Direct Evidence (>=100 HP),2670.0,106,136,3.1,-5.96,6.2,108,2707
+88,88,6464,Arshdeep Singh,"['India', 'Punjab Kings']",53.48,0.9,2.86,0.95,0.45,46.25850340136054,0.17,Strong Direct Evidence (>=100 HP),3207.0,239,147,2.84,-4.67,6.47,270,3432
+89,90,6284,Anukul Roy,['Kolkata Knight Riders'],53.47,0.79,2.8,-5.13,-0.46,57.14285714285714,1.12,Limited Direct Evidence (<25 HP),311.0,0,21,7.67,-14.24,15.82,0,336
+90,101,1813,Deepak Chahar,"['Chennai Super Kings', 'India', 'Mumbai Indians']",53.44,-0.73,2.0,6.66,1.31,45.83333333333333,0.13,Moderate Direct Evidence (25-99 HP),917.0,31,48,5.04,-10.61,9.15,36,964
+91,113,479,Adil Rashid,"['England', 'Sunrisers Hyderabad']",53.42,-2.42,1.11,4.83,1.03,59.01639344262295,1.29,Moderate Direct Evidence (25-99 HP),1324.0,89,61,4.29,-10.82,5.99,91,1347
+92,67,1171,Chris Woakes,"['England', 'Punjab Kings']",53.42,3.91,4.44,1.04,0.47,27.27272727272727,-1.49,Limited Direct Evidence (<25 HP),164.0,0,11,9.29,-14.3,22.12,0,166
+93,91,7741,Gareth Delany,['Ireland'],53.31,0.66,2.73,-0.71,0.21,48.57142857142857,0.37,Moderate Direct Evidence (25-99 HP),552.0,37,35,6.21,-11.51,12.84,37,566
+94,79,1071,Jaydev Unadkat,"['Lucknow Super Giants', 'Mumbai Indians', 'Sunrisers Hyderabad']",53.24,2.46,3.68,-4.45,-0.35,43.333333333333336,-0.08,Moderate Direct Evidence (25-99 HP),575.0,36,30,6.11,-9.52,14.45,39,599
+95,128,2997,Paul van Meekeren,['Netherlands'],53.2,-3.91,0.32,8.04,1.51,60.0,1.37,Limited Direct Evidence (<25 HP),187.0,0,10,8.97,-21.48,13.67,0,196
+96,92,5940,Riley Meredith,"['Australia', 'Mumbai Indians']",53.12,0.65,2.73,1.38,0.52,42.85714285714285,-0.13,Limited Direct Evidence (<25 HP),310.0,8,14,7.68,-14.4,15.69,8,331
+97,82,28915,Trevor Gwandu,['Zimbabwe'],52.93,1.71,3.28,-0.49,0.24,37.5,-0.59,Limited Direct Evidence (<25 HP),150.0,0,8,9.51,-16.92,20.34,0,162
+98,83,7325,Harpreet Brar,['Punjab Kings'],52.84,1.59,3.22,-4.88,-0.42,44.73684210526316,0.04,Moderate Direct Evidence (25-99 HP),667.0,31,38,5.76,-9.69,12.88,33,679
+99,100,6676,Azmatullah Omarzai,"['Afghanistan', 'Gujarat Titans', 'Punjab Kings']",52.57,-0.26,2.25,1.72,0.57,41.53846153846154,-0.24,Moderate Direct Evidence (25-99 HP),1067.0,37,65,4.72,-9.51,8.99,37,1118
+100,103,7545,Kuldeep Sen,"['Punjab Kings', 'Rajasthan Royals']",52.54,-1.02,1.84,4.14,0.93,41.66666666666667,-0.23,Limited Direct Evidence (<25 HP),241.0,6,12,8.33,-17.34,15.3,6,255
+101,99,8380,Mohammad Rishad Hossain,['Bangladesh'],52.48,-0.07,2.35,-2.75,-0.1,46.93877551020408,0.23,Moderate Direct Evidence (25-99 HP),1018.0,33,49,4.82,-9.52,9.37,36,1033
+102,110,2417,Akeal Hosein,"['Chennai Super Kings', 'Sunrisers Hyderabad', 'West Indies']",52.47,-1.91,1.37,2.3,0.65,49.36708860759494,0.44,Moderate Direct Evidence (25-99 HP),1692.0,43,79,3.84,-9.43,5.61,49,1734
+103,105,305,Ravichandran Ashwin,"['Chennai Super Kings', 'India', 'Rajasthan Royals']",52.4,-1.12,1.79,3.92,0.9,40.98360655737705,-0.29,Limited Direct Evidence (<25 HP),1404.0,12,61,4.18,-9.31,7.06,12,1462
+104,125,7344,Shoriful Islam,['Bangladesh'],52.39,-3.52,0.53,12.33,2.15,41.02564102564102,-0.29,Moderate Direct Evidence (25-99 HP),790.0,38,39,5.37,-14.05,7.0,39,823
+105,86,2687,Roston Chase,['West Indies'],52.38,1.42,3.13,-7.22,-0.77,44.44444444444444,0.01,Moderate Direct Evidence (25-99 HP),834.0,55,45,5.25,-8.87,11.71,58,862
+106,95,8177,Akash Madhwal,"['Chennai Super Kings', 'Mumbai Indians', 'Rajasthan Royals']",52.34,0.28,2.53,1.94,0.6,35.294117647058826,-0.79,Moderate Direct Evidence (25-99 HP),352.0,57,17,7.35,-14.12,14.68,65,376
+107,118,1617,Rishi Dhawan,['Punjab Kings'],52.29,-2.69,0.96,6.14,1.23,45.45454545454545,0.1,Limited Direct Evidence (<25 HP),174.0,0,11,9.15,-20.62,15.23,0,180
+108,142,56685,Abdullah Ahmadzai,"['Afghanistan', 'Afghanistan A']",52.24,-5.82,-0.69,8.35,1.56,60.0,1.37,Limited Direct Evidence (<25 HP),190.0,24,10,8.93,-23.32,11.68,26,200
+109,115,8614,William ORourke,"['Lucknow Super Giants', 'New Zealand']",52.24,-2.51,1.06,2.48,0.68,50.0,0.5,Limited Direct Evidence (<25 HP),182.0,6,8,9.04,-20.21,15.2,6,195
+110,106,1541,Sean Williams,['Zimbabwe'],51.91,-1.3,1.7,4.38,0.97,35.714285714285715,-0.75,Limited Direct Evidence (<25 HP),162.0,0,14,9.32,-19.57,16.97,0,165
+111,94,4823,Washington Sundar,"['Gujarat Titans', 'India', 'Sunrisers Hyderabad']",51.89,0.51,2.65,-3.06,-0.15,37.25490196078432,-0.62,Limited Direct Evidence (<25 HP),789.0,17,51,5.37,-10.02,11.04,18,806
+112,117,7312,Nandre Burger,"['Rajasthan Royals', 'South Africa']",51.89,-2.54,1.04,-5.08,-0.45,59.09090909090909,1.29,Limited Direct Evidence (<25 HP),441.0,24,22,6.77,-15.81,10.73,24,468
+113,137,5944,Mohammed Siraj,"['Gujarat Titans', 'India', 'Royal Challengers Bengaluru']",51.72,-5.31,-0.42,10.69,1.91,46.98795180722892,0.23,Strong Direct Evidence (>=100 HP),1806.0,100,83,3.72,-12.6,1.99,112,1925
+114,77,2382,Jamie Overton,"['Chennai Super Kings', 'England']",51.57,3.03,3.98,-23.51,-3.2,53.333333333333336,0.79,Moderate Direct Evidence (25-99 HP),497.0,28,30,6.47,-9.66,15.71,28,525
+115,123,3298,Jofra Archer,"['England', 'Mumbai Indians', 'Rajasthan Royals']",51.52,-3.39,0.59,-0.29,0.27,51.78571428571429,0.65,Strong Direct Evidence (>=100 HP),1259.0,134,56,4.39,-11.99,5.2,139,1320
+116,119,29888,Harshit Rana,"['India', 'Kolkata Knight Riders']",51.37,-2.78,0.92,-7.69,-0.84,59.09090909090909,1.29,Moderate Direct Evidence (25-99 HP),901.0,40,44,5.08,-12.74,7.17,41,940
+117,109,4229,George Linde,"['Lucknow Super Giants', 'South Africa']",51.33,-1.83,1.42,6.06,1.22,29.411764705882355,-1.3,Limited Direct Evidence (<25 HP),283.0,5,17,7.91,-17.33,13.68,5,295
+118,73,41503,Yash Punja,['Rajasthan Royals'],51.32,3.23,4.09,-23.96,-3.27,50.0,0.5,Limited Direct Evidence (<25 HP),180.0,21,8,9.06,-14.53,21.0,22,186
+119,114,27964,Anshul Kamboj,"['Chennai Super Kings', 'India A', 'Mumbai Indians']",51.23,-2.45,1.09,-8.02,-0.89,56.00000000000001,1.02,Limited Direct Evidence (<25 HP),491.0,24,25,6.5,-15.19,10.3,26,513
+120,93,6272,William Jacks,"['England', 'Mumbai Indians', 'Royal Challengers Bengaluru']",51.01,0.59,2.69,-12.5,-1.56,42.85714285714285,-0.13,Limited Direct Evidence (<25 HP),413.0,8,35,6.94,-13.01,14.19,9,431
+121,96,2984,Sikandar Raza,"['Punjab Kings', 'Zimbabwe']",50.87,0.19,2.48,-9.44,-1.1,38.46153846153847,-0.51,Moderate Direct Evidence (25-99 HP),1091.0,57,52,4.67,-8.97,9.35,58,1116
+122,150,6518,Daniel Sams,"['Australia', 'Lucknow Super Giants', 'Mumbai Indians']",50.86,-6.77,-1.19,16.89,2.83,35.294117647058826,-0.79,Limited Direct Evidence (<25 HP),350.0,24,17,7.36,-21.2,7.67,26,377
+123,154,4373,Mustafizur Rahman,"['Bangladesh', 'Chennai Super Kings', 'Delhi Capitals', 'Kolkata Knight Riders']",50.56,-7.33,-1.48,13.64,2.35,40.845070422535215,-0.3,Strong Direct Evidence (>=100 HP),1576.0,109,71,3.96,-15.1,0.43,123,1646
+124,147,19316,Maheesh Theekshana,"['Chennai Super Kings', 'Rajasthan Royals', 'Sri Lanka']",50.3,-6.4,-0.99,7.66,1.46,42.42424242424242,-0.16,Moderate Direct Evidence (25-99 HP),2265.0,87,99,3.35,-12.96,0.17,99,2322
+125,145,35318,Sakib Hussain,"['Kolkata Knight Riders', 'Sunrisers Hyderabad']",50.16,-6.21,-0.89,-6.34,-0.64,63.63636363636363,1.69,Moderate Direct Evidence (25-99 HP),252.0,32,11,8.21,-22.31,9.88,33,274
+126,126,8805,Ottneil Baartman,['South Africa'],50.04,-3.63,0.47,-4.65,-0.38,43.75,-0.05,Limited Direct Evidence (<25 HP),323.0,18,16,7.57,-18.47,11.21,24,343
+127,167,1159,Tendai Chatara,['Zimbabwe'],50.01,-9.81,-2.79,13.36,2.31,50.0,0.5,Limited Direct Evidence (<25 HP),217.0,12,10,8.59,-26.66,7.03,13,223
+128,135,4641,Lungi Ngidi,"['Delhi Capitals', 'Royal Challengers Bengaluru', 'South Africa']",49.87,-5.1,-0.31,-4.96,-0.43,51.28205128205128,0.61,Strong Direct Evidence (>=100 HP),798.0,122,39,5.35,-15.58,5.38,130,829
+129,124,2526,Ish Sodhi,['New Zealand'],49.73,-3.41,0.58,-7.69,-0.84,44.06779661016949,-0.02,Moderate Direct Evidence (25-99 HP),1175.0,27,59,4.52,-12.27,5.46,28,1206
+130,136,2463,Ryan Burl,['Zimbabwe'],49.72,-5.12,-0.32,0.14,0.33,40.909090909090914,-0.3,Limited Direct Evidence (<25 HP),318.0,14,22,7.61,-20.04,9.8,15,325
+131,148,29066,Zakary Foulkes,"['Chennai Super Kings', 'New Zealand']",49.54,-6.44,-1.01,-1.71,0.06,50.0,0.5,Limited Direct Evidence (<25 HP),364.0,24,18,7.26,-20.67,7.8,25,401
+132,112,1944,Keshav Maharaj,"['Mumbai Indians', 'Rajasthan Royals', 'South Africa']",49.45,-2.4,1.12,-10.71,-1.29,40.0,-0.38,Moderate Direct Evidence (25-99 HP),598.0,38,30,6.02,-14.2,9.39,39,611
+133,127,27743,DT Doram,['Netherlands'],49.4,-3.7,0.43,-9.1,-1.05,44.44444444444444,0.01,Limited Direct Evidence (<25 HP),192.0,0,9,8.9,-21.15,13.75,0,192
+134,139,494,Kieron Pollard,"['Mumbai Indians', 'West Indies']",49.35,-5.42,-0.48,3.14,0.78,33.33333333333333,-0.96,Limited Direct Evidence (<25 HP),185.0,4,12,9.0,-23.06,12.21,5,197
+135,138,6161,Rahul Chahar,"['Chennai Super Kings', 'India A', 'Punjab Kings', 'Sunrisers Hyderabad']",49.26,-5.41,-0.47,-1.05,0.15,39.47368421052632,-0.42,Moderate Direct Evidence (25-99 HP),794.0,41,38,5.36,-15.92,5.09,42,811
+136,130,38855,Mohammad Saifuddin,['Bangladesh'],49.23,-4.17,0.18,-4.83,-0.41,38.095238095238095,-0.54,Limited Direct Evidence (<25 HP),442.0,12,21,6.77,-17.43,9.1,12,475
+137,129,1487,Adam Milne,"['Chennai Super Kings', 'New Zealand', 'Rajasthan Royals']",49.21,-4.07,0.24,-5.51,-0.51,38.46153846153847,-0.51,Moderate Direct Evidence (25-99 HP),545.0,39,26,6.25,-16.31,8.17,40,581
+138,153,6806,Tushar Deshpande,"['Chennai Super Kings', 'India', 'Rajasthan Royals']",49.18,-7.31,-1.47,1.31,0.51,46.0,0.15,Moderate Direct Evidence (25-99 HP),1037.0,98,50,4.78,-16.68,2.06,117,1121
+139,152,1758,Patrick Cummins,"['Australia', 'Kolkata Knight Riders', 'Sunrisers Hyderabad']",48.97,-7.13,-1.38,-2.02,0.01,48.14814814814815,0.34,Strong Direct Evidence (>=100 HP),1215.0,102,54,4.46,-15.86,1.61,107,1269
+140,131,7327,Rasikh Salam,"['Delhi Capitals', 'India A', 'Kolkata Knight Riders', 'Royal Challengers Bengaluru']",48.97,-4.18,0.18,-8.6,-0.97,41.66666666666667,-0.23,Moderate Direct Evidence (25-99 HP),464.0,37,24,6.64,-17.21,8.84,41,490
+141,151,24475,Rehan Ahmed,"['Delhi Capitals', 'England']",48.96,-6.92,-1.27,-6.54,-0.67,54.54545454545454,0.9,Limited Direct Evidence (<25 HP),210.0,0,11,8.68,-23.92,10.09,0,211
+142,173,25030,Zaman Khan,"['Pakistan', 'Pakistan A']",48.96,-10.67,-3.25,15.2,2.58,40.0,-0.38,Limited Direct Evidence (<25 HP),189.0,14,10,8.94,-28.2,6.85,15,200
+143,133,395,Karn Sharma,"['Mumbai Indians', 'Royal Challengers Bengaluru']",48.96,-4.6,-0.04,-7.92,-0.87,42.85714285714285,-0.13,Limited Direct Evidence (<25 HP),363.0,0,21,7.27,-18.85,9.65,0,372
+144,104,3282,Mehidy Hasan Miraz,['Bangladesh'],48.91,-1.08,1.81,-19.67,-2.63,41.17647058823529,-0.27,Limited Direct Evidence (<25 HP),234.0,14,17,8.4,-17.54,15.39,16,236
+145,145,2399,Dushmantha Chameera,"['Delhi Capitals', 'Kolkata Knight Riders', 'Lucknow Super Giants', 'Sri Lanka']",48.84,-6.21,-0.89,-0.02,0.31,37.735849056603776,-0.57,Moderate Direct Evidence (25-99 HP),1151.0,58,53,4.56,-15.15,2.74,62,1204
+146,143,5562,Richard Gleeson,"['Chennai Super Kings', 'England', 'Mumbai Indians', 'Royal Challengers Bengaluru']",48.79,-6.02,-0.79,1.56,0.54,33.33333333333333,-0.96,Limited Direct Evidence (<25 HP),194.0,9,9,8.88,-23.42,11.38,10,203
+147,156,4837,Obed McCoy,"['Rajasthan Royals', 'West Indies']",48.74,-7.8,-1.73,3.24,0.8,40.625,-0.32,Moderate Direct Evidence (25-99 HP),641.0,35,32,5.85,-19.27,3.68,37,692
+148,167,7052,Dunith Wellalage,"['Sri Lanka', 'Sri Lanka A']",48.7,-9.81,-2.79,9.45,1.72,41.66666666666667,-0.23,Limited Direct Evidence (<25 HP),255.0,6,12,8.18,-25.85,6.22,6,260
+149,134,6354,Spencer Johnson,"['Australia', 'Chennai Super Kings', 'Gujarat Titans', 'Kolkata Knight Riders']",48.53,-4.83,-0.17,-7.8,-0.85,39.130434782608695,-0.45,Limited Direct Evidence (<25 HP),438.0,24,23,6.79,-18.14,8.47,26,466
+150,165,4874,Richard Ngarava,['Zimbabwe'],48.31,-9.71,-2.74,11.38,2.01,33.33333333333333,-0.96,Moderate Direct Evidence (25-99 HP),846.0,34,39,5.22,-19.93,0.52,35,889
+151,148,3330,Hardik Pandya,"['Gujarat Titans', 'India', 'Mumbai Indians']",48.24,-6.44,-1.01,-2.8,-0.11,36.93693693693694,-0.64,Moderate Direct Evidence (25-99 HP),1825.0,76,111,3.7,-13.7,0.82,86,1930
+152,120,4201,Fareed Malik,['Afghanistan'],48.06,-2.91,0.85,-15.45,-2.0,35.294117647058826,-0.79,Limited Direct Evidence (<25 HP),308.0,18,17,7.69,-17.99,12.17,18,316
+153,158,58134,Digvesh Rathi,['Lucknow Super Giants'],48.05,-8.08,-1.88,-2.05,0.0,43.47826086956522,-0.07,Limited Direct Evidence (<25 HP),546.0,10,23,6.24,-20.31,4.15,11,561
+154,187,2411,Sandeep Sharma,"['Punjab Kings', 'Rajasthan Royals']",48.01,-12.23,-4.07,15.95,2.69,37.2093023255814,-0.62,Moderate Direct Evidence (25-99 HP),965.0,96,43,4.93,-21.9,-2.57,106,1022
+155,122,4840,Odean Smith,"['Gujarat Titans', 'Punjab Kings', 'West Indies']",47.99,-3.11,0.74,-16.5,-2.15,37.5,-0.59,Limited Direct Evidence (<25 HP),384.0,24,24,7.12,-17.08,10.85,27,414
+156,144,2334,Dwaine Pretorius,"['Chennai Super Kings', 'South Africa']",47.99,-6.16,-0.87,-4.74,-0.4,35.714285714285715,-0.75,Limited Direct Evidence (<25 HP),308.0,15,14,7.69,-21.24,8.91,17,336
+157,166,4692,Lockie Ferguson,"['Gujarat Titans', 'Kolkata Knight Riders', 'New Zealand', 'Punjab Kings', 'Royal Challengers Bengaluru']",47.95,-9.77,-2.77,4.38,0.97,41.50943396226416,-0.24,Moderate Direct Evidence (25-99 HP),1076.0,67,53,4.7,-18.99,-0.55,72,1138
+158,132,4895,Charith Asalanka,"['Mumbai Indians', 'Sri Lanka']",47.9,-4.51,0.0,-6.97,-0.73,28.57142857142857,-1.37,Limited Direct Evidence (<25 HP),161.0,0,14,9.34,-22.8,13.79,0,164
+159,171,4755,Shivam Dube,"['Chennai Super Kings', 'India']",47.88,-10.45,-3.13,7.21,1.39,40.0,-0.38,Limited Direct Evidence (<25 HP),469.0,18,40,6.62,-23.42,2.52,18,491
+160,121,1318,Andre Russell,"['Kolkata Knight Riders', 'West Indies']",47.74,-3.04,0.78,-26.26,-3.61,50.877192982456144,0.57,Strong Direct Evidence (>=100 HP),754.0,121,57,5.48,-13.77,7.69,128,792
+161,201,4926,Shadab Khan,['Pakistan'],47.63,-14.38,-5.2,21.87,3.58,35.714285714285715,-0.75,Moderate Direct Evidence (25-99 HP),832.0,31,42,5.25,-24.68,-4.08,34,848
+162,162,4265,T Natarajan,"['Delhi Capitals', 'Sunrisers Hyderabad']",47.62,-9.3,-2.52,0.93,0.45,40.81632653061224,-0.3,Strong Direct Evidence (>=100 HP),1052.0,153,49,4.75,-18.61,0.0,163,1110
+163,141,25138,Harsh Dubey,"['India', 'India A', 'Sunrisers Hyderabad']",47.5,-5.62,-0.58,-15.59,-2.02,45.45454545454545,0.1,Limited Direct Evidence (<25 HP),192.0,8,11,8.9,-23.07,11.83,8,200
+164,161,1772,Sheldon Cottrell,['West Indies'],47.42,-8.81,-2.26,0.42,0.37,36.36363636363637,-0.69,Limited Direct Evidence (<25 HP),215.0,0,11,8.62,-25.7,8.08,0,229
+165,189,6423,Riyan Parag,"['India', 'Rajasthan Royals']",47.37,-12.52,-4.22,14.98,2.55,33.33333333333333,-0.96,Limited Direct Evidence (<25 HP),260.0,0,24,8.13,-28.46,3.42,0,273
+166,181,6398,Aaron Hardie,"['Australia', 'Punjab Kings']",47.26,-11.61,-3.74,3.23,0.79,46.66666666666666,0.21,Limited Direct Evidence (<25 HP),271.0,9,15,8.02,-27.34,4.12,10,286
+167,180,3628,Kagiso Rabada,"['Gujarat Titans', 'Punjab Kings', 'South Africa']",47.19,-11.55,-3.71,0.16,0.34,50.72463768115942,0.56,Strong Direct Evidence (>=100 HP),1533.0,118,69,4.01,-19.41,-3.68,136,1616
+168,159,8049,Naseem Shah,['Pakistan'],47.07,-8.42,-2.06,0.64,0.41,29.629629629629623,-1.28,Limited Direct Evidence (<25 HP),576.0,18,27,6.11,-20.4,3.56,19,608
+169,172,7905,Tanzim Sakib,['Bangladesh'],47.05,-10.53,-3.17,-1.09,0.15,45.16129032258064,0.08,Moderate Direct Evidence (25-99 HP),677.0,53,31,5.73,-21.75,0.69,54,705
+170,178,4391,Liam Livingstone,"['England', 'Punjab Kings', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",46.66,-11.16,-3.5,3.43,0.82,36.734693877551024,-0.66,Moderate Direct Evidence (25-99 HP),594.0,25,49,6.04,-22.99,0.67,26,619
+171,164,8424,Tanveer Sangha,['Australia'],46.65,-9.59,-2.68,-5.74,-0.55,42.85714285714285,-0.13,Limited Direct Evidence (<25 HP),168.0,12,7,9.23,-27.69,8.5,12,171
+172,155,4842,Shamar Springer,['West Indies'],46.46,-7.52,-1.58,-10.57,-1.27,36.36363636363637,-0.69,Moderate Direct Evidence (25-99 HP),196.0,41,11,8.85,-24.87,9.83,44,212
+173,184,838,Glenn Maxwell,"['Australia', 'Punjab Kings', 'Royal Challengers Bengaluru']",46.38,-12.04,-3.97,2.53,0.69,40.38461538461539,-0.34,Moderate Direct Evidence (25-99 HP),638.0,28,52,5.86,-23.53,-0.54,34,657
+174,177,6515,Benjamin Lister,['New Zealand'],46.31,-11.04,-3.44,-2.21,-0.02,41.66666666666667,-0.23,Moderate Direct Evidence (25-99 HP),245.0,33,12,8.28,-27.28,5.2,35,258
+175,184,295,Wayne Parnell,"['Royal Challengers Bengaluru', 'South Africa']",46.03,-12.04,-3.97,-2.18,-0.01,44.44444444444444,0.01,Moderate Direct Evidence (25-99 HP),400.0,44,18,7.02,-25.8,1.72,46,418
+176,207,7240,FazalHaq Farooqi,"['Afghanistan', 'Rajasthan Royals', 'Sunrisers Hyderabad']",46.02,-15.35,-5.71,12.03,2.11,40.0,-0.38,Moderate Direct Evidence (25-99 HP),1027.0,55,50,4.8,-24.75,-5.94,57,1063
+177,192,2972,Yasim Murtaza,['Hong Kong'],45.97,-13.1,-4.53,5.23,1.09,37.5,-0.59,Limited Direct Evidence (<25 HP),192.0,6,8,8.9,-30.55,4.35,6,195
+178,169,3323,Jimmy Neesham,"['New Zealand', 'Rajasthan Royals']",45.87,-9.83,-2.8,-15.08,-1.94,51.35135135135135,0.62,Moderate Direct Evidence (25-99 HP),526.0,42,37,6.33,-22.24,2.58,45,546
+179,191,32862,Allah Ghazanfar,"['Afghanistan', 'Afghanistan A', 'Kolkata Knight Riders', 'Mumbai Indians']",45.85,-12.66,-4.29,-6.42,-0.65,53.333333333333336,0.79,Limited Direct Evidence (<25 HP),305.0,13,15,7.72,-27.79,2.47,13,310
+180,107,25048,Umran Malik,"['India', 'Kolkata Knight Riders', 'Sunrisers Hyderabad']",45.82,-1.33,1.68,-41.86,-5.94,45.16129032258064,0.08,Limited Direct Evidence (<25 HP),560.0,22,31,6.18,-13.44,10.78,23,600
+181,175,5738,Xavier Bartlett,"['Australia', 'Punjab Kings']",45.81,-10.87,-3.35,-10.07,-1.19,48.38709677419355,0.36,Moderate Direct Evidence (25-99 HP),624.0,50,31,5.92,-22.47,0.73,53,641
+182,176,2633,Jason Holder,"['Gujarat Titans', 'Lucknow Super Giants', 'Rajasthan Royals', 'West Indies']",45.71,-10.88,-3.36,-4.33,-0.34,37.5,-0.59,Strong Direct Evidence (>=100 HP),1928.0,144,88,3.61,-17.96,-3.8,154,2032
+183,206,4639,Wellington Masakadza,['Zimbabwe'],45.71,-14.82,-5.43,7.68,1.46,40.74074074074074,-0.31,Limited Direct Evidence (<25 HP),480.0,18,27,6.56,-27.68,-1.97,19,486
+184,199,2315,Reece Topley,"['England', 'Mumbai Indians', 'Royal Challengers Bengaluru']",45.67,-14.09,-5.05,4.44,0.97,41.37931034482759,-0.26,Moderate Direct Evidence (25-99 HP),615.0,64,29,5.95,-25.76,-2.42,65,639
+185,186,2639,Marcus Stoinis,"['Australia', 'Lucknow Super Giants', 'Punjab Kings']",45.56,-12.08,-3.99,-0.44,0.25,36.36363636363637,-0.69,Moderate Direct Evidence (25-99 HP),747.0,50,55,5.5,-22.85,-1.3,53,794
+186,157,6286,Shivam Mavi,"['Gujarat Titans', 'India', 'Kolkata Knight Riders', 'Lucknow Super Giants', 'Sunrisers Hyderabad']",45.5,-7.85,-1.76,-9.13,-1.05,25.0,-1.69,Limited Direct Evidence (<25 HP),216.0,12,12,8.61,-24.71,9.02,12,232
+187,188,67036,Brijesh Sharma,['Rajasthan Royals'],45.39,-12.29,-4.1,-11.09,-1.35,53.84615384615385,0.83,Moderate Direct Evidence (25-99 HP),273.0,34,13,8.0,-27.98,3.4,38,297
+188,160,3622,Hayden Walsh,['West Indies'],45.05,-8.56,-2.13,-14.56,-1.86,33.33333333333333,-0.96,Limited Direct Evidence (<25 HP),186.0,6,9,8.98,-26.17,9.04,6,189
+189,174,46066,Vipraj Nigam,"['Delhi Capitals', 'India']",44.97,-10.82,-3.32,-7.12,-0.75,33.33333333333333,-0.96,Limited Direct Evidence (<25 HP),288.0,6,18,7.87,-26.23,4.6,8,301
+190,197,58246,Prince Yadav,"['India', 'Lucknow Super Giants']",44.83,-13.69,-4.84,-0.35,0.26,37.5,-0.59,Moderate Direct Evidence (25-99 HP),710.0,86,32,5.61,-24.69,-2.68,88,748
+191,193,5041,Mukesh Kumar,"['Delhi Capitals', 'India']",44.77,-13.31,-4.64,-5.93,-0.57,44.06779661016949,-0.02,Moderate Direct Evidence (25-99 HP),1148.0,92,59,4.57,-22.27,-4.35,95,1227
+192,183,2878,Mohit Sharma,"['Delhi Capitals', 'Gujarat Titans']",44.71,-11.93,-3.91,-12.01,-1.48,45.45454545454545,0.1,Moderate Direct Evidence (25-99 HP),649.0,54,33,5.82,-23.34,-0.51,57,676
+193,194,7689,Dilshan Madushanka,"['Mumbai Indians', 'Sri Lanka', 'Sunrisers Hyderabad']",44.41,-13.32,-4.64,-4.07,-0.3,36.84210526315789,-0.65,Limited Direct Evidence (<25 HP),362.0,13,19,7.28,-27.59,0.94,14,397
+194,163,1389,Sean Abbott,"['Australia', 'Sunrisers Hyderabad']",44.37,-9.4,-2.58,-21.69,-2.93,42.85714285714285,-0.13,Moderate Direct Evidence (25-99 HP),442.0,46,21,6.77,-22.66,3.86,52,476
+195,202,7322,Yash Dayal,"['Gujarat Titans', 'India', 'Royal Challengers Bengaluru']",44.27,-14.43,-5.23,-4.01,-0.29,41.86046511627907,-0.21,Moderate Direct Evidence (25-99 HP),871.0,36,43,5.15,-24.53,-4.33,42,920
+196,204,6683,Mayank Markande,"['Kolkata Knight Riders', 'Mumbai Indians', 'Sunrisers Hyderabad']",44.14,-14.74,-5.39,-3.25,-0.17,40.909090909090914,-0.3,Limited Direct Evidence (<25 HP),432.0,18,22,6.82,-28.12,-1.37,18,445
+197,203,8295,Matthew Forde,['West Indies'],44.1,-14.73,-5.39,-1.89,0.03,38.095238095238095,-0.54,Limited Direct Evidence (<25 HP),408.0,22,21,6.97,-28.39,-1.07,24,427
+198,170,28018,Ashok Sharma,"['Gujarat Titans', 'India', 'Kolkata Knight Riders', 'Rajasthan Royals']",43.98,-10.42,-3.11,-17.59,-2.32,37.5,-0.59,Limited Direct Evidence (<25 HP),174.0,11,8,9.15,-28.35,7.51,13,187
+199,190,3653,Avesh Khan,"['India', 'Lucknow Super Giants', 'Rajasthan Royals']",43.94,-12.56,-4.24,-9.05,-1.04,35.44303797468354,-0.77,Strong Direct Evidence (>=100 HP),1672.0,101,79,3.86,-20.12,-5.0,105,1745
+200,212,27960,Mayank Yadav,"['India', 'Lucknow Super Giants']",43.88,-16.39,-6.26,-1.8,0.04,45.45454545454545,0.1,Moderate Direct Evidence (25-99 HP),493.0,31,22,6.49,-29.11,-3.66,31,526
+201,200,27959,Hrithik Shokeen,"['India A', 'Mumbai Indians']",43.84,-14.35,-5.19,8.34,1.56,15.384615384615383,-2.53,Limited Direct Evidence (<25 HP),204.0,0,13,8.75,-31.5,2.8,0,213
+202,196,3623,Hasan Ali,['Pakistan'],43.68,-13.54,-4.76,-15.86,-2.06,50.0,0.5,Limited Direct Evidence (<25 HP),158.0,11,8,9.38,-31.93,4.84,11,168
+203,221,19312,Nuwan Thushara,"['Mumbai Indians', 'Royal Challengers Bengaluru', 'Sri Lanka']",43.51,-17.65,-6.93,5.22,1.09,36.84210526315789,-0.65,Moderate Direct Evidence (25-99 HP),775.0,60,38,5.41,-28.26,-7.04,64,824
+204,225,36982,Suyash Sharma,"['India A', 'Kolkata Knight Riders', 'Royal Challengers Bengaluru']",43.1,-18.54,-7.4,9.12,1.67,30.76923076923077,-1.18,Moderate Direct Evidence (25-99 HP),803.0,32,39,5.33,-28.99,-8.09,33,822
+205,220,3664,Binura Fernando,['Sri Lanka'],43.06,-17.5,-6.85,1.26,0.5,37.5,-0.59,Limited Direct Evidence (<25 HP),342.0,14,16,7.42,-32.05,-2.95,16,356
+206,210,5939,Cameron Green,"['Australia', 'Kolkata Knight Riders', 'Mumbai Indians', 'Royal Challengers Bengaluru']",43.04,-15.82,-5.96,-6.91,-0.72,41.17647058823529,-0.27,Moderate Direct Evidence (25-99 HP),753.0,37,51,5.48,-26.55,-5.08,42,799
+207,198,2847,Shardul Thakur,"['Chennai Super Kings', 'Delhi Capitals', 'India', 'Kolkata Knight Riders', 'Lucknow Super Giants', 'Mumbai Indians']",43.01,-13.99,-5.0,-16.44,-2.14,46.0,0.15,Moderate Direct Evidence (25-99 HP),966.0,74,50,4.93,-23.65,-4.33,85,1047
+208,140,7574,Kumar Kartikeya Singh,"['Mumbai Indians', 'Rajasthan Royals']",42.99,-5.48,-0.51,-45.28,-6.45,43.75,-0.05,Limited Direct Evidence (<25 HP),282.0,8,16,7.92,-21.0,10.05,8,290
+209,213,4904,Kamindu Mendis,"['Sri Lanka', 'Sunrisers Hyderabad']",42.96,-16.44,-6.29,-2.11,-0.0,35.714285714285715,-0.75,Limited Direct Evidence (<25 HP),150.0,23,14,9.51,-35.07,2.19,25,154
+210,205,47050,Shamar Joseph,"['Lucknow Super Giants', 'West Indies']",42.95,-14.8,-5.42,-16.3,-2.12,50.0,0.5,Moderate Direct Evidence (25-99 HP),471.0,61,24,6.61,-27.75,-1.85,70,515
+211,216,7533,Simarjeet Singh,"['Chennai Super Kings', 'Sunrisers Hyderabad']",42.76,-16.64,-6.39,-6.89,-0.72,42.85714285714285,-0.13,Limited Direct Evidence (<25 HP),240.0,17,14,8.34,-32.98,-0.3,19,256
+212,226,6628,Gerald Coetzee,"['Gujarat Titans', 'Mumbai Indians', 'South Africa', 'Sunrisers Hyderabad']",42.41,-18.63,-7.44,-3.35,-0.19,44.82758620689656,0.05,Moderate Direct Evidence (25-99 HP),592.0,80,29,6.04,-30.48,-6.79,91,647
+213,182,1107,Mohammad Nabi,"['Afghanistan', 'Kolkata Knight Riders', 'Mumbai Indians']",42.2,-11.7,-3.79,-24.28,-3.32,36.36363636363637,-0.69,Limited Direct Evidence (<25 HP),680.0,17,44,5.71,-22.9,-0.5,17,693
+214,219,6160,Chamika Karunaratne,"['Kolkata Knight Riders', 'Sri Lanka']",42.14,-17.31,-6.75,-1.16,0.14,30.0,-1.25,Limited Direct Evidence (<25 HP),336.0,8,20,7.47,-31.94,-2.67,8,351
+215,223,3660,Luke Wood,"['England', 'Gujarat Titans', 'Mumbai Indians']",42.07,-17.77,-6.99,-6.55,-0.67,41.17647058823529,-0.27,Moderate Direct Evidence (25-99 HP),324.0,32,17,7.56,-32.59,-2.95,32,336
+216,217,2436,Dasun Shanaka,"['Gujarat Titans', 'Rajasthan Royals', 'Sri Lanka']",41.85,-16.69,-6.42,-9.52,-1.11,37.2093023255814,-0.62,Moderate Direct Evidence (25-99 HP),529.0,46,43,6.32,-29.08,-4.31,53,557
+217,214,3276,Gudakesh Motie,['West Indies'],41.42,-16.46,-6.3,-12.97,-1.63,36.84210526315789,-0.65,Moderate Direct Evidence (25-99 HP),738.0,80,38,5.52,-27.29,-5.63,82,753
+218,237,5441,Barry McCarthy,['Ireland'],41.38,-21.91,-9.17,3.35,0.81,41.37931034482759,-0.26,Moderate Direct Evidence (25-99 HP),619.0,28,29,5.94,-33.55,-10.28,29,662
+219,232,5808,Karim Janat,"['Afghanistan', 'Afghanistan A', 'Gujarat Titans']",41.31,-20.47,-8.41,-2.42,-0.05,41.66666666666667,-0.23,Limited Direct Evidence (<25 HP),155.0,6,12,9.43,-38.95,-1.99,7,158
+220,231,23467,Gurjapneet Singh,"['Chennai Super Kings', 'India A']",41.3,-20.24,-8.29,6.45,1.27,25.0,-1.69,Limited Direct Evidence (<25 HP),151.0,6,8,9.49,-38.84,-1.64,7,159
+221,228,6287,Yash Thakur,"['India', 'India A', 'Lucknow Super Giants', 'Punjab Kings']",41.28,-19.39,-7.84,-10.11,-1.2,48.0,0.32,Moderate Direct Evidence (25-99 HP),527.0,44,25,6.33,-31.79,-6.99,49,565
+222,235,7808,Marco Jansen,"['Punjab Kings', 'South Africa', 'Sunrisers Hyderabad']",41.25,-21.56,-8.99,-1.87,0.03,46.66666666666666,0.21,Strong Direct Evidence (>=100 HP),1317.0,160,60,4.3,-29.98,-13.13,167,1399
+223,209,22134,Luke Jongwe,['Zimbabwe'],41.05,-15.76,-5.93,-22.4,-3.03,44.44444444444444,0.01,Limited Direct Evidence (<25 HP),330.0,12,18,7.51,-30.49,-1.03,13,354
+224,195,8530,Kartik Tyagi,"['Gujarat Titans', 'Kolkata Knight Riders', 'Sunrisers Hyderabad']",40.95,-13.49,-4.73,-23.53,-3.2,31.57894736842105,-1.11,Moderate Direct Evidence (25-99 HP),415.0,29,19,6.93,-27.06,0.09,32,441
+225,222,3697,Kyle Jamieson,"['Chennai Super Kings', 'Delhi Capitals', 'New Zealand', 'Punjab Kings']",40.94,-17.67,-6.94,-13.76,-1.74,40.0,-0.38,Moderate Direct Evidence (25-99 HP),627.0,52,30,5.91,-29.25,-6.09,61,668
+226,238,7696,Mohammad Wasim,['Pakistan'],40.82,-22.23,-9.34,0.82,0.43,41.17647058823529,-0.27,Moderate Direct Evidence (25-99 HP),355.0,41,17,7.33,-36.59,-7.87,45,374
+227,211,2483,Lizaad Williams,"['Delhi Capitals', 'Mumbai Indians', 'South Africa']",40.75,-16.03,-6.07,-22.49,-3.05,42.85714285714285,-0.13,Moderate Direct Evidence (25-99 HP),259.0,49,14,8.14,-31.98,-0.07,52,280
+228,233,3174,Matt Henry,"['Chennai Super Kings', 'Lucknow Super Giants', 'New Zealand']",40.27,-21.21,-8.8,-5.78,-0.55,40.0,-0.38,Moderate Direct Evidence (25-99 HP),622.0,32,30,5.93,-32.82,-9.59,33,636
+229,229,4409,Sam Curran,"['Chennai Super Kings', 'England', 'Punjab Kings', 'Rajasthan Royals']",40.2,-19.4,-7.85,-7.67,-0.83,31.506849315068493,-1.12,Strong Direct Evidence (>=100 HP),1350.0,130,73,4.25,-27.73,-11.07,144,1423
+230,224,3275,Alzarri Joseph,"['Gujarat Titans', 'Royal Challengers Bengaluru', 'West Indies']",40.17,-17.81,-7.01,-19.32,-2.57,41.50943396226416,-0.24,Moderate Direct Evidence (25-99 HP),1153.0,74,53,4.56,-26.75,-8.87,81,1214
+231,215,4815,Benjamin White,['Ireland'],39.46,-16.49,-6.31,-22.04,-2.98,30.0,-1.25,Moderate Direct Evidence (25-99 HP),390.0,55,20,7.08,-30.38,-2.61,56,404
+232,234,20005,Arshad Khan,"['Gujarat Titans', 'Lucknow Super Giants', 'Mumbai Indians']",38.8,-21.48,-8.95,-9.96,-1.18,32.0,-1.07,Moderate Direct Evidence (25-99 HP),376.0,27,25,7.18,-35.55,-7.41,29,413
+233,218,3727,Matthew Short,"['Australia', 'Chennai Super Kings', 'Punjab Kings']",38.49,-16.77,-6.46,-17.74,-2.34,13.333333333333334,-2.71,Limited Direct Evidence (<25 HP),151.0,7,15,9.49,-35.37,1.83,7,161
+234,241,17424,Graham Hume,['Ireland'],38.49,-22.95,-9.72,-11.54,-1.41,40.0,-0.38,Moderate Direct Evidence (25-99 HP),188.0,36,10,8.96,-40.5,-5.4,38,200
+235,243,6671,Lalit Yadav,['Delhi Capitals'],37.95,-23.1,-9.8,-7.96,-0.88,28.57142857142857,-1.37,Limited Direct Evidence (<25 HP),204.0,7,14,8.75,-40.25,-5.95,9,210
+236,227,6726,Romario Shepherd,"['Lucknow Super Giants', 'Mumbai Indians', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad', 'West Indies']",37.91,-19.29,-7.79,-27.2,-3.75,38.04347826086957,-0.55,Strong Direct Evidence (>=100 HP),1539.0,119,92,4.01,-27.14,-11.44,136,1657
+237,236,6281,Abhishek Sharma,"['India', 'India A', 'Sunrisers Hyderabad']",37.11,-21.67,-9.05,-12.77,-1.6,18.6046511627907,-2.25,Limited Direct Evidence (<25 HP),427.0,0,43,6.85,-35.1,-8.24,0,433
+238,244,4636,Bjorn Fortuin,['South Africa'],37.03,-23.22,-9.86,-14.93,-1.92,30.76923076923077,-1.18,Limited Direct Evidence (<25 HP),210.0,24,13,8.68,-40.23,-6.21,25,217
+239,208,25128,Nqabayomzi Peter,['South Africa'],36.9,-15.6,-5.85,-44.27,-6.3,33.33333333333333,-0.96,Limited Direct Evidence (<25 HP),162.0,15,9,9.32,-33.87,2.67,15,170
+240,245,7094,Curtis Campher,['Ireland'],36.31,-24.01,-10.28,-11.09,-1.35,20.6896551724138,-2.06,Limited Direct Evidence (<25 HP),396.0,12,29,7.05,-37.82,-10.2,13,414
+241,230,3272,Fabian Allen,"['Mumbai Indians', 'West Indies']",36.28,-19.75,-8.03,-19.11,-2.54,8.333333333333332,-3.14,Limited Direct Evidence (<25 HP),179.0,0,12,9.08,-37.54,-1.96,0,180
+242,242,7472,Shahbaz Ahmed,"['India', 'Lucknow Super Giants', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",35.92,-23.02,-9.76,-16.26,-2.12,19.047619047619047,-2.21,Limited Direct Evidence (<25 HP),535.0,0,42,6.29,-35.35,-10.69,0,554
+243,246,4487,Vyshak Kumar,"['India', 'India A', 'Punjab Kings', 'Royal Challengers Bengaluru']",35.77,-25.75,-11.2,-22.19,-3.0,44.0,-0.03,Moderate Direct Evidence (25-99 HP),519.0,64,25,6.37,-38.23,-13.27,67,550
+244,247,4824,Zeeshan Ansari,['Sunrisers Hyderabad'],35.33,-27.63,-12.19,-4.49,-0.36,20.0,-2.12,Limited Direct Evidence (<25 HP),203.0,22,10,8.76,-44.8,-10.45,25,209
+245,249,19530,Shahnawaz Dhani,"['Pakistan', 'Pakistan A']",35.28,-31.5,-14.23,-5.41,-0.5,44.44444444444444,0.01,Limited Direct Evidence (<25 HP),170.0,18,9,9.2,-49.54,-13.46,19,177
+246,240,27466,Dhruv Parashar,['United Arab Emirates'],34.96,-22.91,-9.7,-17.76,-2.34,10.0,-3.0,Limited Direct Evidence (<25 HP),186.0,8,10,8.98,-40.52,-5.31,9,193
+247,248,7270,Anrich Nortje,"['Delhi Capitals', 'Kolkata Knight Riders', 'Lucknow Super Giants', 'South Africa']",34.29,-29.56,-13.21,-16.92,-2.22,41.02564102564102,-0.29,Strong Direct Evidence (>=100 HP),836.0,112,39,5.24,-39.83,-19.28,118,878
+248,179,56817,Shivang Kumar,['Sunrisers Hyderabad'],33.48,-11.46,-3.66,-84.73,-12.34,38.46153846153847,-0.51,Limited Direct Evidence (<25 HP),234.0,18,13,8.4,-27.93,5.01,18,240
+249,239,4237,Tabraiz Shamsi,['South Africa'],33.3,-22.89,-9.69,-37.73,-5.32,25.0,-1.69,Moderate Direct Evidence (25-99 HP),310.0,34,16,7.68,-37.94,-7.85,35,321
+250,252,2304,Tymal Mills,"['England', 'Mumbai Indians']",32.25,-32.28,-14.64,-16.46,-2.15,33.33333333333333,-0.96,Moderate Direct Evidence (25-99 HP),229.0,33,12,8.46,-48.86,-15.71,34,242
+251,255,6677,Mohammad Hasnain,['Pakistan'],32.16,-36.26,-16.74,4.78,1.03,20.0,-2.12,Moderate Direct Evidence (25-99 HP),222.0,32,10,8.54,-52.99,-19.53,35,238
+252,251,33969,Tinotenda Maposa,['Zimbabwe'],32.1,-32.1,-14.55,-8.34,-0.93,16.666666666666664,-2.41,Limited Direct Evidence (<25 HP),176.0,6,12,9.12,-49.98,-14.23,6,187
+253,250,7473,Akash Deep,"['Kolkata Knight Riders', 'Lucknow Super Giants', 'Royal Challengers Bengaluru']",31.53,-32.09,-14.54,-14.97,-1.92,21.428571428571427,-2.0,Limited Direct Evidence (<25 HP),278.0,6,14,7.96,-47.69,-16.5,10,302
+254,253,786,Chris Jordan,"['Chennai Super Kings', 'England', 'Mumbai Indians']",31.05,-34.67,-15.9,-11.75,-1.44,25.925925925925924,-1.61,Moderate Direct Evidence (25-99 HP),550.0,99,27,6.22,-46.87,-22.48,106,574
+255,254,8326,Jayden Seales,['West Indies'],29.53,-34.96,-16.06,-18.69,-2.48,22.22222222222222,-1.93,Limited Direct Evidence (<25 HP),180.0,18,9,9.06,-52.72,-17.2,18,186
+256,256,8221,Nitish Reddy,"['India', 'Sunrisers Hyderabad']",28.18,-38.95,-18.16,-18.65,-2.47,30.76923076923077,-1.18,Strong Direct Evidence (>=100 HP),565.0,101,39,6.16,-51.02,-26.88,111,595
+257,257,26663,Kwena Maphaka,"['Mumbai Indians', 'Rajasthan Royals', 'South Africa']",27.47,-40.84,-19.16,-24.37,-3.33,43.75,-0.05,Moderate Direct Evidence (25-99 HP),305.0,55,16,7.72,-55.97,-25.71,65,333
+258,258,3605,Aiden Markram,"['Lucknow Super Giants', 'South Africa', 'Sunrisers Hyderabad']",24.15,-45.99,-21.87,-16.71,-2.18,23.809523809523807,-1.79,Moderate Direct Evidence (25-99 HP),397.0,32,42,7.04,-59.79,-32.19,35,408

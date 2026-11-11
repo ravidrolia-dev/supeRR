@@ -33,17 +33,27 @@ export const Navbar: React.FC = () => {
 
   return (
     <header className="h-16 border-b border-[#e2e6ec] bg-white sticky top-0 z-40 px-6 flex items-center justify-between shadow-xs">
-      <div className="flex items-center gap-3">
-        <div className="w-8 h-8 rounded-md bg-[#d92779] flex items-center justify-center font-bold text-white text-sm tracking-wider">
-          RR
-        </div>
-        <div>
-          <div className="flex items-center gap-2">
-            <span className="font-semibold text-[#17263c] text-sm tracking-tight">ClutchIQ</span>
-            <span className="text-[11px] font-medium text-[#64748b]">| Pressure Performance Intelligence</span>
+      <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-md bg-[#d92779] flex items-center justify-center font-bold text-white text-sm tracking-wider">
+            RR
           </div>
-          <p className="text-[11px] text-[#94a3b8]">SupeRR Selector Season 2 &bull; Independent analytics prototype</p>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="font-semibold text-[#17263c] text-sm tracking-tight">ClutchIQ</span>
+              <span className="text-[11px] font-medium text-[#64748b]">| Pressure Performance Intelligence</span>
+            </div>
+          </div>
         </div>
+
+        {/* Highlighted Direct Action Button to RR Auction Strategy */}
+        <button
+          onClick={() => navigate('/auction')}
+          className="hidden md:inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-xs font-bold bg-[#be185d] text-white hover:bg-[#9d174d] transition-all shadow-xs"
+        >
+          <span>RR 2027 Auction Strategy</span>
+          
+        </button>
       </div>
 
       {/* Global Player Search */}

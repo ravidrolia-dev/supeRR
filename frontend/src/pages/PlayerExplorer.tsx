@@ -113,7 +113,7 @@ export const PlayerExplorer: React.FC = () => {
                 )}
               </div>
               {/* Evidence Taxonomy Badge */}
-              <div className="flex items-center gap-2 mt-3">
+              <div className="flex flex-wrap items-center gap-2 mt-3">
                 <span className={`px-2.5 py-1 rounded text-xs font-medium border ${
                   profile.batting_category?.includes('Dual')
                     ? 'bg-purple-50 text-purple-700 border-purple-200 font-semibold'
@@ -125,6 +125,24 @@ export const PlayerExplorer: React.FC = () => {
                 }`}>
                   {profile.batting_category || 'Category C: Insufficient Evidence'}
                 </span>
+
+                {/* Auction Scouting Status Badge */}
+                {profile.auction_scouting && (
+                  <span className={`px-2.5 py-1 rounded text-xs font-bold border ${
+                    profile.auction_scouting.status === 'AVAILABLE_CONFIRMED'
+                      ? 'bg-[#f0fdf4] text-[#16845b] border-[#bbf7d0]'
+                      : profile.auction_scouting.status === 'CONDITIONAL_RETENTION_PENDING'
+                      ? 'bg-[#eff6ff] text-[#1d4ed8] border-[#bfdbfe]'
+                      : profile.auction_scouting.status === 'AVAILABILITY_UNVERIFIED'
+                      ? 'bg-[#fffbeb] text-[#b45309] border-[#fef3c7]'
+                      : profile.auction_scouting.status === 'IPL_RETIRED' || profile.auction_scouting.status === 'NATIONALITY_INELIGIBLE'
+                      ? 'bg-[#fee2e2] text-[#991b1b] border-[#fecaca]'
+                      : 'bg-[#f8fafc] text-[#475569] border-[#e2e6ec]'
+                  }`}>
+                    IPL 2027: {profile.auction_scouting.status}
+                  </span>
+                )}
+
                 <span className="text-[11px] text-[#94a3b8] font-mono">
                   {profile.legal_balls_faced ? `${profile.legal_balls_faced} legal balls faced` : ''}
                 </span>
@@ -196,6 +214,58 @@ export const PlayerExplorer: React.FC = () => {
               </div>
             )}
 
+            {/* Auction Scouting Status Card (Task 11) */}
+            {profile.auction_scouting && (
+              <div className="p-4 rounded-md bg-[#ffffff] border border-[#e2e6ec] shadow-xs space-y-2">
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-[#f1f5f9] pb-2">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-bold text-[#17263c]">IPL 2027 Auction Scouting Intelligence</span>
+                    <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
+                      profile.auction_scouting.status === 'AVAILABLE_CONFIRMED'
+                        ? 'bg-[#f0fdf4] text-[#16845b] border border-[#bbf7d0]'
+                        : profile.auction_scouting.status === 'CONDITIONAL_RETENTION_PENDING'
+                        ? 'bg-[#eff6ff] text-[#1d4ed8] border border-[#bfdbfe]'
+                        : profile.auction_scouting.status === 'AVAILABILITY_UNVERIFIED'
+                        ? 'bg-[#fffbeb] text-[#b45309] border border-[#fef3c7]'
+                        : profile.auction_scouting.status === 'IPL_RETIRED' || profile.auction_scouting.status === 'NATIONALITY_INELIGIBLE'
+                        ? 'bg-[#fee2e2] text-[#991b1b] border border-[#fecaca]'
+                        : 'bg-[#f8fafc] text-[#475569] border border-[#e2e6ec]'
+                    }`}>
+                      {profile.auction_scouting.status}
+                    </span>
+                  </div>
+                  <span className="text-[10px] text-[#64748b]">
+                    Retention Deadline: Nov 17, 2026 (Audit: {profile.auction_scouting.verification_date})
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs pt-1">
+                  <div>
+                    <span className="text-[#64748b]">2026 Franchise: </span>
+                    <strong className="text-[#17263c]">{profile.auction_scouting.franchise_2026}</strong>
+                  </div>
+                  <div>
+                    <span className="text-[#64748b]">RR Weakness Solved: </span>
+                    <strong className="text-[#be185d]">{profile.auction_scouting.rr_weakness_addressed || 'N/A'}</strong>
+                  </div>
+                  <div>
+                    <span className="text-[#64748b]">Primary Tactical Role: </span>
+                    <strong className="text-[#17263c]">{profile.auction_scouting.primary_tactical_role || 'General Cohort'}</strong>
+                  </div>
+                </div>
+
+                <div className="text-[11px] text-[#64748b] bg-[#f8fafc] p-2.5 rounded border border-[#f1f5f9] mt-2 leading-relaxed">
+                  <strong className="text-[#17263c]">Audit Note / Next Requirement: </strong>
+                  {profile.auction_scouting.exclusion_reason}
+                  {profile.auction_scouting.next_verification_requirement && profile.auction_scouting.next_verification_requirement !== '—' && (
+                    <span className="text-[#365e91] block mt-0.5">
+                      <strong>Next Action:</strong> {profile.auction_scouting.next_verification_requirement}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+
             {/* Official Shrunk Ratings & Prevention Scores */}
             <div className="flex flex-wrap items-center gap-4">
               {/* V3 Clutch Rating */}
@@ -238,11 +308,11 @@ export const PlayerExplorer: React.FC = () => {
                 <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
                   <span className="text-[#64748b]">Clutch Status:</span>
                   <span className={`font-semibold ${profile.batting_eligible ? 'text-emerald-600' : 'text-amber-600'}`}>
-                    {profile.batting_eligible ? 'Qualified (≥40 HP Balls)' : 'Insufficient Crisis Sample'}
+                    {profile.batting_eligible ? 'Qualified (≥150 Legal Balls)' : 'Developing / Low Sample'}
                   </span>
                 </div>
                 <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
-                  <span className="text-[#64748b]">High-Pressure Deliveries:</span>
+                  <span className="text-[#64748b]">High-Pressure Legal Deliveries:</span>
                   <span className="font-mono font-medium text-[#17263c]">{profile.hp_balls_v3_batting ?? profile.hp_balls_faced ?? 0}</span>
                 </div>
                 <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
@@ -252,7 +322,7 @@ export const PlayerExplorer: React.FC = () => {
                 <div className="flex justify-between py-1">
                   <span className="text-[#64748b]">Clutch Rating (V3):</span>
                   <span className="font-mono font-bold text-[#365e91]">
-                    {profile.batting_v3_clutch_rating ? `+${profile.batting_v3_clutch_rating.toFixed(2)}` : 'Unqualified (<40 HP)'}
+                    {profile.batting_v3_clutch_rating ? `+${profile.batting_v3_clutch_rating.toFixed(2)}` : 'Bayesian Shrunk Prior'}
                   </span>
                 </div>
               </div>
