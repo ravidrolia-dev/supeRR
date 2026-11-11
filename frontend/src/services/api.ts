@@ -26,10 +26,16 @@ export interface PlayerSummary {
   player_id: number;
   player_name: string;
   role: string;
+  integrated_pressure_score?: number;
   clutch_rating: number;
-  high_pressure_metric: number;
-  metric_delta: number | null;
+  pressure_performance_score?: number;
+  pressure_prevention_score?: number | null;
+  consistency_score?: number | null;
+  evidence_tier?: string;
+  high_pressure_metric?: number;
+  metric_delta?: number | null;
   legal_balls: number;
+  high_pressure_legal_balls?: number;
   distinct_matches: number;
   ci_lower: number;
   ci_upper: number;
@@ -124,6 +130,24 @@ export interface CompBreakdown {
   bowling_rbe?: number;
 }
 
+export interface IntegratedProfileData {
+  integrated_pressure_score: number;
+  pressure_performance_score: number;
+  pressure_prevention_score: number | null;
+  consistency_score: number | null;
+  pressure_performance_contribution: number;
+  pressure_prevention_contribution: number;
+  consistency_contribution: number;
+  evidence_tier: string;
+  reliability: string;
+  posterior_uncertainty: number;
+  ci_lower_95: number;
+  ci_upper_95: number;
+  total_legal_balls: number;
+  high_pressure_legal_balls: number;
+  distinct_matches: number;
+}
+
 export interface PlayerProfile {
   player_id: number;
   player_name: string;
@@ -132,6 +156,11 @@ export interface PlayerProfile {
   pace_or_spin: string | null;
   teams: string[];
   competitions: string[];
+  
+  // Task 10: Unified Integrated Scouting Profiles
+  integrated_batting?: IntegratedProfileData | null;
+  integrated_bowling?: IntegratedProfileData | null;
+
   has_batting: boolean;
   batting_eligible: boolean;
   legal_balls_faced: number | null;
@@ -143,6 +172,18 @@ export interface PlayerProfile {
   batting_shrunk_rating: number | null;
   batting_ci_lower: number | null;
   batting_ci_upper: number | null;
+  batting_category?: string | null;
+  bowling_category?: string | null;
+  pressure_prevention_rating_batting?: number | null;
+  pressure_prevention_rating_bowling?: number | null;
+  pp_contextual_rar?: number | null;
+  early_mid_contextual_rar?: number | null;
+  chase_team_impact?: number | null;
+  chase_impact_label?: string | null;
+  batting_v3_clutch_rating?: number | null;
+  bowling_v3_clutch_rating?: number | null;
+  hp_balls_v3_batting?: number | null;
+  hp_balls_v3_bowling?: number | null;
   has_bowling: boolean;
   bowling_eligible: boolean;
   legal_balls_bowled: number | null;
@@ -160,9 +201,77 @@ export interface PlayerProfile {
   comp_breakdown: CompBreakdown[];
 }
 
+export interface UnifiedRankingItem {
+  rank: number;
+  player_id: number;
+  player_name: string;
+  teams: string[];
+  competitions: string[];
+  iss_score: number;
+  clutch_contribution: number;
+  prevention_contribution: number;
+  consistency_contribution: number;
+  v3_clutch_rating: number | null;
+  ppi_prevention_rating: number | null;
+  consistency_pct: number | null;
+  legal_balls: number;
+  hp_balls: number;
+  distinct_matches: number;
+  evidence_tier: string;
+  category: string;
+}
+
+export interface SupeRR10Item {
+  rank: number;
+  superr_rank: number;
+  v3_rank: number;
+  player_id: number;
+  player_name: string;
+  teams: string[];
+  competitions: string[];
+  integrated_pressure_score: number;
+  superr_score: number;
+  pressure_performance_score: number;
+  v3_clutch_rating: number;
+  pressure_prevention_score: number | null;
+  ppi_rating: number | null;
+  consistency_score: number | null;
+  consistency_pct: number | null;
+  pressure_performance_contribution: number;
+  clutch_contribution: number;
+  pressure_prevention_contribution: number;
+  ppi_contribution: number;
+  consistency_contribution: number;
+  total_legal_balls: number;
+  legal_balls: number;
+  high_pressure_legal_balls: number;
+  hp_balls: number;
+  distinct_matches: number;
+  evidence_tier: string;
+  reliability?: string;
+  posterior_uncertainty: number;
+  v3_posterior_se: number;
+  ci_lower_95: number;
+  v3_ci_lower_95: number;
+  ci_upper_95: number;
+  v3_ci_upper_95: number;
+}
+
 export const fetchOverview = () => api.get<OverviewData>('/overview').then(r => r.data);
-export const fetchBatterRankings = (comp: string = 'combined') => api.get<BatterRankingItem[]>(`/rankings/batters?competition=${comp}`).then(r => r.data);
-export const fetchBowlerRankings = (comp: string = 'combined') => api.get<BowlerRankingItem[]>(`/rankings/bowlers?competition=${comp}`).then(r => r.data);
+export const fetchSupeRR10Batters = () => 
+  api.get<SupeRR10Item[]>('/rankings/superr10/batters').then(r => r.data);
+export const fetchSupeRR10Bowlers = () => 
+  api.get<SupeRR10Item[]>('/rankings/superr10/bowlers').then(r => r.data);
+export const fetchIntegratedBatters = (limit: number = 25) => 
+  api.get<UnifiedRankingItem[]>(`/rankings/integrated/batters?limit=${limit}`).then(r => r.data);
+export const fetchIntegratedBowlers = (limit: number = 25) => 
+  api.get<UnifiedRankingItem[]>(`/rankings/integrated/bowlers?limit=${limit}`).then(r => r.data);
+export const fetchBatterRankings = (comp: string = 'combined', version: string = 'v3') => 
+  api.get<BatterRankingItem[]>(`/rankings/batters?competition=${comp}&version=${version}`).then(r => r.data);
+export const fetchBowlerRankings = (comp: string = 'combined', version: string = 'v3') => 
+  api.get<BowlerRankingItem[]>(`/rankings/bowlers?competition=${comp}&version=${version}`).then(r => r.data);
+export const fetchPreventionBatters = () => api.get<any[]>('/rankings/prevention/batters').then(r => r.data);
+export const fetchPreventionBowlers = () => api.get<any[]>('/rankings/prevention/bowlers').then(r => r.data);
 export const searchPlayers = (query: string) => api.get<any[]>(`/players/search?q=${encodeURIComponent(query)}`).then(r => r.data);
 export const fetchPlayerProfile = (id: number) => api.get<PlayerProfile>(`/players/${id}`).then(r => r.data);
 export const comparePlayers = (role: string, ids: number[]) => api.post<{ role: string; count: number; players: PlayerProfile[] }>('/compare', { role, player_ids: ids }).then(r => r.data);

@@ -1,0 +1,6 @@
+configuration,w_clutch,w_ppi,w_consistency,batter_v3_top10_overlap,batter_rank_corr,bowler_v3_top10_overlap,bowler_rank_corr
+Proposed 70/20/10,0.7,0.2,0.1,10,0.9699,7,0.9739
+Previous 80/10/10,0.8,0.1,0.1,10,0.9876,8,0.9913
+Balanced 60/25/15,0.6,0.25,0.15,10,0.9512,4,0.9556
+Clutch Dominant 85/10/5,0.85,0.1,0.05,10,0.9915,8,0.9936
+Pure V3 (100/0/0),1.0,0.0,0.0,10,1.0,10,1.0

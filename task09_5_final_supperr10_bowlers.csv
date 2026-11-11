@@ -1,0 +1,11 @@
+superr_rank,v3_rank,player_id,player_name,teams,superr_score,clutch_contrib,ppi_contrib,cons_contrib,v3_clutch_rating,v3_posterior_se,v3_ci_lower_95,v3_ci_upper_95,ppi_rating,consistency_pct,legal_balls,hp_balls,distinct_matches
+1,1,2933,Jasprit Bumrah,"['India', 'Mumbai Indians']",67.7,14.74,2.08,0.88,20.33,0.27,19.8,20.86,21.69,53.333333333333336,1708,132,75
+2,2,781,Sunil Narine,['Kolkata Knight Riders'],66.48,13.7,1.31,1.47,18.56,0.28,18.01,19.11,12.83,58.2089552238806,1533,55,67
+3,4,8661,Matheesha Pathirana,"['Chennai Super Kings', 'Kolkata Knight Riders', 'Sri Lanka']",61.67,8.45,0.3,2.92,9.61,0.32,8.98,10.24,1.17,70.37037037037037,1132,88,54
+4,5,4722,Rashid Khan,"['Afghanistan', 'Gujarat Titans']",59.89,7.57,1.06,1.27,8.11,0.21,7.7,8.52,9.91,56.557377049180324,2747,90,122
+5,6,360,Bhuvneshwar Kumar,"['India', 'Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",59.27,7.08,1.88,0.31,7.27,0.23,6.82,7.72,19.42,48.51485148514851,2221,149,101
+6,9,6523,Blessing Muzarabani,"['Kolkata Knight Riders', 'Royal Challengers Bengaluru', 'Zimbabwe']",58.85,6.21,1.67,0.97,5.79,0.38,5.05,6.53,16.98,54.054054054054056,820,54,37
+7,8,4101,Mitchell Santner,"['Chennai Super Kings', 'Mumbai Indians', 'New Zealand']",58.72,6.25,1.62,0.85,5.86,0.26,5.35,6.37,16.46,53.01204819277109,1737,59,83
+8,7,4373,Mustafizur Rahman,"['Bangladesh', 'Chennai Super Kings', 'Delhi Capitals', 'Kolkata Knight Riders']",57.69,6.92,1.38,-0.61,7.0,0.28,6.45,7.55,13.64,40.845070422535215,1576,123,71
+9,3,2984,Sikandar Raza,"['Punjab Kings', 'Zimbabwe']",57.13,8.65,-0.62,-0.9,9.95,0.33,9.3,10.6,-9.44,38.46153846153847,1091,58,52
+10,10,19316,Maheesh Theekshana,"['Chennai Super Kings', 'Rajasthan Royals', 'Sri Lanka']",56.57,6.13,0.86,-0.42,5.66,0.23,5.21,6.11,7.66,42.42424242424242,2265,99,99

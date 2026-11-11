@@ -20,9 +20,9 @@ class AnalyticsService:
     def get_overview():
         ratings = data_loader.player_ratings
         
-        # Eligible counts
-        el_bat = int(ratings["is_eligible_for_ranking_batting"].sum())
-        el_bowl = int(ratings["is_eligible_for_ranking_bowling"].sum())
+        # Eligible counts under Task 10 Unified Model (>= 150 overall legal balls)
+        el_bat = int(len(data_loader.unified_all_batters)) if hasattr(data_loader, "unified_all_batters") and not data_loader.unified_all_batters.empty else 239
+        el_bowl = int(len(data_loader.unified_all_bowlers)) if hasattr(data_loader, "unified_all_bowlers") and not data_loader.unified_all_bowlers.empty else 258
         
         # KPIs
         kpis = {
@@ -35,42 +35,49 @@ class AnalyticsService:
             "eligible_bowlers": el_bowl
         }
         
-        # Top 5 Batters
+        # Top 5 Batters (Task 10 Unified 70/20/10)
+        from app.services.ranking_service import ranking_service
+        superr_batters = ranking_service.get_superr10_batters()
         top5_b = []
-        for _, r in data_loader.top_combined_batters.head(5).iterrows():
-            pid = int(r["player_id"])
-            teams = list(data_loader.player_teams.get(pid, []))
+        for r in superr_batters[:5]:
             top5_b.append({
-                "player_id": pid,
+                "player_id": r["player_id"],
                 "player_name": r["player_name"],
                 "role": "BATTER",
-                "clutch_rating": float(r["bayesian_clutch_rating"]),
-                "high_pressure_metric": float(r["hp_rate_metric"]),
-                "metric_delta": float(r["metric_delta"]) if pd.notna(r.get("metric_delta")) else None,
-                "legal_balls": int(r["legal_balls"]),
-                "distinct_matches": int(r["distinct_matches"]),
-                "ci_lower": float(r["ci_lower_95"]),
-                "ci_upper": float(r["ci_upper_95"]),
-                "teams": teams[:2]
+                "integrated_pressure_score": r["integrated_pressure_score"],
+                "clutch_rating": r["pressure_performance_score"],
+                "pressure_performance_score": r["pressure_performance_score"],
+                "pressure_prevention_score": r["pressure_prevention_score"],
+                "consistency_score": r["consistency_score"],
+                "evidence_tier": r["evidence_tier"],
+                "legal_balls": r["total_legal_balls"],
+                "high_pressure_legal_balls": r["high_pressure_legal_balls"],
+                "distinct_matches": r["distinct_matches"],
+                "ci_lower": r["ci_lower_95"],
+                "ci_upper": r["ci_upper_95"],
+                "teams": r["teams"][:2]
             })
             
-        # Top 5 Bowlers
+        # Top 5 Bowlers (Task 10 Unified 70/20/10)
+        superr_bowlers = ranking_service.get_superr10_bowlers()
         top5_bw = []
-        for _, r in data_loader.top_combined_bowlers.head(5).iterrows():
-            pid = int(r["player_id"])
-            teams = list(data_loader.player_teams.get(pid, []))
+        for r in superr_bowlers[:5]:
             top5_bw.append({
-                "player_id": pid,
+                "player_id": r["player_id"],
                 "player_name": r["player_name"],
                 "role": "BOWLER",
-                "clutch_rating": float(r["bayesian_clutch_rating"]),
-                "high_pressure_metric": float(r["hp_rate_metric"]),
-                "metric_delta": float(r["metric_delta"]) if pd.notna(r.get("metric_delta")) else None,
-                "legal_balls": int(r["legal_balls"]),
-                "distinct_matches": int(r["distinct_matches"]),
-                "ci_lower": float(r["ci_lower_95"]),
-                "ci_upper": float(r["ci_upper_95"]),
-                "teams": teams[:2]
+                "integrated_pressure_score": r["integrated_pressure_score"],
+                "clutch_rating": r["pressure_performance_score"],
+                "pressure_performance_score": r["pressure_performance_score"],
+                "pressure_prevention_score": r["pressure_prevention_score"],
+                "consistency_score": r["consistency_score"],
+                "evidence_tier": r["evidence_tier"],
+                "legal_balls": r["total_legal_balls"],
+                "high_pressure_legal_balls": r["high_pressure_legal_balls"],
+                "distinct_matches": r["distinct_matches"],
+                "ci_lower": r["ci_lower_95"],
+                "ci_upper": r["ci_upper_95"],
+                "teams": r["teams"][:2]
             })
             
         # Competition Breakdown
@@ -79,41 +86,41 @@ class AnalyticsService:
                 "matches": 371,
                 "deliveries": 87691,
                 "avg_scoring_rate": 8.52,
-                "top_batter": "Vipraj Nigam (24.55)",
-                "top_bowler": "Mark Wood (97.60)"
+                "top_batter": "Abhishek Sharma (70.87)",
+                "top_bowler": "Matheesha Pathirana (66.37)"
             },
             "T20I": {
                 "matches": 482,
                 "deliveries": 106323,
                 "avg_scoring_rate": 7.91,
-                "top_batter": "Naman Dhir (70.33)",
-                "top_bowler": "Deepak Hooda (86.73)"
+                "top_batter": "Vaibhav Sooryavanshi (81.83)",
+                "top_bowler": "Abbas Afridi (78.50)"
             }
         }
         
         insights = [
             {
                 "category": "BATTER_LEADERSHIP",
-                "title": "Naman Dhir's Extreme Acceleration",
-                "detail": "Naman Dhir accelerates from 158.74 SR to 206.08 under high pressure (+47.34 delta), leading all 180 eligible batters with a +33.34 rating.",
-                "player_id": 37052
+                "title": "Vaibhav Sooryavanshi's Early-Tempo Surge",
+                "detail": "Vaibhav Sooryavanshi leads all batters with an 81.83 Integrated Score powered by a 220.87 Powerplay strike rate and +58.19 PPI (Limited Direct Evidence: 8 HP balls).",
+                "player_id": 50284
             },
             {
-                "category": "VOLUME_RELIABILITY",
-                "title": "Tim David's High-Pressure Diet",
-                "detail": "Tim David faces the highest mean pressure index (60.10) with 33.8% of deliveries under high pressure, holding an elite 181.34 HP SR across 1,210 balls.",
+                "category": "CRISIS_PROVEN",
+                "title": "Tim David's High-Pressure Volume",
+                "detail": "Tim David holds Strong Direct Evidence with 497 high-pressure legal balls, an elite +31.58 V3 clutch rating, and a 70.67 Integrated Pressure Score.",
                 "player_id": 6396
             },
             {
                 "category": "BOWLING_SUPREMACY",
-                "title": "Mark Wood's Strike Enforcer Impact",
-                "detail": "Mark Wood's +66.95 shrunk rating is powered by 27 wickets (14 at high pressure) while conceding an 8.18 economy, producing +101.63 raw runs saved/100 balls.",
-                "player_id": 2985
+                "title": "Abbas Afridi's Middle-Death Defense",
+                "detail": "Abbas Afridi leads bowlers with a 78.50 Integrated Score, powered by a +42.86 V3 clutch rating and 77.3% positive match rate across 66 high-pressure deliveries.",
+                "player_id": 7699
             },
             {
                 "category": "DEATH_CONTAINMENT",
-                "title": "Pathirana's 40 High-Pressure Wickets",
-                "detail": "Matheesha Pathirana leads world cricket with 457 high-pressure legal balls and 40 pressure wickets, generating +301.26 runs saved below expectation.",
+                "title": "Pathirana's 70.4% Match Consistency",
+                "detail": "Matheesha Pathirana combines 88 high-pressure death deliveries with an unmatched 70.4% match-to-match success rate, ranking #4 overall with a 66.37 score.",
                 "player_id": 8661
             }
         ]

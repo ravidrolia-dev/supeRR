@@ -1,0 +1,11 @@
+player_id,player_name,competitions,legal_balls,total_balls,hp_balls,hp_legal_balls,mean_pressure_index,overall_rate_metric,hp_rate_metric,lp_rate_metric,metric_delta,performance_vs_expected,raw_clutch_impact,distinct_matches,match_impact_std,positive_match_pct,is_qualified,bayesian_clutch_rating,posterior_se,ci_lower_95,ci_upper_95,interval_type,rank
+37052,Naman Dhir,['T20I'],82,85,54,51,79.28,214.63,243.14,167.74,75.4,64.12,132.16,9,6.89,88.89,True,63.32,2.61,58.2,68.44,Bayesian credible interval (95%),1
+6396,Tim David,['T20I'],571,599,157,148,53.92,180.04,181.76,179.43,2.33,248.05,49.65,40,11.91,57.5,True,42.66,1.3,40.11,45.21,Bayesian credible interval (95%),2
+6281,Abhishek Sharma,['T20I'],1029,1081,68,64,36.02,200.19,151.56,203.42,-51.86,704.06,42.7,61,16.92,70.49,True,39.1,1.0,37.14,41.06,Bayesian credible interval (95%),3
+1318,Andre Russell,['T20I'],162,171,65,61,67.97,187.04,177.05,193.07,-16.02,74.19,61.6,12,11.69,58.33,True,38.84,2.13,34.67,43.01,Bayesian credible interval (95%),4
+1077,David Miller,['T20I'],365,387,255,240,77.32,163.56,163.33,164.0,-0.67,95.32,43.14,23,12.35,52.17,True,34.08,1.57,31.0,37.16,Bayesian credible interval (95%),5
+1699,Suryakumar Yadav,['T20I'],1395,1459,115,109,41.67,168.82,200.92,166.1,34.82,494.53,33.37,75,13.16,58.67,True,31.17,0.86,29.48,32.86,Bayesian credible interval (95%),6
+7808,Marco Jansen,['T20I'],106,107,90,89,87.61,153.77,175.28,41.18,134.1,23.82,58.12,11,11.17,45.45,True,30.0,2.43,25.24,34.76,Bayesian credible interval (95%),7
+5553,Phil Salt,['T20I'],913,954,64,63,38.34,166.92,225.4,162.59,62.81,315.3,32.84,44,15.11,50.0,True,29.61,1.05,27.55,31.67,Bayesian credible interval (95%),8
+772,Rilee Rossouw,['T20I'],160,172,20,19,48.46,186.88,178.95,187.94,-8.99,76.53,44.91,9,12.02,55.56,True,27.52,2.14,23.33,31.71,Bayesian credible interval (95%),9
+3605,Aiden Markram,['T20I'],557,578,209,203,57.4,156.19,162.07,152.82,9.25,129.66,31.55,34,7.07,70.59,True,26.68,1.31,24.11,29.25,Bayesian credible interval (95%),10

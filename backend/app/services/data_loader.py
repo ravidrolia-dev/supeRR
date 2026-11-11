@@ -17,13 +17,74 @@ class DataLoader:
         r_dir = settings.RANKINGS_DIR
         d_dir = settings.DATA_DIR
         
-        # 1. Rankings
+        # 1. Rankings (V2 Historical)
         self.top_combined_batters = pd.read_csv(os.path.join(r_dir, "top10_combined_batters.csv"))
         self.top_combined_bowlers = pd.read_csv(os.path.join(r_dir, "top10_combined_bowlers.csv"))
         self.top_ipl_batters = pd.read_csv(os.path.join(r_dir, "top10_ipl_batters.csv"))
         self.top_ipl_bowlers = pd.read_csv(os.path.join(r_dir, "top10_ipl_bowlers.csv"))
         self.top_t20i_batters = pd.read_csv(os.path.join(r_dir, "top10_t20i_batters.csv"))
         self.top_t20i_bowlers = pd.read_csv(os.path.join(r_dir, "top10_t20i_bowlers.csv"))
+
+        # 1b. Rankings (V3 Production Approved)
+        self.top_combined_batters_v3 = pd.read_csv(os.path.join(r_dir, "top10_combined_batters_v3.csv"))
+        self.top_combined_bowlers_v3 = pd.read_csv(os.path.join(r_dir, "top10_combined_bowlers_v3.csv"))
+        self.top_ipl_batters_v3 = pd.read_csv(os.path.join(r_dir, "top10_ipl_batters_v3.csv"))
+        self.top_ipl_bowlers_v3 = pd.read_csv(os.path.join(r_dir, "top10_ipl_bowlers_v3.csv"))
+        self.top_t20i_batters_v3 = pd.read_csv(os.path.join(r_dir, "top10_t20i_batters_v3.csv"))
+        self.top_t20i_bowlers_v3 = pd.read_csv(os.path.join(r_dir, "top10_t20i_bowlers_v3.csv"))
+
+        # 1c. Pressure Prevention Candidates (Experimental)
+        self.top_prevention_batters = pd.read_csv(os.path.join(r_dir, "top10_pressure_prevention_batters.csv"))
+        self.top_prevention_bowlers = pd.read_csv(os.path.join(r_dir, "top10_pressure_prevention_bowlers.csv"))
+        cat_path = os.path.join(r_dir, "task08_1_player_categories.csv")
+        if not os.path.exists(cat_path):
+            cat_path = os.path.join(settings.ROOT_DIR, "reports", "pressure", "task08_1_player_categories.csv")
+        self.player_categories = pd.read_csv(cat_path)
+        self.player_ppi = pd.read_csv(os.path.join(d_dir, "player_pressure_prevention_ratings.csv"))
+        self.player_ratings_v3 = pd.read_csv(os.path.join(d_dir, "player_clutch_ratings_v3.csv"))
+
+        # 1d. Unified Integrated Scouting Rankings (Task 09.2)
+        unified_bat_path = os.path.join(r_dir, "unified_integrated_batters.csv")
+        if os.path.exists(unified_bat_path):
+            self.unified_batters = pd.read_csv(unified_bat_path)
+        else:
+            self.unified_batters = pd.DataFrame()
+            
+        unified_bowl_path = os.path.join(r_dir, "unified_integrated_bowlers.csv")
+        if os.path.exists(unified_bowl_path):
+            self.unified_bowlers = pd.read_csv(unified_bowl_path)
+        else:
+            self.unified_bowlers = pd.DataFrame()
+
+        # 1e. SupeRR 10 Under-Pressure Leaderboards (Task 09.6)
+        superr10_bat_path = os.path.join(r_dir, "task09_6_final_batters.csv")
+        if not os.path.exists(superr10_bat_path):
+            superr10_bat_path = os.path.join(settings.ROOT_DIR, "task09_6_final_batters.csv")
+        if os.path.exists(superr10_bat_path):
+            self.superr10_batters = pd.read_csv(superr10_bat_path)
+        else:
+            self.superr10_batters = pd.DataFrame()
+
+        superr10_bowl_path = os.path.join(r_dir, "task09_6_final_bowlers.csv")
+        if not os.path.exists(superr10_bowl_path):
+            superr10_bowl_path = os.path.join(settings.ROOT_DIR, "task09_6_final_bowlers.csv")
+        if os.path.exists(superr10_bowl_path):
+            self.superr10_bowlers = pd.read_csv(superr10_bowl_path)
+        else:
+            self.superr10_bowlers = pd.DataFrame()
+
+        # 1f. Full Unified All-Qualified Cohorts (Task 10)
+        unified_all_bat_path = os.path.join(d_dir, "unified_all_batters_70_20_10.csv")
+        if os.path.exists(unified_all_bat_path):
+            self.unified_all_batters = pd.read_csv(unified_all_bat_path)
+        else:
+            self.unified_all_batters = pd.DataFrame()
+
+        unified_all_bowl_path = os.path.join(d_dir, "unified_all_bowlers_70_20_10.csv")
+        if os.path.exists(unified_all_bowl_path):
+            self.unified_all_bowlers = pd.read_csv(unified_all_bowl_path)
+        else:
+            self.unified_all_bowlers = pd.DataFrame()
         
         # 2. Player selection evidence & reconciliations
         self.evidence = pd.read_csv(os.path.join(r_dir, "player_selection_evidence.csv"))

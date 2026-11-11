@@ -1,0 +1,7 @@
+role,evidence_tier,player_count,pct_of_eligible,mean_hp_balls,min_hp_balls,max_hp_balls,mean_clutch_shrunk,sample_players
+BATTER,Strong Direct Evidence (>=150 HP),93,38.9,292.8,150,735,-0.61,Mahendra Singh Dhoni; Dinesh Karthik; Ravindra Jadeja
+BATTER,Moderate Direct Evidence (40-149 HP),92,38.5,89.1,41,145,-0.1,Virat Kohli; Faf du Plessis; Rohit Sharma
+BATTER,Limited Direct Evidence (<40 HP),54,22.6,18.7,0,39,2.7,Wriddhiman Saha; Robin Uthappa; Steven Smith
+BOWLER,Strong Direct Evidence (>=150 HP),4,1.6,188.5,154,270,-10.21,Jason Holder; T Natarajan; Arshdeep Singh
+BOWLER,Moderate Direct Evidence (40-149 HP),89,34.5,76.8,40,149,-4.54,Wayne Parnell; Bhuvneshwar Kumar; Adil Rashid
+BOWLER,Limited Direct Evidence (<40 HP),165,64.0,17.2,0,39,-4.36,Piyush Chawla; Ishant Sharma; Ravindra Jadeja

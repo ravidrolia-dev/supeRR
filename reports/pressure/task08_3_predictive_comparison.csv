@@ -1,0 +1,6 @@
+model_name,pearson_r,r_95_ci_lower,r_95_ci_upper,r_squared,mae
+Model A: Strike Rate Baseline,0.413,0.235,0.553,0.171,18.41
+Model B: Powerplay Strike Rate Baseline,0.396,0.271,0.507,0.157,18.95
+Model C: Contextual RAR Baseline (Overs 1-16),0.403,0.226,0.535,0.162,18.71
+Model D: RAR + Exposure + Dismissal Risk,0.455,0.317,0.583,0.207,18.06
+Model E: Corrected PPI (Multi-phase Contextual),0.391,0.223,0.532,0.153,19.01

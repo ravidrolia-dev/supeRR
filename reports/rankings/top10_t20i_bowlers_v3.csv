@@ -1,0 +1,11 @@
+player_id,player_name,competitions,legal_balls,total_balls,hp_balls,hp_legal_balls,mean_pressure_index,overall_rate_metric,hp_rate_metric,lp_rate_metric,metric_delta,performance_vs_expected,raw_clutch_impact,distinct_matches,match_impact_std,positive_match_pct,is_qualified,bayesian_clutch_rating,posterior_se,ci_lower_95,ci_upper_95,interval_type,rank
+4722,Rashid Khan,['T20I'],1029,1041,35,35,32.9,6.02,9.43,5.9,-3.53,350.47,19.45,45,8.51,82.22,True,17.31,0.51,16.31,18.31,Bayesian credible interval (95%),1
+5750,Ehsan Khan,['T20I'],186,191,30,28,40.13,6.81,7.29,6.72,-0.57,54.69,22.93,8,5.87,87.5,True,12.97,1.04,10.93,15.01,Bayesian credible interval (95%),2
+4812,Harry Tector,['T20I'],228,248,22,18,34.97,7.0,7.33,6.97,-0.36,54.77,20.95,16,6.16,62.5,True,12.87,0.97,10.97,14.77,Bayesian credible interval (95%),3
+2984,Sikandar Raza,['T20I'],1007,1028,58,57,36.98,6.82,9.89,6.64,-3.25,201.25,13.26,45,8.96,71.11,True,11.54,0.51,10.54,12.54,Bayesian credible interval (95%),4
+5979,Abrar Ahmed,['T20I'],764,776,20,19,32.65,6.66,8.84,6.6,-2.24,174.9,10.12,35,10.48,68.57,True,8.2,0.58,7.06,9.34,Bayesian credible interval (95%),5
+5837,Mahedi Hasan,['T20I'],914,935,20,20,34.25,7.03,11.7,6.93,-4.77,149.18,8.89,41,9.45,70.73,True,7.36,0.54,6.3,8.42,Bayesian credible interval (95%),6
+7240,FazalHaq Farooqi,['T20I'],773,797,25,24,32.53,7.42,11.0,7.31,-3.69,136.92,8.69,38,9.08,68.42,True,6.92,0.58,5.78,8.06,Bayesian credible interval (95%),7
+7920,Nathan Ellis,['T20I'],604,637,77,72,38.84,7.99,8.5,7.92,-0.58,73.97,8.86,29,7.42,65.52,True,6.63,0.65,5.36,7.9,Bayesian credible interval (95%),8
+6523,Blessing Muzarabani,['T20I'],778,802,45,42,37.9,7.35,11.0,7.14,-3.86,138.4,7.91,35,10.32,65.71,True,6.22,0.58,5.08,7.36,Bayesian credible interval (95%),9
+4373,Mustafizur Rahman,['T20I'],1070,1114,97,85,36.93,7.36,12.35,6.93,-5.42,219.22,7.27,49,10.0,67.35,True,6.06,0.5,5.08,7.04,Bayesian credible interval (95%),10

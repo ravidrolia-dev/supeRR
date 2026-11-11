@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchBowlingIntelligence } from '../services/api';
-import { Info } from 'lucide-react';
+import { Info, ShieldCheck, Target, Award } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 
 export const BowlingIntelligence: React.FC = () => {
@@ -42,39 +42,51 @@ export const BowlingIntelligence: React.FC = () => {
   const chartData = decomposition.map((d: any) => ({
     name: d.player_name,
     'Runs Saved (Defensive)': d.weighted_runs_saved,
-    'Wicket Value (Offensive)': Number((d.pressure_net_wickets * 15.0).toFixed(2)),
+    'Wicket Value (Offensive)': Number((d.pressure_net_wickets * selectedVw).toFixed(2)),
   }));
 
   return (
     <div className="space-y-6 max-w-6xl mx-auto">
       {/* Header */}
       <div className="pb-4 border-b border-[#e2e6ec]">
-        <h1 className="text-xl font-bold text-[#17263c] tracking-tight">Bowling Valuation &amp; Wicket Replacement</h1>
+        <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#eff6ff] text-[#1d4ed8] border border-[#bfdbfe] mb-2">
+          V3 Bowling Intelligence &amp; Evidence Architecture
+        </div>
+        <h1 className="text-xl font-bold text-[#17263c] tracking-tight">Bowling Valuation &amp; Dual-Vector Accounting</h1>
         <p className="text-xs text-[#64748b] mt-0.5">
-          Cricket accounting decomposition of defensive runs saved below par versus pressure-weighted strike wickets.
+          Cricket accounting decomposition of V3 Defense Difficulty Index (DDI), defensive runs saved below par, and early-phase pressure prevention.
         </p>
       </div>
 
-      {/* Accounting Principles */}
+      {/* Accounting & Evidence Principles */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="p-4 rounded-md bg-white border border-[#e2e6ec] shadow-xs">
-          <div className="text-xs font-bold text-[#17263c] mb-1">Three Wicket Quantities</div>
+          <div className="flex items-center gap-1.5 text-xs font-bold text-[#17263c] mb-1">
+            <Target className="w-4 h-4 text-[#be185d]" />
+            <span>Three Distinct Wicket Metrics</span>
+          </div>
           <p className="text-xs text-[#64748b] leading-relaxed">
-            Must never conflate: (1) Actual bowler wickets, (2) Unweighted net wickets (Actual - Expected), and (3) Pressure-weighted net wickets.
+            Must never conflate: (1) Actual bowler wickets, (2) Unweighted net wickets (Actual &minus; Expected), and (3) Pressure-weighted net wickets.
           </p>
         </div>
 
         <div className="p-4 rounded-md bg-white border border-[#e2e6ec] shadow-xs">
-          <div className="text-xs font-bold text-[#17263c] mb-1">Wicket Replacement Value (V_w)</div>
+          <div className="flex items-center gap-1.5 text-xs font-bold text-[#17263c] mb-1">
+            <ShieldCheck className="w-4 h-4 text-[#16845b]" />
+            <span>Wicket Replacement (V_w = 15.0)</span>
+          </div>
           <p className="text-xs text-[#64748b] leading-relaxed">
-            A wicket eliminates batting resources. In our validated framework, 1 pressure wicket equates to saving 15.0 runs below par.
+            A wicket terminates batting resources. Across T20 empirical match states, 1 high-pressure wicket is worth 15.0 defensive runs saved below par.
           </p>
         </div>
 
         <div className="p-4 rounded-md bg-white border border-[#e2e6ec] shadow-xs">
-          <div className="text-xs font-bold text-[#17263c] mb-1">Multi-Vector Offset</div>
+          <div className="flex items-center gap-1.5 text-xs font-bold text-[#17263c] mb-1">
+            <Award className="w-4 h-4 text-[#365e91]" />
+            <span>Scouting Evidence Hierarchy</span>
+          </div>
           <p className="text-xs text-[#64748b] leading-relaxed">
-            Bowlers conceding higher economy rates in death overs can generate massive net positive value through crucial high-pressure wickets.
+            Only 4 bowlers meet Strong Evidence (&ge;150 HP balls). 64% of bowlers operate with &lt;40 HP balls, requiring clear evidence tier tagging to prevent misidentifying early suppressors as death specialists.
           </p>
         </div>
       </div>
@@ -83,7 +95,7 @@ export const BowlingIntelligence: React.FC = () => {
       <div className="p-5 rounded-md bg-white border border-[#e2e6ec] shadow-xs">
         <div className="mb-4">
           <h2 className="text-sm font-bold text-[#17263c]">Clutch Value Decomposition (Top 10 Combined Bowlers)</h2>
-          <p className="text-xs text-[#64748b]">Total Value = Defensive Runs Saved + 15 &times; Pressure Net Wickets Added.</p>
+          <p className="text-xs text-[#64748b]">Total Pressure Value = Defensive Runs Saved + {selectedVw} &times; Pressure Net Wickets Added.</p>
         </div>
 
         <div className="h-64">

@@ -112,33 +112,212 @@ export const PlayerExplorer: React.FC = () => {
                   <span className="text-[#94a3b8]">&bull; {profile.teams.join(', ')}</span>
                 )}
               </div>
+              {/* Evidence Taxonomy Badge */}
+              <div className="flex items-center gap-2 mt-3">
+                <span className={`px-2.5 py-1 rounded text-xs font-medium border ${
+                  profile.batting_category?.includes('Dual')
+                    ? 'bg-purple-50 text-purple-700 border-purple-200 font-semibold'
+                    : profile.batting_category?.includes('Prevention')
+                    ? 'bg-amber-50 text-amber-700 border-amber-200 font-semibold'
+                    : profile.batting_category?.includes('Pressure Performer')
+                    ? 'bg-blue-50 text-blue-700 border-blue-200 font-semibold'
+                    : 'bg-slate-50 text-slate-600 border-slate-200'
+                }`}>
+                  {profile.batting_category || 'Category C: Insufficient Evidence'}
+                </span>
+                <span className="text-[11px] text-[#94a3b8] font-mono">
+                  {profile.legal_balls_faced ? `${profile.legal_balls_faced} legal balls faced` : ''}
+                </span>
+              </div>
             </div>
 
-            {/* Official Shrunk Ratings */}
-            <div className="flex items-center gap-4">
-              {profile.batting_eligible && profile.batting_shrunk_rating !== null && (
+            {/* Unified Integrated Scouting Intelligence Header (Task 10) */}
+            {profile.integrated_batting && (
+              <div className="p-4 rounded-md bg-[#fdf2f8] border border-[#fbcfe8] flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-bold uppercase tracking-wider text-[#be185d]">
+                      Unified Integrated Pressure Score (Batting)
+                    </span>
+                    <span className={`px-2 py-0.5 rounded text-[10px] font-semibold border ${
+                      profile.integrated_batting.evidence_tier.includes('Strong') ? 'bg-[#f0fdf4] text-[#166534] border-[#bbf7d0]' :
+                      profile.integrated_batting.evidence_tier.includes('Moderate') ? 'bg-[#eff6ff] text-[#1e40af] border-[#bfdbfe]' :
+                      'bg-[#fffbeb] text-[#92400e] border-[#fef3c7]'
+                    }`}>
+                      {profile.integrated_batting.evidence_tier}
+                    </span>
+                  </div>
+                  <div className="text-xs text-[#64748b] mt-1">
+                    70% V3 Crisis Performance ({profile.integrated_batting.pressure_performance_contribution > 0 ? `+${profile.integrated_batting.pressure_performance_contribution.toFixed(1)}` : profile.integrated_batting.pressure_performance_contribution.toFixed(1)} pts) + 
+                    20% PPI Prevention ({profile.integrated_batting.pressure_prevention_contribution > 0 ? `+${profile.integrated_batting.pressure_prevention_contribution.toFixed(1)}` : profile.integrated_batting.pressure_prevention_contribution.toFixed(1)} pts) + 
+                    10% Consistency ({profile.integrated_batting.consistency_contribution > 0 ? `+${profile.integrated_batting.consistency_contribution.toFixed(1)}` : profile.integrated_batting.consistency_contribution.toFixed(1)} pts)
+                  </div>
+                </div>
+                <div className="text-right">
+                  <div className="text-2xl font-bold font-mono text-[#be185d]">
+                    {profile.integrated_batting.integrated_pressure_score.toFixed(2)}
+                  </div>
+                  <div className="text-[10px] font-mono text-[#64748b]">
+                    95% CI: [{profile.integrated_batting.ci_lower_95.toFixed(1)}, {profile.integrated_batting.ci_upper_95.toFixed(1)}]
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {profile.integrated_bowling && (
+              <div className="p-4 rounded-md bg-[#f0f9ff] border border-[#bae6fd] flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-bold uppercase tracking-wider text-[#0369a1]">
+                      Unified Integrated Pressure Score (Bowling)
+                    </span>
+                    <span className={`px-2 py-0.5 rounded text-[10px] font-semibold border ${
+                      profile.integrated_bowling.evidence_tier.includes('Strong') ? 'bg-[#f0fdf4] text-[#166534] border-[#bbf7d0]' :
+                      profile.integrated_bowling.evidence_tier.includes('Moderate') ? 'bg-[#eff6ff] text-[#1e40af] border-[#bfdbfe]' :
+                      'bg-[#fffbeb] text-[#92400e] border-[#fef3c7]'
+                    }`}>
+                      {profile.integrated_bowling.evidence_tier}
+                    </span>
+                  </div>
+                  <div className="text-xs text-[#64748b] mt-1">
+                    70% V3 Crisis Defending ({profile.integrated_bowling.pressure_performance_contribution > 0 ? `+${profile.integrated_bowling.pressure_performance_contribution.toFixed(1)}` : profile.integrated_bowling.pressure_performance_contribution.toFixed(1)} pts) + 
+                    20% PPI Prevention ({profile.integrated_bowling.pressure_prevention_contribution > 0 ? `+${profile.integrated_bowling.pressure_prevention_contribution.toFixed(1)}` : profile.integrated_bowling.pressure_prevention_contribution.toFixed(1)} pts) + 
+                    10% Consistency ({profile.integrated_bowling.consistency_contribution > 0 ? `+${profile.integrated_bowling.consistency_contribution.toFixed(1)}` : profile.integrated_bowling.consistency_contribution.toFixed(1)} pts)
+                  </div>
+                </div>
+                <div className="text-right">
+                  <div className="text-2xl font-bold font-mono text-[#0369a1]">
+                    {profile.integrated_bowling.integrated_pressure_score.toFixed(2)}
+                  </div>
+                  <div className="text-[10px] font-mono text-[#64748b]">
+                    95% CI: [{profile.integrated_bowling.ci_lower_95.toFixed(1)}, {profile.integrated_bowling.ci_upper_95.toFixed(1)}]
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Official Shrunk Ratings & Prevention Scores */}
+            <div className="flex flex-wrap items-center gap-4">
+              {/* V3 Clutch Rating */}
+              {profile.batting_eligible && profile.batting_v3_clutch_rating !== null && profile.batting_v3_clutch_rating !== undefined && (
                 <div className="p-3 rounded-md bg-[#f8fafc] border border-[#e2e6ec] text-right min-w-32">
-                  <div className="text-[11px] text-[#64748b]">Batting Clutch Rating</div>
+                  <div className="text-[11px] text-[#64748b]">V3 Clutch Rating (Crisis)</div>
                   <div className="text-xl font-bold font-mono text-[#365e91] mt-0.5">
-                    +{profile.batting_shrunk_rating.toFixed(2)}
+                    +{profile.batting_v3_clutch_rating.toFixed(2)}
                   </div>
                   <div className="text-[10px] text-[#94a3b8] font-mono mt-0.5">
-                    CI: [{profile.batting_ci_lower?.toFixed(1)}, {profile.batting_ci_upper?.toFixed(1)}]
+                    {profile.hp_balls_v3_batting} HP Balls (V3)
                   </div>
                 </div>
               )}
 
-              {profile.bowling_eligible && profile.bowling_shrunk_rating !== null && (
-                <div className="p-3 rounded-md bg-[#f8fafc] border border-[#e2e6ec] text-right min-w-32">
-                  <div className="text-[11px] text-[#64748b]">Bowling Clutch Rating</div>
-                  <div className="text-xl font-bold font-mono text-[#16845b] mt-0.5">
-                    +{profile.bowling_shrunk_rating.toFixed(2)}
+              {/* Prevention Index (PPI) */}
+              {profile.pressure_prevention_rating_batting !== null && profile.pressure_prevention_rating_batting !== undefined && (
+                <div className="p-3 rounded-md bg-[#fefce8] border border-[#fef08a] text-right min-w-32">
+                  <div className="text-[11px] text-[#854d0e] font-medium">Prevention Index (PPI)</div>
+                  <div className="text-xl font-bold font-mono text-[#a16207] mt-0.5">
+                    {profile.pressure_prevention_rating_batting > 0 ? `+${profile.pressure_prevention_rating_batting.toFixed(2)}` : profile.pressure_prevention_rating_batting.toFixed(2)}
                   </div>
-                  <div className="text-[10px] text-[#94a3b8] font-mono mt-0.5">
-                    CI: [{profile.bowling_ci_lower?.toFixed(1)}, {profile.bowling_ci_upper?.toFixed(1)}]
+                  <div className="text-[10px] text-[#a16207] mt-0.5">
+                    Early Foundation Dominance
                   </div>
                 </div>
               )}
+            </div>
+          </div>
+
+          {/* 3-Section Multi-Dimensional Intelligence Card */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* 1. Pressure Performance Dimension */}
+            <div className="p-5 rounded-md bg-white border border-[#e2e6ec] shadow-xs space-y-3">
+              <div className="pb-2 border-b border-[#e2e6ec]">
+                <h3 className="text-xs font-bold text-[#17263c] uppercase tracking-wider">1. Pressure Performance</h3>
+                <p className="text-[11px] text-[#64748b] mt-0.5">Crisis resolution in high-stress deliveries (&ge;65 BPI).</p>
+              </div>
+              <div className="space-y-2 text-xs">
+                <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
+                  <span className="text-[#64748b]">Clutch Status:</span>
+                  <span className={`font-semibold ${profile.batting_eligible ? 'text-emerald-600' : 'text-amber-600'}`}>
+                    {profile.batting_eligible ? 'Qualified (≥40 HP Balls)' : 'Insufficient Crisis Sample'}
+                  </span>
+                </div>
+                <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
+                  <span className="text-[#64748b]">High-Pressure Deliveries:</span>
+                  <span className="font-mono font-medium text-[#17263c]">{profile.hp_balls_v3_batting ?? profile.hp_balls_faced ?? 0}</span>
+                </div>
+                <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
+                  <span className="text-[#64748b]">HP Strike Rate:</span>
+                  <span className="font-mono font-medium text-[#17263c]">{profile.hp_strike_rate?.toFixed(1) || '—'}</span>
+                </div>
+                <div className="flex justify-between py-1">
+                  <span className="text-[#64748b]">Clutch Rating (V3):</span>
+                  <span className="font-mono font-bold text-[#365e91]">
+                    {profile.batting_v3_clutch_rating ? `+${profile.batting_v3_clutch_rating.toFixed(2)}` : 'Unqualified (<40 HP)'}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* 2. Pressure Prevention Dimension */}
+            <div className="p-5 rounded-md bg-white border border-[#e2e6ec] shadow-xs space-y-3">
+              <div className="pb-2 border-b border-[#e2e6ec]">
+                <h3 className="text-xs font-bold text-[#17263c] uppercase tracking-wider">2. Pressure Prevention (PPI)</h3>
+                <p className="text-[11px] text-[#64748b] mt-0.5">Front-running foundation building in Overs 1–16.</p>
+              </div>
+              <div className="space-y-2 text-xs">
+                <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
+                  <span className="text-[#64748b]">Prevention Status:</span>
+                  <span className="font-semibold text-emerald-600">
+                    {profile.pressure_prevention_rating_batting !== null ? 'Evaluated (PPI Candidate)' : 'Insufficient Early Volume'}
+                  </span>
+                </div>
+                <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
+                  <span className="text-[#64748b]">Powerplay RAR / 100:</span>
+                  <span className="font-mono font-medium text-[#17263c]">
+                    {profile.pp_contextual_rar ? `+${profile.pp_contextual_rar.toFixed(2)}` : '—'}
+                  </span>
+                </div>
+                <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
+                  <span className="text-[#64748b]">Chase Team Impact:</span>
+                  <span className="font-mono font-medium text-emerald-600">
+                    {profile.chase_team_impact ? `${profile.chase_team_impact.toFixed(2)} RRR Δ` : '—'}
+                  </span>
+                </div>
+                <div className="flex justify-between py-1">
+                  <span className="text-[#64748b]">Prevention Index (PPI):</span>
+                  <span className="font-mono font-bold text-[#a16207]">
+                    {profile.pressure_prevention_rating_batting ? `+${profile.pressure_prevention_rating_batting.toFixed(2)}` : '—'}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* 3. Evidence Reliability Dimension */}
+            <div className="p-5 rounded-md bg-white border border-[#e2e6ec] shadow-xs space-y-3">
+              <div className="pb-2 border-b border-[#e2e6ec]">
+                <h3 className="text-xs font-bold text-[#17263c] uppercase tracking-wider">3. Evidence Reliability</h3>
+                <p className="text-[11px] text-[#64748b] mt-0.5">Sample volume, credibility and confidence intervals.</p>
+              </div>
+              <div className="space-y-2 text-xs">
+                <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
+                  <span className="text-[#64748b]">Career Legal Balls:</span>
+                  <span className="font-mono font-medium text-[#17263c]">{profile.legal_balls_faced || 0}</span>
+                </div>
+                <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
+                  <span className="text-[#64748b]">Evidence Tier:</span>
+                  <span className="font-semibold text-[#17263c]">
+                    {(profile.legal_balls_faced || 0) >= 800 ? 'High Confidence (800+ balls)' : (profile.legal_balls_faced || 0) >= 300 ? 'Moderate (300-800 balls)' : 'Developing / Low Sample'}
+                  </span>
+                </div>
+                <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
+                  <span className="text-[#64748b]">Competitions:</span>
+                  <span className="text-[#17263c] truncate max-w-[150px]">{profile.competitions?.join(', ') || 'IPL, T20I'}</span>
+                </div>
+                <div className="flex justify-between py-1">
+                  <span className="text-[#64748b]">Bayesian Shrinkage (k):</span>
+                  <span className="font-mono text-[#64748b]">k = 80.0</span>
+                </div>
+              </div>
             </div>
           </div>
 

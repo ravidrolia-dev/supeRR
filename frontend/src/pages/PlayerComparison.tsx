@@ -210,8 +210,25 @@ export const PlayerComparison: React.FC = () => {
                 </div>
 
                 <div className="mt-4 space-y-2 text-xs">
+                  {/* Task 10: Unified Integrated Score */}
+                  {((isBatter && p.integrated_batting) || (!isBatter && p.integrated_bowling)) && (
+                    <div className="p-2.5 rounded bg-[#fdf2f8] border border-[#fbcfe8] mb-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-[11px] font-bold uppercase text-[#be185d]">SupeRR Integrated Score:</span>
+                        <span className="font-mono font-bold text-base text-[#be185d]">
+                          {isBatter 
+                            ? p.integrated_batting?.integrated_pressure_score.toFixed(2)
+                            : p.integrated_bowling?.integrated_pressure_score.toFixed(2)}
+                        </span>
+                      </div>
+                      <div className="text-[10px] text-[#64748b] mt-0.5">
+                        Tier: <span className="font-semibold text-[#17263c]">{isBatter ? p.integrated_batting?.evidence_tier : p.integrated_bowling?.evidence_tier}</span>
+                      </div>
+                    </div>
+                  )}
+
                   <div className="flex justify-between py-1 border-b border-[#f1f5f9]">
-                    <span className="text-[#64748b]">Clutch Rating:</span>
+                    <span className="text-[#64748b]">V3 Pressure Performance:</span>
                     <span className={`font-bold font-mono ${isBatter ? 'text-[#365e91]' : 'text-[#16845b]'}`}>
                       +{rating?.toFixed(2)}
                     </span>

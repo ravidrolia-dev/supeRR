@@ -1,0 +1,13 @@
+player_id,player_name,batting_category,legal_balls_faced,high_pressure_balls,clutch_rating,prevention_rating,audit_check
+8,Mahendra Singh Dhoni,Dual: Qualified Pressure & Prevention,457.0,319.0,-12.19,-41.14,PASS: Criteria strictly met
+47,Virat Kohli,Dual: Qualified Pressure & Prevention,2454.0,59.0,2.88,5.19,PASS: Criteria strictly met
+88,Faf du Plessis,Dual: Qualified Pressure & Prevention,1271.0,47.0,2.07,0.18,PASS: Criteria strictly met
+109,Wriddhiman Saha,Category B: Pressure Prevention Candidate,659.0,0.0,-9.97,-11.26,PASS: Criteria strictly met
+169,Robin Uthappa,Category B: Pressure Prevention Candidate,170.0,2.0,-4.91,-15.22,PASS: Criteria strictly met
+223,Steven Smith,Category B: Pressure Prevention Candidate,184.0,11.0,-3.35,-14.06,PASS: Criteria strictly met
+332,Angelo Mathews,Category A: Qualified Pressure Performer,150.0,55.0,0.93,-41.02,PASS: Criteria strictly met
+360,Bhuvneshwar Kumar,Category A: Qualified Pressure Performer,168.0,161.0,-65.37,-13.98,PASS: Criteria strictly met
+494,Kieron Pollard,Category A: Qualified Pressure Performer,211.0,136.0,-35.6,-16.65,PASS: Criteria strictly met
+23,Piyush Chawla,Category C: Insufficient Evidence,37.0,33.0,-9.67,-9.88,PASS: Criteria strictly met
+28,Ishant Sharma,Category C: Insufficient Evidence,8.0,9.0,-12.62,-9.28,PASS: Criteria strictly met
+147,Pradeep Sangwan,Category C: Insufficient Evidence,5.0,6.0,-6.68,-9.28,PASS: Criteria strictly met

@@ -36,14 +36,28 @@ class PlayerService:
         for _, r in matches.head(limit).iterrows():
             pid = int(r["player_id"])
             teams = data_loader.player_teams.get(pid, [])
+            
+            # Check unified records
+            u_bat = data_loader.unified_all_batters[data_loader.unified_all_batters["player_id"] == pid]
+            u_bowl = data_loader.unified_all_bowlers[data_loader.unified_all_bowlers["player_id"] == pid]
+            
+            bat_score = float(u_bat["integrated_pressure_score"].iloc[0]) if len(u_bat) > 0 else None
+            bat_tier = str(u_bat["evidence_tier"].iloc[0]) if len(u_bat) > 0 else None
+            bowl_score = float(u_bowl["integrated_pressure_score"].iloc[0]) if len(u_bowl) > 0 else None
+            bowl_tier = str(u_bowl["evidence_tier"].iloc[0]) if len(u_bowl) > 0 else None
+            
             res = {
                 "player_id": pid,
                 "player_name": str(r["player_name"]),
                 "batting_type": clean_val(r.get("batting_type")),
                 "bowling_type": clean_val(r.get("bowling_type")),
                 "pace_or_spin": clean_val(r.get("pace_or_spin")),
-                "batting_eligible": bool(r.get("is_eligible_for_ranking_batting", False)),
-                "bowling_eligible": bool(r.get("is_eligible_for_ranking_bowling", False)),
+                "batting_eligible": bool(r.get("is_eligible_for_ranking_batting", False)) or (bat_score is not None),
+                "bowling_eligible": bool(r.get("is_eligible_for_ranking_bowling", False)) or (bowl_score is not None),
+                "integrated_pressure_score_batting": bat_score,
+                "evidence_tier_batting": bat_tier,
+                "integrated_pressure_score_bowling": bowl_score,
+                "evidence_tier_bowling": bowl_tier,
                 "batting_rating": clean_val(r.get("batting_clutch_shrunk_rating")) if bool(r.get("is_eligible_for_ranking_batting", False)) else None,
                 "bowling_rating": clean_val(r.get("bowling_clutch_shrunk_rating")) if bool(r.get("is_eligible_for_ranking_bowling", False)) else None,
                 "teams": list(teams[:3]) if len(teams) > 0 else []
@@ -145,6 +159,71 @@ class PlayerService:
         if len(m_bw) > 0:
             hp_legal_bowled = int(m_bw["hp_legal_balls"].iloc[0])
 
+        # Pull multi-dimensional category and PPI information
+        cat_row = data_loader.player_categories[data_loader.player_categories["player_id"] == pid]
+        bat_cat = str(cat_row["batting_category"].iloc[0]) if len(cat_row) > 0 and pd.notna(cat_row["batting_category"].iloc[0]) else "Category C: Insufficient Evidence"
+        bowl_cat = str(cat_row["bowling_category"].iloc[0]) if len(cat_row) > 0 and pd.notna(cat_row["bowling_category"].iloc[0]) else "Category C: Insufficient Evidence"
+
+        ppi_row = data_loader.player_ppi[data_loader.player_ppi["player_id"] == pid]
+        bat_ppi_shrunk = float(ppi_row["batter_ppi_shrunk"].iloc[0]) if len(ppi_row) > 0 and pd.notna(ppi_row["batter_ppi_shrunk"].iloc[0]) else None
+        bowl_ppi_shrunk = float(ppi_row["bowler_ppi_shrunk"].iloc[0]) if len(ppi_row) > 0 and pd.notna(ppi_row["bowler_ppi_shrunk"].iloc[0]) else None
+        pp_rar = float(ppi_row["pp_rar_per_100"].iloc[0]) if len(ppi_row) > 0 and pd.notna(ppi_row["pp_rar_per_100"].iloc[0]) else None
+        em_rar = float(ppi_row["early_mid_rar_per_100"].iloc[0]) if len(ppi_row) > 0 and pd.notna(ppi_row["early_mid_rar_per_100"].iloc[0]) else None
+        chase_delta = float(ppi_row["mean_chase_rrr_delta"].iloc[0]) if len(ppi_row) > 0 and pd.notna(ppi_row["mean_chase_rrr_delta"].iloc[0]) else None
+
+        # V3 ratings lookup
+        v3_row = data_loader.player_ratings_v3[data_loader.player_ratings_v3["player_id"] == pid]
+        bat_v3_rating = float(v3_row["batting_clutch_shrunk_rating"].iloc[0]) if len(v3_row) > 0 and pd.notna(v3_row["batting_clutch_shrunk_rating"].iloc[0]) and bat_eligible else None
+        bowl_v3_rating = float(v3_row["bowling_clutch_shrunk_rating"].iloc[0]) if len(v3_row) > 0 and pd.notna(v3_row["bowling_clutch_shrunk_rating"].iloc[0]) and bowl_eligible else None
+        v3_hp_bat = int(v3_row["high_pressure_balls_batting"].iloc[0]) if len(v3_row) > 0 and pd.notna(v3_row["high_pressure_balls_batting"].iloc[0]) else None
+        v3_hp_bowl = int(v3_row["high_pressure_balls_bowling"].iloc[0]) if len(v3_row) > 0 and pd.notna(v3_row["high_pressure_balls_bowling"].iloc[0]) else None
+
+        # Task 10: Unified 70/20/10 Integrated Score Lookup
+        u_bat = data_loader.unified_all_batters[data_loader.unified_all_batters["player_id"] == pid]
+        u_bowl = data_loader.unified_all_bowlers[data_loader.unified_all_bowlers["player_id"] == pid]
+
+        integrated_bat = None
+        if len(u_bat) > 0:
+            b_row = u_bat.iloc[0]
+            integrated_bat = {
+                "integrated_pressure_score": float(b_row["integrated_pressure_score"]),
+                "pressure_performance_score": float(b_row["pressure_performance_score"]),
+                "pressure_prevention_score": float(b_row["pressure_prevention_score"]) if pd.notna(b_row["pressure_prevention_score"]) else None,
+                "consistency_score": float(b_row["consistency_score"]) if pd.notna(b_row["consistency_score"]) else None,
+                "pressure_performance_contribution": float(b_row["pressure_performance_contribution"]),
+                "pressure_prevention_contribution": float(b_row["pressure_prevention_contribution"]),
+                "consistency_contribution": float(b_row["consistency_contribution"]),
+                "evidence_tier": str(b_row["evidence_tier"]),
+                "reliability": "Bayesian Shrunk (k=150)",
+                "posterior_uncertainty": float(b_row["posterior_uncertainty"]),
+                "ci_lower_95": float(b_row["ci_lower_95"]),
+                "ci_upper_95": float(b_row["ci_upper_95"]),
+                "total_legal_balls": int(b_row["total_legal_balls"]),
+                "high_pressure_legal_balls": int(b_row["high_pressure_legal_balls"]),
+                "distinct_matches": int(b_row["distinct_matches"])
+            }
+
+        integrated_bowl = None
+        if len(u_bowl) > 0:
+            bw_row = u_bowl.iloc[0]
+            integrated_bowl = {
+                "integrated_pressure_score": float(bw_row["integrated_pressure_score"]),
+                "pressure_performance_score": float(bw_row["pressure_performance_score"]),
+                "pressure_prevention_score": float(bw_row["pressure_prevention_score"]) if pd.notna(bw_row["pressure_prevention_score"]) else None,
+                "consistency_score": float(bw_row["consistency_score"]) if pd.notna(bw_row["consistency_score"]) else None,
+                "pressure_performance_contribution": float(bw_row["pressure_performance_contribution"]),
+                "pressure_prevention_contribution": float(bw_row["pressure_prevention_contribution"]),
+                "consistency_contribution": float(bw_row["consistency_contribution"]),
+                "evidence_tier": str(bw_row["evidence_tier"]),
+                "reliability": "Bayesian Shrunk (k=150)",
+                "posterior_uncertainty": float(bw_row["posterior_uncertainty"]),
+                "ci_lower_95": float(bw_row["ci_lower_95"]),
+                "ci_upper_95": float(bw_row["ci_upper_95"]),
+                "total_legal_balls": int(bw_row["total_legal_balls"]),
+                "high_pressure_legal_balls": int(bw_row["high_pressure_legal_balls"]),
+                "distinct_matches": int(bw_row["distinct_matches"])
+            }
+
         raw_dict = {
             "player_id": pid,
             "player_name": str(r["player_name"]),
@@ -153,6 +232,27 @@ class PlayerService:
             "pace_or_spin": clean_val(r.get("pace_or_spin")),
             "teams": teams[:6],
             "competitions": comps[:6],
+
+            # Unified Integrated Scouting Data (Task 10)
+            "integrated_batting": integrated_bat,
+            "integrated_bowling": integrated_bowl,
+            
+            # Multi-Dimensional Classifications
+            "batting_category": bat_cat,
+            "bowling_category": bowl_cat,
+            "pressure_prevention_rating_batting": bat_ppi_shrunk,
+            "pressure_prevention_rating_bowling": bowl_ppi_shrunk,
+            "pp_contextual_rar": pp_rar,
+            "early_mid_contextual_rar": em_rar,
+            "chase_team_impact": chase_delta,
+            "chase_impact_label": "Contextual Team Chase Impact",
+            
+            # V3 Ratings
+            "batting_v3_clutch_rating": bat_v3_rating,
+            "bowling_v3_clutch_rating": bowl_v3_rating,
+            "hp_balls_v3_batting": v3_hp_bat,
+            "hp_balls_v3_bowling": v3_hp_bowl,
+
             "has_batting": has_bat,
             "batting_eligible": bat_eligible,
             "legal_balls_faced": clean_val(r.get("legal_balls_faced")) if has_bat else None,

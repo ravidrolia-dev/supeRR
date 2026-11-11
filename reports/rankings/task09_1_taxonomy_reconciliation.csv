@@ -1,0 +1,101 @@
+player_id,player_name,legal_balls,hp_balls,assigned_category,audit_result
+8,Mahendra Singh Dhoni,457.0,319.0,Dual: Qualified Pressure & Prevention,PASS
+23,Piyush Chawla,37.0,33.0,Category C: Insufficient Evidence,PASS
+28,Ishant Sharma,8.0,9.0,Category C: Insufficient Evidence,PASS
+47,Virat Kohli,2454.0,59.0,Dual: Qualified Pressure & Prevention,PASS
+88,Faf du Plessis,1271.0,47.0,Dual: Qualified Pressure & Prevention,PASS
+109,Wriddhiman Saha,659.0,0.0,Category B: Pressure Prevention Candidate,PASS
+126,Rohit Sharma,1610.0,81.0,Dual: Qualified Pressure & Prevention,PASS
+142,Shikhar Dhawan,751.0,47.0,Dual: Qualified Pressure & Prevention,PASS
+143,Dinesh Karthik,636.0,278.0,Dual: Qualified Pressure & Prevention,PASS
+147,Pradeep Sangwan,5.0,6.0,Category C: Insufficient Evidence,PASS
+152,Ravindra Jadeja,956.0,411.0,Dual: Qualified Pressure & Prevention,PASS
+158,Amit Mishra,30.0,23.0,Category C: Insufficient Evidence,PASS
+161,Dwayne Bravo,24.0,24.0,Category C: Insufficient Evidence,PASS
+167,Ajinkya Rahane,1025.0,49.0,Dual: Qualified Pressure & Prevention,PASS
+169,Robin Uthappa,170.0,2.0,Category B: Pressure Prevention Candidate,PASS
+198,Manish Pandey,369.0,93.0,Dual: Qualified Pressure & Prevention,PASS
+220,David Warner,1113.0,126.0,Dual: Qualified Pressure & Prevention,PASS
+223,Steven Smith,184.0,11.0,Category B: Pressure Prevention Candidate,PASS
+232,Tom Cooper,22.0,7.0,Category C: Insufficient Evidence,PASS
+250,Aaron Finch,345.0,16.0,Category B: Pressure Prevention Candidate,PASS
+274,Martin Guptill,158.0,14.0,Category B: Pressure Prevention Candidate,PASS
+278,Tim Southee,51.0,48.0,Category C: Insufficient Evidence,PASS
+286,Kane Richardson,1.0,1.0,Category C: Insufficient Evidence,PASS
+295,Wayne Parnell,76.0,71.0,Category C: Insufficient Evidence,PASS
+305,Ravichandran Ashwin,314.0,125.0,Dual: Qualified Pressure & Prevention,PASS
+332,Angelo Mathews,150.0,55.0,Category A: Qualified Pressure Performer,PASS
+344,Sheldon Jackson,26.0,4.0,Category C: Insufficient Evidence,PASS
+360,Bhuvneshwar Kumar,168.0,161.0,Category A: Qualified Pressure Performer,PASS
+393,Kedar Jadhav,10.0,0.0,Category C: Insufficient Evidence,PASS
+395,Karn Sharma,21.0,13.0,Category C: Insufficient Evidence,PASS
+403,Umesh Yadav,89.0,91.0,Category C: Insufficient Evidence,PASS
+418,Richard Berrington,80.0,0.0,Category C: Insufficient Evidence,PASS
+443,Paul Stirling,527.0,11.0,Category B: Pressure Prevention Candidate,PASS
+470,Mohammad Amir,4.0,4.0,Category C: Insufficient Evidence,PASS
+478,Eoin Morgan,41.0,32.0,Category C: Insufficient Evidence,PASS
+479,Adil Rashid,118.0,121.0,Category C: Insufficient Evidence,PASS
+492,Andre Fletcher,39.0,0.0,Category C: Insufficient Evidence,PASS
+494,Kieron Pollard,211.0,136.0,Category A: Qualified Pressure Performer,PASS
+499,Shakib Al Hasan,327.0,95.0,Dual: Qualified Pressure & Prevention,PASS
+505,Mushfiqur Rahim,9.0,3.0,Category C: Insufficient Evidence,PASS
+507,Mohammad Mahmudullah,255.0,126.0,Dual: Qualified Pressure & Prevention,PASS
+535,Ambati Rayudu,336.0,82.0,Dual: Qualified Pressure & Prevention,PASS
+722,Liam Dawson,47.0,39.0,Category C: Insufficient Evidence,PASS
+728,Dawid Malan,455.0,26.0,Category B: Pressure Prevention Candidate,PASS
+757,Sybrand Engelbrecht,10.0,0.0,Category C: Insufficient Evidence,PASS
+768,Reeza Hendricks,832.0,156.0,Dual: Qualified Pressure & Prevention,PASS
+772,Rilee Rossouw,415.0,38.0,Category B: Pressure Prevention Candidate,PASS
+773,Shadley Van Schalkwyk,13.0,4.0,Category C: Insufficient Evidence,PASS
+778,Darren Bravo,28.0,13.0,Category C: Insufficient Evidence,PASS
+781,Sunil Narine,510.0,57.0,Dual: Qualified Pressure & Prevention,PASS
+786,Chris Jordan,129.0,100.0,Category C: Insufficient Evidence,PASS
+796,Matthew Wade,425.0,177.0,Dual: Qualified Pressure & Prevention,PASS
+813,Jos Buttler,2820.0,210.0,Dual: Qualified Pressure & Prevention,PASS
+818,Mitchell Marsh,1719.0,94.0,Dual: Qualified Pressure & Prevention,PASS
+820,Nathan Coulter Nile,2.0,0.0,Category C: Insufficient Evidence,PASS
+829,Mitchell Starc,30.0,23.0,Category C: Insufficient Evidence,PASS
+830,Josh Hazlewood,39.0,40.0,Category C: Insufficient Evidence,PASS
+838,Glenn Maxwell,953.0,176.0,Dual: Qualified Pressure & Prevention,PASS
+914,Krishnappa Gowtham,37.0,28.0,Category C: Insufficient Evidence,PASS
+930,Karun Nair,150.0,17.0,Category B: Pressure Prevention Candidate,PASS
+953,Lokesh Rahul,2011.0,140.0,Dual: Qualified Pressure & Prevention,PASS
+985,Brendan Taylor,59.0,0.0,Category C: Insufficient Evidence,PASS
+988,Graeme Cremer,4.0,4.0,Category C: Insufficient Evidence,PASS
+992,Mayank Agarwal,489.0,31.0,Category B: Pressure Prevention Candidate,PASS
+1028,Varun Aaron,,,Category C: Insufficient Evidence,PASS
+1039,Mandeep Singh,39.0,8.0,Category C: Insufficient Evidence,PASS
+1040,Harpreet Bhatia,92.0,19.0,Category C: Insufficient Evidence,PASS
+1045,David Wiese,11.0,2.0,Category C: Insufficient Evidence,PASS
+1071,Jaydev Unadkat,73.0,67.0,Category C: Insufficient Evidence,PASS
+1077,David Miller,1273.0,611.0,Dual: Qualified Pressure & Prevention,PASS
+1100,Dinesh Chandimal,75.0,48.0,Category C: Insufficient Evidence,PASS
+1101,George Dockrell,496.0,224.0,Dual: Qualified Pressure & Prevention,PASS
+1107,Mohammad Nabi,659.0,338.0,Dual: Qualified Pressure & Prevention,PASS
+1116,Craig Ervine,245.0,33.0,Category B: Pressure Prevention Candidate,PASS
+1159,Tendai Chatara,24.0,25.0,Category C: Insufficient Evidence,PASS
+1171,Chris Woakes,48.0,37.0,Category C: Insufficient Evidence,PASS
+1183,Alex Hales,151.0,2.0,Category B: Pressure Prevention Candidate,PASS
+1187,Jason Roy,385.0,51.0,Dual: Qualified Pressure & Prevention,PASS
+1195,Ben Stokes,44.0,9.0,Category C: Insufficient Evidence,PASS
+1205,Jonny Bairstow,669.0,64.0,Dual: Qualified Pressure & Prevention,PASS
+1210,James Vince,86.0,6.0,Category C: Insufficient Evidence,PASS
+1219,David Willey,98.0,64.0,Category C: Insufficient Evidence,PASS
+1233,Gary Ballance,29.0,0.0,Category C: Insufficient Evidence,PASS
+1318,Andre Russell,724.0,318.0,Dual: Qualified Pressure & Prevention,PASS
+1327,Johnson Charles,409.0,4.0,Category B: Pressure Prevention Candidate,PASS
+1389,Sean Abbott,37.0,15.0,Category C: Insufficient Evidence,PASS
+1440,Rahul Tripathi,709.0,84.0,Dual: Qualified Pressure & Prevention,PASS
+1481,Kusal Perera,569.0,11.0,Category B: Pressure Prevention Candidate,PASS
+1487,Adam Milne,56.0,45.0,Category C: Insufficient Evidence,PASS
+1541,Sean Williams,156.0,18.0,Category B: Pressure Prevention Candidate,PASS
+1556,David Payne,5.0,5.0,Category C: Insufficient Evidence,PASS
+1566,Mohammed Shami,46.0,46.0,Category C: Insufficient Evidence,PASS
+1568,Kane Williamson,535.0,36.0,Category B: Pressure Prevention Candidate,PASS
+1596,Moeen Ali,749.0,208.0,Dual: Qualified Pressure & Prevention,PASS
+1612,Yuzvendra Chahal,10.0,10.0,Category C: Insufficient Evidence,PASS
+1617,Rishi Dhawan,52.0,28.0,Category C: Insufficient Evidence,PASS
+1649,Regis Chakabva,52.0,14.0,Category C: Insufficient Evidence,PASS
+1699,Suryakumar Yadav,2748.0,456.0,Dual: Qualified Pressure & Prevention,PASS
+1701,Swapnil Singh,25.0,4.0,Category C: Insufficient Evidence,PASS
+1758,Patrick Cummins,244.0,163.0,Category A: Qualified Pressure Performer,PASS

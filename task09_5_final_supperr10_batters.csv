@@ -1,0 +1,11 @@
+superr_rank,v3_rank,player_id,player_name,teams,superr_score,clutch_contrib,ppi_contrib,cons_contrib,v3_clutch_rating,v3_posterior_se,v3_ci_lower_95,v3_ci_upper_95,ppi_rating,consistency_pct,legal_balls,hp_balls,distinct_matches
+1,1,37052,Naman Dhir,"['India', 'India A', 'Mumbai Indians']",69.83,17.03,0.72,2.09,34.13,9.43,15.65,52.62,2.13,66.66666666666666,514.0,220.0,42
+2,2,6396,Tim David,"['Australia', 'Mumbai Indians', 'Royal Challengers Bengaluru']",69.83,15.77,2.61,1.46,31.58,6.59,18.67,44.5,33.87,59.183673469387756,1210.0,497.0,98
+3,3,6281,Abhishek Sharma,"['India', 'India A', 'Sunrisers Hyderabad']",69.69,15.05,2.92,1.72,30.12,4.97,20.38,39.87,39.18,62.30769230769231,2239.0,117.0,130
+4,5,4847,Finn Allen,"['Kolkata Knight Riders', 'New Zealand', 'Royal Challengers Bengaluru']",67.38,13.46,2.1,1.82,26.91,7.77,11.69,42.13,25.35,63.46153846153846,829.0,46.0,52
+5,4,1699,Suryakumar Yadav,"['India', 'Mumbai Indians']",66.99,13.62,1.32,2.05,27.24,4.51,18.39,36.09,12.3,66.18705035971223,2748.0,521.0,139
+6,6,5553,Phil Salt,"['Delhi Capitals', 'England', 'Kolkata Knight Riders', 'Royal Challengers Bengaluru']",66.32,12.64,2.19,1.49,25.25,5.76,13.96,36.55,26.84,59.523809523809526,1628.0,89.0,84
+7,7,4260,Heinrich Klaasen,"['South Africa', 'Sunrisers Hyderabad']",64.2,11.54,0.34,2.32,23.02,6.16,10.95,35.08,-4.19,69.44444444444444,1408.0,445.0,72
+8,9,772,Rilee Rossouw,"['Delhi Capitals', 'Punjab Kings', 'South Africa']",63.45,10.92,1.52,1.01,21.76,10.22,1.72,41.8,15.65,53.84615384615385,415.0,70.0,26
+9,8,838,Glenn Maxwell,"['Australia', 'Punjab Kings', 'Royal Challengers Bengaluru']",63.22,11.28,1.53,0.41,22.5,7.32,8.15,36.84,15.75,46.666666666666664,953.0,228.0,75
+10,11,4736,Josh Inglis,"['Australia', 'Lucknow Super Giants', 'Punjab Kings']",63.18,10.06,1.98,1.14,20.03,7.49,5.35,34.7,23.29,55.35714285714286,903.0,48.0,56

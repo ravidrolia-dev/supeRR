@@ -1,0 +1,892 @@
+player_id,player_name,batting_type,bowling_type,batting_category,legal_balls_faced,high_pressure_balls_batting,clutch_rating_batting,prevention_rating_batting,bowling_category,legal_balls_bowled,high_pressure_balls_bowling,clutch_rating_bowling,prevention_rating_bowling
+8,Mahendra Singh Dhoni,RHB,,Dual: Qualified Pressure & Prevention,457.0,319.0,-12.19,-41.14,Category C: Insufficient Evidence,,,,
+23,Piyush Chawla,LHB,Right-arm Leg-Break,Category C: Insufficient Evidence,37.0,33.0,-9.67,-9.88,Dual: Qualified Pressure & Prevention,576.0,112.0,9.48,-0.82
+28,Ishant Sharma,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,8.0,9.0,-12.62,-9.28,Dual: Qualified Pressure & Prevention,422.0,140.0,10.31,1.88
+47,Virat Kohli,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,2454.0,59.0,2.88,5.19,Category C: Insufficient Evidence,6.0,6.0,-3.02,-2.01
+88,Faf du Plessis,RHB,,Dual: Qualified Pressure & Prevention,1271.0,47.0,2.07,0.18,Category C: Insufficient Evidence,,,,
+109,Wriddhiman Saha,RHB,,Category B: Pressure Prevention Candidate,659.0,0.0,-9.97,-11.26,Category C: Insufficient Evidence,,,,
+126,Rohit Sharma,RHB,,Dual: Qualified Pressure & Prevention,1610.0,81.0,4.45,-1.71,Category C: Insufficient Evidence,,,,
+142,Shikhar Dhawan,LHB,,Dual: Qualified Pressure & Prevention,751.0,47.0,-8.51,-16.33,Category C: Insufficient Evidence,,,,
+143,Dinesh Karthik,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,636.0,278.0,13.7,21.21,Category C: Insufficient Evidence,6.0,6.0,-14.7,-2.01
+147,Pradeep Sangwan,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,5.0,6.0,-6.68,-9.28,Category C: Insufficient Evidence,54.0,0.0,9.18,14.94
+152,Ravindra Jadeja,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,956.0,411.0,-16.48,0.13,Dual: Qualified Pressure & Prevention,1396.0,468.0,0.83,19.75
+158,Amit Mishra,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,30.0,23.0,-20.9,-12.61,Category B: Pressure Prevention Candidate,126.0,23.0,1.75,1.22
+161,Dwayne Bravo,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,24.0,24.0,-12.87,-11.69,Dual: Qualified Pressure & Prevention,206.0,119.0,39.66,2.11
+167,Ajinkya Rahane,RHB,,Dual: Qualified Pressure & Prevention,1025.0,49.0,0.9,0.02,Category C: Insufficient Evidence,,,,
+169,Robin Uthappa,RHB,,Category B: Pressure Prevention Candidate,170.0,2.0,-4.91,-15.22,Category C: Insufficient Evidence,,,,
+198,Manish Pandey,RHB,,Dual: Qualified Pressure & Prevention,369.0,93.0,-10.25,-23.66,Category C: Insufficient Evidence,,,,
+220,David Warner,LHB,,Dual: Qualified Pressure & Prevention,1113.0,126.0,1.13,5.13,Category C: Insufficient Evidence,,,,
+223,Steven Smith,RHB,,Category B: Pressure Prevention Candidate,184.0,11.0,-3.35,-14.06,Category C: Insufficient Evidence,,,,
+232,Tom Cooper,RHB,Right-arm offbreak,Category C: Insufficient Evidence,22.0,7.0,3.69,-16.33,Category C: Insufficient Evidence,12.0,0.0,-0.95,-1.99
+250,Aaron Finch,RHB,,Category B: Pressure Prevention Candidate,345.0,16.0,-1.65,-8.77,Category C: Insufficient Evidence,,,,
+274,Martin Guptill,RHB,,Category B: Pressure Prevention Candidate,158.0,14.0,-0.56,-6.7,Category C: Insufficient Evidence,,,,
+278,Tim Southee,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,51.0,48.0,-19.18,-9.09,Dual: Qualified Pressure & Prevention,826.0,252.0,23.36,5.5
+286,Kane Richardson,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,1.0,1.0,1.03,-9.28,Dual: Qualified Pressure & Prevention,198.0,47.0,-9.34,-13.43
+295,Wayne Parnell,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,76.0,71.0,-35.13,-15.9,Dual: Qualified Pressure & Prevention,400.0,156.0,6.22,-2.18
+305,Ravichandran Ashwin,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,314.0,125.0,-7.3,-9.78,Dual: Qualified Pressure & Prevention,1404.0,432.0,3.73,3.92
+332,Angelo Mathews,RHB,Right-arm fast-medium,Category A: Qualified Pressure Performer,150.0,55.0,0.93,-41.02,Category B: Pressure Prevention Candidate,110.0,17.0,7.62,6.17
+344,Sheldon Jackson,RHB,,Category C: Insufficient Evidence,26.0,4.0,-6.48,-9.72,Category C: Insufficient Evidence,,,,
+360,Bhuvneshwar Kumar,RHB,Right-arm medium,Category A: Qualified Pressure Performer,168.0,161.0,-65.37,-13.98,Dual: Qualified Pressure & Prevention,2221.0,815.0,-2.42,19.42
+393,Kedar Jadhav,RHB,,Category C: Insufficient Evidence,10.0,0.0,0.53,-8.53,Category C: Insufficient Evidence,,,,
+395,Karn Sharma,LHB,Right-arm Leg-Break,Category C: Insufficient Evidence,21.0,13.0,5.72,-10.14,Dual: Qualified Pressure & Prevention,363.0,139.0,5.99,-7.92
+403,Umesh Yadav,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,89.0,91.0,-32.7,-10.5,Dual: Qualified Pressure & Prevention,558.0,92.0,-4.25,9.93
+418,Richard Berrington,RHB,,Category C: Insufficient Evidence,80.0,0.0,-2.74,-10.57,Category C: Insufficient Evidence,,,,
+443,Paul Stirling,RHB,,Category B: Pressure Prevention Candidate,527.0,11.0,5.87,4.88,Category C: Insufficient Evidence,,,,
+470,Mohammad Amir,LHB,Left-arm Fast,Category C: Insufficient Evidence,4.0,4.0,3.15,-9.28,Category C: Insufficient Evidence,146.0,10.0,-21.61,-7.53
+478,Eoin Morgan,LHB,,Category C: Insufficient Evidence,41.0,32.0,-20.31,-31.86,Category C: Insufficient Evidence,,,,
+479,Adil Rashid,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,118.0,121.0,-36.54,-9.38,Dual: Qualified Pressure & Prevention,1324.0,385.0,11.21,4.83
+492,Andre Fletcher,RHB,,Category C: Insufficient Evidence,39.0,0.0,-3.07,-27.39,Category C: Insufficient Evidence,,,,
+494,Kieron Pollard,RHB,Right-arm medium-fast,Category A: Qualified Pressure Performer,211.0,136.0,-35.6,-16.65,Dual: Qualified Pressure & Prevention,185.0,50.0,-0.03,3.14
+499,Shakib Al Hasan,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,327.0,95.0,3.02,-0.88,Dual: Qualified Pressure & Prevention,340.0,77.0,19.57,24.89
+505,Mushfiqur Rahim,RHB,,Category C: Insufficient Evidence,9.0,3.0,-2.45,-14.59,Category C: Insufficient Evidence,,,,
+507,Mohammad Mahmudullah,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,255.0,126.0,-16.46,2.14,Category C: Insufficient Evidence,38.0,17.0,11.76,-1.37
+535,Ambati Rayudu,RHB,,Dual: Qualified Pressure & Prevention,336.0,82.0,-2.87,-31.69,Category C: Insufficient Evidence,,,,
+722,Liam Dawson,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,47.0,39.0,-10.84,-11.04,Dual: Qualified Pressure & Prevention,415.0,159.0,19.05,6.78
+728,Dawid Malan,LHB,,Category B: Pressure Prevention Candidate,455.0,26.0,-0.33,-12.39,Category C: Insufficient Evidence,,,,
+757,Sybrand Engelbrecht,RHB,,Category C: Insufficient Evidence,10.0,0.0,0.04,-10.5,Category C: Insufficient Evidence,,,,
+768,Reeza Hendricks,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,832.0,156.0,15.25,7.41,Category C: Insufficient Evidence,23.0,0.0,-3.26,-3.66
+772,Rilee Rossouw,LHB,,Category B: Pressure Prevention Candidate,415.0,38.0,19.05,15.65,Category C: Insufficient Evidence,,,,
+773,Shadley Van Schalkwyk,LHB,Right-arm medium,Category C: Insufficient Evidence,13.0,4.0,4.14,-9.62,Category C: Insufficient Evidence,90.0,24.0,14.28,2.62
+778,Darren Bravo,LHB,,Category C: Insufficient Evidence,28.0,13.0,-9.18,-9.83,Category C: Insufficient Evidence,,,,
+781,Sunil Narine,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,510.0,57.0,8.8,13.05,Dual: Qualified Pressure & Prevention,1533.0,407.0,27.91,12.83
+786,Chris Jordan,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,129.0,100.0,-22.39,-6.22,Dual: Qualified Pressure & Prevention,550.0,259.0,-53.22,-11.75
+796,Matthew Wade,LHB,,Dual: Qualified Pressure & Prevention,425.0,177.0,7.54,-17.11,Category C: Insufficient Evidence,,,,
+813,Jos Buttler,RHB,,Dual: Qualified Pressure & Prevention,2820.0,210.0,12.88,10.03,Category C: Insufficient Evidence,,,,
+818,Mitchell Marsh,RHB,Right-arm medium-fast,Dual: Qualified Pressure & Prevention,1719.0,94.0,9.67,14.82,Dual: Qualified Pressure & Prevention,295.0,90.0,6.13,10.63
+820,Nathan Coulter Nile,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,2.0,0.0,1.47,-9.28,Category C: Insufficient Evidence,18.0,20.0,-38.37,-3.66
+829,Mitchell Starc,LHB,Left-arm Fast,Category C: Insufficient Evidence,30.0,23.0,-23.32,-9.28,Dual: Qualified Pressure & Prevention,808.0,250.0,12.04,-5.85
+830,Josh Hazlewood,LHB,Right-arm fast-medium,Category C: Insufficient Evidence,39.0,40.0,-34.36,-13.35,Dual: Qualified Pressure & Prevention,1476.0,452.0,28.48,12.05
+838,Glenn Maxwell,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,953.0,176.0,20.17,15.75,Dual: Qualified Pressure & Prevention,638.0,150.0,-10.53,2.53
+914,Krishnappa Gowtham,RHB,Right-arm offbreak,Category C: Insufficient Evidence,37.0,28.0,-9.75,-31.79,Category B: Pressure Prevention Candidate,180.0,37.0,0.05,-8.16
+930,Karun Nair,RHB,,Category B: Pressure Prevention Candidate,150.0,17.0,7.0,2.65,Category C: Insufficient Evidence,,,,
+953,Lokesh Rahul,RHB,,Dual: Qualified Pressure & Prevention,2011.0,140.0,-0.62,-7.81,Category C: Insufficient Evidence,,,,
+985,Brendan Taylor,RHB,,Category C: Insufficient Evidence,59.0,0.0,-7.37,-20.16,Category C: Insufficient Evidence,,,,
+988,Graeme Cremer,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,4.0,4.0,0.02,-9.28,Category C: Insufficient Evidence,42.0,27.0,6.07,-2.25
+992,Mayank Agarwal,RHB,,Category B: Pressure Prevention Candidate,489.0,31.0,-8.46,-13.97,Category C: Insufficient Evidence,,,,
+1028,Varun Aaron,,Right-arm fast-medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,30.0,0.0,3.31,-2.32
+1039,Mandeep Singh,RHB,,Category C: Insufficient Evidence,39.0,8.0,-7.24,-24.79,Category C: Insufficient Evidence,,,,
+1040,Harpreet Bhatia,LHB,,Category C: Insufficient Evidence,92.0,19.0,-14.39,-20.35,Category C: Insufficient Evidence,,,,
+1045,David Wiese,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,11.0,2.0,3.75,-9.28,Category C: Insufficient Evidence,18.0,6.0,-11.0,-10.68
+1071,Jaydev Unadkat,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,73.0,67.0,-12.95,-12.12,Dual: Qualified Pressure & Prevention,575.0,225.0,1.85,-4.45
+1077,David Miller,LHB,,Dual: Qualified Pressure & Prevention,1273.0,611.0,12.58,-24.56,Category C: Insufficient Evidence,,,,
+1100,Dinesh Chandimal,RHB,,Category C: Insufficient Evidence,75.0,48.0,-12.29,-18.04,Category C: Insufficient Evidence,,,,
+1101,George Dockrell,RHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,496.0,224.0,-1.36,-17.44,Category B: Pressure Prevention Candidate,186.0,35.0,18.34,7.39
+1107,Mohammad Nabi,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,659.0,338.0,0.61,-17.84,Dual: Qualified Pressure & Prevention,680.0,130.0,-18.38,-24.28
+1116,Craig Ervine,LHB,,Category B: Pressure Prevention Candidate,245.0,33.0,-12.9,-23.72,Category C: Insufficient Evidence,,,,
+1159,Tendai Chatara,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,24.0,25.0,-25.28,-9.28,Category B: Pressure Prevention Candidate,217.0,21.0,-5.57,13.36
+1171,Chris Woakes,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,48.0,37.0,-21.99,-10.61,Dual: Qualified Pressure & Prevention,164.0,51.0,28.58,1.04
+1183,Alex Hales,RHB,,Category B: Pressure Prevention Candidate,151.0,2.0,4.77,2.66,Category C: Insufficient Evidence,,,,
+1187,Jason Roy,RHB,,Dual: Qualified Pressure & Prevention,385.0,51.0,-0.67,-12.54,Category C: Insufficient Evidence,,,,
+1195,Ben Stokes,LHB,Right-arm medium-fast,Category C: Insufficient Evidence,44.0,9.0,-0.68,-20.22,Category C: Insufficient Evidence,30.0,26.0,-6.86,-7.36
+1205,Jonny Bairstow,RHB,,Dual: Qualified Pressure & Prevention,669.0,64.0,9.22,9.87,Category C: Insufficient Evidence,,,,
+1210,James Vince,RHB,,Category C: Insufficient Evidence,86.0,6.0,7.11,5.21,Category C: Insufficient Evidence,,,,
+1219,David Willey,LHB,Left-arm fast-medium,Category C: Insufficient Evidence,98.0,64.0,-15.82,-35.05,Dual: Qualified Pressure & Prevention,380.0,130.0,0.21,11.6
+1233,Gary Ballance,LHB,,Category C: Insufficient Evidence,29.0,0.0,0.94,-12.52,Category C: Insufficient Evidence,,,,
+1318,Andre Russell,RHB,Right-arm fast-medium,Dual: Qualified Pressure & Prevention,724.0,318.0,13.85,2.36,Dual: Qualified Pressure & Prevention,754.0,322.0,-2.91,-26.26
+1327,Johnson Charles,RHB,,Category B: Pressure Prevention Candidate,409.0,4.0,4.45,7.06,Category C: Insufficient Evidence,,,,
+1389,Sean Abbott,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,37.0,15.0,-14.29,-10.16,Dual: Qualified Pressure & Prevention,442.0,124.0,-15.23,-21.69
+1440,Rahul Tripathi,RHB,,Dual: Qualified Pressure & Prevention,709.0,84.0,-1.97,-3.66,Category C: Insufficient Evidence,,,,
+1481,Kusal Perera,LHB,,Category B: Pressure Prevention Candidate,569.0,11.0,2.98,-0.51,Category C: Insufficient Evidence,,,,
+1487,Adam Milne,RHB,Right-arm Fast,Category C: Insufficient Evidence,56.0,45.0,-21.86,-12.15,Dual: Qualified Pressure & Prevention,545.0,155.0,-3.63,-5.51
+1541,Sean Williams,LHB,Slow left-arm orthodox,Category B: Pressure Prevention Candidate,156.0,18.0,-4.86,-7.22,Category B: Pressure Prevention Candidate,162.0,24.0,-4.1,4.38
+1556,David Payne,RHB,Left-arm fast-medium,Category C: Insufficient Evidence,5.0,5.0,1.16,-9.28,Category C: Insufficient Evidence,30.0,12.0,-21.49,-39.4
+1566,Mohammed Shami,RHB,Right-arm Fast,Category C: Insufficient Evidence,46.0,46.0,-19.33,-9.34,Dual: Qualified Pressure & Prevention,1275.0,270.0,8.6,17.35
+1568,Kane Williamson,RHB,,Category B: Pressure Prevention Candidate,535.0,36.0,-11.21,-30.55,Category C: Insufficient Evidence,,,,
+1596,Moeen Ali,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,749.0,208.0,1.97,-7.57,Dual: Qualified Pressure & Prevention,805.0,258.0,8.64,2.77
+1612,Yuzvendra Chahal,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,10.0,10.0,-8.85,-9.28,Dual: Qualified Pressure & Prevention,2138.0,778.0,21.85,6.05
+1617,Rishi Dhawan,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,52.0,28.0,-14.9,-14.13,Dual: Qualified Pressure & Prevention,174.0,80.0,-1.66,6.14
+1649,Regis Chakabva,RHB,,Category C: Insufficient Evidence,52.0,14.0,-1.62,-12.39,Category C: Insufficient Evidence,,,,
+1699,Suryakumar Yadav,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,2748.0,456.0,25.75,12.3,Category C: Insufficient Evidence,6.0,6.0,35.17,-2.01
+1701,Swapnil Singh,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,25.0,4.0,-1.58,-7.43,Category B: Pressure Prevention Candidate,102.0,43.0,9.89,-1.21
+1758,Patrick Cummins,RHB,Right-arm Fast,Category A: Qualified Pressure Performer,244.0,163.0,1.31,-3.45,Dual: Qualified Pressure & Prevention,1215.0,450.0,-7.73,-2.02
+1772,Sheldon Cottrell,,Left-arm fast-medium,Category C: Insufficient Evidence,,,,,Dual: Qualified Pressure & Prevention,215.0,65.0,-27.31,0.42
+1791,Wesley Barresi,RHB,,Category C: Insufficient Evidence,9.0,7.0,-0.63,-10.16,Category C: Insufficient Evidence,,,,
+1801,Nitish Kumar,RHB,,Category C: Insufficient Evidence,20.0,0.0,0.5,-10.71,Category C: Insufficient Evidence,,,,
+1810,Devon Thomas,RHB,,Category C: Insufficient Evidence,50.0,8.0,-6.44,-24.8,Category C: Insufficient Evidence,,,,
+1813,Deepak Chahar,RHB,Right-arm medium,Category C: Insufficient Evidence,65.0,58.0,2.81,-7.22,Dual: Qualified Pressure & Prevention,917.0,289.0,0.03,6.66
+1924,Sam Billings,RHB,,Dual: Qualified Pressure & Prevention,178.0,65.0,-3.92,-24.15,Category C: Insufficient Evidence,,,,
+1941,Devon Conway,LHB,,Category B: Pressure Prevention Candidate,1481.0,39.0,-1.93,-8.98,Category C: Insufficient Evidence,,,,
+1944,Keshav Maharaj,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,90.0,83.0,-33.42,-15.05,Dual: Qualified Pressure & Prevention,598.0,155.0,-1.4,-10.71
+2003,Bhanuka Rajapaksa,LHB,,Dual: Qualified Pressure & Prevention,420.0,82.0,0.15,-3.45,Category C: Insufficient Evidence,,,,
+2054,Jason Behrendorff,RHB,Left-arm fast-medium,Category C: Insufficient Evidence,11.0,11.0,-8.53,-9.28,Dual: Qualified Pressure & Prevention,438.0,122.0,-4.59,8.11
+2101,Quinton de Kock,LHB,,Dual: Qualified Pressure & Prevention,1257.0,106.0,8.04,0.57,Category C: Insufficient Evidence,,,,
+2210,Sabbir Rahman,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,36.0,0.0,-3.62,-19.76,Category C: Insufficient Evidence,6.0,6.0,-3.07,-2.4
+2213,Soumya Sarkar,LHB,Right-arm medium-fast,Category B: Pressure Prevention Candidate,201.0,18.0,-5.84,-15.63,Category C: Insufficient Evidence,42.0,11.0,0.65,-3.26
+2214,Gulbadin Naib,RHB,Right-arm medium-fast,Dual: Qualified Pressure & Prevention,202.0,50.0,-0.26,-12.47,Category C: Insufficient Evidence,54.0,38.0,-3.05,-4.98
+2218,Anamul Haque,RHB,,Category C: Insufficient Evidence,93.0,10.0,-7.86,-19.72,Category C: Insufficient Evidence,,,,
+2246,Tom Latham,LHB,,Category B: Pressure Prevention Candidate,242.0,6.0,-4.37,-15.87,Category C: Insufficient Evidence,,,,
+2258,Sanju Samson,RHB,,Dual: Qualified Pressure & Prevention,2216.0,126.0,13.1,12.39,Category C: Insufficient Evidence,,,,
+2261,Harshal Patel,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,145.0,120.0,-40.51,-11.69,Dual: Qualified Pressure & Prevention,1643.0,702.0,-3.64,-9.38
+2296,Safyaan Sharif,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,6.0,6.0,-3.05,-9.28,Category C: Insufficient Evidence,33.0,0.0,-12.38,-11.6
+2304,Tymal Mills,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,13.0,15.0,-12.58,-8.56,Dual: Qualified Pressure & Prevention,229.0,45.0,-36.9,-16.46
+2315,Reece Topley,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,21.0,19.0,-13.04,-9.28,Dual: Qualified Pressure & Prevention,615.0,262.0,-1.0,4.44
+2320,Trent Boult,RHB,Left-arm fast-medium,Category C: Insufficient Evidence,79.0,67.0,-22.83,-10.65,Dual: Qualified Pressure & Prevention,1543.0,452.0,5.55,14.92
+2321,Olly Stone,RHB,Right-arm Fast,Category C: Insufficient Evidence,1.0,0.0,2.46,-9.28,Category C: Insufficient Evidence,24.0,5.0,-9.02,-3.47
+2334,Dwaine Pretorius,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,82.0,27.0,10.01,-5.41,Dual: Qualified Pressure & Prevention,308.0,124.0,7.17,-4.74
+2351,Danushka Gunathilaka,LHB,Right-arm offbreak,Category B: Pressure Prevention Candidate,117.0,11.0,-2.79,-12.0,Category C: Insufficient Evidence,5.0,0.0,1.12,-2.01
+2359,Prenelan Subrayen,,Right-arm offbreak,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,42.0,24.0,5.56,4.11
+2361,Temba Bavuma,RHB,,Category C: Insufficient Evidence,98.0,0.0,-5.11,-16.49,Category C: Insufficient Evidence,,,,
+2364,Ashton Agar,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,46.0,1.0,-1.44,-19.95,Category B: Pressure Prevention Candidate,144.0,18.0,6.34,45.19
+2367,Travis Head,LHB,Right-arm offbreak,Category B: Pressure Prevention Candidate,1120.0,7.0,17.89,31.69,Category C: Insufficient Evidence,16.0,6.0,9.92,-8.86
+2373,Ashton Turner,RHB,,Category C: Insufficient Evidence,20.0,11.0,0.59,-8.05,Category C: Insufficient Evidence,,,,
+2379,Ben Duckett,LHB,,Category B: Pressure Prevention Candidate,337.0,37.0,8.73,25.56,Category C: Insufficient Evidence,,,,
+2382,Jamie Overton,RHB,Right-arm Fast,Category C: Insufficient Evidence,145.0,116.0,-3.27,-6.89,Dual: Qualified Pressure & Prevention,497.0,118.0,27.86,-23.51
+2399,Dushmantha Chameera,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,100.0,103.0,-47.95,-11.57,Dual: Qualified Pressure & Prevention,1151.0,208.0,-7.99,-0.02
+2407,Dhananjaya de Silva,RHB,Right-arm offbreak,Category B: Pressure Prevention Candidate,198.0,29.0,-2.14,-9.92,Category C: Insufficient Evidence,81.0,6.0,13.49,21.76
+2411,Sandeep Sharma,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,11.0,13.0,-12.47,-9.77,Dual: Qualified Pressure & Prevention,965.0,353.0,-17.4,15.95
+2416,Kyle Mayers,LHB,Right-arm medium,Category B: Pressure Prevention Candidate,749.0,0.0,5.2,0.63,Category B: Pressure Prevention Candidate,138.0,13.0,-14.49,3.68
+2417,Akeal Hosein,LHB,Slow left-arm orthodox,Category A: Qualified Pressure Performer,222.0,187.0,-7.3,-16.9,Dual: Qualified Pressure & Prevention,1692.0,324.0,2.25,2.3
+2418,Justin Greaves,RHB,Right-arm medium,Category C: Insufficient Evidence,20.0,0.0,-2.69,-10.85,Category C: Insufficient Evidence,6.0,0.0,-5.46,-4.43
+2436,Dasun Shanaka,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,771.0,391.0,1.48,-32.82,Dual: Qualified Pressure & Prevention,529.0,180.0,-14.4,-9.52
+2439,Akila Dananjaya,LHB,Right-arm offbreak,Category C: Insufficient Evidence,1.0,0.0,4.85,-9.28,Category C: Insufficient Evidence,36.0,13.0,-1.49,-12.35
+2463,Ryan Burl,LHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,702.0,388.0,-10.2,-10.19,Category B: Pressure Prevention Candidate,318.0,22.0,2.22,0.14
+2483,Lizaad Williams,LHB,Right-arm medium-fast,Category C: Insufficient Evidence,21.0,19.0,-19.34,-10.61,Dual: Qualified Pressure & Prevention,259.0,81.0,-17.35,-22.49
+2485,Babar Azam,RHB,,Dual: Qualified Pressure & Prevention,1179.0,56.0,6.23,-4.04,Category C: Insufficient Evidence,,,,
+2490,Mohammad Nawaz,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,494.0,254.0,-5.99,-18.25,Dual: Qualified Pressure & Prevention,1004.0,193.0,49.95,4.26
+2523,Will Young,RHB,,Category B: Pressure Prevention Candidate,176.0,17.0,-11.13,-24.43,Category C: Insufficient Evidence,,,,
+2526,Ish Sodhi,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,133.0,116.0,-26.57,-12.47,Dual: Qualified Pressure & Prevention,1175.0,324.0,1.52,-7.69
+2531,Joe Root,RHB,Right-arm offbreak,Category C: Insufficient Evidence,15.0,0.0,-2.49,-17.61,Category C: Insufficient Evidence,12.0,0.0,-0.06,-0.77
+2533,Najibullah Zadran,LHB,,Dual: Qualified Pressure & Prevention,304.0,123.0,1.84,1.41,Category C: Insufficient Evidence,,,,
+2534,Rahmat Shah,RHB,,Category C: Insufficient Evidence,6.0,0.0,-0.81,-10.46,Category C: Insufficient Evidence,,,,
+2573,Evin Lewis,LHB,,Category B: Pressure Prevention Candidate,275.0,30.0,5.63,-9.22,Category C: Insufficient Evidence,,,,
+2633,Jason Holder,RHB,Right-arm medium-fast,Dual: Qualified Pressure & Prevention,444.0,270.0,6.73,-44.9,Dual: Qualified Pressure & Prevention,1928.0,604.0,-11.17,-4.33
+2636,Adam Zampa,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,52.0,51.0,-40.89,-11.74,Dual: Qualified Pressure & Prevention,1152.0,336.0,19.1,2.71
+2639,Marcus Stoinis,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,1240.0,378.0,12.17,-5.37,Dual: Qualified Pressure & Prevention,747.0,324.0,0.1,-0.44
+2650,Raymon Reifer,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,41.0,4.0,-2.51,-13.95,Category C: Insufficient Evidence,30.0,27.0,-24.58,-1.04
+2661,Shamarh Brooks,RHB,,Category B: Pressure Prevention Candidate,150.0,18.0,-12.7,-20.56,Category C: Insufficient Evidence,,,,
+2671,Liton Das,RHB,,Dual: Qualified Pressure & Prevention,1134.0,77.0,4.29,1.75,Category C: Insufficient Evidence,,,,
+2680,Nurul Hasan,RHB,,Dual: Qualified Pressure & Prevention,236.0,124.0,-2.43,-20.18,Category C: Insufficient Evidence,,,,
+2681,Taskin Ahmed,LHB,Right-arm fast-medium,Category C: Insufficient Evidence,91.0,85.0,-20.9,-8.68,Dual: Qualified Pressure & Prevention,1040.0,182.0,20.38,9.54
+2687,Roston Chase,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,510.0,110.0,-10.96,-18.36,Dual: Qualified Pressure & Prevention,834.0,177.0,-2.67,-7.22
+2750,Alex Carey,LHB,,Category C: Insufficient Evidence,27.0,19.0,3.55,-6.62,Category C: Insufficient Evidence,,,,
+2756,Shashank Singh,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,560.0,282.0,13.55,-13.72,Category C: Insufficient Evidence,90.0,37.0,10.79,0.47
+2790,Praveen Dubey,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,20.0,10.0,-6.7,-11.21,Category C: Insufficient Evidence,30.0,12.0,8.22,-0.24
+2847,Shardul Thakur,RHB,Right-arm medium,Category A: Qualified Pressure Performer,216.0,120.0,-19.73,-37.99,Dual: Qualified Pressure & Prevention,966.0,352.0,-9.98,-16.44
+2852,Jagadeesha Suchith,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,8.0,7.0,-7.81,-11.69,Category B: Pressure Prevention Candidate,108.0,0.0,11.71,9.88
+2860,KS Bharat,RHB,,Category C: Insufficient Evidence,7.0,0.0,2.48,-10.17,Category C: Insufficient Evidence,,,,
+2863,Sandeep Warrier,,Right-arm medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,66.0,26.0,0.76,-9.65
+2872,Siddarth Kaul,,Right-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,-7.13,-9.65
+2876,Axar Patel,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,1276.0,557.0,-10.91,-18.52,Dual: Qualified Pressure & Prevention,2670.0,730.0,-3.12,4.67
+2877,Vijay Shankar,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,384.0,107.0,-4.62,-24.75,Category C: Insufficient Evidence,9.0,3.0,-4.13,-3.63
+2878,Mohit Sharma,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,19.0,20.0,-26.56,-14.8,Dual: Qualified Pressure & Prevention,649.0,305.0,19.36,-12.01
+2884,Manan Vohra,RHB,,Category C: Insufficient Evidence,22.0,0.0,1.41,-9.71,Category C: Insufficient Evidence,,,,
+2887,Harmeet Singh,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,28.0,9.0,2.5,-7.81,Category C: Insufficient Evidence,96.0,6.0,7.96,16.33
+2892,Asif Ali,RHB,,Category C: Insufficient Evidence,78.0,58.0,-5.93,-8.69,Category C: Insufficient Evidence,,,,
+2921,Fakhar Zaman,LHB,,Dual: Qualified Pressure & Prevention,856.0,109.0,4.83,-2.63,Category C: Insufficient Evidence,,,,
+2930,Rassie van der Dussen,RHB,,Dual: Qualified Pressure & Prevention,309.0,70.0,-1.01,-18.98,Category C: Insufficient Evidence,,,,
+2933,Jasprit Bumrah,RHB,Right-arm medium,Category C: Insufficient Evidence,31.0,32.0,-28.46,-8.12,Dual: Qualified Pressure & Prevention,1708.0,505.0,21.7,21.69
+2972,Yasim Murtaza,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,169.0,54.0,-17.88,-11.97,Category B: Pressure Prevention Candidate,192.0,0.0,-9.18,5.23
+2984,Sikandar Raza,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,998.0,368.0,5.39,-17.98,Dual: Qualified Pressure & Prevention,1091.0,116.0,1.25,-9.44
+2985,Mark Wood,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,19.0,18.0,1.94,-9.73,Dual: Qualified Pressure & Prevention,281.0,122.0,66.95,6.81
+2996,Stephanus Myburgh,LHB,,Category C: Insufficient Evidence,27.0,1.0,-1.66,-15.03,Category C: Insufficient Evidence,,,,
+2997,Paul van Meekeren,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,18.0,17.0,-11.78,-11.03,Category B: Pressure Prevention Candidate,187.0,24.0,4.62,8.04
+3024,Mohammad Rizwan,RHB,,Dual: Qualified Pressure & Prevention,1144.0,78.0,-0.55,-8.4,Category C: Insufficient Evidence,,,,
+3033,Usman Qadir,LHB,Right-arm Leg-Break,Category C: Insufficient Evidence,7.0,7.0,-6.28,-9.28,Category C: Insufficient Evidence,96.0,0.0,-5.55,-7.51
+3038,Hussain Talat,LHB,Right-arm Fast,Category C: Insufficient Evidence,53.0,7.0,-9.14,-12.06,Category C: Insufficient Evidence,36.0,13.0,6.93,2.96
+3040,Kashif Daud,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,2.0,2.0,1.03,-9.28,Category C: Insufficient Evidence,11.0,5.0,-13.79,-3.11
+3056,Iftikhar Ahmed,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,455.0,145.0,-3.56,-12.94,Category B: Pressure Prevention Candidate,186.0,21.0,1.89,32.52
+3077,Usama Mir,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,7.0,7.0,-1.18,-9.28,Category B: Pressure Prevention Candidate,120.0,25.0,-7.45,-2.6
+3091,Sahibzada Farhan,RHB,,Dual: Qualified Pressure & Prevention,811.0,53.0,3.34,4.62,Category C: Insufficient Evidence,,,,
+3097,Shan Masood,LHB,,Dual: Qualified Pressure & Prevention,175.0,78.0,-1.54,-24.35,Category C: Insufficient Evidence,,,,
+3125,Nicholas Pooran,LHB,,Dual: Qualified Pressure & Prevention,1966.0,441.0,10.42,13.8,Category C: Insufficient Evidence,,,,
+3135,Yannic Cariah,LHB,Right-arm Leg-Break,Category C: Insufficient Evidence,4.0,4.0,-0.75,-9.28,Category C: Insufficient Evidence,36.0,0.0,-1.26,-0.41
+3174,Matt Henry,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,28.0,24.0,-16.95,-10.82,Dual: Qualified Pressure & Prevention,622.0,198.0,-31.89,-5.78
+3253,Rohan Mustafa,,Right-arm offbreak,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,13.0,-2.21,-2.86
+3255,Ahmed Raza 1,,Slow left-arm orthodox,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,12.0,0.0,3.12,-3.12
+3260,Hashmatullah Shahidi,LHB,,Category C: Insufficient Evidence,54.0,31.0,-13.81,-19.2,Category C: Insufficient Evidence,,,,
+3272,Fabian Allen,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,47.0,46.0,-8.52,-10.07,Category B: Pressure Prevention Candidate,179.0,30.0,-26.14,-19.11
+3275,Alzarri Joseph,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,130.0,131.0,-47.27,-7.84,Dual: Qualified Pressure & Prevention,1153.0,249.0,-23.7,-19.32
+3276,Gudakesh Motie,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,145.0,118.0,0.89,-6.07,Dual: Qualified Pressure & Prevention,738.0,174.0,-1.93,-12.97
+3280,Nazmul Hossain Shanto,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,510.0,57.0,-9.09,-17.73,Category C: Insufficient Evidence,12.0,0.0,-2.95,-4.64
+3281,Mosaddek Hossain,RHB,Right-arm offbreak,Category C: Insufficient Evidence,112.0,76.0,-5.76,-8.5,Category B: Pressure Prevention Candidate,159.0,7.0,20.06,11.08
+3282,Mehidy Hasan Miraz,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,263.0,95.0,-9.91,-6.23,Dual: Qualified Pressure & Prevention,234.0,49.0,-1.33,-19.67
+3297,Shimron Hetmyer,LHB,,Dual: Qualified Pressure & Prevention,1243.0,448.0,5.96,11.77,Category C: Insufficient Evidence,,,,
+3298,Jofra Archer,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,144.0,102.0,-21.07,-10.19,Dual: Qualified Pressure & Prevention,1259.0,389.0,8.09,-0.29
+3299,Andrew Tye,,Right-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,66.0,15.0,-6.75,0.35
+3304,Munim Shahriar,RHB,,Category C: Insufficient Evidence,19.0,3.0,-1.93,-16.73,Category C: Insufficient Evidence,,,,
+3306,Afsar Zazai,RHB,,Category C: Insufficient Evidence,24.0,0.0,-6.22,-14.31,Category C: Insufficient Evidence,,,,
+3320,Jayant Yadav,,Right-arm offbreak,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,-2.4,0.03
+3323,Jimmy Neesham,LHB,Right-arm medium-fast,Dual: Qualified Pressure & Prevention,420.0,230.0,0.23,-38.71,Dual: Qualified Pressure & Prevention,526.0,106.0,-1.31,-15.08
+3330,Hardik Pandya,RHB,Right-arm medium-fast,Dual: Qualified Pressure & Prevention,1917.0,465.0,-1.9,-12.99,Dual: Qualified Pressure & Prevention,1825.0,569.0,-13.78,-2.8
+3337,Jeremy Gordon,,Right-arm fast-medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,18.0,0.0,-5.54,1.86
+3361,Michael Leask,RHB,Right-arm offbreak,Category C: Insufficient Evidence,59.0,12.0,-1.17,-6.58,Category C: Insufficient Evidence,30.0,0.0,6.8,9.67
+3373,Aizaz Khan,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,48.0,38.0,-20.78,-26.88,Category B: Pressure Prevention Candidate,123.0,7.0,-24.87,12.95
+3374,Mark Chapman,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,869.0,225.0,11.43,-13.76,Category C: Insufficient Evidence,6.0,0.0,1.05,-2.01
+3377,Babar Hayat,RHB,,Category B: Pressure Prevention Candidate,163.0,37.0,-5.6,-18.95,Category C: Insufficient Evidence,,,,
+3382,Nizakat Khan,RHB,,Category B: Pressure Prevention Candidate,187.0,30.0,-8.59,-25.76,Category C: Insufficient Evidence,,,,
+3383,Kinchit Shah,LHB,Right-arm offbreak,Category C: Insufficient Evidence,87.0,38.0,-16.72,-26.41,Category C: Insufficient Evidence,54.0,5.0,-6.89,-1.63
+3415,Matthew Cross,RHB,,Category C: Insufficient Evidence,110.0,12.0,0.15,-2.36,Category C: Insufficient Evidence,,,,
+3451,Baba Indrajith,RHB,,Category C: Insufficient Evidence,30.0,3.0,-5.82,-23.79,Category C: Insufficient Evidence,,,,
+3469,Shreyas Gopal,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,7.0,7.0,0.24,-9.28,Category C: Insufficient Evidence,60.0,10.0,2.11,-5.67
+3489,Salman Agha,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,696.0,225.0,-11.0,-0.53,Category B: Pressure Prevention Candidate,108.0,35.0,3.62,-8.03
+3539,Ben McDermott,RHB,,Category B: Pressure Prevention Candidate,138.0,0.0,-2.04,-17.22,Category C: Insufficient Evidence,,,,
+3543,Shahidullah Kamal,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,65.0,27.0,-3.35,-21.05,Category C: Insufficient Evidence,30.0,25.0,-8.9,-12.07
+3544,Usman Ghani,RHB,,Category B: Pressure Prevention Candidate,125.0,29.0,-9.32,-31.26,Category C: Insufficient Evidence,,,,
+3545,Ihsanullah Janat,RHB,,Category C: Insufficient Evidence,14.0,0.0,4.32,-5.64,Category C: Insufficient Evidence,,,,
+3550,Sharafuddin Ashraf,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,21.0,14.0,2.75,-10.3,Category C: Insufficient Evidence,114.0,50.0,9.1,7.88
+3578,Imad Wasim,LHB,Slow left-arm orthodox,Category A: Qualified Pressure Performer,160.0,106.0,-12.27,-11.14,Dual: Qualified Pressure & Prevention,246.0,53.0,36.45,24.83
+3595,Andy McBrine,LHB,Right-arm offbreak,Category C: Insufficient Evidence,8.0,8.0,4.33,-10.19,Category C: Insufficient Evidence,72.0,0.0,-12.42,-19.95
+3605,Aiden Markram,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,1666.0,352.0,6.69,-1.77,Dual: Qualified Pressure & Prevention,397.0,48.0,-37.11,-16.71
+3613,Shakeel Ahmed,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,33.0,34.0,-22.17,-14.0,Category C: Insufficient Evidence,60.0,0.0,-9.11,8.59
+3622,Hayden Walsh,LHB,Right-arm Leg-Break,Category C: Insufficient Evidence,15.0,16.0,-12.34,-11.03,Category B: Pressure Prevention Candidate,186.0,24.0,-7.29,-14.56
+3623,Hasan Ali,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,19.0,15.0,-15.81,-9.28,Dual: Qualified Pressure & Prevention,158.0,77.0,10.13,-15.86
+3627,Andile Phehlukwayo,LHB,Right-arm medium,Category C: Insufficient Evidence,41.0,37.0,-11.52,-11.43,Category B: Pressure Prevention Candidate,144.0,59.0,-8.0,-23.85
+3628,Kagiso Rabada,LHB,Right-arm Fast,Category C: Insufficient Evidence,140.0,130.0,-35.22,-10.39,Dual: Qualified Pressure & Prevention,1533.0,393.0,-2.36,0.16
+3629,Corbin Bosch,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,139.0,108.0,-21.38,-13.47,Dual: Qualified Pressure & Prevention,367.0,112.0,53.66,-2.69
+3635,Jason Smith,RHB,,Category C: Insufficient Evidence,68.0,22.0,8.6,-2.12,Category C: Insufficient Evidence,,,,
+3637,Dayyaan Galiem,,Right-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,13.48,12.19
+3639,Brandon King,RHB,,Category B: Pressure Prevention Candidate,1132.0,38.0,3.34,2.9,Category C: Insufficient Evidence,,,,
+3641,Ben Dwarshuis,LHB,Left-arm fast-medium,Category C: Insufficient Evidence,70.0,29.0,-19.94,-13.38,Dual: Qualified Pressure & Prevention,324.0,71.0,16.93,-3.38
+3644,Kuldeep Yadav,LHB,Left-arm Chinaman,Category A: Qualified Pressure Performer,201.0,207.0,-91.5,-15.44,Dual: Qualified Pressure & Prevention,1914.0,535.0,23.4,-21.87
+3645,Sarfaraz Khan,RHB,,Dual: Qualified Pressure & Prevention,222.0,58.0,-2.84,2.49,Category C: Insufficient Evidence,,,,
+3647,Shreyas Iyer,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,1858.0,269.0,11.28,2.08,Category C: Insufficient Evidence,8.0,0.0,1.51,-2.01
+3648,Deepak Hooda,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,792.0,180.0,-6.96,-11.44,Category B: Pressure Prevention Candidate,131.0,54.0,30.28,32.24
+3651,Ricky Bhui,RHB,,Category C: Insufficient Evidence,9.0,0.0,-1.51,-18.95,Category C: Insufficient Evidence,,,,
+3653,Avesh Khan,RHB,Right-arm medium,Category C: Insufficient Evidence,57.0,54.0,2.6,-6.6,Dual: Qualified Pressure & Prevention,1672.0,649.0,-15.72,-9.05
+3660,Luke Wood,LHB,Left-arm medium,Category C: Insufficient Evidence,8.0,9.0,3.28,-9.87,Dual: Qualified Pressure & Prevention,324.0,118.0,-21.43,-6.55
+3664,Binura Fernando,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,25.0,27.0,-22.8,-9.82,Dual: Qualified Pressure & Prevention,342.0,72.0,-31.86,1.26
+3669,Sadeera Samarawickrama,RHB,,Category B: Pressure Prevention Candidate,162.0,0.0,-2.33,-9.17,Category C: Insufficient Evidence,,,,
+3672,Kusal Mendis,RHB,,Category B: Pressure Prevention Candidate,1320.0,29.0,2.7,1.7,Category C: Insufficient Evidence,,,,
+3673,Ramesh Mendis,RHB,Right-arm offbreak,Category C: Insufficient Evidence,16.0,4.0,-3.1,-9.28,Category C: Insufficient Evidence,18.0,0.0,1.85,-1.76
+3683,Gavin Main,RHB,Right-arm Fast,Category C: Insufficient Evidence,1.0,1.0,1.03,-9.28,Category C: Insufficient Evidence,36.0,0.0,3.42,-5.14
+3686,CB Sole,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,22.0,22.0,-12.67,-9.73,Category C: Insufficient Evidence,97.0,6.0,17.32,-9.3
+3689,Mark Watt,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,58.0,45.0,-11.96,-11.24,Category B: Pressure Prevention Candidate,125.0,17.0,17.71,6.82
+3697,Kyle Jamieson,RHB,Right-arm medium,Category C: Insufficient Evidence,67.0,67.0,-23.89,-13.64,Dual: Qualified Pressure & Prevention,627.0,148.0,-15.06,-13.76
+3700,Tim Seifert,RHB,,Dual: Qualified Pressure & Prevention,753.0,47.0,11.4,19.44,Category C: Insufficient Evidence,,,,
+3720,Craig Young,RHB,Right-arm medium,Category C: Insufficient Evidence,30.0,31.0,-28.01,-9.73,Dual: Qualified Pressure & Prevention,466.0,51.0,19.35,-16.99
+3727,Matthew Short,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,419.0,56.0,2.45,4.02,Category B: Pressure Prevention Candidate,151.0,24.0,-17.82,-17.74
+3771,Vivian Kingma,RHB,Right-arm medium,Category C: Insufficient Evidence,1.0,1.0,1.29,-9.7,Category C: Insufficient Evidence,97.0,7.0,23.57,18.16
+3772,Logan van Beek,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,31.0,25.0,-16.78,-12.32,Category C: Insufficient Evidence,132.0,12.0,28.61,11.76
+3775,Sompal Kami,RHB,Right-arm Fast,Category C: Insufficient Evidence,9.0,9.0,-0.92,-9.28,Category C: Insufficient Evidence,44.0,25.0,-33.1,5.8
+3782,M Shahrukh Khan,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,409.0,174.0,2.02,-2.22,Category C: Insufficient Evidence,18.0,1.0,5.26,-3.43
+3802,Anshuman Rath,LHB,,Category C: Insufficient Evidence,51.0,0.0,-4.47,-18.32,Category C: Insufficient Evidence,,,,
+3832,Rezza Gaznavi,RHB,,Category C: Insufficient Evidence,41.0,0.0,-4.47,-21.96,Category C: Insufficient Evidence,,,,
+3839,Amjad Mahboob,RHB,Right-arm medium,Category C: Insufficient Evidence,19.0,19.0,-5.05,-9.28,Category C: Insufficient Evidence,54.0,0.0,-5.31,-3.27
+3858,Jatinder Singh,RHB,,Category C: Insufficient Evidence,46.0,0.0,-0.03,-7.37,Category C: Insufficient Evidence,,,,
+3871,Aamir Kaleem,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,58.0,23.0,7.57,-10.79,Category C: Insufficient Evidence,48.0,0.0,12.1,-24.71
+3876,Sufyan Mehmood,LHB,Right-arm medium,Category C: Insufficient Evidence,5.0,0.0,0.14,-10.92,Category C: Insufficient Evidence,6.0,0.0,-1.6,-3.62
+3916,Jitesh Sharma,RHB,,Dual: Qualified Pressure & Prevention,826.0,231.0,5.25,-36.48,Category C: Insufficient Evidence,,,,
+3926,Rahul Tewatia,LHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,520.0,364.0,-12.81,-60.88,Category C: Insufficient Evidence,49.0,14.0,-26.37,-8.59
+3954,Andrew Balbirnie,RHB,,Dual: Qualified Pressure & Prevention,566.0,43.0,-0.45,-11.58,Category C: Insufficient Evidence,,,,
+3967,Tom Kohler,RHB,,Category C: Insufficient Evidence,54.0,0.0,-7.44,-21.83,Category C: Insufficient Evidence,,,,
+3986,Matthew Renshaw,LHB,Right-arm offbreak,Category C: Insufficient Evidence,108.0,0.0,0.51,-13.58,Category C: Insufficient Evidence,36.0,0.0,11.77,-1.2
+3995,Donald Tiripano,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,3.0,1.0,0.74,-10.12,Category C: Insufficient Evidence,30.0,0.0,-5.06,-3.44
+4007,Ryan Rickelton,LHB,,Dual: Qualified Pressure & Prevention,853.0,69.0,13.64,12.98,Category C: Insufficient Evidence,,,,
+4101,Mitchell Santner,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,540.0,287.0,-17.92,-24.69,Dual: Qualified Pressure & Prevention,1737.0,459.0,24.06,16.46
+4102,George Munsey,LHB,,Category C: Insufficient Evidence,98.0,1.0,13.1,2.35,Category C: Insufficient Evidence,,,,
+4106,Daryl Mitchell,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,1145.0,238.0,8.7,0.82,Category C: Insufficient Evidence,80.0,45.0,-18.97,-8.86
+4111,Khushdil Shah,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,206.0,144.0,-29.28,-43.07,Category C: Insufficient Evidence,60.0,16.0,9.01,1.05
+4117,Ishan Kishan,LHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,2401.0,123.0,6.18,1.35,Category C: Insufficient Evidence,1.0,0.0,1.53,-2.01
+4201,Fareed Malik,LHB,Left-arm fast-medium,Category C: Insufficient Evidence,20.0,21.0,-22.86,-11.02,Dual: Qualified Pressure & Prevention,308.0,118.0,-8.1,-15.45
+4211,Vishnu Vinod,RHB,,Category C: Insufficient Evidence,38.0,19.0,-5.69,-7.72,Category C: Insufficient Evidence,,,,
+4219,Krunal Pandya,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,652.0,190.0,-16.94,-28.41,Dual: Qualified Pressure & Prevention,1257.0,331.0,13.96,3.19
+4221,Chris Green,RHB,Right-arm offbreak,Category C: Insufficient Evidence,3.0,3.0,-0.17,-9.28,Category C: Insufficient Evidence,24.0,0.0,-5.01,-15.3
+4229,George Linde,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,140.0,101.0,16.85,-8.41,Dual: Qualified Pressure & Prevention,283.0,60.0,21.02,6.06
+4235,Sisanda Magala,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,5.0,5.0,18.03,-3.89,Category C: Insufficient Evidence,72.0,18.0,-36.06,-24.45
+4237,Tabraiz Shamsi,RHB,Left-arm Chinaman,Category C: Insufficient Evidence,7.0,8.0,-5.32,-9.29,Dual: Qualified Pressure & Prevention,310.0,100.0,13.37,-37.73
+4246,Nitish Rana,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,857.0,171.0,5.31,-6.19,Category C: Insufficient Evidence,101.0,18.0,-30.17,-42.76
+4260,Heinrich Klaasen,RHB,,Dual: Qualified Pressure & Prevention,1408.0,367.0,21.58,-4.19,Category C: Insufficient Evidence,,,,
+4265,T Natarajan,LHB,Left-arm medium,Category C: Insufficient Evidence,2.0,2.0,0.09,-9.28,Dual: Qualified Pressure & Prevention,1052.0,453.0,-15.39,0.93
+4276,Basil Thampi,,Right-arm fast-medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,96.0,26.0,9.53,0.86
+4288,Navdeep Saini,RHB,Right-arm medium,Category C: Insufficient Evidence,2.0,0.0,2.09,-9.28,Category C: Insufficient Evidence,90.0,41.0,-22.19,-32.47
+4369,Shai Hope,RHB,,Dual: Qualified Pressure & Prevention,1100.0,125.0,14.97,10.41,Category C: Insufficient Evidence,,,,
+4372,Rony Talukder,RHB,,Category B: Pressure Prevention Candidate,143.0,0.0,5.32,1.97,Category C: Insufficient Evidence,,,,
+4373,Mustafizur Rahman,LHB,Left-arm medium,Category C: Insufficient Evidence,59.0,62.0,-35.88,-9.28,Dual: Qualified Pressure & Prevention,1576.0,359.0,-3.29,13.64
+4391,Liam Livingstone,RHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,985.0,244.0,8.69,-7.24,Dual: Qualified Pressure & Prevention,594.0,141.0,-13.77,3.43
+4409,Sam Curran,LHB,Left-arm medium-fast,Dual: Qualified Pressure & Prevention,849.0,284.0,-9.69,-21.76,Dual: Qualified Pressure & Prevention,1350.0,478.0,-24.6,-7.67
+4412,Max ODowd,RHB,Right-arm offbreak,Category B: Pressure Prevention Candidate,199.0,0.0,-2.16,-6.83,Category C: Insufficient Evidence,30.0,0.0,1.35,-1.85
+4417,Karan KC,RHB,Right-arm Fast,Category C: Insufficient Evidence,2.0,2.0,-0.78,-9.28,Category C: Insufficient Evidence,42.0,6.0,20.36,5.95
+4438,Jasdeep Singh,RHB,Right-arm medium,Category C: Insufficient Evidence,20.0,8.0,-2.92,-10.35,Category C: Insufficient Evidence,90.0,18.0,-20.44,-13.24
+4458,AHT Donald,RHB,,Category C: Insufficient Evidence,24.0,0.0,7.97,6.15,Category C: Insufficient Evidence,,,,
+4460,Jeffrey Vandersay,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,23.0,23.0,-8.05,-10.57,Category C: Insufficient Evidence,120.0,0.0,-18.22,-3.19
+4486,BR Sharath,RHB,,Category C: Insufficient Evidence,5.0,0.0,0.72,-10.71,Category C: Insufficient Evidence,,,,
+4487,Vyshak Kumar,RHB,Right-arm medium,Category C: Insufficient Evidence,16.0,16.0,-8.66,-9.28,Dual: Qualified Pressure & Prevention,519.0,194.0,-35.72,-22.19
+4489,Prasidh Krishna,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,22.0,22.0,-21.03,-9.28,Dual: Qualified Pressure & Prevention,1173.0,466.0,16.91,12.49
+4494,Abhinav Manohar,RHB,,Dual: Qualified Pressure & Prevention,235.0,82.0,-18.42,-35.21,Category C: Insufficient Evidence,,,,
+4499,Saqib Mahmood,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,32.0,35.0,-26.32,-9.28,Category B: Pressure Prevention Candidate,228.0,23.0,1.13,4.55
+4505,Jhye Richardson,RHB,Right-arm Fast,Category C: Insufficient Evidence,22.0,2.0,-2.16,-11.41,Category C: Insufficient Evidence,120.0,20.0,-14.78,-0.91
+4604,Mitchell Swepson,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,1.0,1.0,3.67,-9.28,Category C: Insufficient Evidence,12.0,5.0,-14.43,-7.68
+4636,Bjorn Fortuin,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,54.0,51.0,-12.24,-4.89,Category B: Pressure Prevention Candidate,210.0,23.0,-16.55,-14.93
+4639,Wellington Masakadza,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,149.0,145.0,-29.29,-17.49,Category B: Pressure Prevention Candidate,480.0,21.0,-11.45,7.68
+4641,Lungi Ngidi,RHB,Right-arm Fast,Category C: Insufficient Evidence,61.0,63.0,-34.22,-11.02,Dual: Qualified Pressure & Prevention,798.0,299.0,4.34,-4.96
+4658,Nasum Ahmed,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,78.0,67.0,-27.0,-11.99,Dual: Qualified Pressure & Prevention,600.0,44.0,-7.9,7.88
+4662,Cole McConchie,RHB,Right-arm offbreak,Category C: Insufficient Evidence,97.0,78.0,-17.26,-10.95,Category B: Pressure Prevention Candidate,120.0,7.0,-20.48,-3.78
+4665,Tom Blundell,RHB,,Category C: Insufficient Evidence,19.0,0.0,4.73,-1.5,Category C: Insufficient Evidence,,,,
+4684,Dane Cleaver,RHB,,Category B: Pressure Prevention Candidate,149.0,0.0,-0.05,-9.11,Category C: Insufficient Evidence,,,,
+4686,Joshua Clarkson,RHB,Right-arm medium,Category C: Insufficient Evidence,114.0,87.0,-9.47,-13.08,Category C: Insufficient Evidence,48.0,15.0,17.86,0.51
+4692,Lockie Ferguson,RHB,Right-arm Fast,Category C: Insufficient Evidence,30.0,29.0,-16.0,-12.16,Dual: Qualified Pressure & Prevention,1076.0,374.0,-6.82,4.38
+4695,Nick Kelly,LHB,,Category C: Insufficient Evidence,88.0,5.0,-4.96,-37.81,Category C: Insufficient Evidence,,,,
+4703,Rishabh Pant,LHB,,Dual: Qualified Pressure & Prevention,1238.0,193.0,3.54,-13.47,Category C: Insufficient Evidence,,,,
+4708,Rinku Singh,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,1274.0,440.0,6.08,-9.02,Category C: Insufficient Evidence,10.0,4.0,29.42,-2.01
+4716,Mayank Dagar,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,1.0,1.0,0.86,-9.28,Category B: Pressure Prevention Candidate,137.0,23.0,-19.81,-32.24
+4722,Rashid Khan,RHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,504.0,431.0,5.23,-6.17,Dual: Qualified Pressure & Prevention,2747.0,754.0,26.54,9.91
+4736,Josh Inglis,RHB,,Dual: Qualified Pressure & Prevention,903.0,44.0,17.09,23.29,Category C: Insufficient Evidence,,,,
+4755,Shivam Dube,LHB,Right-arm medium,Dual: Qualified Pressure & Prevention,1539.0,474.0,6.03,-29.57,Dual: Qualified Pressure & Prevention,469.0,174.0,-22.16,7.21
+4773,Jaker Ali Anik,RHB,,Dual: Qualified Pressure & Prevention,507.0,287.0,-3.16,-36.99,Category C: Insufficient Evidence,,,,
+4779,Pieter Willem Mulder,RHB,Right-arm medium,Category C: Insufficient Evidence,112.0,33.0,-14.49,-28.52,Category C: Insufficient Evidence,114.0,21.0,9.14,-13.87
+4780,Mohammad Saif Hassan,RHB,Right-arm offbreak,Category B: Pressure Prevention Candidate,453.0,26.0,-4.05,-9.43,Category C: Insufficient Evidence,99.0,21.0,-5.31,0.92
+4784,Tony de Zorzi,LHB,,Category C: Insufficient Evidence,90.0,0.0,-5.8,-18.78,Category C: Insufficient Evidence,,,,
+4790,Lutho Sipamla,RHB,Right-arm Fast,Category C: Insufficient Evidence,14.0,14.0,-9.86,-10.61,Category C: Insufficient Evidence,110.0,44.0,-39.52,-13.97
+4793,Dean Foxcroft,RHB,Right-arm offbreak,Category C: Insufficient Evidence,101.0,0.0,-5.85,-12.93,Category C: Insufficient Evidence,12.0,0.0,-1.38,0.65
+4802,Stephen Doheny,RHB,,Category C: Insufficient Evidence,21.0,0.0,-0.76,-12.45,Category C: Insufficient Evidence,,,,
+4807,Joshua Little,RHB,Left-arm Fast,Category C: Insufficient Evidence,19.0,20.0,-11.11,-10.17,Dual: Qualified Pressure & Prevention,780.0,114.0,3.76,12.09
+4812,Harry Tector,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,826.0,159.0,-3.2,-14.52,Category B: Pressure Prevention Candidate,228.0,24.0,5.86,22.19
+4814,Lorcan Tucker,RHB,,Dual: Qualified Pressure & Prevention,665.0,73.0,-0.79,-10.58,Category C: Insufficient Evidence,,,,
+4815,Benjamin White,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,14.0,14.0,-11.08,-9.28,Dual: Qualified Pressure & Prevention,390.0,62.0,-16.07,-22.04
+4816,Khaleel Ahmed,RHB,Left-arm medium,Category C: Insufficient Evidence,5.0,5.0,-5.85,-9.28,Dual: Qualified Pressure & Prevention,1198.0,380.0,9.16,11.73
+4817,Anmolpreet Singh,RHB,,Category B: Pressure Prevention Candidate,101.0,0.0,-3.78,-11.06,Category C: Insufficient Evidence,,,,
+4821,Mahipal Lomror,LHB,Slow left-arm orthodox,Category B: Pressure Prevention Candidate,221.0,39.0,6.79,-23.83,Category C: Insufficient Evidence,30.0,20.0,-18.89,-3.82
+4823,Washington Sundar,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,634.0,249.0,-11.68,11.16,Dual: Qualified Pressure & Prevention,789.0,292.0,10.67,-3.06
+4824,Zeeshan Ansari,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Category B: Pressure Prevention Candidate,203.0,25.0,-22.29,-4.49
+4826,George Garton,LHB,Left-arm Fast,Category C: Insufficient Evidence,4.0,4.0,-2.05,-9.28,Category C: Insufficient Evidence,24.0,6.0,-21.72,-14.64
+4830,Keacy Carty,RHB,,Category C: Insufficient Evidence,72.0,5.0,-4.39,-32.46,Category C: Insufficient Evidence,,,,
+4837,Obed McCoy,LHB,Left-arm fast-medium,Category C: Insufficient Evidence,43.0,44.0,-24.7,-10.17,Dual: Qualified Pressure & Prevention,641.0,165.0,-15.57,3.24
+4838,Keemo Paul,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,29.0,31.0,-14.01,-11.13,Category C: Insufficient Evidence,90.0,35.0,31.01,-16.84
+4840,Odean Smith,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,130.0,78.0,-14.16,-33.63,Dual: Qualified Pressure & Prevention,384.0,78.0,-11.14,-16.5
+4842,Shamar Springer,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,68.0,67.0,19.99,-10.68,Dual: Qualified Pressure & Prevention,196.0,74.0,8.4,-10.57
+4847,Finn Allen,RHB,,Category B: Pressure Prevention Candidate,829.0,39.0,24.79,25.35,Category C: Insufficient Evidence,,,,
+4853,Glenn Phillips,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,1090.0,235.0,15.5,-14.06,Category B: Pressure Prevention Candidate,113.0,26.0,-12.3,20.14
+4854,Rachin Ravindra,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,577.0,101.0,3.69,-6.22,Category B: Pressure Prevention Candidate,132.0,19.0,-9.57,-35.86
+4856,Benjamin Sears,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,33.0,37.0,-31.04,-9.28,Dual: Qualified Pressure & Prevention,453.0,93.0,27.22,-4.47
+4857,Nathan Smith,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,7.0,0.0,1.42,-9.28,Category C: Insufficient Evidence,102.0,54.0,-41.89,-6.73
+4867,Wesley Madhevere,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,427.0,139.0,-19.63,-30.54,Category C: Insufficient Evidence,96.0,7.0,-8.97,1.77
+4870,Kundai Matigimu,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,2.0,-11.83,9.16
+4871,Brandon Mavuta,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,15.0,16.0,-10.53,-9.28,Category C: Insufficient Evidence,42.0,0.0,1.28,-1.18
+4874,Richard Ngarava,LHB,Left-arm fast-medium,Category C: Insufficient Evidence,62.0,58.0,-30.06,-12.56,Dual: Qualified Pressure & Prevention,846.0,100.0,0.17,11.38
+4876,Milton Shumba,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,63.0,25.0,-24.27,-24.19,Category C: Insufficient Evidence,12.0,0.0,8.1,-1.21
+4880,Aarif Sheikh,RHB,,Category C: Insufficient Evidence,3.0,3.0,5.14,-7.99,Category C: Insufficient Evidence,,,,
+4881,Dipendra Airee,RHB,Right-arm offbreak,Category C: Insufficient Evidence,19.0,8.0,-5.37,-10.97,Category C: Insufficient Evidence,36.0,7.0,23.75,16.51
+4882,Kushal Bhurtel,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,44.0,0.0,-1.7,-13.18,Category C: Insufficient Evidence,49.0,31.0,53.83,2.39
+4895,Charith Asalanka,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,738.0,121.0,-6.9,-16.68,Category B: Pressure Prevention Candidate,161.0,32.0,7.47,-6.97
+4900,Wanindu Hasaranga,RHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,468.0,255.0,-23.44,-6.0,Dual: Qualified Pressure & Prevention,2035.0,478.0,22.08,-9.09
+4901,Asitha Fernando,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,4.0,4.0,3.72,-9.28,Category C: Insufficient Evidence,120.0,19.0,-21.16,-14.24
+4902,Avishka Fernando,RHB,,Category C: Insufficient Evidence,62.0,9.0,-9.07,-21.65,Category C: Insufficient Evidence,,,,
+4903,Lahiru Kumara,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,71.0,6.0,32.28,4.14
+4904,Kamindu Mendis,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,592.0,169.0,-5.26,-0.61,Category B: Pressure Prevention Candidate,150.0,13.0,-16.39,-2.11
+4926,Shadab Khan,RHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,331.0,119.0,0.51,-22.86,Dual: Qualified Pressure & Prevention,832.0,232.0,6.06,21.87
+4947,Kasun Rajitha,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,9.0,11.0,1.6,-9.28,Category C: Insufficient Evidence,108.0,43.0,-11.53,5.54
+4974,Mohammad Nadeem,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,7.0,0.0,0.5,-13.52,Category C: Insufficient Evidence,24.0,0.0,-0.94,-6.12
+4983,Sikander Zulfiqar,RHB,,Category C: Insufficient Evidence,3.0,3.0,0.62,-9.68,Category C: Insufficient Evidence,,,,
+4986,Rovman Powell,RHB,Right-arm medium-fast,Dual: Qualified Pressure & Prevention,1553.0,621.0,8.7,-3.0,Category C: Insufficient Evidence,73.0,33.0,-37.71,-7.23
+5029,Prerak Mankad,RHB,,Category C: Insufficient Evidence,72.0,14.0,0.28,-11.32,Category C: Insufficient Evidence,,,,
+5034,Murugan Ashwin,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,14.0,14.0,-9.01,-10.25,Category B: Pressure Prevention Candidate,198.0,33.0,2.93,6.46
+5039,Rajat Patidar,RHB,,Dual: Qualified Pressure & Prevention,916.0,134.0,16.77,-7.61,Category C: Insufficient Evidence,,,,
+5041,Mukesh Kumar,RHB,Right-arm Fast,Category C: Insufficient Evidence,23.0,25.0,-24.69,-9.28,Dual: Qualified Pressure & Prevention,1148.0,434.0,-19.87,-5.93
+5189,Faheem Ashraf,LHB,Right-arm Fast,Category A: Qualified Pressure Performer,202.0,132.0,-5.15,-9.37,Dual: Qualified Pressure & Prevention,442.0,90.0,-0.87,0.02
+5231,Oshane Thomas,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,-5.09,-9.77
+5379,Mark Adair,RHB,Right-arm fast-medium,Category A: Qualified Pressure Performer,275.0,227.0,-1.22,-10.18,Dual: Qualified Pressure & Prevention,845.0,179.0,13.9,13.99
+5441,Barry McCarthy,RHB,Right-arm medium,Category C: Insufficient Evidence,109.0,113.0,-13.93,-10.57,Dual: Qualified Pressure & Prevention,619.0,124.0,-14.76,3.35
+5547,Nosthush Kenjige,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,13.0,3.0,-2.24,-9.27,Category C: Insufficient Evidence,78.0,0.0,-4.28,-3.19
+5553,Phil Salt,RHB,,Dual: Qualified Pressure & Prevention,1628.0,68.0,22.81,26.84,Category C: Insufficient Evidence,,,,
+5561,Brad Wheal,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,12.0,12.0,-2.2,-9.75,Category C: Insufficient Evidence,36.0,12.0,-27.66,-36.97
+5562,Richard Gleeson,RHB,Right-arm medium,Category C: Insufficient Evidence,6.0,6.0,-3.22,-9.28,Dual: Qualified Pressure & Prevention,194.0,95.0,-7.62,1.56
+5577,Sai Kishore,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,16.0,15.0,-5.75,-9.28,Dual: Qualified Pressure & Prevention,465.0,141.0,17.48,-16.23
+5608,Narayan Jagadeesan,RHB,,Category B: Pressure Prevention Candidate,118.0,23.0,-12.97,-20.33,Category C: Insufficient Evidence,,,,
+5665,Sanjay Yadav,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,2.0,2.0,-1.09,-9.28,Category C: Insufficient Evidence,12.0,0.0,-2.6,-2.46
+5738,Xavier Bartlett,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,90.0,70.0,-12.23,-12.06,Dual: Qualified Pressure & Prevention,624.0,135.0,-15.9,-10.07
+5750,Ehsan Khan,RHB,Right-arm offbreak,Category C: Insufficient Evidence,16.0,17.0,-14.74,-9.73,Category B: Pressure Prevention Candidate,186.0,19.0,18.16,21.01
+5808,Karim Janat,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,238.0,109.0,-18.54,-41.76,Category B: Pressure Prevention Candidate,155.0,39.0,-31.76,-2.42
+5809,Naveen ul Haq,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,66.0,70.0,-45.72,-12.07,Dual: Qualified Pressure & Prevention,786.0,248.0,12.79,2.22
+5837,Mahedi Hasan,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,253.0,201.0,-31.66,-36.96,Dual: Qualified Pressure & Prevention,914.0,49.0,11.14,16.77
+5839,Yasir Ali Chowdhury,RHB,,Category C: Insufficient Evidence,117.0,59.0,6.4,-21.99,Category C: Insufficient Evidence,,,,
+5844,Ebadot Hossain,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,72.0,33.0,15.69,4.45
+5866,Patrick Kruger,RHB,Right-arm medium,Category C: Insufficient Evidence,59.0,49.0,-6.36,-6.45,Category C: Insufficient Evidence,116.0,19.0,3.32,21.1
+5877,Andries Gous,RHB,,Category C: Insufficient Evidence,57.0,0.0,-2.09,-12.64,Category C: Insufficient Evidence,,,,
+5882,Afif Hossain,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,361.0,111.0,-7.17,-20.44,Category C: Insufficient Evidence,30.0,0.0,-1.93,-2.19
+5892,Blair Tickner,RHB,Right-arm Fast,Category C: Insufficient Evidence,5.0,5.0,-3.91,-11.03,Dual: Qualified Pressure & Prevention,215.0,40.0,-6.03,9.03
+5928,Prithvi Shaw,RHB,,Category B: Pressure Prevention Candidate,389.0,26.0,6.69,1.69,Category C: Insufficient Evidence,,,,
+5939,Cameron Green,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,1065.0,119.0,7.81,13.68,Dual: Qualified Pressure & Prevention,753.0,208.0,-8.55,-6.91
+5940,Riley Meredith,RHB,Right-arm Fast,Category C: Insufficient Evidence,3.0,3.0,-3.28,-9.28,Dual: Qualified Pressure & Prevention,310.0,66.0,10.31,1.38
+5944,Mohammed Siraj,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,72.0,74.0,-49.25,-11.78,Dual: Qualified Pressure & Prevention,1806.0,637.0,-1.66,10.69
+5977,Khary Pierre,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,15.0,15.0,-6.43,-9.28,Category B: Pressure Prevention Candidate,120.0,26.0,-13.35,1.39
+5979,Abrar Ahmed,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,11.0,12.0,-13.14,-10.6,Dual: Qualified Pressure & Prevention,764.0,177.0,35.24,2.24
+6025,Henry Shipley,RHB,Right-arm Fast,Category C: Insufficient Evidence,2.0,2.0,1.74,-9.28,Category C: Insufficient Evidence,78.0,7.0,-27.92,-9.67
+6035,Chirag Suri,RHB,,Category C: Insufficient Evidence,103.0,0.0,0.89,-12.75,Category C: Insufficient Evidence,,,,
+6059,Ruturaj Gaikwad,RHB,,Dual: Qualified Pressure & Prevention,1814.0,87.0,-0.28,-6.77,Category C: Insufficient Evidence,,,,
+6097,Brydon Carse,RHB,Right-arm Fast,Category C: Insufficient Evidence,37.0,13.0,0.78,-8.76,Dual: Qualified Pressure & Prevention,268.0,120.0,6.71,-5.48
+6160,Chamika Karunaratne,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,149.0,134.0,-37.31,-15.97,Dual: Qualified Pressure & Prevention,336.0,59.0,-21.69,-1.16
+6161,Rahul Chahar,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,92.0,83.0,-35.7,-14.49,Dual: Qualified Pressure & Prevention,794.0,251.0,-11.44,-1.05
+6162,Kulwant Khejroliya,,Left-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,56.0,34.0,-13.64,-22.13
+6166,Jack Edwards,RHB,Right-arm medium,Category C: Insufficient Evidence,6.0,3.0,0.9,-9.68,Category C: Insufficient Evidence,12.0,0.0,-4.32,-10.01
+6172,Lasith Croospulle,RHB,,Category C: Insufficient Evidence,1.0,0.0,2.39,-10.47,Category C: Insufficient Evidence,,,,
+6180,Praveen Jayawickrama,,Slow left-arm orthodox,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,48.0,0.0,-2.93,15.36
+6188,Simi Singh,,Right-arm offbreak,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,12.0,0.0,-5.49,-9.73
+6196,Josh Tongue,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Category B: Pressure Prevention Candidate,120.0,67.0,4.51,-10.74
+6203,Surendran Chandramohan,RHB,,Category C: Insufficient Evidence,25.0,5.0,-4.98,-21.98,Category C: Insufficient Evidence,,,,
+6237,Manimaran Siddharth,,Slow left-arm orthodox,Category C: Insufficient Evidence,,,,,Dual: Qualified Pressure & Prevention,186.0,62.0,1.42,7.03
+6256,Varun Chakravarthy,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,49.0,48.0,-46.41,-11.52,Dual: Qualified Pressure & Prevention,2128.0,651.0,25.32,8.5
+6272,William Jacks,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,691.0,61.0,12.07,10.5,Dual: Qualified Pressure & Prevention,413.0,117.0,1.11,-12.5
+6273,Tom Banton,RHB,,Category B: Pressure Prevention Candidate,273.0,39.0,18.04,5.19,Category C: Insufficient Evidence,,,,
+6280,Harry Brook,RHB,,Dual: Qualified Pressure & Prevention,880.0,92.0,17.33,11.32,Category C: Insufficient Evidence,,,,
+6281,Abhishek Sharma,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,2239.0,100.0,27.74,39.18,Dual: Qualified Pressure & Prevention,427.0,215.0,-32.81,-12.77
+6284,Anukul Roy,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,64.0,44.0,-10.86,-19.03,Dual: Qualified Pressure & Prevention,311.0,71.0,-10.0,-5.13
+6285,Kamlesh Nagarkoti,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,12.0,0.0,-4.6,-12.4
+6286,Shivam Mavi,RHB,Right-arm Fast,Category C: Insufficient Evidence,25.0,25.0,-3.3,-10.95,Category B: Pressure Prevention Candidate,216.0,32.0,19.52,-9.13
+6287,Yash Thakur,,Right-arm medium,Category C: Insufficient Evidence,,,,,Dual: Qualified Pressure & Prevention,527.0,270.0,-2.03,-10.11
+6288,Shubman Gill,RHB,,Dual: Qualified Pressure & Prevention,2700.0,139.0,8.05,3.35,Category C: Insufficient Evidence,,,,
+6297,Matthew Parkinson,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,5.0,6.0,-8.36,-9.28,Category C: Insufficient Evidence,36.0,7.0,-5.83,-4.53
+6314,Devdutt Padikkal,LHB,,Dual: Qualified Pressure & Prevention,995.0,65.0,-4.78,-3.3,Category C: Insufficient Evidence,,,,
+6342,Matthew Breetzke,RHB,,Category B: Pressure Prevention Candidate,146.0,18.0,-9.22,-6.1,Category C: Insufficient Evidence,,,,
+6350,Matthew Kuhnemann,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,12.0,12.0,-9.11,-10.19,Category B: Pressure Prevention Candidate,120.0,0.0,-14.6,-11.61
+6354,Spencer Johnson,LHB,Left-arm fast-medium,Category C: Insufficient Evidence,13.0,13.0,-11.36,-10.3,Dual: Qualified Pressure & Prevention,438.0,124.0,5.72,-7.8
+6355,Shaheen Afridi,LHB,Left-arm Fast,Category A: Qualified Pressure Performer,181.0,177.0,-21.68,-25.12,Dual: Qualified Pressure & Prevention,990.0,241.0,21.46,6.81
+6356,Khaled Ahmed,,Right-arm medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,-12.37,-1.5
+6359,Raghu Sharma,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,90.0,11.0,-14.11,-0.97
+6389,Tanvir Islam,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,16.0,12.0,-9.53,-9.28,Category B: Pressure Prevention Candidate,102.0,40.0,-3.87,0.73
+6395,Josh Philippe,RHB,,Category C: Insufficient Evidence,46.0,19.0,-5.9,-14.25,Category C: Insufficient Evidence,,,,
+6396,Tim David,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,1210.0,437.0,30.68,33.87,Category C: Insufficient Evidence,6.0,0.0,-4.22,-5.82
+6398,Aaron Hardie,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,142.0,20.0,-2.8,-16.0,Category B: Pressure Prevention Candidate,271.0,27.0,-8.12,3.23
+6423,Riyan Parag,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,1080.0,217.0,6.3,1.1,Dual: Qualified Pressure & Prevention,260.0,63.0,-4.99,14.98
+6433,Darwish Rasooli,RHB,,Dual: Qualified Pressure & Prevention,306.0,65.0,-5.67,-7.65,Category C: Insufficient Evidence,,,,
+6436,Qais Ahmad,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,4.0,7.0,0.11,-9.28,Category C: Insufficient Evidence,54.0,1.0,-5.58,-3.65
+6440,Omair Yousuf,RHB,,Category C: Insufficient Evidence,41.0,0.0,-3.13,-11.53,Category C: Insufficient Evidence,,,,
+6441,Abdullah Shafique,RHB,,Category C: Insufficient Evidence,16.0,0.0,4.73,-4.56,Category C: Insufficient Evidence,,,,
+6448,Ibrahim Zadran,RHB,,Dual: Qualified Pressure & Prevention,1126.0,149.0,-10.15,-16.39,Category C: Insufficient Evidence,,,,
+6449,Wafadar Momand,,Right-arm medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,31.0,7.0,-16.37,-14.19
+6450,Mujeeb Ur Rahman,RHB,Right-arm offbreak,Category C: Insufficient Evidence,70.0,68.0,-14.53,-13.26,Dual: Qualified Pressure & Prevention,820.0,191.0,23.58,17.02
+6457,Urvil Patel,RHB,,Category C: Insufficient Evidence,96.0,0.0,14.39,25.52,Category C: Insufficient Evidence,,,,
+6460,Ayush Badoni,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,834.0,295.0,-7.02,-17.33,Category C: Insufficient Evidence,41.0,19.0,40.99,12.27
+6464,Arshdeep Singh,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,131.0,114.0,-52.69,-9.96,Dual: Qualified Pressure & Prevention,3207.0,1233.0,6.98,0.95
+6466,Atharwa Taide,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,177.0,61.0,4.98,-3.31,Category C: Insufficient Evidence,1.0,1.0,-2.54,-2.01
+6467,Anuj Rawat,LHB,,Dual: Qualified Pressure & Prevention,266.0,67.0,-18.05,-31.94,Category C: Insufficient Evidence,,,,
+6473,Nuwanidu Fernando,RHB,,Category C: Insufficient Evidence,12.0,4.0,-2.51,-16.06,Category C: Insufficient Evidence,,,,
+6486,Tanush Kotian,RHB,,Category C: Insufficient Evidence,31.0,0.0,-2.59,-20.76,Category C: Insufficient Evidence,,,,
+6487,Priyam Garg,RHB,,Category C: Insufficient Evidence,55.0,10.0,-3.49,-16.12,Category C: Insufficient Evidence,,,,
+6489,Darshan Nalkande,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,12.0,1.0,-0.73,-9.31,Category C: Insufficient Evidence,84.0,6.0,13.92,-12.99
+6494,Manoj Bhandage,LHB,,Category C: Insufficient Evidence,4.0,4.0,-2.8,-10.66,Category C: Insufficient Evidence,,,,
+6503,Zahoor Khan,RHB,Right-arm Fast,Category C: Insufficient Evidence,2.0,2.0,-0.89,-9.28,Category C: Insufficient Evidence,120.0,18.0,-16.29,13.45
+6506,Mohammad Imran Randhawa,RHB,Right-arm medium,Category C: Insufficient Evidence,12.0,0.0,-1.98,-10.77,Category C: Insufficient Evidence,72.0,25.0,51.16,14.39
+6512,Michael Bracewell,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,348.0,128.0,-12.7,-13.67,Dual: Qualified Pressure & Prevention,678.0,178.0,10.02,11.69
+6514,Anil Nidamanuru,RHB,,Category C: Insufficient Evidence,43.0,5.0,-3.04,-20.81,Category C: Insufficient Evidence,,,,
+6515,Benjamin Lister,RHB,Left-arm medium,Category C: Insufficient Evidence,6.0,6.0,-6.25,-10.56,Dual: Qualified Pressure & Prevention,245.0,60.0,-4.48,-2.21
+6518,Daniel Sams,RHB,Left-arm fast-medium,Category C: Insufficient Evidence,75.0,43.0,-12.6,-33.11,Dual: Qualified Pressure & Prevention,350.0,76.0,-7.82,16.89
+6523,Blessing Muzarabani,RHB,Right-arm Fast,Category C: Insufficient Evidence,43.0,42.0,-25.56,-11.83,Dual: Qualified Pressure & Prevention,820.0,111.0,4.78,16.98
+6526,Himmat Singh,RHB,,Category C: Insufficient Evidence,65.0,24.0,-4.84,-12.3,Category C: Insufficient Evidence,,,,
+6565,Katene Clarke,RHB,,Category C: Insufficient Evidence,48.0,0.0,1.87,-7.89,Category C: Insufficient Evidence,,,,
+6566,Matthew John Fisher,,Right-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,54.0,34.0,-15.07,-11.57
+6574,Alick Athanaze,LHB,Right-arm offbreak,Category B: Pressure Prevention Candidate,263.0,0.0,1.78,-5.34,Category C: Insufficient Evidence,6.0,0.0,-2.89,-4.72
+6591,KM Asif,RHB,Right-arm medium,Category C: Insufficient Evidence,2.0,2.0,-0.61,-10.2,Category C: Insufficient Evidence,84.0,21.0,-11.31,-9.44
+6628,Gerald Coetzee,RHB,Right-arm Fast,Category C: Insufficient Evidence,102.0,85.0,-10.37,-6.96,Dual: Qualified Pressure & Prevention,592.0,179.0,3.18,-3.35
+6643,Hasan Mahmud,RHB,Right-arm Fast,Category C: Insufficient Evidence,44.0,47.0,-15.41,-11.03,Dual: Qualified Pressure & Prevention,396.0,113.0,23.54,1.28
+6645,Mohammad Sheikh,LHB,,Category C: Insufficient Evidence,61.0,14.0,-12.06,-27.04,Category C: Insufficient Evidence,,,,
+6651,Towhid Hridoy,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,927.0,231.0,-2.05,-19.18,Category C: Insufficient Evidence,2.0,0.0,1.73,-2.01
+6664,Dion Myers,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,338.0,67.0,-11.67,-29.99,Category C: Insufficient Evidence,12.0,0.0,-13.84,-10.13
+6669,Mohsin Khan,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,28.0,30.0,-23.61,-10.3,Dual: Qualified Pressure & Prevention,654.0,213.0,29.68,13.05
+6671,Lalit Yadav,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,215.0,109.0,-21.58,-32.5,Category B: Pressure Prevention Candidate,204.0,15.0,-16.03,-7.96
+6674,Rahmanullah Gurbaz,RHB,,Dual: Qualified Pressure & Prevention,1120.0,62.0,-0.21,-6.48,Category C: Insufficient Evidence,,,,
+6676,Azmatullah Omarzai,RHB,Right-arm medium-fast,Dual: Qualified Pressure & Prevention,663.0,345.0,-1.71,-34.61,Dual: Qualified Pressure & Prevention,1067.0,306.0,-1.79,1.72
+6677,Mohammad Hasnain,RHB,Right-arm Fast,Category C: Insufficient Evidence,13.0,13.0,2.9,-9.28,Category B: Pressure Prevention Candidate,222.0,34.0,-35.98,4.78
+6683,Mayank Markande,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,13.0,14.0,1.41,-9.28,Dual: Qualified Pressure & Prevention,432.0,141.0,-17.66,-3.25
+6697,Shams Mulani,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,1.0,0.0,2.95,-9.28,Category C: Insufficient Evidence,30.0,14.0,-26.06,-8.61
+6705,Scott McKechnie,RHB,,Category C: Insufficient Evidence,26.0,29.0,-5.98,-11.12,Category C: Insufficient Evidence,,,,
+6725,Sherfane Rutherford,LHB,Right-arm fast-medium,Dual: Qualified Pressure & Prevention,814.0,329.0,10.44,3.58,Category C: Insufficient Evidence,18.0,21.0,-11.17,-7.37
+6726,Romario Shepherd,RHB,Right-arm Fast,Dual: Qualified Pressure & Prevention,681.0,476.0,5.12,-39.56,Dual: Qualified Pressure & Prevention,1539.0,438.0,-25.7,-27.2
+6739,Amir Jangoo,LHB,,Category B: Pressure Prevention Candidate,135.0,15.0,-5.8,-12.54,Category C: Insufficient Evidence,,,,
+6772,Chetan Sakariya,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,6.0,6.0,-4.15,-9.28,Category C: Insufficient Evidence,132.0,27.0,-10.52,16.96
+6783,Azam Khan,RHB,,Category C: Insufficient Evidence,57.0,25.0,-6.03,-10.99,Category C: Insufficient Evidence,,,,
+6795,Terrance Hinds,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,3.0,4.0,1.86,-9.28,Category C: Insufficient Evidence,26.0,0.0,-3.95,-4.97
+6797,Dominic Drakes,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,12.0,14.0,-9.48,-9.75,Category C: Insufficient Evidence,126.0,0.0,-19.32,7.35
+6806,Tushar Deshpande,LHB,Right-arm medium,Category C: Insufficient Evidence,24.0,26.0,-4.16,-9.77,Dual: Qualified Pressure & Prevention,1037.0,505.0,-4.36,1.31
+6819,Yashasvi Jaiswal,LHB,Right-arm Leg-Break,Category B: Pressure Prevention Candidate,1864.0,17.0,11.41,17.97,Category C: Insufficient Evidence,7.0,0.0,-0.5,-2.01
+6881,Scott Edwards,RHB,,Category B: Pressure Prevention Candidate,174.0,14.0,-1.07,-7.52,Category C: Insufficient Evidence,,,,
+6900,Michael Jones,RHB,,Category C: Insufficient Evidence,18.0,0.0,3.34,-6.95,Category C: Insufficient Evidence,,,,
+6919,Tyrone Kane,RHB,,Category C: Insufficient Evidence,11.0,11.0,-2.92,-9.98,Category C: Insufficient Evidence,,,,
+6922,Abdul Samad,RHB,,Category C: Insufficient Evidence,68.0,66.0,-4.99,-8.89,Category C: Insufficient Evidence,,,,
+6926,Matty Potts,,Right-arm medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,26.0,1.33,-3.54
+6931,Pathum Nissanka,RHB,,Dual: Qualified Pressure & Prevention,1624.0,64.0,2.55,3.97,Category C: Insufficient Evidence,,,,
+6932,Pramod Madushan,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,3.0,3.0,-1.16,-9.28,Category C: Insufficient Evidence,97.0,36.0,20.04,-4.89
+6984,Saqib Zulfiqar,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,12.0,0.0,0.01,-0.83
+6985,Bas de Leede,RHB,Right-arm medium,Category B: Pressure Prevention Candidate,163.0,35.0,-5.9,-16.91,Category C: Insufficient Evidence,72.0,0.0,1.12,3.17
+6995,Saad Zafar,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,39.0,39.0,-14.11,-11.36,Category C: Insufficient Evidence,72.0,7.0,9.37,4.17
+7001,Dilon Heyliger,RHB,Right-arm medium,Category C: Insufficient Evidence,20.0,16.0,14.77,-9.28,Category C: Insufficient Evidence,54.0,6.0,-19.52,-9.98
+7002,Nicholas Kirton,LHB,Right-arm offbreak,Category C: Insufficient Evidence,109.0,54.0,-8.58,-13.72,Category C: Insufficient Evidence,6.0,0.0,-5.45,-6.06
+7003,Rayyan Pathan,RHB,,Category C: Insufficient Evidence,16.0,0.0,-1.02,-13.05,Category C: Insufficient Evidence,,,,
+7008,Gus Atkinson,RHB,Right-arm medium,Category C: Insufficient Evidence,23.0,23.0,-21.3,-11.43,Category C: Insufficient Evidence,65.0,19.0,40.75,-21.89
+7044,Jamie Smith,RHB,,Category C: Insufficient Evidence,66.0,0.0,16.84,19.58,Category C: Insufficient Evidence,,,,
+7046,Tinashe Kamunhukamwe,RHB,,Category C: Insufficient Evidence,74.0,0.0,0.17,-10.4,Category C: Insufficient Evidence,,,,
+7049,Kamil Mishara,LHB,Right-arm offbreak,Category B: Pressure Prevention Candidate,406.0,5.0,-0.82,-10.75,Category C: Insufficient Evidence,6.0,0.0,-0.37,-2.8
+7052,Dunith Wellalage,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,88.0,25.0,-3.93,-9.54,Category B: Pressure Prevention Candidate,255.0,36.0,-4.04,9.45
+7059,Nehal Wadhera,LHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,557.0,208.0,-3.24,-18.43,Category C: Insufficient Evidence,17.0,0.0,-1.04,-0.39
+7060,Arjun Tendulkar,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,14.0,9.0,-0.68,-9.28,Category C: Insufficient Evidence,97.0,11.0,-0.63,16.26
+7094,Curtis Campher,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,523.0,178.0,-6.89,-23.44,Dual: Qualified Pressure & Prevention,396.0,56.0,-39.6,-11.09
+7120,Rohit Paudel,RHB,Right-arm offbreak,Category C: Insufficient Evidence,63.0,2.0,-9.63,-22.57,Category C: Insufficient Evidence,42.0,15.0,-5.58,-1.26
+7140,Senuran Muthusamy,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,9.0,1.0,-0.83,-9.28,Category C: Insufficient Evidence,42.0,0.0,-11.85,-0.63
+7152,Hazratullah Zazai,LHB,,Category B: Pressure Prevention Candidate,244.0,5.0,-2.85,-1.51,Category C: Insufficient Evidence,,,,
+7155,Sahan Arachchige,LHB,,Category C: Insufficient Evidence,3.0,2.0,-0.88,-10.62,Category C: Insufficient Evidence,,,,
+7201,Haroon Arshad,RHB,Right-arm medium,Category C: Insufficient Evidence,18.0,18.0,8.32,-9.71,Category C: Insufficient Evidence,72.0,13.0,-39.66,-13.18
+7216,Prabhsimran Singh,RHB,,Category B: Pressure Prevention Candidate,1129.0,20.0,14.37,12.26,Category C: Insufficient Evidence,,,,
+7227,Nijat Masood,RHB,Right-arm medium,Category C: Insufficient Evidence,4.0,5.0,-1.34,-9.28,Category C: Insufficient Evidence,66.0,22.0,-0.63,-4.22
+7240,FazalHaq Farooqi,RHB,Left-arm medium,Category C: Insufficient Evidence,45.0,48.0,-52.26,-12.58,Dual: Qualified Pressure & Prevention,1027.0,243.0,-9.45,12.03
+7241,Ziaur Rahman,,Right-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,48.0,18.0,19.5,-8.0
+7250,Mukesh Choudhary,LHB,Left-arm medium,Category C: Insufficient Evidence,8.0,8.0,-1.26,-9.59,Dual: Qualified Pressure & Prevention,483.0,143.0,2.08,0.58
+7260,Dhruv Jurel,RHB,,Dual: Qualified Pressure & Prevention,798.0,231.0,7.18,6.15,Category C: Insufficient Evidence,,,,
+7269,Sushant Mishra,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,3.0,3.0,-0.32,-9.28,Category C: Insufficient Evidence,38.0,39.0,1.64,-6.26
+7270,Anrich Nortje,RHB,Right-arm Fast,Category C: Insufficient Evidence,67.0,70.0,-41.55,-12.32,Dual: Qualified Pressure & Prevention,836.0,279.0,-36.49,-16.92
+7304,Sanvir Singh,RHB,,Category C: Insufficient Evidence,21.0,12.0,-3.43,-9.6,Category C: Insufficient Evidence,,,,
+7312,Nandre Burger,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,30.0,29.0,-19.33,-11.42,Dual: Qualified Pressure & Prevention,441.0,195.0,-3.55,-5.08
+7322,Yash Dayal,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,9.0,9.0,-9.24,-9.77,Dual: Qualified Pressure & Prevention,871.0,272.0,-7.58,-4.01
+7325,Harpreet Brar,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,136.0,111.0,-24.36,-14.71,Dual: Qualified Pressure & Prevention,667.0,170.0,6.33,-4.88
+7327,Rasikh Salam,RHB,Right-arm medium,Category C: Insufficient Evidence,38.0,36.0,-20.45,-11.54,Dual: Qualified Pressure & Prevention,464.0,221.0,9.87,-8.6
+7338,Haider Ali,RHB,,Category C: Insufficient Evidence,74.0,14.0,-1.43,-16.81,Category C: Insufficient Evidence,,,,
+7341,Jake McGurk,RHB,,Category B: Pressure Prevention Candidate,277.0,16.0,24.32,26.63,Category C: Insufficient Evidence,,,,
+7344,Shoriful Islam,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,78.0,76.0,-19.12,-12.99,Dual: Qualified Pressure & Prevention,790.0,103.0,2.66,12.33
+7355,Tayyab Tahir,RHB,,Category C: Insufficient Evidence,104.0,40.0,-6.92,-10.99,Category C: Insufficient Evidence,,,,
+7364,Haris Rauf,RHB,Right-arm Fast,Category C: Insufficient Evidence,103.0,110.0,-24.42,-13.07,Dual: Qualified Pressure & Prevention,1027.0,304.0,17.17,-1.66
+7403,Lalit Rajbanshi,,Slow left-arm orthodox,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,30.0,13.0,16.01,3.87
+7406,Rizwan CP,RHB,,Category C: Insufficient Evidence,102.0,70.0,-6.03,-13.78,Category C: Insufficient Evidence,,,,
+7409,Sundeep Jora,RHB,,Category C: Insufficient Evidence,60.0,27.0,-3.4,-7.41,Category C: Insufficient Evidence,,,,
+7446,Abdul Samad,RHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,421.0,194.0,-9.77,-8.95,Category C: Insufficient Evidence,9.0,0.0,0.61,-1.75
+7472,Shahbaz Ahmed,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,433.0,190.0,-25.07,-53.7,Dual: Qualified Pressure & Prevention,535.0,203.0,-39.12,-16.26
+7473,Akash Deep,RHB,Right-arm Fast,Category C: Insufficient Evidence,14.0,12.0,5.92,-8.12,Dual: Qualified Pressure & Prevention,278.0,108.0,-46.93,-14.97
+7498,Abhijeet Tomar,RHB,,Category C: Insufficient Evidence,8.0,0.0,-1.17,-15.32,Category C: Insufficient Evidence,,,,
+7503,Ravi Bishnoi,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,105.0,79.0,-34.33,-12.56,Dual: Qualified Pressure & Prevention,2327.0,919.0,12.42,7.02
+7533,Simarjeet Singh,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,15.0,12.0,-11.16,-9.86,Dual: Qualified Pressure & Prevention,240.0,82.0,-9.11,-6.89
+7544,Venkatesh Iyer,LHB,Right-arm medium,Dual: Qualified Pressure & Prevention,942.0,114.0,0.49,1.4,Category C: Insufficient Evidence,49.0,15.0,-33.39,-84.13
+7545,Kuldeep Sen,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,3.0,3.0,-3.28,-9.28,Dual: Qualified Pressure & Prevention,241.0,88.0,8.76,4.14
+7566,Ben Curran,LHB,,Category C: Insufficient Evidence,40.0,0.0,-3.58,-19.83,Category C: Insufficient Evidence,,,,
+7574,Kumar Kartikeya Singh,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,17.0,17.0,-15.56,-10.35,Dual: Qualified Pressure & Prevention,282.0,59.0,-6.24,-45.28
+7625,Suryansh Shedge,RHB,Right-arm Fast,Category C: Insufficient Evidence,112.0,80.0,8.22,1.22,Category C: Insufficient Evidence,60.0,23.0,-42.45,-5.74
+7634,Aaron Jones,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,40.0,8.0,7.84,-4.22,Category C: Insufficient Evidence,18.0,12.0,25.44,-0.36
+7689,Dilshan Madushanka,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,12.0,12.0,-16.27,-9.28,Dual: Qualified Pressure & Prevention,362.0,85.0,-20.95,-4.07
+7690,Saim Ayub,LHB,Right-arm Leg-Break,Category B: Pressure Prevention Candidate,878.0,14.0,4.36,1.37,Dual: Qualified Pressure & Prevention,510.0,120.0,14.33,1.82
+7692,Qasim Akram,RHB,,Category C: Insufficient Evidence,15.0,14.0,3.95,-7.35,Category C: Insufficient Evidence,,,,
+7696,Mohammad Wasim,RHB,Right-arm medium,Category C: Insufficient Evidence,30.0,18.0,-10.78,-12.32,Dual: Qualified Pressure & Prevention,355.0,72.0,-13.1,0.82
+7699,Abbas Afridi,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,97.0,91.0,-9.45,6.77,Dual: Qualified Pressure & Prevention,399.0,79.0,29.89,2.16
+7702,Chamindu Wickramasinghe,LHB,Right-arm Fast,Category C: Insufficient Evidence,35.0,26.0,-2.24,-9.47,Category C: Insufficient Evidence,42.0,6.0,-13.16,-1.82
+7704,Pavan Rathnayake,RHB,Right-arm offbreak,Category C: Insufficient Evidence,60.0,0.0,-3.16,-18.7,Category C: Insufficient Evidence,12.0,0.0,5.16,-2.01
+7709,Ainsley Ndlovu,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,32.0,32.0,-17.46,-9.28,Category C: Insufficient Evidence,66.0,0.0,-5.78,-7.62
+7710,Brandon Glover,RHB,Right-arm Fast,Category C: Insufficient Evidence,1.0,1.0,6.32,-9.28,Category C: Insufficient Evidence,12.0,0.0,-1.85,-1.6
+7741,Gareth Delany,RHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,295.0,198.0,-1.71,-20.28,Dual: Qualified Pressure & Prevention,552.0,90.0,11.05,-0.71
+7744,Jordan Cox,RHB,,Category C: Insufficient Evidence,74.0,18.0,0.07,6.94,Category C: Insufficient Evidence,,,,
+7755,Harsh Thaker,RHB,Right-arm offbreak,Category C: Insufficient Evidence,57.0,26.0,-17.75,-22.21,Category C: Insufficient Evidence,48.0,18.0,-12.91,-13.42
+7756,Kaleem Sana,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,4.0,4.0,7.04,-9.28,Category C: Insufficient Evidence,67.0,6.0,23.78,10.62
+7761,Ravinderpal Singh,RHB,,Category C: Insufficient Evidence,24.0,21.0,9.69,-10.05,Category C: Insufficient Evidence,,,,
+7808,Marco Jansen,RHB,Left-arm Fast,Dual: Qualified Pressure & Prevention,277.0,189.0,-14.92,-10.16,Dual: Qualified Pressure & Prevention,1317.0,498.0,-31.26,-1.87
+7894,Tony Munyonga,RHB,,Category B: Pressure Prevention Candidate,141.0,59.0,-5.96,-27.45,Category C: Insufficient Evidence,,,,
+7896,Akash Singh,,Left-arm medium-fast,Category C: Insufficient Evidence,,,,,Dual: Qualified Pressure & Prevention,223.0,128.0,-2.93,-5.1
+7897,Namboori Tilak Varma,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,2403.0,638.0,5.56,-8.27,Category C: Insufficient Evidence,61.0,21.0,16.33,6.29
+7900,Tanzid Hasan,LHB,,Category B: Pressure Prevention Candidate,905.0,24.0,-0.36,-3.63,Category C: Insufficient Evidence,,,,
+7901,Parvez Emon,LHB,,Category B: Pressure Prevention Candidate,515.0,12.0,1.76,-4.04,Category C: Insufficient Evidence,,,,
+7903,Shamim Hossain,LHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,393.0,200.0,-10.62,-20.5,Category C: Insufficient Evidence,91.0,7.0,-17.77,5.93
+7905,Tanzim Sakib,RHB,Right-arm medium,Category A: Qualified Pressure Performer,162.0,139.0,-23.38,-10.67,Dual: Qualified Pressure & Prevention,677.0,123.0,-17.03,-1.09
+7911,Oliver Hairs,LHB,,Category C: Insufficient Evidence,49.0,0.0,-3.6,-17.84,Category C: Insufficient Evidence,,,,
+7912,Vikramjit Singh,LHB,Right-arm medium-fast,Category B: Pressure Prevention Candidate,137.0,1.0,3.12,-13.07,Category C: Insufficient Evidence,45.0,16.0,30.72,-3.31
+7914,Clayton Floyd,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,1.0,1.0,2.35,-9.28,Category C: Insufficient Evidence,36.0,0.0,-3.84,4.92
+7915,Monank Patel,RHB,,Category C: Insufficient Evidence,37.0,0.0,1.17,-9.42,Category C: Insufficient Evidence,,,,
+7916,Karima Gore,,Slow left-arm orthodox,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,18.0,0.0,-1.58,0.03
+7920,Nathan Ellis,RHB,Right-arm medium,Category C: Insufficient Evidence,55.0,49.0,-40.76,-13.18,Dual: Qualified Pressure & Prevention,916.0,293.0,17.81,10.04
+7924,Kushal Malla,LHB,,Category C: Insufficient Evidence,51.0,7.0,-6.26,-22.21,Category C: Insufficient Evidence,,,,
+7925,Rohan Rangarajan,RHB,,Category C: Insufficient Evidence,11.0,0.0,1.29,-13.44,Category C: Insufficient Evidence,,,,
+7926,Manpreet Singh,RHB,,Category C: Insufficient Evidence,15.0,0.0,-0.02,-10.49,Category C: Insufficient Evidence,,,,
+7927,Janak Prakash,RHB,Right-arm medium,Category C: Insufficient Evidence,81.0,33.0,-15.22,-12.1,Category C: Insufficient Evidence,54.0,0.0,10.23,-1.35
+7928,Vinoth Baskaran,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,9.0,9.0,-6.58,-9.76,Category C: Insufficient Evidence,65.0,0.0,11.03,-12.17
+7929,Aryaman Sunil Uchil,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,17.0,18.0,-4.76,-9.1,Category C: Insufficient Evidence,42.0,0.0,-3.54,-1.57
+7931,Aritra Dutta,RHB,,Category C: Insufficient Evidence,62.0,0.0,4.28,2.72,Category C: Insufficient Evidence,,,,
+7935,Mohammad Ghazanfar,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,4.0,4.0,0.03,-10.55,Category B: Pressure Prevention Candidate,108.0,0.0,0.48,0.75
+7937,Wasim Ali,LHB,,Category C: Insufficient Evidence,2.0,0.0,2.35,-10.61,Category C: Insufficient Evidence,,,,
+7967,Noor Ahmad,RHB,Left-arm Chinaman,Category C: Insufficient Evidence,114.0,107.0,-54.07,-16.45,Dual: Qualified Pressure & Prevention,1467.0,447.0,18.4,1.66
+7978,Johnathan Campbell,LHB,,Category C: Insufficient Evidence,101.0,61.0,1.66,-19.01,Category C: Insufficient Evidence,,,,
+8005,Zawar Farid,RHB,Right-arm medium,Category C: Insufficient Evidence,50.0,35.0,1.35,-9.69,Category C: Insufficient Evidence,78.0,4.0,-14.82,3.2
+8009,Junaid Siddique,RHB,Right-arm medium,Category C: Insufficient Evidence,37.0,40.0,-25.9,-11.13,Dual: Qualified Pressure & Prevention,330.0,46.0,30.23,0.54
+8014,Avi Dixit,LHB,,Category C: Insufficient Evidence,32.0,22.0,-9.79,-11.61,Category C: Insufficient Evidence,,,,
+8040,Ripal Patel,RHB,,Category C: Insufficient Evidence,46.0,47.0,-13.98,-10.79,Category C: Insufficient Evidence,,,,
+8049,Naseem Shah,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,49.0,46.0,-19.42,-12.03,Dual: Qualified Pressure & Prevention,576.0,88.0,-15.06,0.64
+8085,Suyash Prabhudessai,RHB,,Category C: Insufficient Evidence,105.0,78.0,-15.04,-31.2,Category C: Insufficient Evidence,,,,
+8093,Nikhil Chaudhary,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,19.0,0.0,2.86,-5.96,Category C: Insufficient Evidence,42.0,6.0,0.73,11.88
+8101,Ashutosh Sharma,RHB,,Dual: Qualified Pressure & Prevention,328.0,276.0,20.16,-5.93,Category C: Insufficient Evidence,,,,
+8141,Auqib Nabi,RHB,Right-arm medium,Category C: Insufficient Evidence,3.0,3.0,7.15,-7.99,Category C: Insufficient Evidence,78.0,26.0,-41.94,-17.19
+8177,Akash Madhwal,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,14.0,14.0,-13.03,-10.81,Dual: Qualified Pressure & Prevention,352.0,145.0,8.66,1.94
+8182,Donovan Ferreira,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,341.0,171.0,20.1,-1.1,Category C: Insufficient Evidence,109.0,29.0,-29.15,4.89
+8217,Ansh Tandon,LHB,,Category C: Insufficient Evidence,13.0,0.0,0.91,-9.72,Category C: Insufficient Evidence,,,,
+8221,Nitish Reddy,RHB,Right-arm medium-fast,Dual: Qualified Pressure & Prevention,670.0,133.0,7.25,-26.12,Dual: Qualified Pressure & Prevention,565.0,323.0,-30.69,-18.65
+8238,Sameer Rizvi,RHB,,Dual: Qualified Pressure & Prevention,293.0,96.0,4.7,-37.48,Category C: Insufficient Evidence,,,,
+8241,Lokesh Bam,RHB,,Category C: Insufficient Evidence,10.0,10.0,-4.1,-9.28,Category C: Insufficient Evidence,,,,
+8251,Kumar Kushagra,RHB,,Category C: Insufficient Evidence,21.0,3.0,-3.24,-10.9,Category C: Insufficient Evidence,,,,
+8266,Sumit Kumar 1,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,24.0,17.0,-12.6,-19.93,Category C: Insufficient Evidence,20.0,5.0,-10.13,-3.47
+8295,Matthew Forde,RHB,Right-arm medium,Category C: Insufficient Evidence,113.0,74.0,11.72,1.16,Dual: Qualified Pressure & Prevention,408.0,53.0,-9.58,-1.89
+8298,Ramon Simmonds,LHB,Left-arm fast-medium,Category C: Insufficient Evidence,2.0,2.0,0.43,-9.28,Category C: Insufficient Evidence,78.0,12.0,13.77,-9.19
+8301,Asif Khan,RHB,,Dual: Qualified Pressure & Prevention,200.0,84.0,17.85,-2.19,Category C: Insufficient Evidence,,,,
+8311,Dan Mousley,LHB,Right-arm offbreak,Category C: Insufficient Evidence,6.0,0.0,2.84,-9.28,Category C: Insufficient Evidence,54.0,11.0,-14.9,-11.32
+8326,Jayden Seales,LHB,Right-arm fast-medium,Category C: Insufficient Evidence,6.0,6.0,0.67,-9.28,Dual: Qualified Pressure & Prevention,180.0,57.0,-23.39,-18.69
+8380,Mohammad Rishad Hossain,RHB,Right-arm Leg-Break,Category A: Qualified Pressure Performer,165.0,165.0,-27.56,-7.39,Dual: Qualified Pressure & Prevention,1018.0,157.0,14.23,-2.75
+8389,Jayden Lennox,,Slow left-arm orthodox,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,18.0,0.0,1.52,-9.47
+8405,Kanwarpal Tathgur,RHB,,Category C: Insufficient Evidence,8.0,0.0,0.05,-16.42,Category C: Insufficient Evidence,,,,
+8408,Shreyas Movva,RHB,,Category C: Insufficient Evidence,82.0,43.0,-8.05,-31.7,Category C: Insufficient Evidence,,,,
+8424,Tanveer Sangha,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,4.0,4.0,-2.05,-9.28,Dual: Qualified Pressure & Prevention,168.0,45.0,13.48,-5.74
+8530,Kartik Tyagi,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,16.0,16.0,-5.34,-8.55,Dual: Qualified Pressure & Prevention,415.0,149.0,-39.07,-23.53
+8580,Yudhvir Singh,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,16.0,15.0,0.8,-10.35,Category B: Pressure Prevention Candidate,138.0,27.0,-10.84,-11.18
+8600,Tadiwanashe Marumani,LHB,,Dual: Qualified Pressure & Prevention,432.0,69.0,-14.39,-17.17,Category C: Insufficient Evidence,,,,
+8611,Adithya Ashok,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,13.0,-2.92,-0.17
+8614,William ORourke,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Dual: Qualified Pressure & Prevention,182.0,87.0,19.81,2.48
+8623,Kristian Clarke,RHB,Right-arm medium,Category C: Insufficient Evidence,1.0,1.0,1.03,-9.28,Category C: Insufficient Evidence,24.0,6.0,0.86,-6.86
+8634,Ashwani Kumar,LHB,Left-arm medium,Category C: Insufficient Evidence,6.0,6.0,-8.0,-9.28,Dual: Qualified Pressure & Prevention,183.0,85.0,27.12,-15.47
+8637,Vriitya Aravind,RHB,,Category C: Insufficient Evidence,103.0,0.0,-1.3,-7.9,Category C: Insufficient Evidence,,,,
+8638,Basil Hameed,RHB,Right-arm offbreak,Category C: Insufficient Evidence,138.0,85.0,-23.6,-12.67,Category B: Pressure Prevention Candidate,138.0,21.0,7.81,3.5
+8639,Kartik Meiyappan,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,15.0,17.0,-7.21,-9.27,Category C: Insufficient Evidence,96.0,13.0,25.95,4.75
+8647,Sediqullah Atal,LHB,,Dual: Qualified Pressure & Prevention,528.0,43.0,-8.42,-22.53,Category C: Insufficient Evidence,,,,
+8652,Mohammad Ishaq,RHB,,Category C: Insufficient Evidence,71.0,5.0,-5.46,-11.07,Category C: Insufficient Evidence,,,,
+8654,Cooper Connolly,LHB,Slow left-arm orthodox,Dual: Qualified Pressure & Prevention,361.0,74.0,12.03,-6.5,Category B: Pressure Prevention Candidate,114.0,14.0,-18.37,-7.56
+8661,Matheesha Pathirana,RHB,Right-arm medium,Category C: Insufficient Evidence,32.0,31.0,-23.23,-12.16,Dual: Qualified Pressure & Prevention,1132.0,525.0,43.49,1.17
+8664,Victor Nyauchi,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,3.0,3.0,-1.46,-9.28,Category C: Insufficient Evidence,24.0,12.0,17.92,0.85
+8719,Aryan Lakra,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,43.0,0.0,-2.73,-19.87,Category C: Insufficient Evidence,18.0,0.0,5.45,6.79
+8723,Mohammed Faraazuddin,RHB,Right-arm offbreak,Category C: Insufficient Evidence,8.0,10.0,-11.75,-9.28,Category C: Insufficient Evidence,48.0,0.0,-2.2,-3.55
+8726,Alishan Sharafu,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,224.0,41.0,1.21,-6.36,Category C: Insufficient Evidence,1.0,0.0,1.42,-2.01
+8727,Sanchit Sharma,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,5.0,5.0,0.13,-9.27,Category C: Insufficient Evidence,6.0,0.0,-3.59,-6.06
+8739,Muhammad Irfan,RHB,,Category C: Insufficient Evidence,140.0,37.0,-0.09,-12.4,Category C: Insufficient Evidence,,,,
+8741,Mohammad Haris,RHB,,Dual: Qualified Pressure & Prevention,340.0,51.0,0.4,-0.04,Category C: Insufficient Evidence,,,,
+8746,Vaibhav Arora,RHB,Right-arm Fast,Category C: Insufficient Evidence,27.0,21.0,-21.69,-12.3,Dual: Qualified Pressure & Prevention,866.0,258.0,-2.51,-1.7
+8763,Duan Jansen,,Left-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,-3.36,-12.4
+8771,Rubin Hermann,LHB,,Category C: Insufficient Evidence,82.0,7.0,-1.44,0.73,Category C: Insufficient Evidence,,,,
+8805,Ottneil Baartman,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,35.0,36.0,-35.88,-14.13,Dual: Qualified Pressure & Prevention,323.0,90.0,17.07,-4.65
+15269,Mohammed Aslam,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,38.0,35.0,-5.65,-29.04,Category C: Insufficient Evidence,48.0,0.0,-8.61,0.83
+15271,Usmangani Ibrahim Patel,RHB,,Category C: Insufficient Evidence,38.0,12.0,-1.44,-21.9,Category C: Insufficient Evidence,,,,
+15274,Ravija Sandaruwan,RHB,,Category C: Insufficient Evidence,46.0,0.0,3.98,0.17,Category C: Insufficient Evidence,,,,
+15279,Shiraz Khan,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,14.0,5.0,-6.18,-11.48,Category C: Insufficient Evidence,66.0,0.0,4.8,2.35
+15280,Sayed Monib,RHB,Right-arm medium,Category C: Insufficient Evidence,24.0,14.0,8.27,-2.3,Category C: Insufficient Evidence,66.0,14.0,-3.18,0.12
+15303,Bilal Tahir,LHB,,Category C: Insufficient Evidence,22.0,8.0,-0.87,-6.28,Category C: Insufficient Evidence,,,,
+15551,Ackeem Auguste,LHB,,Category B: Pressure Prevention Candidate,125.0,14.0,-1.27,-1.15,Category C: Insufficient Evidence,,,,
+15629,Shayan Jahangir,RHB,,Category C: Insufficient Evidence,47.0,28.0,2.52,-9.56,Category C: Insufficient Evidence,,,,
+16498,Sultan Ahmad,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,4.0,2.0,-1.86,-9.28,Category C: Insufficient Evidence,45.0,3.0,6.85,11.48
+16559,Alexander Patmore,LHB,,Category C: Insufficient Evidence,3.0,4.0,-0.62,-12.1,Category C: Insufficient Evidence,,,,
+17413,Neil Rock,LHB,,Category C: Insufficient Evidence,59.0,17.0,-14.21,-9.79,Category C: Insufficient Evidence,,,,
+17419,Tim Tector,RHB,,Category C: Insufficient Evidence,81.0,9.0,3.87,5.74,Category C: Insufficient Evidence,,,,
+17424,Graham Hume,LHB,Right-arm fast-medium,Category C: Insufficient Evidence,29.0,23.0,-4.42,-7.55,Dual: Qualified Pressure & Prevention,188.0,47.0,-12.76,-11.54
+17430,Conor Olphert,,Right-arm medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,30.0,11.0,-23.6,-7.03
+17432,Ross Adair,RHB,,Dual: Qualified Pressure & Prevention,285.0,46.0,7.15,-0.06,Category C: Insufficient Evidence,,,,
+17910,Mohammad Akram,RHB,,Category C: Insufficient Evidence,8.0,0.0,2.44,-3.05,Category C: Insufficient Evidence,,,,
+17911,Nangeyalia Kharote,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,11.0,10.0,-8.94,-10.52,Category C: Insufficient Evidence,66.0,24.0,23.34,11.54
+17918,Abdullah Tarakhail,,Right-arm medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,18.0,0.0,8.12,8.09
+17919,Mohammad Saleem Safi,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,18.0,0.0,-10.05,-3.39
+17937,Zubaid Akbari,LHB,,Category C: Insufficient Evidence,7.0,0.0,0.88,-14.18,Category C: Insufficient Evidence,,,,
+19012,Zeeshan Ali,RHB,,Category C: Insufficient Evidence,94.0,48.0,-5.3,-23.88,Category C: Insufficient Evidence,,,,
+19020,Ateeq Iqbal,RHB,Right-arm medium,Category C: Insufficient Evidence,3.0,3.0,-1.47,-9.28,Category C: Insufficient Evidence,63.0,0.0,2.49,20.21
+19125,Ayush Shukla,RHB,Right-arm medium,Category C: Insufficient Evidence,7.0,8.0,-7.87,-11.54,Category B: Pressure Prevention Candidate,138.0,14.0,-7.66,1.59
+19145,Aamer Jamal,RHB,Right-arm medium,Category C: Insufficient Evidence,22.0,23.0,5.18,-8.01,Category C: Insufficient Evidence,72.0,18.0,-28.47,-4.56
+19147,Faraz Akram,LHB,Right-arm medium,Category C: Insufficient Evidence,54.0,51.0,4.83,-6.74,Category C: Insufficient Evidence,99.0,0.0,-21.99,-10.67
+19307,Tharindu Rathnayake,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,15.0,15.0,-12.19,-9.28,Category C: Insufficient Evidence,24.0,0.0,-0.52,-18.38
+19309,Lahiru Udara,RHB,,Category C: Insufficient Evidence,95.0,7.0,6.54,-6.91,Category C: Insufficient Evidence,,,,
+19312,Nuwan Thushara,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,20.0,19.0,-26.28,-9.28,Dual: Qualified Pressure & Prevention,775.0,95.0,-14.53,5.22
+19315,Vijayakanth Viyaskanth,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,7.0,7.0,-2.07,-9.28,Category B: Pressure Prevention Candidate,108.0,6.0,-4.9,8.91
+19316,Maheesh Theekshana,RHB,Right-arm offbreak,Category A: Qualified Pressure Performer,203.0,174.0,-80.62,-15.39,Dual: Qualified Pressure & Prevention,2265.0,504.0,-3.49,7.66
+19530,Shahnawaz Dhani,RHB,Right-arm medium,Category C: Insufficient Evidence,6.0,6.0,12.21,-9.28,Dual: Qualified Pressure & Prevention,170.0,55.0,-32.21,-5.41
+19714,Abishek Porel,LHB,,Dual: Qualified Pressure & Prevention,528.0,115.0,-2.19,-0.9,Category C: Insufficient Evidence,,,,
+19754,Raja Khan,,Right-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,2.03,-4.68
+19781,Mitchell Owen,RHB,Right-arm medium,Category B: Pressure Prevention Candidate,122.0,25.0,0.25,-34.32,Category C: Insufficient Evidence,30.0,11.0,4.83,-5.33
+19892,Theo van Woerkom,,Slow left-arm orthodox,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,6.0,0.0,0.05,-2.28
+19894,Mitchell Hay,RHB,,Category C: Insufficient Evidence,68.0,16.0,-2.06,-9.15,Category C: Insufficient Evidence,,,,
+19902,Tim Pringle,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,37.0,38.0,9.24,-10.21,Category B: Pressure Prevention Candidate,132.0,0.0,10.81,6.5
+19998,Rajvardhan Hangargekar,,Right-arm medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,36.0,20.0,7.51,-3.88
+20005,Arshad Khan,LHB,Left-arm medium,Category C: Insufficient Evidence,99.0,90.0,-7.18,-5.81,Dual: Qualified Pressure & Prevention,376.0,87.0,-21.71,-9.96
+20006,Ramandeep Singh,RHB,Right-arm medium,Dual: Qualified Pressure & Prevention,209.0,107.0,-1.29,-45.46,Category C: Insufficient Evidence,76.0,23.0,11.96,-4.84
+20023,Karan Sharma,RHB,,Category C: Insufficient Evidence,25.0,10.0,-10.44,-21.6,Category C: Insufficient Evidence,,,,
+20163,Aasif Sheikh,RHB,,Category C: Insufficient Evidence,51.0,6.0,3.89,-0.37,Category C: Insufficient Evidence,,,,
+20175,Nandan Yadav,RHB,Right-arm medium,Category C: Insufficient Evidence,2.0,2.0,8.32,-9.28,Category C: Insufficient Evidence,6.0,0.0,9.32,2.57
+20229,Mohammad Ali,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,1.0,1.0,2.35,-9.28,Category C: Insufficient Evidence,42.0,6.0,-16.98,-20.72
+20310,Ahmed Daniyal,RHB,Right-arm medium,Category C: Insufficient Evidence,11.0,11.0,4.06,-9.28,Category C: Insufficient Evidence,42.0,13.0,13.53,18.32
+20316,Shahab Alam,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,1.0,1.0,1.03,-9.28,Category C: Insufficient Evidence,12.0,0.0,-2.53,-4.15
+20327,Usman Khan,RHB,,Dual: Qualified Pressure & Prevention,321.0,61.0,-0.94,-18.53,Category C: Insufficient Evidence,,,,
+20693,Kuldip Yadav,,Left-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,42.0,42.0,-5.07,3.79
+20702,Tristan Stubbs,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,1077.0,508.0,15.46,-18.61,Category C: Insufficient Evidence,48.0,23.0,-27.09,-11.79
+20704,Salman Mirza,RHB,Left-arm medium,Category C: Insufficient Evidence,4.0,5.0,2.61,-9.28,Dual: Qualified Pressure & Prevention,328.0,70.0,9.41,19.33
+20802,Abdul Basith,RHB,,Category C: Insufficient Evidence,1.0,1.0,2.18,-9.28,Category C: Insufficient Evidence,,,,
+20894,Aman Khan,RHB,Right-arm medium,Category C: Insufficient Evidence,104.0,96.0,-23.95,-26.74,Category C: Insufficient Evidence,6.0,0.0,-3.8,-3.79
+20989,Vivrant Sharma,LHB,Right-arm Leg-Break,Category C: Insufficient Evidence,47.0,0.0,2.11,-10.0,Category C: Insufficient Evidence,18.0,2.0,-13.54,-4.49
+21777,Tafadzwa Tsiga,RHB,,Category C: Insufficient Evidence,24.0,25.0,-0.44,-9.14,Category C: Insufficient Evidence,,,,
+21780,Ernest Masuku,RHB,Right-arm medium,Category C: Insufficient Evidence,6.0,6.0,0.67,-8.83,Category C: Insufficient Evidence,60.0,3.0,1.92,11.86
+21781,Clive Madande,RHB,,Dual: Qualified Pressure & Prevention,298.0,204.0,-31.56,-32.49,Category C: Insufficient Evidence,,,,
+21784,Brad Evans,RHB,Right-arm Fast,Category C: Insufficient Evidence,121.0,107.0,-19.63,-7.75,Dual: Qualified Pressure & Prevention,438.0,88.0,15.8,9.58
+21786,Tanaka Chivanga,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,27.0,19.0,-23.54,-15.42
+21790,Tashinga Musekiwa,RHB,,Dual: Qualified Pressure & Prevention,207.0,138.0,-11.43,-44.11,Category C: Insufficient Evidence,,,,
+21791,J Gumbie,RHB,,Category C: Insufficient Evidence,52.0,5.0,-8.44,-21.49,Category C: Insufficient Evidence,,,,
+22134,Luke Jongwe,RHB,Right-arm medium,Category C: Insufficient Evidence,122.0,112.0,-10.16,-14.05,Dual: Qualified Pressure & Prevention,330.0,77.0,-20.59,-22.4
+22137,Fionn Hand,RHB,Right-arm medium,Category C: Insufficient Evidence,37.0,30.0,6.46,-7.78,Category B: Pressure Prevention Candidate,134.0,21.0,-6.73,-28.63
+22187,Ryan Klein,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,65.0,54.0,-4.5,-11.47,Category C: Insufficient Evidence,24.0,0.0,-0.79,-6.32
+22188,Aryan Dutt,RHB,Right-arm offbreak,Category C: Insufficient Evidence,44.0,43.0,-6.95,-11.35,Category B: Pressure Prevention Candidate,140.0,27.0,-1.0,10.63
+22471,Matthew Humphreys,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,11.0,10.0,-2.95,-9.28,Dual: Qualified Pressure & Prevention,305.0,84.0,46.63,5.12
+22565,Muhammad Waseem,RHB,Right-arm medium-fast,Category B: Pressure Prevention Candidate,459.0,5.0,9.79,12.81,Category C: Insufficient Evidence,17.0,6.0,-17.23,-1.58
+22920,Jacob Duffy,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,31.0,32.0,-10.15,-9.73,Dual: Qualified Pressure & Prevention,877.0,304.0,18.4,1.32
+23311,Jacob Bethell,LHB,Slow left-arm orthodox,Category B: Pressure Prevention Candidate,451.0,35.0,7.74,0.41,Category C: Insufficient Evidence,87.0,37.0,37.27,-5.83
+23450,Sai Sudharsan,LHB,,Dual: Qualified Pressure & Prevention,1674.0,136.0,4.47,-5.71,Category C: Insufficient Evidence,,,,
+23467,Gurjapneet Singh,,Left-arm medium-fast,Category C: Insufficient Evidence,,,,,Dual: Qualified Pressure & Prevention,151.0,55.0,-24.86,6.45
+24017,Brian Bennett,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,792.0,59.0,2.29,3.24,Category B: Pressure Prevention Candidate,132.0,0.0,1.49,-3.83
+24346,Mohamed Shafeeq,RHB,Right-arm medium,Category C: Insufficient Evidence,6.0,6.0,4.51,-9.28,Category C: Insufficient Evidence,63.0,10.0,-4.69,6.51
+24381,Shariz Ahmad,LHB,Right-arm Leg-Break,Category C: Insufficient Evidence,34.0,22.0,-7.45,-14.7,Category C: Insufficient Evidence,36.0,0.0,-0.43,-4.04
+24473,Sonny Baker,,Right-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,95.0,23.0,37.5,13.09
+24475,Rehan Ahmed,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,45.0,16.0,-2.44,-9.85,Category B: Pressure Prevention Candidate,210.0,24.0,-3.58,-6.54
+24767,Ripon Mondol,RHB,Right-arm Fast,Category C: Insufficient Evidence,1.0,1.0,1.29,-9.7,Category C: Insufficient Evidence,36.0,0.0,-17.06,-13.51
+24779,Ijaz Ahmadzai,RHB,Right-arm medium,Category C: Insufficient Evidence,81.0,46.0,18.99,-1.45,Category C: Insufficient Evidence,6.0,7.0,-15.37,-2.01
+24803,Gulshan Jha,LHB,,Category C: Insufficient Evidence,34.0,10.0,-3.96,-8.22,Category C: Insufficient Evidence,,,,
+24812,Chris Greaves,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,28.0,21.0,-19.48,-8.6,Category C: Insufficient Evidence,54.0,7.0,0.24,-3.73
+24887,Innocent Kaia,RHB,Right-arm medium,Category B: Pressure Prevention Candidate,164.0,23.0,-8.13,-15.67,Category C: Insufficient Evidence,6.0,0.0,1.68,-0.36
+24978,Jack Jarvis,RHB,Right-arm medium,Category C: Insufficient Evidence,11.0,8.0,0.94,-9.28,Category C: Insufficient Evidence,22.0,0.0,-6.42,-54.86
+24982,Charlie Tear,RHB,,Category C: Insufficient Evidence,25.0,4.0,-3.27,-19.67,Category C: Insufficient Evidence,,,,
+25011,Liam Mccarthy,LHB,Right-arm Fast,Category C: Insufficient Evidence,24.0,17.0,-7.2,-9.28,Category C: Insufficient Evidence,66.0,28.0,-48.48,-32.32
+25030,Zaman Khan,RHB,Right-arm Fast,Category C: Insufficient Evidence,9.0,10.0,-4.96,-9.28,Dual: Qualified Pressure & Prevention,189.0,44.0,-1.19,15.2
+25048,Umran Malik,RHB,Right-arm medium,Category C: Insufficient Evidence,17.0,18.0,2.62,-9.28,Dual: Qualified Pressure & Prevention,560.0,166.0,17.36,-41.86
+25128,Nqabayomzi Peter,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,20.0,13.0,-1.7,-9.75,Dual: Qualified Pressure & Prevention,162.0,52.0,-14.25,-44.27
+25132,Praful Hinge,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,9.0,9.0,-8.27,-11.72,Dual: Qualified Pressure & Prevention,156.0,86.0,31.38,-21.42
+25138,Harsh Dubey,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,9.0,0.0,-0.25,-9.28,Dual: Qualified Pressure & Prevention,192.0,101.0,15.03,-15.59
+25139,Shubham Dubey,LHB,,Category C: Insufficient Evidence,142.0,104.0,9.47,11.26,Category C: Insufficient Evidence,,,,
+25213,Dewald Brevis,RHB,Right-arm Leg-Break,Dual: Qualified Pressure & Prevention,629.0,66.0,11.88,-7.16,Category C: Insufficient Evidence,3.0,0.0,7.23,-2.01
+25216,Andile Simelane,RHB,Right-arm Fast,Category C: Insufficient Evidence,35.0,21.0,-6.03,-12.47,Category C: Insufficient Evidence,108.0,37.0,-28.67,-31.86
+25231,Samay Shrivastava,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,19.0,21.0,-17.79,-12.29,Category C: Insufficient Evidence,42.0,0.0,-8.38,-5.11
+25501,Meet Bhavsar,LHB,,Category C: Insufficient Evidence,38.0,0.0,0.5,-5.24,Category C: Insufficient Evidence,,,,
+25502,Adnan Idrees,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,6.0,0.0,-0.53,-14.39,Category C: Insufficient Evidence,12.0,0.0,6.94,-1.97
+25507,Edson Silva,RHB,Right-arm medium,Category C: Insufficient Evidence,47.0,47.0,19.42,-2.48,Category C: Insufficient Evidence,18.0,6.0,-16.44,-6.16
+25534,Chad Bowes,RHB,,Category B: Pressure Prevention Candidate,155.0,1.0,-2.26,-8.68,Category C: Insufficient Evidence,,,,
+25669,Priyansh Arya,LHB,,Category B: Pressure Prevention Candidate,469.0,0.0,28.22,33.87,Category C: Insufficient Evidence,,,,
+25679,Salil Arora,RHB,,Category C: Insufficient Evidence,98.0,34.0,1.95,5.61,Category C: Insufficient Evidence,,,,
+25809,Juanoy Drysdale,RHB,Right-arm medium,Category C: Insufficient Evidence,2.0,2.0,0.43,-9.28,Category C: Insufficient Evidence,60.0,13.0,-9.69,1.32
+26519,Janith Liyanage,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,136.0,64.0,-10.92,-6.63,Category C: Insufficient Evidence,8.0,8.0,-15.17,-3.94
+26646,Rahul Chopra,RHB,,Dual: Qualified Pressure & Prevention,154.0,60.0,-14.21,-20.49,Category C: Insufficient Evidence,,,,
+26663,Kwena Maphaka,LHB,Left-arm Fast,Category C: Insufficient Evidence,25.0,25.0,-8.29,-9.28,Dual: Qualified Pressure & Prevention,305.0,86.0,-38.77,-24.37
+26795,Joel Davies,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,14.0,0.0,3.71,-9.28,Category C: Insufficient Evidence,48.0,6.0,10.74,-3.72
+26830,Nishant Kumar Sindhu,LHB,,Category C: Insufficient Evidence,50.0,4.0,0.13,-11.03,Category C: Insufficient Evidence,,,,
+26834,Raj Bawa,LHB,Right-arm medium-fast,Category C: Insufficient Evidence,32.0,0.0,-3.74,-21.12,Category C: Insufficient Evidence,24.0,18.0,2.88,-3.28
+26839,Haseebullah Khan,LHB,,Category C: Insufficient Evidence,30.0,8.0,2.66,-7.85,Category C: Insufficient Evidence,,,,
+26843,Maaz Sadaqat,LHB,,Category C: Insufficient Evidence,83.0,0.0,11.27,15.64,Category C: Insufficient Evidence,,,,
+26906,Angkrish Raghuvanshi,RHB,,Dual: Qualified Pressure & Prevention,606.0,41.0,2.48,-1.99,Category C: Insufficient Evidence,,,,
+26909,Yash Dhull,RHB,,Category C: Insufficient Evidence,23.0,15.0,-8.21,-25.76,Category C: Insufficient Evidence,,,,
+26913,Shaik Rasheed,RHB,,Category C: Insufficient Evidence,63.0,0.0,-5.79,-17.24,Category C: Insufficient Evidence,,,,
+26916,Yasir Mohammad,LHB,Right-arm Leg-Break,Category C: Insufficient Evidence,9.0,6.0,-0.52,-9.68,Category C: Insufficient Evidence,48.0,0.0,-11.26,-4.64
+26988,Jitenkumar Ramanandi,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,14.0,14.0,10.63,-7.88,Category C: Insufficient Evidence,48.0,0.0,15.33,-5.82
+27004,Hassnain Shah,RHB,Right-arm medium,Category C: Insufficient Evidence,5.0,5.0,-4.42,-10.16,Category C: Insufficient Evidence,42.0,3.0,-4.25,-14.09
+27071,Vinayak Shukla,RHB,,Category C: Insufficient Evidence,23.0,13.0,-4.23,-10.85,Category C: Insufficient Evidence,,,,
+27137,Hammad Mirza,RHB,,Category C: Insufficient Evidence,63.0,27.0,3.83,-13.14,Category C: Insufficient Evidence,,,,
+27364,Simranjeet Kang,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,9.0,9.0,-9.85,-10.99,Category C: Insufficient Evidence,51.0,0.0,12.3,-8.03
+27373,Muhammad Farooq,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,18.0,0.0,0.72,-4.36
+27380,Harshit Kaushik,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,47.0,31.0,-14.74,-13.2,Category C: Insufficient Evidence,60.0,12.0,-24.14,-2.77
+27390,Matiullah Khan,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,5.0,6.0,-7.07,-9.28,Category C: Insufficient Evidence,60.0,0.0,-15.68,-16.56
+27460,Ali Naseer,LHB,Right-arm medium,Category C: Insufficient Evidence,14.0,7.0,0.97,-9.89,Category C: Insufficient Evidence,36.0,0.0,-6.94,-14.69
+27464,Aayan Afzal Khan,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,63.0,65.0,-10.14,-8.32,Category B: Pressure Prevention Candidate,102.0,0.0,9.36,7.57
+27466,Dhruv Parashar,RHB,Right-arm offbreak,Category C: Insufficient Evidence,92.0,63.0,-30.14,-51.18,Category B: Pressure Prevention Candidate,186.0,0.0,-16.02,-17.76
+27469,Aryansh Sharma,RHB,,Category B: Pressure Prevention Candidate,129.0,5.0,0.75,-5.45,Category C: Insufficient Evidence,,,,
+27504,Dushan Hemantha,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,19.0,10.0,-3.52,-9.98,Category C: Insufficient Evidence,68.0,0.0,11.78,-0.88
+27516,Ihsanullah Ihsanullah,RHB,Right-arm Fast,Category C: Insufficient Evidence,8.0,8.0,-4.28,-9.28,Category C: Insufficient Evidence,89.0,40.0,18.33,18.79
+27743,DT Doram,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,6.0,7.0,-4.76,-9.69,Category B: Pressure Prevention Candidate,192.0,30.0,-1.7,-9.1
+27956,Prashant Solanki,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,36.0,12.0,18.63,1.87
+27959,Hrithik Shokeen,RHB,Right-arm offbreak,Category C: Insufficient Evidence,65.0,43.0,-10.73,-33.07,Category B: Pressure Prevention Candidate,204.0,11.0,-17.31,8.34
+27960,Mayank Yadav,RHB,Right-arm medium,Category C: Insufficient Evidence,12.0,13.0,-9.81,-9.28,Dual: Qualified Pressure & Prevention,493.0,232.0,-6.97,-1.8
+27962,Saurav Chauhan,LHB,,Category C: Insufficient Evidence,15.0,1.0,-2.48,-9.77,Category C: Insufficient Evidence,,,,
+27964,Anshul Kamboj,RHB,Right-arm medium,Category C: Insufficient Evidence,50.0,48.0,-9.71,-5.36,Dual: Qualified Pressure & Prevention,491.0,118.0,11.51,-8.02
+27970,Gurnoor Brar,,Right-arm medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,18.0,0.0,-10.82,-5.7
+28018,Ashok Sharma,RHB,Right-arm medium,Category C: Insufficient Evidence,4.0,5.0,-4.84,-10.81,Dual: Qualified Pressure & Prevention,174.0,46.0,-13.2,-17.59
+28021,Saurabh Dubey,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,2.0,2.0,4.04,-9.28,Category C: Insufficient Evidence,77.0,40.0,15.43,16.39
+28185,Kamil Pooran,RHB,,Category C: Insufficient Evidence,39.0,11.0,11.19,-8.0,Category C: Insufficient Evidence,,,,
+28655,Muhammad Rohid,RHB,Left-arm Fast,Category C: Insufficient Evidence,3.0,3.0,2.97,-9.26,Category C: Insufficient Evidence,112.0,10.0,-11.62,13.72
+28756,Haider Ali,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,38.0,41.0,-16.86,-9.75,Category B: Pressure Prevention Candidate,270.0,10.0,12.76,24.42
+28908,Vincent Masekesa,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,3.0,4.0,-3.63,-11.05,Category C: Insufficient Evidence,19.0,0.0,3.21,-2.55
+28911,John Masara,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,6.0,0.0,1.05,-0.77
+28915,Trevor Gwandu,RHB,Right-arm medium,Category C: Insufficient Evidence,26.0,27.0,-24.86,-11.03,Category B: Pressure Prevention Candidate,150.0,1.0,4.39,-0.49
+28967,Tim Robinson,RHB,,Category B: Pressure Prevention Candidate,418.0,13.0,4.87,5.71,Category C: Insufficient Evidence,,,,
+28970,Connor Esterhuizen,RHB,,Category B: Pressure Prevention Candidate,135.0,0.0,11.06,-5.02,Category C: Insufficient Evidence,,,,
+29066,Zakary Foulkes,RHB,Right-arm medium,Category C: Insufficient Evidence,65.0,53.0,-2.68,-9.58,Dual: Qualified Pressure & Prevention,364.0,93.0,-7.38,-1.71
+29075,Aadil Ansari,RHB,Right-arm medium,Category C: Insufficient Evidence,10.0,5.0,0.75,-9.69,Category C: Insufficient Evidence,36.0,25.0,44.68,-2.8
+29080,Muhammad Khan,RHB,Right-arm Fast,Category C: Insufficient Evidence,12.0,13.0,3.1,-9.28,Category C: Insufficient Evidence,96.0,19.0,15.19,-37.53
+29558,Muhammad Arfan,LHB,Right-arm medium,Category C: Insufficient Evidence,32.0,33.0,-5.1,-9.28,Category C: Insufficient Evidence,48.0,0.0,8.72,17.18
+29699,Ibrahim Takahashi,RHB,Right-arm offbreak,Category C: Insufficient Evidence,3.0,0.0,3.21,-8.69,Category C: Insufficient Evidence,12.0,0.0,4.95,2.04
+29833,Bashir Ahmad,LHB,Left-arm Fast,Category C: Insufficient Evidence,5.0,6.0,-5.78,-9.28,Category C: Insufficient Evidence,18.0,0.0,-11.92,-4.45
+29888,Harshit Rana,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,145.0,128.0,-29.38,-16.78,Dual: Qualified Pressure & Prevention,901.0,227.0,1.35,-7.69
+30925,Bradley Currie,RHB,Left-arm fast-medium,Category C: Insufficient Evidence,9.0,10.0,-6.64,-9.28,Category C: Insufficient Evidence,108.0,6.0,14.85,17.64
+30927,Saiteja Mukkamalla,RHB,,Category C: Insufficient Evidence,43.0,0.0,9.76,11.11,Category C: Insufficient Evidence,,,,
+31107,Yasin Patel,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,7.0,7.0,1.36,-9.28,Category C: Insufficient Evidence,72.0,0.0,3.33,9.86
+31227,Vidhwath Kaverappa,,Right-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,5.03,1.87
+31513,Ethan Dsouza,LHB,Right-arm offbreak,Category C: Insufficient Evidence,29.0,0.0,-3.2,-10.24,Category C: Insufficient Evidence,6.0,0.0,1.4,-0.77
+31518,Akshat Raghuwanshi,RHB,,Category C: Insufficient Evidence,25.0,0.0,-0.62,-9.5,Category C: Insufficient Evidence,,,,
+31529,Robin Minz,LHB,,Category C: Insufficient Evidence,19.0,6.0,-8.44,-13.63,Category C: Insufficient Evidence,,,,
+31835,Akshay Roopak Puri,RHB,Right-arm offbreak,Category C: Insufficient Evidence,5.0,6.0,-7.07,-9.28,Category C: Insufficient Evidence,60.0,0.0,8.81,2.75
+31836,Aman Desai,LHB,,Category C: Insufficient Evidence,27.0,20.0,-5.63,-25.04,Category C: Insufficient Evidence,,,,
+32244,Tripurana Vijay,,Right-arm offbreak,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,12.0,0.0,-5.99,-16.66
+32399,Aaron Johnson,RHB,,Category C: Insufficient Evidence,48.0,0.0,-6.0,-25.12,Category C: Insufficient Evidence,,,,
+32401,Akhil Kumar,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,12.0,12.0,1.01,-9.28,Category C: Insufficient Evidence,24.0,6.0,-9.74,4.45
+32862,Allah Ghazanfar,RHB,Right-arm offbreak,Category C: Insufficient Evidence,11.0,11.0,-5.1,-8.56,Dual: Qualified Pressure & Prevention,305.0,66.0,-6.42,-6.42
+33009,John Turner,,Right-arm fast-medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,36.0,13.0,-19.29,-19.36
+33067,Ravichandran Smaran,LHB,,Category C: Insufficient Evidence,25.0,0.0,-5.42,-22.79,Category C: Insufficient Evidence,,,,
+33440,Adwitya Bhargava,RHB,Right-arm medium,Category C: Insufficient Evidence,6.0,7.0,-1.19,-9.28,Category C: Insufficient Evidence,12.0,0.0,4.76,1.12
+33443,Sabir Ali,,Left-arm Fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,48.0,0.0,5.56,-0.18
+33969,Tinotenda Maposa,RHB,Right-arm medium,Category C: Insufficient Evidence,45.0,42.0,2.15,-5.56,Category B: Pressure Prevention Candidate,176.0,16.0,-40.57,-8.34
+34466,Arafat Minhas,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,46.0,38.0,-7.64,-11.43,Category C: Insufficient Evidence,42.0,0.0,0.75,1.1
+34485,Sufiyan Muqeem,LHB,Left-arm Chinaman,Category C: Insufficient Evidence,23.0,24.0,-9.93,-9.28,Dual: Qualified Pressure & Prevention,344.0,123.0,30.88,6.13
+34522,Brandon McMullen,RHB,Right-arm medium,Category C: Insufficient Evidence,96.0,21.0,10.55,-5.31,Category C: Insufficient Evidence,48.0,0.0,-2.8,0.51
+34527,Jasper John Davidson,RHB,Right-arm medium,Category C: Insufficient Evidence,4.0,4.0,-0.75,-9.28,Category C: Insufficient Evidence,6.0,0.0,0.66,-4.84
+34546,Aryan Bisht,RHB,,Category C: Insufficient Evidence,32.0,14.0,-11.16,-31.11,Category C: Insufficient Evidence,,,,
+34928,Kendel Fleming,LHB,,Category C: Insufficient Evidence,12.0,0.0,0.77,-12.04,Category C: Insufficient Evidence,,,,
+34929,Lachlan Lake,RHB,,Category C: Insufficient Evidence,4.0,0.0,1.4,-12.93,Category C: Insufficient Evidence,,,,
+34969,Manav Suthar,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,2.0,2.0,0.67,-9.28,Category C: Insufficient Evidence,48.0,0.0,-6.6,-16.9
+35071,Kunal Rathore,LHB,,Category C: Insufficient Evidence,5.0,0.0,-0.61,-15.67,Category C: Insufficient Evidence,,,,
+35072,Ramakrishna Ghosh,,Right-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,18.0,0.0,4.79,-1.33
+35102,Zikria Islam,RHB,Right-arm offbreak,Category C: Insufficient Evidence,10.0,10.0,-11.52,-12.54,Category C: Insufficient Evidence,18.0,0.0,-1.8,-0.43
+35122,Shah Faisal,LHB,Left-arm medium,Category C: Insufficient Evidence,15.0,3.0,-2.57,-19.45,Category C: Insufficient Evidence,72.0,0.0,3.21,6.38
+35318,Sakib Hussain,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,7.0,7.0,-4.86,-9.28,Dual: Qualified Pressure & Prevention,252.0,150.0,18.84,-6.34
+35506,Quentin Sampson,RHB,,Category C: Insufficient Evidence,50.0,52.0,-7.38,-7.45,Category C: Insufficient Evidence,,,,
+36551,Zishan Motara,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,4.0,4.0,-0.75,-9.28,Category C: Insufficient Evidence,6.0,0.0,-1.52,-4.03
+36553,Jediah Blades,RHB,Left-arm Fast,Category C: Insufficient Evidence,13.0,13.0,-11.34,-9.28,Category C: Insufficient Evidence,119.0,8.0,-1.07,-1.91
+36981,Himanshu Sharma,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,30.0,18.0,-24.2,-6.41
+36982,Suyash Sharma,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Dual: Qualified Pressure & Prevention,803.0,263.0,-27.88,9.12
+36983,Mohit Rathee,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,2.0,2.0,0.09,-9.28,Category C: Insufficient Evidence,12.0,0.0,-9.44,-6.47
+36984,Raghav Goyal,,Left-arm Chinaman,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,-2.9,-1.49
+37052,Naman Dhir,RHB,Right-arm offbreak,Dual: Qualified Pressure & Prevention,514.0,156.0,33.34,2.13,Category B: Pressure Prevention Candidate,124.0,39.0,-28.81,1.5
+37201,Jewel Andrew,RHB,,Category C: Insufficient Evidence,96.0,0.0,-3.66,-14.26,Category C: Insufficient Evidence,,,,
+37731,Musheer Khan,RHB,Slow left-arm orthodox,Category C: Insufficient Evidence,3.0,3.0,-1.76,-10.64,Category C: Insufficient Evidence,12.0,0.0,1.85,-5.71
+37879,Khawaja Nafay,RHB,,Category C: Insufficient Evidence,39.0,0.0,4.22,0.71,Category C: Insufficient Evidence,,,,
+37939,Nahid Rana,RHB,Right-arm Fast,Category C: Insufficient Evidence,5.0,5.0,-6.49,-9.28,Category C: Insufficient Evidence,93.0,31.0,6.93,10.34
+38044,Mahli Beardman,,Right-arm fast-medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,24.0,0.0,4.92,-9.57
+38855,Mohammad Saifuddin,LHB,Right-arm medium-fast,Category C: Insufficient Evidence,78.0,58.0,-10.53,-13.99,Dual: Qualified Pressure & Prevention,442.0,112.0,-17.55,-4.83
+39374,Muhammad Zohaib,LHB,,Category B: Pressure Prevention Candidate,145.0,0.0,-5.91,-16.85,Category C: Insufficient Evidence,,,,
+39640,Sineth Jayawardena,LHB,,Category C: Insufficient Evidence,47.0,0.0,0.38,-6.17,Category C: Insufficient Evidence,,,,
+39657,Eshan Malinga,LHB,Right-arm fast-medium,Category C: Insufficient Evidence,37.0,40.0,-30.35,-10.77,Dual: Qualified Pressure & Prevention,807.0,319.0,16.02,-8.55
+39991,Parveen Kumar,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,8.0,10.0,-7.15,-17.5,Category C: Insufficient Evidence,48.0,3.0,15.17,18.91
+41110,Mayank Kumar,RHB,,Category C: Insufficient Evidence,7.0,7.0,-4.58,-10.61,Category C: Insufficient Evidence,,,,
+41503,Yash Punja,,Right-arm Leg-Break,Category C: Insufficient Evidence,,,,,Dual: Qualified Pressure & Prevention,180.0,128.0,1.71,-23.96
+42548,Muhammad Jawadullah,LHB,Left-arm medium,Category C: Insufficient Evidence,9.0,11.0,-3.44,-9.28,Category B: Pressure Prevention Candidate,204.0,29.0,21.19,9.05
+42810,Noah Croes,RHB,,Category C: Insufficient Evidence,53.0,38.0,-10.18,-14.89,Category C: Insufficient Evidence,,,,
+42811,Michael Levitt,RHB,,Category B: Pressure Prevention Candidate,203.0,0.0,2.76,-4.51,Category C: Insufficient Evidence,,,,
+42845,Arshin Kulkarni,RHB,,Category C: Insufficient Evidence,33.0,0.0,-4.78,-20.89,Category C: Insufficient Evidence,,,,
+43250,Dilpreet Singh Bajwa,RHB,,Category C: Insufficient Evidence,53.0,0.0,-3.0,-10.8,Category C: Insufficient Evidence,,,,
+43774,Shivam Singh,RHB,,Category C: Insufficient Evidence,3.0,0.0,1.07,-9.28,Category C: Insufficient Evidence,,,,
+43798,Lhuan Pretorius,LHB,,Category C: Insufficient Evidence,77.0,7.0,0.05,-0.39,Category C: Insufficient Evidence,,,,
+43917,Krish Bhagat,RHB,Right-arm medium,Category C: Insufficient Evidence,21.0,18.0,-19.6,-11.32,Category C: Insufficient Evidence,36.0,9.0,-21.23,-3.71
+45381,PV Satyanarayan Raju,RHB,Right-arm medium,Category C: Insufficient Evidence,1.0,1.0,2.18,-9.28,Category C: Insufficient Evidence,24.0,8.0,-10.18,-7.62
+45457,Zach Lion Cachet,RHB,Right-arm offbreak,Category C: Insufficient Evidence,48.0,9.0,-11.76,-13.49,Category C: Insufficient Evidence,70.0,6.0,18.84,-0.04
+45749,Mukul Choudhary,RHB,,Category C: Insufficient Evidence,120.0,82.0,1.68,-7.62,Category C: Insufficient Evidence,,,,
+45966,Prashant Veer,LHB,Slow left-arm orthodox,Category C: Insufficient Evidence,67.0,42.0,-4.61,-5.72,Category C: Insufficient Evidence,12.0,0.0,-3.1,-15.14
+46066,Vipraj Nigam,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,88.0,76.0,18.56,19.08,Dual: Qualified Pressure & Prevention,288.0,84.0,-11.34,-7.12
+46137,Kartik Sharma,RHB,,Category B: Pressure Prevention Candidate,216.0,34.0,-2.57,-5.12,Category C: Insufficient Evidence,,,,
+46378,Kyle Klein,RHB,Right-arm medium,Category C: Insufficient Evidence,39.0,39.0,-18.02,-11.7,Category B: Pressure Prevention Candidate,163.0,18.0,19.7,12.12
+46929,Dian Forrester,LHB,Right-arm medium,Category C: Insufficient Evidence,77.0,27.0,-4.77,-10.71,Category C: Insufficient Evidence,6.0,0.0,1.71,-0.36
+47050,Shamar Joseph,LHB,Right-arm Fast,Category C: Insufficient Evidence,29.0,30.0,2.29,-9.28,Dual: Qualified Pressure & Prevention,471.0,115.0,-22.23,-16.3
+47314,Wafiullah Tarakhil,RHB,,Category C: Insufficient Evidence,17.0,0.0,-2.88,-14.53,Category C: Insufficient Evidence,,,,
+47370,Aniket Verma,RHB,,Dual: Qualified Pressure & Prevention,196.0,52.0,1.49,-16.32,Category C: Insufficient Evidence,,,,
+47371,Zuhaid Zubair,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,2.0,2.0,-0.83,-9.28,Category C: Insufficient Evidence,18.0,0.0,-1.18,-3.88
+47403,Newman Nyamhuri,RHB,Left-arm medium-fast,Category C: Insufficient Evidence,20.0,23.0,-13.8,-11.68,Category C: Insufficient Evidence,83.0,7.0,13.4,0.73
+47542,Charles Hinze,,Slow left-arm orthodox,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,12.0,0.0,8.3,-0.73
+47724,Jahandad Khan,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,34.0,34.0,-16.14,-9.94,Category C: Insufficient Evidence,108.0,27.0,-11.27,-28.68
+48504,Ayush Mhatre,RHB,,Category B: Pressure Prevention Candidate,239.0,2.0,20.87,25.72,Category C: Insufficient Evidence,,,,
+48557,Vignesh Puthur,,Left-arm Chinaman,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,72.0,7.0,11.32,-1.67
+48575,Sahil Parakh,LHB,,Category C: Insufficient Evidence,33.0,0.0,3.21,-1.5,Category C: Insufficient Evidence,,,,
+48616,Abdul Saqlain,RHB,Right-arm Fast,Category C: Insufficient Evidence,21.0,23.0,-5.17,-9.95,Category C: Insufficient Evidence,68.0,0.0,-4.96,-24.14
+48953,Danish Malewar,RHB,,Category C: Insufficient Evidence,5.0,0.0,0.24,-13.64,Category C: Insufficient Evidence,,,,
+49003,Hasan Nawaz,RHB,,Dual: Qualified Pressure & Prevention,323.0,43.0,6.23,-16.84,Category C: Insufficient Evidence,,,,
+49027,Bevon Jacobs,RHB,,Category B: Pressure Prevention Candidate,188.0,31.0,6.26,6.52,Category C: Insufficient Evidence,,,,
+49268,Sohaib Khan,RHB,,Category C: Insufficient Evidence,7.0,0.0,-0.17,-10.96,Category C: Insufficient Evidence,,,,
+50062,Nqobani Mokoena,RHB,Right-arm fast-medium,Category C: Insufficient Evidence,21.0,21.0,-2.15,-7.56,Category C: Insufficient Evidence,63.0,0.0,-2.96,1.81
+50284,Vaibhav Sooryavanshi,LHB,,Category B: Pressure Prevention Candidate,575.0,1.0,41.26,58.19,Category C: Insufficient Evidence,,,,
+52338,Usman Tariq,,Right-arm offbreak,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,64.0,34.0,62.56,4.52
+54404,Benjamin Ito,RHB,Right-arm offbreak,Category C: Insufficient Evidence,8.0,2.0,1.68,-9.61,Category C: Insufficient Evidence,6.0,0.0,6.87,3.97
+55747,Benjamin Calitz,LHB,,Category C: Insufficient Evidence,80.0,26.0,12.42,-27.31,Category C: Insufficient Evidence,,,,
+56685,Abdullah Ahmadzai,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,9.0,9.0,-3.8,-10.63,Dual: Qualified Pressure & Prevention,190.0,90.0,10.22,8.35
+56817,Shivang Kumar,RHB,Left-arm Chinaman,Category C: Insufficient Evidence,45.0,38.0,-18.1,-12.45,Dual: Qualified Pressure & Prevention,234.0,112.0,-31.3,-84.73
+56830,Madhav Tiwari,RHB,Right-arm medium-fast,Category C: Insufficient Evidence,12.0,12.0,6.18,-9.75,Category C: Insufficient Evidence,66.0,35.0,7.21,0.54
+57747,Charlie Cassell,RHB,Right-arm medium,Category C: Insufficient Evidence,3.0,3.0,-1.15,-9.28,Category C: Insufficient Evidence,6.0,0.0,-5.05,-12.99
+58134,Digvesh Rathi,RHB,Right-arm Leg-Break,Category C: Insufficient Evidence,8.0,9.0,-11.35,-9.28,Dual: Qualified Pressure & Prevention,546.0,147.0,-9.77,-2.05
+58135,Tejasvi Dahiya,RHB,,Category C: Insufficient Evidence,15.0,3.0,-1.88,-10.18,Category C: Insufficient Evidence,,,,
+58246,Prince Yadav,RHB,Right-arm Fast,Category C: Insufficient Evidence,39.0,40.0,-12.84,-12.23,Dual: Qualified Pressure & Prevention,710.0,214.0,-27.25,-0.35
+58727,Abhinandan Singh,,Right-arm medium-fast,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,58.0,22.0,0.33,-38.3
+59045,Jai Moondra,LHB,Left-arm medium-fast,Category C: Insufficient Evidence,3.0,3.0,1.7,-9.28,Category C: Insufficient Evidence,48.0,20.0,21.34,5.9
+60609,Navin Bidaisee,LHB,Right-arm Leg-Break,Category C: Insufficient Evidence,30.0,21.0,-12.59,-13.1,Category C: Insufficient Evidence,48.0,0.0,5.52,0.34
+60700,Ravi Singh,LHB,,Category C: Insufficient Evidence,2.0,0.0,3.56,-8.49,Category C: Insufficient Evidence,,,,
+64604,Kalhan Challu,RHB,,Category C: Insufficient Evidence,11.0,3.0,-1.34,-14.31,Category C: Insufficient Evidence,,,,
+66103,Noor Rahman,RHB,,Category C: Insufficient Evidence,17.0,17.0,-7.9,-17.53,Category C: Insufficient Evidence,,,,
+67036,Brijesh Sharma,RHB,Right-arm Fast,Category C: Insufficient Evidence,4.0,4.0,-2.48,-9.28,Dual: Qualified Pressure & Prevention,273.0,185.0,-6.81,-11.09
+67864,Matt Hollard,,Right-arm medium,Category C: Insufficient Evidence,,,,,Category C: Insufficient Evidence,48.0,19.0,48.23,6.43
+71727,Razaullah Razaullah,RHB,Right-arm medium,Category C: Insufficient Evidence,1.0,0.0,1.8,-9.28,Category C: Insufficient Evidence,37.0,0.0,-8.61,-6.29

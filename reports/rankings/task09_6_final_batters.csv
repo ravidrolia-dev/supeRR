@@ -1,0 +1,11 @@
+superr_rank,v3_rank,player_id,player_name,teams,superr_score,clutch_contrib,ppi_contrib,cons_contrib,v3_clutch_rating,v3_posterior_se,v3_ci_lower_95,v3_ci_upper_95,ppi_rating,consistency_pct,evidence_tier,legal_balls,hp_balls,distinct_matches
+1,1,50284,Vaibhav Sooryavanshi,"['India', 'India A', 'Rajasthan Royals']",81.83,20.94,7.83,3.06,46.04,9.03,28.35,63.73,58.19,80.64516129032258,Limited Direct Evidence (<40 HP),575.0,8.0,31
+2,2,25669,Priyansh Arya,"['India A', 'Punjab Kings']",72.15,15.63,4.97,1.55,34.44,9.77,15.29,53.58,33.87,61.29032258064516,Limited Direct Evidence (<40 HP),469.0,1.0,31
+3,5,6281,Abhishek Sharma,"['India', 'India A', 'Sunrisers Hyderabad']",70.87,13.65,5.6,1.63,30.12,4.97,20.38,39.87,39.18,62.30769230769231,Moderate Direct Evidence (40-149 HP),2239.0,117.0,130
+4,4,6396,Tim David,"['Australia', 'Mumbai Indians', 'Royal Challengers Bengaluru']",70.67,14.32,4.97,1.39,31.58,6.59,18.67,44.5,33.87,59.183673469387756,Strong Direct Evidence (>=150 HP),1210.0,497.0,98
+5,3,37052,Naman Dhir,"['India', 'India A', 'Mumbai Indians']",68.69,15.49,1.23,1.97,34.13,9.43,15.65,52.62,2.13,66.66666666666666,Strong Direct Evidence (>=150 HP),514.0,220.0,42
+6,8,4847,Finn Allen,"['Kolkata Knight Riders', 'New Zealand', 'Royal Challengers Bengaluru']",67.86,12.18,3.97,1.72,26.91,7.77,11.69,42.13,25.35,63.46153846153846,Moderate Direct Evidence (40-149 HP),829.0,46.0,52
+7,6,7341,Jake McGurk,"['Australia', 'Delhi Capitals']",67.63,12.34,4.12,1.18,27.26,11.76,4.2,50.31,26.63,56.52173913043478,Limited Direct Evidence (<40 HP),277.0,24.0,23
+8,10,48504,Ayush Mhatre,['Chennai Super Kings'],67.54,11.36,4.01,2.17,25.12,12.32,0.97,49.27,25.72,69.23076923076923,Limited Direct Evidence (<40 HP),239.0,6.0,13
+9,9,5553,Phil Salt,"['Delhi Capitals', 'England', 'Kolkata Knight Riders', 'Royal Challengers Bengaluru']",66.97,11.42,4.14,1.41,25.25,5.76,13.96,36.55,26.84,59.523809523809526,Moderate Direct Evidence (40-149 HP),1628.0,89.0,84
+10,7,1699,Suryakumar Yadav,"['India', 'Mumbai Indians']",66.69,12.33,2.43,1.93,27.24,4.51,18.39,36.09,12.3,66.18705035971223,Strong Direct Evidence (>=150 HP),2748.0,521.0,139

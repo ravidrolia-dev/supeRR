@@ -1,0 +1,11 @@
+player_id,player_name,competitions,legal_balls,total_balls,hp_balls,hp_legal_balls,mean_pressure_index,overall_rate_metric,hp_rate_metric,lp_rate_metric,metric_delta,performance_vs_expected,raw_clutch_impact,distinct_matches,match_impact_std,positive_match_pct,is_qualified,bayesian_clutch_rating,posterior_se,ci_lower_95,ci_upper_95,interval_type,rank
+37052,Naman Dhir,"['IPL', 'T20I']",514,529,220,212,64.28,172.37,195.75,155.96,39.79,135.71,42.95,42,6.71,64.29,True,36.66,1.05,34.6,38.72,Bayesian credible interval (95%),1
+6396,Tim David,"['IPL', 'T20I']",1210,1293,497,461,61.51,180.0,177.01,181.84,-4.83,356.27,35.01,98,10.09,55.1,True,32.61,0.71,31.22,34.0,Bayesian credible interval (95%),2
+6281,Abhishek Sharma,"['IPL', 'T20I']",2239,2370,117,110,39.83,187.49,157.27,189.06,-31.79,1065.94,31.88,130,15.44,60.0,True,30.65,0.53,29.61,31.69,Bayesian credible interval (95%),3
+4847,Finn Allen,"['T20I', 'IPL']",829,871,46,45,34.77,175.51,200.0,174.11,25.89,342.76,31.07,52,12.51,61.54,True,28.01,0.85,26.34,29.68,Bayesian credible interval (95%),4
+1699,Suryakumar Yadav,"['T20I', 'IPL']",2748,2850,521,501,48.17,167.21,174.85,165.51,9.34,810.94,28.51,139,11.74,58.27,True,27.6,0.48,26.66,28.54,Bayesian credible interval (95%),5
+5553,Phil Salt,"['T20I', 'IPL']",1628,1700,89,87,37.82,170.88,200.0,169.24,30.76,546.55,27.22,84,12.96,53.57,True,25.77,0.62,24.55,26.99,Bayesian credible interval (95%),6
+4260,Heinrich Klaasen,"['T20I', 'IPL']",1408,1480,445,433,58.8,167.83,162.59,170.15,-7.56,296.55,25.05,72,9.75,66.67,True,23.5,0.66,22.21,24.79,Bayesian credible interval (95%),7
+838,Glenn Maxwell,"['T20I', 'IPL']",953,1004,228,210,52.94,161.8,173.81,158.41,15.4,196.2,25.42,75,9.64,44.0,True,23.16,0.8,21.59,24.73,Bayesian credible interval (95%),8
+772,Rilee Rossouw,"['T20I', 'IPL']",415,442,70,67,45.37,173.25,174.63,172.99,1.64,123.36,28.21,26,10.85,50.0,True,23.05,1.15,20.8,25.3,Bayesian credible interval (95%),9
+8182,Donovan Ferreira,"['T20I', 'IPL']",341,354,174,172,68.42,164.81,144.19,185.8,-41.61,71.68,27.45,30,8.23,43.33,True,21.52,1.25,19.07,23.97,Bayesian credible interval (95%),10

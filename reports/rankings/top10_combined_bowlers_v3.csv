@@ -1,0 +1,11 @@
+player_id,player_name,competitions,legal_balls,total_balls,hp_balls,hp_legal_balls,mean_pressure_index,overall_rate_metric,hp_rate_metric,lp_rate_metric,metric_delta,performance_vs_expected,raw_clutch_impact,distinct_matches,match_impact_std,positive_match_pct,is_qualified,bayesian_clutch_rating,posterior_se,ci_lower_95,ci_upper_95,interval_type,rank
+2933,Jasprit Bumrah,"['IPL', 'T20I']",1708,1780,132,125,36.0,7.18,8.11,7.1,-1.01,531.97,21.56,75,10.64,76.0,True,20.33,0.27,19.8,20.86,Bayesian credible interval (95%),1
+781,Sunil Narine,['IPL'],1533,1556,55,51,34.93,6.85,8.71,6.79,-1.92,467.6,19.83,67,9.02,77.61,True,18.56,0.28,18.01,19.11,Bayesian credible interval (95%),2
+2984,Sikandar Raza,"['T20I', 'IPL']",1091,1116,58,57,36.67,7.07,9.89,6.92,-2.97,182.38,11.11,52,8.84,65.38,True,9.95,0.33,9.3,10.6,Bayesian credible interval (95%),3
+8661,Matheesha Pathirana,"['IPL', 'T20I']",1132,1279,88,82,35.01,8.64,10.17,8.52,-1.65,244.2,10.7,54,10.08,66.67,True,9.61,0.32,8.98,10.24,Bayesian credible interval (95%),4
+4722,Rashid Khan,"['IPL', 'T20I']",2747,2780,90,89,33.7,7.4,12.2,7.24,-4.96,489.34,8.52,122,10.48,72.13,True,8.11,0.21,7.7,8.52,Bayesian credible interval (95%),5
+360,Bhuvneshwar Kumar,"['T20I', 'IPL']",2221,2314,149,140,34.67,8.24,10.76,8.08,-2.68,323.77,7.74,101,9.68,64.36,True,7.27,0.23,6.82,7.72,Bayesian credible interval (95%),6
+4373,Mustafizur Rahman,"['IPL', 'T20I']",1576,1646,123,109,36.16,7.77,12.17,7.44,-4.73,297.73,7.65,71,10.48,66.2,True,7.0,0.28,6.45,7.55,Bayesian credible interval (95%),7
+4101,Mitchell Santner,"['IPL', 'T20I']",1737,1793,59,57,34.47,7.39,12.11,7.23,-4.88,270.67,6.4,83,9.94,65.06,True,5.86,0.26,5.35,6.37,Bayesian credible interval (95%),8
+6523,Blessing Muzarabani,"['T20I', 'IPL']",820,846,54,50,38.27,7.52,11.16,7.29,-3.87,128.36,6.92,37,10.25,62.16,True,5.79,0.38,5.05,6.53,Bayesian credible interval (95%),9
+19316,Maheesh Theekshana,"['T20I', 'IPL']",2265,2322,99,87,35.09,7.73,11.93,7.56,-4.37,273.6,6.07,99,7.85,68.69,True,5.66,0.23,5.21,6.11,Bayesian credible interval (95%),10

@@ -1,0 +1,21 @@
+player_name,batting_type,legal_balls_faced,high_pressure_balls_batting,mean_pressure_faced,overall_strike_rate,high_pressure_strike_rate,batting_clutch_shrunk_rating,rank,category,bowling_type,legal_balls_bowled,high_pressure_balls_bowling,mean_pressure_bowled,overall_economy,high_pressure_economy,bowling_clutch_shrunk_rating
+Naman Dhir,RHB,514.0,220.0,64.28,172.37,195.75,34.13,1,BATTER,,,,,,,
+Tim David,RHB,1210.0,497.0,61.51,180.0,177.01,31.58,2,BATTER,,,,,,,
+Abhishek Sharma,LHB,2239.0,117.0,39.83,187.49,157.27,30.12,3,BATTER,,,,,,,
+Suryakumar Yadav,RHB,2748.0,521.0,48.17,167.21,174.85,27.24,4,BATTER,,,,,,,
+Finn Allen,RHB,829.0,46.0,34.77,175.51,200.0,26.91,5,BATTER,,,,,,,
+Phil Salt,RHB,1628.0,89.0,37.82,170.88,200.0,25.25,6,BATTER,,,,,,,
+Heinrich Klaasen,RHB,1408.0,445.0,58.8,167.83,162.59,23.02,7,BATTER,,,,,,,
+Glenn Maxwell,RHB,953.0,228.0,52.94,161.8,173.81,22.5,8,BATTER,,,,,,,
+Rilee Rossouw,LHB,415.0,70.0,45.37,173.25,174.63,21.76,9,BATTER,,,,,,,
+Donovan Ferreira,RHB,341.0,174.0,68.42,164.81,144.19,20.26,10,BATTER,,,,,,,
+Abbas Afridi,,,,,,,,1,BOWLER,Right-arm medium-fast,399.0,66.0,42.1,8.42,9.28,42.86
+Matheesha Pathirana,,,,,,,,2,BOWLER,Right-arm Fast,1132.0,88.0,35.01,8.64,10.17,21.29
+Haris Rauf,,,,,,,,3,BOWLER,Right-arm Fast,1027.0,106.0,37.49,8.59,7.58,20.11
+Wanindu Hasaranga,,,,,,,,4,BOWLER,Right-arm Leg-Break,2035.0,84.0,35.46,7.92,8.14,17.07
+Sunil Narine,,,,,,,,5,BOWLER,Right-arm offbreak,1533.0,55.0,34.93,6.85,8.71,16.42
+Praful Hinge,,,,,,,,6,BOWLER,Right-arm medium-fast,156.0,51.0,50.35,11.73,12.88,15.36
+Nathan Ellis,,,,,,,,7,BOWLER,Right-arm medium,916.0,89.0,37.25,8.25,9.14,14.92
+Kuldeep Yadav,,,,,,,,8,BOWLER,Left-arm Chinaman,1914.0,70.0,35.31,8.01,10.3,13.32
+Varun Chakravarthy,,,,,,,,9,BOWLER,Right-arm Leg-Break,2128.0,76.0,32.84,8.0,12.99,12.05
+Mitchell Marsh,,,,,,,,10,BOWLER,Right-arm medium-fast,295.0,44.0,41.94,8.99,10.67,11.6

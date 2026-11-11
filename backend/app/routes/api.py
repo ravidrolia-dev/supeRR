@@ -14,13 +14,37 @@ def health_check():
 def get_overview():
     return analytics_service.get_overview()
 
+@router.get("/rankings/superr10/batters")
+def get_superr10_batters():
+    return ranking_service.get_superr10_batters()
+
+@router.get("/rankings/superr10/bowlers")
+def get_superr10_bowlers():
+    return ranking_service.get_superr10_bowlers()
+
+@router.get("/rankings/integrated/batters")
+def get_integrated_batters(limit: int = Query(25, description="Number of top candidates to return")):
+    return ranking_service.get_integrated_batters(limit)
+
+@router.get("/rankings/integrated/bowlers")
+def get_integrated_bowlers(limit: int = Query(25, description="Number of top candidates to return")):
+    return ranking_service.get_integrated_bowlers(limit)
+
 @router.get("/rankings/batters")
-def get_batters(competition: str = Query("combined", description="combined, ipl, or t20i")):
-    return ranking_service.get_batters(competition)
+def get_batters(competition: str = Query("combined", description="combined, ipl, or t20i"), version: str = Query("v3", description="v3 (production) or v2 (historical)")):
+    return ranking_service.get_batters(competition, version)
 
 @router.get("/rankings/bowlers")
-def get_bowlers(competition: str = Query("combined", description="combined, ipl, or t20i")):
-    return ranking_service.get_bowlers(competition)
+def get_bowlers(competition: str = Query("combined", description="combined, ipl, or t20i"), version: str = Query("v3", description="v3 (production) or v2 (historical)")):
+    return ranking_service.get_bowlers(competition, version)
+
+@router.get("/rankings/prevention/batters")
+def get_prevention_batters():
+    return ranking_service.get_prevention_batters()
+
+@router.get("/rankings/prevention/bowlers")
+def get_prevention_bowlers():
+    return ranking_service.get_prevention_bowlers()
 
 @router.get("/players/search")
 def search_players(q: str = Query(..., description="Player name or ID")):

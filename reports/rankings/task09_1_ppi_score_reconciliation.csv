@@ -1,0 +1,31 @@
+role,rank,player_id,player_name,leaderboard_score_task09,profile_score_task08_1,abs_difference,root_cause_explanation
+BATTER,1,50284,Vaibhav Sooryavanshi,60.46,58.19,2.27,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,2,4847,Finn Allen,50.52,25.35,25.17,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,3,6281,Abhishek Sharma,44.51,39.18,5.33,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,4,25669,Priyansh Arya,43.32,33.87,9.45,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,5,5553,Phil Salt,27.25,26.84,0.41,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,6,48504,Ayush Mhatre,27.09,25.72,1.37,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,7,6396,Tim David,24.51,33.87,9.36,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,8,2573,Evin Lewis,24.39,-9.22,33.61,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,9,781,Sunil Narine,24.23,13.05,11.18,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,10,4736,Josh Inglis,22.5,23.29,0.79,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,11,7341,Jake McGurk,22.36,26.63,4.27,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,12,772,Rilee Rossouw,21.61,15.65,5.96,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,13,4007,Ryan Rickelton,21.57,12.98,8.59,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,14,1699,Suryakumar Yadav,21.39,12.3,9.09,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BATTER,15,2367,Travis Head,19.75,31.69,11.94,Task 08.1 nested Powerplay inside Early/Mid (double counting) vs Task 09 mutually exclusive Overs 1-6 & 7-16
+BOWLER,1,2364,Ashton Agar,39.27,45.19,5.92,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,2,3056,Iftikhar Ahmed,26.85,32.52,5.67,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,3,3578,Imad Wasim,23.11,24.83,1.72,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,4,2933,Jasprit Bumrah,22.85,21.69,1.16,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,5,3648,Deepak Hooda,22.61,32.24,9.63,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,6,22188,Aryan Dutt,21.42,10.63,10.79,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,7,781,Sunil Narine,20.5,12.83,7.67,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,8,20704,Salman Mirza,20.38,19.33,1.05,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,9,4812,Harry Tector,19.63,22.19,2.56,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,10,499,Shakib Al Hasan,19.34,24.89,5.55,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,11,4373,Mustafizur Rahman,18.73,13.64,5.09,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,12,28756,Haider Ali,18.38,24.42,6.04,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,13,5750,Ehsan Khan,17.94,21.01,3.07,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,14,4926,Shadab Khan,16.92,21.87,4.95,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows
+BOWLER,15,5837,Mahedi Hasan,16.8,16.77,0.03,Task 08.1 nested Powerplay inside Early/Mid vs Task 09 mutually exclusive windows

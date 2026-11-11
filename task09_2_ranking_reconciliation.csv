@@ -1,0 +1,26 @@
+iss_rank,v3_rank,player_id,player_name,legal_balls,hp_balls,is_clutch_qualified,iss_score,clutch_shrunk,prev_shrunk,pos_pct
+1,Unqualified (<40 HP),50284,Vaibhav Sooryavanshi,575,8,False,82.17,49.61,66.28,80.6
+2,Unqualified (<40 HP),25669,Priyansh Arya,469,1,False,71.87,37.21,41.22,58.1
+3,3,6281,Abhishek Sharma,2239,117,True,70.69,30.65,46.18,60.0
+4,4,4847,Finn Allen,829,46,True,68.68,28.01,37.02,61.5
+5,Unqualified (<40 HP),48504,Ayush Mhatre,239,6,False,68.47,27.85,29.6,69.2
+6,1,37052,Naman Dhir,514,220,True,67.94,36.66,10.19,64.3
+7,Unqualified (<40 HP),7341,Jake McGurk,277,24,False,67.6,30.11,28.83,56.5
+8,2,6396,Tim David,1210,497,True,66.72,32.61,18.31,55.1
+9,5,1699,Suryakumar Yadav,2748,521,True,66.4,27.6,24.77,58.3
+10,6,5553,Phil Salt,1628,89,True,65.99,25.77,29.84,53.6
+11,Unqualified (<40 HP),2367,Travis Head,1120,26,False,65.36,21.3,32.31,57.6
+12,7,4260,Heinrich Klaasen,1408,445,True,64.45,23.5,13.63,66.7
+13,9,772,Rilee Rossouw,415,70,True,63.76,23.04,23.49,50.0
+14,12,4736,Josh Inglis,903,48,True,63.28,20.55,24.27,51.8
+15,16,5039,Rajat Patidar,916,188,True,62.35,19.72,17.78,54.2
+16,17,768,Reeza Hendricks,832,191,True,61.97,19.55,14.1,55.9
+17,15,6280,Harry Brook,880,113,True,61.96,19.99,20.73,46.4
+18,11,6273,Tom Banton,273,52,True,61.55,20.85,15.22,47.4
+19,8,838,Glenn Maxwell,953,228,True,61.53,23.16,12.62,44.0
+20,19,7216,Prabhsimran Singh,1129,48,True,61.53,16.92,16.39,56.7
+21,21,4007,Ryan Rickelton,853,78,True,61.15,16.11,18.35,53.2
+22,Unqualified (<40 HP),4229,George Linde,140,101,False,60.42,19.63,4.87,53.8
+23,20,4369,Shai Hope,1100,133,True,60.1,16.53,11.33,51.7
+24,27,813,Jos Buttler,2820,281,True,59.73,13.08,14.23,54.5
+25,32,3700,Tim Seifert,753,61,True,59.66,11.86,21.18,48.8
