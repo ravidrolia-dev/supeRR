@@ -1,0 +1,4 @@
+match_id,comp_id,match_number,match_date,stage,venue_id,venue_country,home_team_id,home_team,away_team_id,away_team,home_team_captain_id,away_team_captain_id,toss_win_team_id,toss_opted,man_of_the_match,first_inn_revised_overs,second_inn_revised_overs,revised_target,knock_out,win_team_id,result
+36210,2628,3,2025-09-14,League,30,United Kingdom,22,England,19,South Africa,,,,,0,,,,0,,Match Abandoned
+41503,2873,2,2025-06-14,Others,120,United Kingdom,23,Ireland,28,West Indies,,,,,0,,,,0,,Match Abandoned
+48513,3317,2,2026-01-10,Others,60,Sri Lanka,27,Sri Lanka,25,Pakistan,,,,,0,,,,0,,Match Abandoned

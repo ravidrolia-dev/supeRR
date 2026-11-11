@@ -1,0 +1,25 @@
+role,min_volume_balls,min_hp_balls,qualified_count,top5_players,top5_overlap_pct,top10_overlap_pct,rank_inversions_top5,is_baseline_config
+BATTER,100,25,247,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Finn Allen",80.0,90.0,0,False
+BATTER,100,40,221,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Phil Salt",100.0,100.0,0,False
+BATTER,100,60,192,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Phil Salt",100.0,100.0,0,False
+BATTER,150,25,202,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Finn Allen",80.0,90.0,0,False
+BATTER,150,40,180,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Phil Salt",100.0,100.0,0,True
+BATTER,150,60,155,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Phil Salt",100.0,100.0,0,False
+BATTER,200,25,185,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Finn Allen",80.0,90.0,0,False
+BATTER,200,40,168,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Phil Salt",100.0,100.0,0,False
+BATTER,200,60,146,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Phil Salt",100.0,100.0,0,False
+BATTER,250,25,164,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Finn Allen",80.0,90.0,0,False
+BATTER,250,40,150,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Phil Salt",100.0,90.0,0,False
+BATTER,250,60,131,"Naman Dhir, Tim David, Abhishek Sharma, Suryakumar Yadav, Phil Salt",100.0,90.0,0,False
+BOWLER,100,25,255,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,100.0,0,False
+BOWLER,100,40,231,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,100.0,0,False
+BOWLER,100,60,199,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,90.0,0,False
+BOWLER,150,25,235,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,100.0,0,False
+BOWLER,150,40,222,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,100.0,0,True
+BOWLER,150,60,198,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,90.0,0,False
+BOWLER,200,25,206,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,90.0,0,False
+BOWLER,200,40,200,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,90.0,0,False
+BOWLER,200,60,187,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,80.0,0,False
+BOWLER,250,25,191,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,70.0,0,False
+BOWLER,250,40,189,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,70.0,0,False
+BOWLER,250,60,180,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana",100.0,70.0,0,False

@@ -1,0 +1,11 @@
+player_id,player_name,competitions,legal_balls,total_balls,hp_balls,hp_legal_balls,mean_pressure_index,overall_rate_metric,hp_rate_metric,lp_rate_metric,metric_delta,performance_vs_expected,raw_clutch_impact,distinct_matches,match_impact_std,positive_match_pct,bayesian_clutch_rating,posterior_se,ci_lower_95,ci_upper_95,interval_type,rank
+46066,Vipraj Nigam,['IPL'],88,92,76,73,89.36,178.41,184.93,146.67,38.26,45.13,45.13,10,115.49,50.0,24.55,16.99,-8.75,57.85,Bayesian 95% Credible Interval,1
+8101,Ashutosh Sharma,['IPL'],328,356,276,261,83.01,171.95,179.69,141.79,37.9,28.03,28.03,26,122.56,46.2,22.89,10.8,1.72,44.06,Bayesian 95% Credible Interval,2
+1699,Suryakumar Yadav,['IPL'],1353,1391,355,343,51.74,165.56,169.39,164.26,5.13,23.2,23.2,64,60.5,62.5,22.0,5.74,10.75,33.25,Bayesian 95% Credible Interval,3
+4260,Heinrich Klaasen,['IPL'],1197,1262,297,290,53.94,170.26,162.76,172.66,-9.9,22.86,22.86,54,54.44,70.4,21.54,6.08,9.62,33.46,Bayesian 95% Credible Interval,4
+37052,Naman Dhir,['IPL'],432,444,101,96,55.34,164.35,187.5,157.74,29.76,25.04,25.04,33,79.69,54.5,21.4,9.63,2.53,40.27,Bayesian 95% Credible Interval,5
+6396,Tim David,['IPL'],639,694,321,294,66.32,179.97,178.57,181.16,-2.59,22.92,22.92,58,113.54,56.9,20.56,8.12,4.64,36.48,Bayesian 95% Credible Interval,6
+7625,Suryansh Shedge,['IPL'],101,104,69,67,70.29,163.37,159.7,170.59,-10.89,32.67,32.67,10,88.34,50.0,18.92,16.35,-13.13,50.97,Bayesian 95% Credible Interval,7
+6281,Abhishek Sharma,['IPL'],1210,1289,40,37,37.83,176.69,156.76,177.32,-20.56,19.69,19.69,69,60.63,49.3,18.56,6.05,6.7,30.42,Bayesian 95% Credible Interval,8
+143,Dinesh Karthik,['IPL'],455,489,227,203,68.03,174.95,189.66,163.1,26.56,21.13,21.13,42,100.88,47.6,18.2,9.42,-0.26,36.66,Bayesian 95% Credible Interval,9
+8654,Cooper Connolly,['IPL'],299,316,68,63,48.75,164.21,184.13,158.9,25.23,22.04,22.04,13,50.41,69.2,17.7,11.21,-4.27,39.67,Bayesian 95% Credible Interval,10

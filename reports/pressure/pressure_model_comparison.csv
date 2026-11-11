@@ -1,0 +1,4 @@
+model_name,evaluation_type,metric_1_name,metric_1_value,metric_2_name,metric_2_value,benchmark_name,benchmark_metric_1,benchmark_metric_2,relative_improvement_pct
+Innings 1 Par Surface (Empirical Grid),5-Fold Match Out-of-Sample,MAE (Runs),17.27,RMSE (Runs),24.28,Constant Median (169.0),29.07,37.02,40.6
+Chase Win Probability (Logistic Pre-delivery),Random Match Split (70/30),Brier Score,0.1276,ROC AUC,0.9006,Prevalence Constant (p=0.498),0.2494,0.5,48.84
+Chase Win Probability (Logistic Pre-delivery),Temporal Split (2022-24 to 2025-26),Brier Score,0.1339,ROC AUC,0.8985,Prevalence Constant (p=0.505),0.2526,0.5,46.98

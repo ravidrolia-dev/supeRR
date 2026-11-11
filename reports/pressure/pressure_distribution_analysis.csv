@@ -1,0 +1,7 @@
+competition,phase,deliveries,strike_rate,dot_pct,boundary_pct,dismissal_rate,mean_bowler_runs_conceded
+IPL,Powerplay,27339,138.26,47.13,22.86,4.04,1.42
+IPL,Middle,40295,134.44,33.34,16.2,4.46,1.38
+IPL,Death,20039,157.68,35.07,21.76,7.73,1.64
+T20I,Powerplay,34433,125.05,49.77,19.58,4.8,1.29
+T20I,Middle,48996,125.02,35.74,14.04,4.97,1.28
+T20I,Death,22886,145.06,36.96,18.86,8.47,1.51

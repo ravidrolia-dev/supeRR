@@ -1,0 +1,7 @@
+player_id,player_name,role,legal_balls,raw_impact_rate,shrinkage_weight_lambda,prior_mean,production_shrunk_rating,recalculated_shrunk_rating,delta_shrunk,production_posterior_se,recalculated_posterior_se,delta_posterior_se,production_credible_interval_95,recalculated_credible_interval_95,match_level_bootstrap_95ci,recalculation_status
+37052,Naman Dhir,BATTER,514,42.21,0.774,2.97,33.34,33.35,0.01,9.3,9.3,0.0,"[15.11, 51.58]","[15.12, 51.58]","[-6.49, 61.0]",EXACT_MATCH
+6396,Tim David,BATTER,1210,34.12,0.89,2.97,30.68,30.68,0.0,6.5,6.5,0.0,"[17.94, 43.43]","[17.94, 43.42]","[-18.34, 21.68]",EXACT_MATCH
+2985,Mark Wood,BOWLER,281,101.63,0.652,1.97,66.95,66.94,-0.01,12.44,12.44,0.0,"[42.56, 91.34]","[42.56, 91.32]","[14.17, 174.27]",EXACT_MATCH
+3629,Corbin Bosch,BOWLER,367,74.78,0.71,1.97,53.66,53.66,0.0,11.36,11.36,0.0,"[31.39, 75.92]","[31.39, 75.93]","[8.41, 141.69]",EXACT_MATCH
+2490,Mohammad Nawaz,BOWLER,1004,57.12,0.87,1.97,49.95,49.95,0.0,7.6,7.6,0.0,"[35.05, 64.86]","[35.05, 64.85]","[17.57, 96.06]",EXACT_MATCH
+22471,Matthew Humphreys,BOWLER,305,68.59,0.67,1.97,46.63,46.63,0.0,12.11,12.11,0.0,"[22.89, 70.37]","[22.89, 70.37]","[-7.32, 141.31]",EXACT_MATCH

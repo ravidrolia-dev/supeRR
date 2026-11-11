@@ -1,0 +1,7 @@
+wicket_value,prior_mean,top1_player,top2_player,top3_player,top4_player,top5_player,top10_list
+8.0,-0.68,Mark Wood,Matheesha Pathirana,Mohammad Nawaz,Corbin Bosch,Matthew Humphreys,"Mark Wood, Matheesha Pathirana, Mohammad Nawaz, Corbin Bosch, Matthew Humphreys, Dwayne Bravo, Abrar Ahmed, Imad Wasim, Sunil Narine, Sufiyan Muqeem"
+10.0,0.08,Mark Wood,Corbin Bosch,Mohammad Nawaz,Matheesha Pathirana,Matthew Humphreys,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matheesha Pathirana, Matthew Humphreys, Dwayne Bravo, Imad Wasim, Abrar Ahmed, Sufiyan Muqeem, Sunil Narine"
+12.0,0.84,Mark Wood,Corbin Bosch,Mohammad Nawaz,Matthew Humphreys,Matheesha Pathirana,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana, Dwayne Bravo, Imad Wasim, Abrar Ahmed, Sufiyan Muqeem, Sunil Narine"
+15.0,1.97,Mark Wood,Corbin Bosch,Mohammad Nawaz,Matthew Humphreys,Matheesha Pathirana,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana, Dwayne Bravo, Imad Wasim, Abrar Ahmed, Praful Hinge, Sufiyan Muqeem"
+18.0,3.1,Mark Wood,Corbin Bosch,Mohammad Nawaz,Matthew Humphreys,Matheesha Pathirana,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana, Dwayne Bravo, Praful Hinge, Imad Wasim, Abrar Ahmed, Abbas Afridi"
+20.0,3.86,Mark Wood,Corbin Bosch,Mohammad Nawaz,Matthew Humphreys,Matheesha Pathirana,"Mark Wood, Corbin Bosch, Mohammad Nawaz, Matthew Humphreys, Matheesha Pathirana, Praful Hinge, Dwayne Bravo, Imad Wasim, Abbas Afridi, Ashwani Kumar"

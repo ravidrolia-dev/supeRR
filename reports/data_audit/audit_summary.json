@@ -1,0 +1,690 @@
+{
+  "schemas": {
+    "competitions": {
+      "total_rows": 141,
+      "total_cols": 4,
+      "columns": [
+        "comp_id",
+        "comp_name",
+        "match_format",
+        "season"
+      ]
+    },
+    "teams": {
+      "total_rows": 353,
+      "total_cols": 3,
+      "columns": [
+        "comp_id",
+        "team_id",
+        "team_name"
+      ]
+    },
+    "matches": {
+      "total_rows": 883,
+      "total_cols": 22,
+      "columns": [
+        "match_id",
+        "comp_id",
+        "match_number",
+        "match_date",
+        "stage",
+        "venue_id",
+        "venue_country",
+        "home_team_id",
+        "home_team",
+        "away_team_id",
+        "away_team",
+        "home_team_captain_id",
+        "away_team_captain_id",
+        "toss_win_team_id",
+        "toss_opted",
+        "man_of_the_match",
+        "first_inn_revised_overs",
+        "second_inn_revised_overs",
+        "revised_target",
+        "knock_out",
+        "win_team_id",
+        "result"
+      ]
+    },
+    "ctpm": {
+      "total_rows": 6413,
+      "total_cols": 6,
+      "columns": [
+        "comp_id",
+        "comp_name",
+        "team_id",
+        "team_name",
+        "player_id",
+        "player_name"
+      ]
+    },
+    "playing_eleven": {
+      "total_rows": 28381,
+      "total_cols": 9,
+      "columns": [
+        "match_id",
+        "team_id",
+        "player_id",
+        "batting_order",
+        "is_played",
+        "is_captain",
+        "is_wk",
+        "is_impact",
+        "is_impact_off"
+      ]
+    },
+    "ball_by_ball": {
+      "total_rows": 200999,
+      "total_cols": 33,
+      "columns": [
+        "match_id",
+        "innings",
+        "overid",
+        "over_ball_num",
+        "innings_ball_num",
+        "batting_team_id",
+        "bowling_team_id",
+        "striker_id",
+        "striker_name",
+        "non_striker_id",
+        "non_striker_name",
+        "bowler_id",
+        "bowler_name",
+        "batting_type",
+        "bowling_type",
+        "batting_order",
+        "runs",
+        "is_four",
+        "is_six",
+        "is_wicket",
+        "dismissal_type_id",
+        "dismissal_type",
+        "dismissed_player_id",
+        "extras_type",
+        "extras1_runs",
+        "extras_2_runs",
+        "pace_or_spin",
+        "bowl_speed",
+        "stroke",
+        "delivery_style",
+        "over_or_around",
+        "on_or_off",
+        "delivery_ist_time"
+      ]
+    }
+  },
+  "keys_validation": {
+    "matches_pk_match_id": {
+      "key": [
+        "match_id"
+      ],
+      "is_unique": true,
+      "duplicate_count": 0
+    },
+    "competitions_pk_comp_id": {
+      "key": [
+        "comp_id"
+      ],
+      "is_unique": true,
+      "duplicate_count": 0
+    },
+    "teams_composite_key": {
+      "key": [
+        "comp_id",
+        "team_id"
+      ],
+      "is_unique": true,
+      "duplicate_count": 0
+    },
+    "ctpm_composite_key": {
+      "key": [
+        "comp_id",
+        "team_id",
+        "player_id"
+      ],
+      "is_unique": true,
+      "duplicate_count": 0
+    },
+    "playing_eleven_composite_key": {
+      "key": [
+        "match_id",
+        "team_id",
+        "player_id"
+      ],
+      "is_unique": false,
+      "duplicate_count": 40
+    },
+    "bbb_composite_key_1": {
+      "key": [
+        "match_id",
+        "innings",
+        "overid",
+        "over_ball_num"
+      ],
+      "is_unique": true,
+      "duplicate_count": 0
+    },
+    "bbb_composite_key_2": {
+      "key": [
+        "match_id",
+        "innings",
+        "innings_ball_num"
+      ],
+      "is_unique": true,
+      "duplicate_count": 0
+    }
+  },
+  "referential_integrity": {
+    "matches_missing_in_bbb_count": 16,
+    "matches_missing_in_bbb_ids": [
+      31281,
+      31284,
+      31288,
+      32610,
+      32612,
+      32622,
+      36210,
+      36564,
+      38797,
+      40761,
+      41502,
+      41503,
+      42030,
+      46008,
+      48513,
+      50189
+    ],
+    "matches_bbb_missing_in_matches_count": 0,
+    "matches_missing_in_pe_count": 3,
+    "matches_missing_in_pe_ids": [
+      36210,
+      41503,
+      48513
+    ],
+    "matches_pe_missing_in_matches_count": 0,
+    "matches_comp_missing_count": 0,
+    "teams_comp_missing_count": 0,
+    "ctpm_comp_missing_count": 0,
+    "ctpm_teams_missing_in_teams_count": 0
+  },
+  "player_ids": {
+    "distinct_ctpm_players": 1217,
+    "distinct_pe_players": 1082,
+    "distinct_strikers": 888,
+    "distinct_non_strikers": 867,
+    "distinct_bowlers": 647,
+    "distinct_dismissed_players": 814,
+    "distinct_bbb_players_total": 959,
+    "unmapped_strikers_in_ctpm": 0,
+    "unmapped_non_strikers_in_ctpm": 0,
+    "unmapped_bowlers_in_ctpm": 0,
+    "unmapped_dismissed_in_ctpm": 0,
+    "unmapped_bbb_players_in_ctpm": 0,
+    "unmapped_pe_players_in_ctpm": 0,
+    "bbb_players_missing_from_pe_roster_count": 6,
+    "matches_with_bbb_players_missing_from_pe": [
+      {
+        "match_id": 37087,
+        "missing_player_ids": [
+          36153,
+          39444
+        ]
+      },
+      {
+        "match_id": 37092,
+        "missing_player_ids": [
+          36153,
+          39444
+        ]
+      },
+      {
+        "match_id": 37095,
+        "missing_player_ids": [
+          36153,
+          39444
+        ]
+      }
+    ]
+  },
+  "playing_eleven_duplicates": {
+    "total_duplicate_rows": 75,
+    "distinct_duplicate_keys": 35,
+    "affected_match_ids": [
+      13613,
+      21176,
+      28962
+    ],
+    "differing_columns": [
+      "batting_order"
+    ],
+    "differing_samples": {
+      "13613_20_223": {
+        "batting_order": [
+          5.0,
+          6.0
+        ]
+      },
+      "13613_20_250": {
+        "batting_order": [
+          2.0,
+          4.0
+        ]
+      },
+      "13613_20_838": {
+        "batting_order": [
+          1.0,
+          4.0
+        ]
+      },
+      "13613_20_2639": {
+        "batting_order": [
+          2.0,
+          6.0
+        ]
+      },
+      "13613_20_3539": {
+        "batting_order": [
+          1.0,
+          3.0
+        ]
+      }
+    },
+    "investigation_finding": "All duplicates occur across exactly 3 T20I matches (13613, 21176, 28962). The only column that differs between duplicate rows is 'batting_order' (e.g. 1.0 vs 3.0), representing updated batting positions. Flag attributes (is_played, is_captain, is_wk, is_impact) are completely identical across duplicates. Cross-referencing ball_by_ball.csv reveals which batting_order actually batted at the crease."
+  },
+  "matches_missing_in_bbb": {
+    "missing_matches_count": 16,
+    "result_breakdown": {
+      "Match Abandoned": 16
+    },
+    "format_breakdown": {
+      "T20I": 12,
+      "T20": 4
+    },
+    "competition_breakdown": {
+      "IPL 2024": 3,
+      "Pakistan in England T20I Series 2024": 2,
+      "West Indies in Ireland T20I Series 2025": 2,
+      "Netherlands Tri-Nation T20I Series 2024": 1,
+      "Pakistan in South Africa T20I Series 2024": 1,
+      "Australia in England T20I Series 2024": 1,
+      "South Africa in England T20I Series 2025": 1,
+      "IPL 2025": 1,
+      "South Africa in India T20I Series 2025": 1,
+      "England in Ireland T20I series 2025": 1,
+      "Pakistan in Sri Lanka T20I Series 2026": 1,
+      "New Zealand in Bangladesh T20I Series 2026": 1
+    },
+    "match_ids": [
+      31281,
+      31284,
+      31288,
+      32610,
+      32612,
+      32622,
+      36210,
+      36564,
+      38797,
+      40761,
+      41502,
+      41503,
+      42030,
+      46008,
+      48513,
+      50189
+    ],
+    "investigation_finding": "All 16 matches present in matches.csv but absent from ball_by_ball.csv have result='Match Abandoned' (due to rain/weather conditions before a single ball could be bowled). This includes 4 IPL matches (3 in IPL 2024: 31281, 31284, 31288; 1 in IPL 2025: 40761) and 12 T20I matches. No delivery data exists because no balls were legally or illegally bowled."
+  },
+  "innings_and_overs": {
+    "innings_distribution": {
+      "1": 105727,
+      "2": 95234,
+      "3": 25,
+      "4": 13
+    },
+    "super_over_matches_count": 6,
+    "super_over_match_details": [
+      {
+        "match_id": 34429,
+        "result": "India Tied with Srilanka (India Won the Super Over by 2 wickets)",
+        "inn3_balls": 4,
+        "inn3_runs": 1,
+        "inn4_balls": 1,
+        "inn4_runs": 4
+      },
+      {
+        "match_id": 40725,
+        "result": "Delhi Capitals Tied with Rajasthan Royals (DC won the Super Over)",
+        "inn3_balls": 6,
+        "inn3_runs": 10,
+        "inn4_balls": 4,
+        "inn4_runs": 13
+      },
+      {
+        "match_id": 45512,
+        "result": "India won the Super Over(Match Tied)",
+        "inn3_balls": 6,
+        "inn3_runs": 1,
+        "inn4_balls": 1,
+        "inn4_runs": 3
+      },
+      {
+        "match_id": 48027,
+        "result": "Bangladesh A Won The Super Over",
+        "inn3_balls": 2,
+        "inn3_runs": 0,
+        "inn4_balls": 2,
+        "inn4_runs": 0
+      },
+      {
+        "match_id": 48029,
+        "result": "Pakistan A Won the super over",
+        "inn3_balls": 4,
+        "inn3_runs": 1,
+        "inn4_balls": 4,
+        "inn4_runs": 6
+      },
+      {
+        "match_id": 50359,
+        "result": "Kolkata Knight Riders Won by Super over (Match Tied)",
+        "inn3_balls": 3,
+        "inn3_runs": 1,
+        "inn4_balls": 1,
+        "inn4_runs": 4
+      }
+    ],
+    "overid_range": {
+      "min": 1,
+      "max": 20,
+      "all_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "over_ball_num_range": {
+      "min": 1,
+      "max": 13,
+      "all_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "innings_ball_num_range": {
+      "min": 1,
+      "max": 136
+    },
+    "over_length_statistics": {
+      "total_overs": 32350,
+      "mean_balls_per_over": 6.213,
+      "min_balls": 1,
+      "max_balls": 13,
+      "overs_with_exactly_6_balls": 25081,
+      "overs_with_more_than_6_balls": 6710,
+      "overs_with_fewer_than_6_balls": 559,
+      "overs_with_more_than_10_balls": 15
+    },
+    "investigation_finding": "Overid is 1-indexed (values 1 to 20; 1 for Super Over). Over_ball_num ranges from 1 to 13 due to wides/no-balls extending the over. Innings 3 and 4 correspond precisely to Super Overs across 6 tied matches. Overs with fewer than 6 balls (<6) correspond to innings completion (target reached, all out, or weather interruption)."
+  },
+  "extras_and_runs": {
+    "extras1_runs_distribution": {
+      "6": 189167,
+      "2": 7714,
+      "3": 2748,
+      "1": 576,
+      "4": 529,
+      "5": 264,
+      "7": 1
+    },
+    "extras_2_runs_distribution": {
+      "0": 200963,
+      "1": 20,
+      "4": 16
+    },
+    "extras_type_distribution": {
+      "nan": 189167,
+      "wide": 7714,
+      "legbyes": 2748,
+      "Overstep": 576,
+      "byes": 529,
+      "other": 264,
+      "Penalty": 1
+    },
+    "extras1_vs_extras_type_crosstab": {
+      "None": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 189167,
+        "7": 0,
+        "All": 189167
+      },
+      "Overstep": {
+        "1": 576,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "All": 576
+      },
+      "Penalty": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "All": 1
+      },
+      "byes": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 529,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "All": 529
+      },
+      "legbyes": {
+        "1": 0,
+        "2": 0,
+        "3": 2748,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "All": 2748
+      },
+      "other": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 264,
+        "6": 0,
+        "7": 0,
+        "All": 264
+      },
+      "wide": {
+        "1": 0,
+        "2": 7714,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "All": 7714
+      },
+      "All": {
+        "1": 576,
+        "2": 7714,
+        "3": 2748,
+        "4": 529,
+        "5": 264,
+        "6": 189167,
+        "7": 1,
+        "All": 200999
+      }
+    },
+    "extras_2_non_zero_summary": {
+      "extras_2_runs_1_count": 20,
+      "extras_2_runs_4_count": 16,
+      "extras_2_runs_total_non_zero": 36
+    },
+    "extras_2_by_extras_type": {
+      "None": {
+        "0": 189166,
+        "1": 1,
+        "4": 0
+      },
+      "Overstep": {
+        "0": 555,
+        "1": 12,
+        "4": 9
+      },
+      "Penalty": {
+        "0": 1,
+        "1": 0,
+        "4": 0
+      },
+      "byes": {
+        "0": 529,
+        "1": 0,
+        "4": 0
+      },
+      "legbyes": {
+        "0": 2748,
+        "1": 0,
+        "4": 0
+      },
+      "other": {
+        "0": 250,
+        "1": 7,
+        "4": 7
+      },
+      "wide": {
+        "0": 7714,
+        "1": 0,
+        "4": 0
+      }
+    },
+    "investigation_finding": "CONFIRMED FACT: extras1_runs is strictly a categorical extra code, NOT a numeric run count! Mapping: 1 -> Overstep (no ball), 2 -> wide, 3 -> legbyes, 4 -> byes, 5 -> other (e.g. overthrows/free hits), 6 -> no extra (normal delivery, extras_type=NaN), 7 -> Penalty. CONFIRMED FACT: The 'runs' column contains runs off the bat (strikers score runs only when extras1_runs in {1, 5, 6}). For wide (code 2), legbyes (code 3), byes (code 4), penalty (code 7), 'runs' is 0 in 100% of cases. extras_2_runs is 0 for 200,963 deliveries (99.98%), and is non-zero (1 or 4) on exactly 36 deliveries, representing boundary extras or penalty adjustments on oversteps / other extra situations."
+  },
+  "boundaries_and_wickets": {
+    "is_four_true_runs_not_4": 0,
+    "is_six_true_runs_not_6": 0,
+    "runs_4_is_four_false": 20,
+    "runs_6_is_six_false": 3,
+    "is_wicket_true_dismissed_player_null": 1,
+    "is_wicket_false_dismissed_player_present": 12,
+    "boundary_analysis": "Whenever is_four==True, runs is ALWAYS 4 (0 exceptions). Whenever is_six==True, runs is ALWAYS 6 (0 exceptions). However, there are 21 deliveries where runs==4 but is_four==False (all run four by batters between wickets), and 3 deliveries where runs==6 but is_six==False (all run three plus 3 overthrows, or 2 runs plus 4 overthrows, meaning the ball did not cross the boundary rope directly on the fly).",
+    "wicket_analysis": "is_wicket==True & dismissed_player_id.isna() occurs in exactly 1 delivery: Match 40709, Inning 2, Over 19 Ball 5. Dismissal type is 'Retire Out' where the outgoing player ID was not recorded in dismissed_player_id. is_wicket==False & dismissed_player_id.notna() occurs in 12 deliveries where dismissal_type is NaN. These represent aborted dismissals, reviews, or phantom taggings where the batter remained not out."
+  },
+  "competitions_and_ipl": {
+    "category_breakdown": {
+      "IPL": {
+        "competitions_count": 5,
+        "total_matches": 371.0,
+        "total_deliveries": 87687.0
+      },
+      "Other T20": {
+        "competitions_count": 2,
+        "total_matches": 30.0,
+        "total_deliveries": 6985.0
+      },
+      "T20I": {
+        "competitions_count": 134,
+        "total_matches": 482.0,
+        "total_deliveries": 106327.0
+      }
+    },
+    "ipl_competitions": [
+      {
+        "comp_id": 1358,
+        "comp_name": "IPL 2022",
+        "season": "2022",
+        "matches_count": 74.0,
+        "deliveries_count": 17909.0
+      },
+      {
+        "comp_id": 1715,
+        "comp_name": "IPL 2023",
+        "season": "2023",
+        "matches_count": 74.0,
+        "deliveries_count": 17863.0
+      },
+      {
+        "comp_id": 2193,
+        "comp_name": "IPL 2024",
+        "season": "2024",
+        "matches_count": 74.0,
+        "deliveries_count": 17103.0
+      },
+      {
+        "comp_id": 2725,
+        "comp_name": "IPL 2025",
+        "season": "2025",
+        "matches_count": 75.0,
+        "deliveries_count": 17285.0
+      },
+      {
+        "comp_id": 3298,
+        "comp_name": "IPL 2026",
+        "season": "2026",
+        "matches_count": 74.0,
+        "deliveries_count": 17527.0
+      }
+    ],
+    "other_t20_competitions": [
+      {
+        "comp_id": 2670,
+        "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+        "season": "2024",
+        "matches_count": 15.0,
+        "deliveries_count": 3519.0
+      },
+      {
+        "comp_id": 3289,
+        "comp_name": "Asia Cup Rising Stars 2025",
+        "season": "2025",
+        "matches_count": 15.0,
+        "deliveries_count": 3466.0
+      }
+    ],
+    "hackathon_scope_note": "The hackathon objective explicitly scopes evaluation to IPL and T20I from 2022 onwards. There are 5 IPL competitions (IPL 2022, 2023, 2024, 2025, 2026) totaling 371 matches, and 134 T20I series/tournaments totaling 482 matches. Two tournaments (Mens T20 Emerging Teams Asia Cup 2024 and Asia Cup Rising Stars 2025) are classified as format 'T20' (non-T20I, non-IPL 'A-team/emerging' competitions totaling 30 matches). The pipeline preserves all records while providing explicit filtering tags."
+  }
+}

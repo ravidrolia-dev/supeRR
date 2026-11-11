@@ -1,0 +1,5 @@
+confidence_tier,deliveries_count,deliveries_pct,matches_count,matches_pct,exact_score_status,usage_recommendation
+AUTHORITATIVE_DLS_TARGET,1641,1.78,23,2.82,EXACT,PRIMARY_EXACT_ANALYSIS (Strict Ground-Truth Benchmark)
+EXACT_RECONSTRUCTED_TARGET,14598,15.88,132,16.2,EXACT,PRIMARY_EXACT_ANALYSIS (Strict Ground-Truth Benchmark)
+ESTIMATED_TARGET_LOWER_BOUND,75695,82.33,660,80.98,LOWER_BOUND_FLOOR,PRIMARY_SUPPORTED_FLOOR (Robust Bounds for Broad Sample Coverage)
+EXACT_SUPER_OVER_TARGET,7,0.01,0,0.0,EXACT,PRIMARY_EXACT_ANALYSIS (Strict Ground-Truth Benchmark)

@@ -1,0 +1,11 @@
+player_id,player_name,competitions,legal_balls,total_balls,hp_balls,hp_legal_balls,mean_pressure_index,overall_rate_metric,hp_rate_metric,lp_rate_metric,metric_delta,performance_vs_expected,raw_clutch_impact,distinct_matches,match_impact_std,positive_match_pct,bayesian_clutch_rating,posterior_se,ci_lower_95,ci_upper_95,interval_type,rank
+3648,Deepak Hooda,['T20I'],77,77,29,29,49.35,4.05,3.52,4.38,0.86,168.25,168.25,7,260.54,71.4,86.73,20.04,47.45,126.01,Bayesian 95% Credible Interval,1
+3629,Corbin Bosch,['T20I'],204,213,63,62,51.03,8.18,6.58,8.87,2.29,104.29,104.29,11,168.63,63.6,77.07,14.79,48.08,106.06,Bayesian 95% Credible Interval,2
+4823,Washington Sundar,['T20I'],365,378,144,135,54.27,6.76,6.76,6.76,0.0,78.57,78.57,24,267.11,58.3,65.69,11.78,42.6,88.78,Bayesian 95% Credible Interval,3
+22471,Matthew Humphreys,['T20I'],305,315,84,78,53.38,7.06,6.69,7.19,0.5,68.59,68.59,14,150.32,57.1,55.65,12.68,30.8,80.5,Bayesian 95% Credible Interval,4
+3644,Kuldeep Yadav,['T20I'],524,542,130,125,47.02,7.26,7.58,7.16,-0.42,61.41,61.41,25,172.51,68.0,54.1,10.1,34.3,73.9,Bayesian 95% Credible Interval,5
+23311,Jacob Bethell,['T20I'],87,90,37,34,59.97,8.41,9.53,7.7,-1.83,98.13,98.13,5,222.42,60.0,54.1,19.41,16.06,92.14,Bayesian 95% Credible Interval,6
+24473,Sonny Baker,['T20I'],95,98,23,23,42.59,6.06,2.87,7.08,4.21,93.59,93.59,4,201.1,75.0,53.64,18.95,16.5,90.78,Bayesian 95% Credible Interval,7
+2490,Mohammad Nawaz,['T20I'],1004,1017,193,189,45.69,7.12,6.48,7.27,0.79,57.12,57.12,52,154.86,50.0,53.36,7.52,38.62,68.1,Bayesian 95% Credible Interval,8
+6286,Shivam Mavi,['T20I'],84,90,26,25,51.05,8.79,4.8,10.47,5.67,89.47,89.47,6,214.7,50.0,48.7,19.6,10.28,87.12,Bayesian 95% Credible Interval,9
+4722,Rashid Khan,['T20I'],1029,1041,271,269,49.77,6.02,6.83,5.73,-1.1,51.84,51.84,45,100.65,68.9,48.52,7.44,33.94,63.1,Bayesian 95% Credible Interval,10

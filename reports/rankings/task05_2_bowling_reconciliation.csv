@@ -1,0 +1,11 @@
+rank,player_id,player_name,legal_balls,actual_bowler_wickets,expected_bowler_wickets,unweighted_net_wickets,pressure_weighted_net_wickets,weighted_runs_saved,wicket_value_contribution_15,total_pressure_weighted_value,raw_clutch_runs_saved_per_100,bayesian_clutch_rating,wicket_value_proportion_characterization
+1,2985,Mark Wood,281,27,15.9,11.1,15.42,54.31,231.26,285.58,101.63,66.95,81.0%
+2,3629,Corbin Bosch,367,33,20.5,12.5,16.08,33.29,241.15,274.45,74.78,53.66,87.9%
+3,2490,Mohammad Nawaz,1004,66,49.89,16.11,28.93,139.56,433.89,573.45,57.12,49.95,75.7%
+4,22471,Matthew Humphreys,305,20,15.76,4.24,9.82,61.88,147.32,209.2,68.59,46.63,70.4%
+5,8661,Matheesha Pathirana,1132,82,73.58,8.42,16.89,301.26,253.32,554.58,48.99,43.49,45.7%
+6,161,Dwayne Bravo,206,16,12.69,3.31,5.02,62.95,75.31,138.26,67.11,39.66,54.5%
+7,3578,Imad Wasim,246,15,12.61,2.39,4.75,70.13,71.26,141.39,57.47,36.45,50.4%
+8,5979,Abrar Ahmed,764,46,40.18,5.82,9.8,172.14,146.98,319.12,41.77,35.24,46.1%
+9,25132,Praful Hinge,156,14,8.49,5.51,9.98,-56.64,149.7,93.05,59.65,31.38,N/A (Defensive Runs Saved is negative: -56.64; Wickets provide 149.70 runs exceeding total value 93.05)
+10,34485,Sufiyan Muqeem,344,23,18.93,4.07,2.46,112.74,36.85,149.58,43.48,30.88,24.6%

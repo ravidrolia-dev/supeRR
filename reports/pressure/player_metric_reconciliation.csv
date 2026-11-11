@@ -1,0 +1,16 @@
+player_id,player_name,role,reported_legal_balls,recalculated_legal_balls,reported_hp_balls,recalculated_hp_balls,reported_overall_sr,recalculated_overall_sr,reported_hp_sr,recalculated_hp_sr,reported_raw_metric,recalculated_raw_metric,metric_name,discrepancy_delta,audit_status,notes
+6396,Tim David,BATTER,1210.0,1210,437.0,437,180.0,180.0,181.34,181.34,34.12,34.12,raw_clutch_runs_added_per_100,0.0,VERIFIED,HP legal balls=402; denominator is legal balls; continuous weights sum=1540.7
+6396,Tim David,BOWLER,6.0,6,0.0,0,18.0,18.0,,,-159.01,-159.01,raw_clutch_runs_saved_per_100,0.0,VERIFIED,HP bowler wkts=0 (all wkts=0); total bowler wkts=0; wkt val=-2.7
+2985,Mark Wood,BATTER,19.0,19,18.0,18,142.11,142.11,152.94,152.94,-6.15,-6.15,raw_clutch_runs_added_per_100,0.0,VERIFIED,HP legal balls=17; denominator is legal balls; continuous weights sum=35.4
+2985,Mark Wood,BOWLER,281.0,281,122.0,122,8.14,8.14,8.18,8.18,101.63,101.63,raw_clutch_runs_saved_per_100,0.0,VERIFIED,HP bowler wkts=14 (all wkts=15); total bowler wkts=27; wkt val=231.3
+1699,Suryakumar Yadav,BATTER,2748.0,2748,456.0,456,167.21,167.21,177.45,177.45,26.99,26.99,raw_clutch_runs_added_per_100,0.0,VERIFIED,HP legal balls=439; denominator is legal balls; continuous weights sum=2616.1
+1699,Suryakumar Yadav,BOWLER,6.0,6,6.0,6,5.0,5.0,5.0,5.0,865.13,865.13,raw_clutch_runs_saved_per_100,0.0,VERIFIED,HP bowler wkts=2 (all wkts=2); total bowler wkts=2; wkt val=44.9
+6281,Abhishek Sharma,BATTER,2239.0,2239,100.0,100,187.49,187.49,159.14,159.14,29.4,29.4,raw_clutch_runs_added_per_100,0.0,VERIFIED,HP legal balls=93; denominator is legal balls; continuous weights sum=1732.1
+6281,Abhishek Sharma,BOWLER,427.0,427,215.0,215,9.13,9.13,9.23,9.23,-45.03,-45.03,raw_clutch_runs_saved_per_100,0.0,VERIFIED,HP bowler wkts=9 (all wkts=9); total bowler wkts=13; wkt val=-107.2
+3629,Corbin Bosch,BATTER,139.0,139,108.0,108,123.02,123.02,121.36,121.36,-47.65,-47.65,raw_clutch_runs_added_per_100,0.0,VERIFIED,HP legal balls=103; denominator is legal balls; continuous weights sum=250.8
+3629,Corbin Bosch,BOWLER,367.0,367,112.0,112,8.63,8.63,7.12,7.12,74.78,74.78,raw_clutch_runs_saved_per_100,0.0,VERIFIED,HP bowler wkts=13 (all wkts=13); total bowler wkts=33; wkt val=241.2
+8661,Matheesha Pathirana,BATTER,32.0,32,31.0,31,59.38,59.38,61.29,61.29,-146.01,-146.01,raw_clutch_runs_added_per_100,0.0,VERIFIED,HP legal balls=31; denominator is legal balls; continuous weights sum=61.3
+8661,Matheesha Pathirana,BOWLER,1132.0,1132,525.0,525,8.64,8.64,9.4,9.4,48.99,48.99,raw_clutch_runs_saved_per_100,0.0,VERIFIED,HP bowler wkts=40 (all wkts=42); total bowler wkts=82; wkt val=253.3
+25132,Praful Hinge,BATTER,9.0,9,9.0,9,33.33,33.33,33.33,33.33,-195.52,-195.52,raw_clutch_runs_added_per_100,0.0,VERIFIED,HP legal balls=9; denominator is legal balls; continuous weights sum=17.3
+25132,Praful Hinge,BOWLER,156.0,156,86.0,86,11.73,11.73,11.24,11.24,59.65,59.65,raw_clutch_runs_saved_per_100,0.0,VERIFIED,HP bowler wkts=11 (all wkts=11); total bowler wkts=14; wkt val=149.7
+8301,Asif Khan,BATTER,200.0,200,84.0,84,151.5,151.5,176.83,176.83,29.01,29.01,raw_clutch_runs_added_per_100,0.0,VERIFIED,HP legal balls=82; denominator is legal balls; continuous weights sum=247.4

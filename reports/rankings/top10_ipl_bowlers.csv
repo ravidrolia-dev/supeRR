@@ -1,0 +1,11 @@
+player_id,player_name,competitions,legal_balls,total_balls,hp_balls,hp_legal_balls,mean_pressure_index,overall_rate_metric,hp_rate_metric,lp_rate_metric,metric_delta,performance_vs_expected,raw_clutch_impact,distinct_matches,match_impact_std,positive_match_pct,bayesian_clutch_rating,posterior_se,ci_lower_95,ci_upper_95,interval_type,rank
+2985,Mark Wood,['IPL'],96,102,55,50,64.19,8.12,8.52,7.7,-0.82,173.45,173.45,4,222.69,100.0,97.6,17.69,62.93,132.27,Bayesian 95% Credible Interval,1
+161,Dwayne Bravo,['IPL'],206,229,119,105,61.99,8.71,8.63,8.79,0.16,67.11,67.11,10,107.89,60.0,49.33,13.8,22.28,76.38,Bayesian 95% Credible Interval,2
+8661,Matheesha Pathirana,['IPL'],710,797,386,342,65.39,8.49,9.11,7.92,-1.19,50.93,50.93,33,125.14,63.6,46.11,8.26,29.92,62.3,Bayesian 95% Credible Interval,3
+39657,Eshan Malinga,['IPL'],486,516,239,226,63.89,9.2,8.73,9.6,0.87,51.86,51.86,22,162.94,68.2,44.99,9.77,25.84,64.14,Bayesian 95% Credible Interval,4
+25132,Praful Hinge,['IPL'],156,168,86,79,64.81,11.73,11.24,12.23,0.99,59.65,59.65,7,120.7,57.1,40.45,15.22,10.62,70.28,Bayesian 95% Credible Interval,5
+8634,Ashwani Kumar,['IPL'],183,196,85,78,60.63,10.95,10.92,10.97,0.05,47.74,47.74,10,222.01,60.0,34.01,14.4,5.79,62.23,Bayesian 95% Credible Interval,6
+6669,Mohsin Khan,['IPL'],654,678,213,206,51.88,8.37,8.85,8.14,-0.71,36.03,36.03,30,139.67,56.7,32.38,8.57,15.58,49.18,Bayesian 95% Credible Interval,7
+4489,Prasidh Krishna,['IPL'],987,1038,385,363,56.77,8.71,9.75,8.1,-1.65,32.85,32.85,44,138.01,45.5,30.57,7.1,16.65,44.49,Bayesian 95% Credible Interval,8
+781,Sunil Narine,['IPL'],1533,1556,407,400,49.79,6.85,7.08,6.77,-0.31,30.45,30.45,67,87.78,65.7,29.05,5.77,17.74,40.36,Bayesian 95% Credible Interval,9
+830,Josh Hazlewood,['IPL'],906,938,295,276,52.46,8.83,10.11,8.27,-1.84,30.96,30.96,40,140.24,60.0,28.63,7.39,14.15,43.11,Bayesian 95% Credible Interval,10

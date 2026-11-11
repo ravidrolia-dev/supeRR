@@ -1,0 +1,11 @@
+variable_name,data_type,distinct_values,total_null_count,total_null_pct,inn1_null_count,inn1_null_pct,inn2_null_count,inn2_null_pct,min_val,mean_val,max_val,reliability_status
+legal_balls_remaining_before,int64,120,0,0.0,0,0.0,0,0.0,1,62.23,120,EXACT_RELIABLE
+wickets_in_hand_before,int64,10,0,0.0,0,0.0,0,0.0,1,7.32,10,EXACT_RELIABLE
+runs_before_ball_lower_bound,int64,289,0,0.0,0,0.0,0,0.0,0,79.13,301,EXACT_RELIABLE
+required_run_rate_before,float64,2961,102073,52.61,102054,100.0,0,0.0,0.0,11.27,792.0,CONDITIONAL_CHASE_ONLY
+runs_remaining_before,float64,288,102073,52.61,102054,100.0,0,0.0,0.0,100.84,304.0,CONDITIONAL_CHASE_ONLY
+target_score,float64,176,102073,52.61,102054,100.0,0,0.0,2.0,176.86,304.0,CONDITIONAL_CHASE_ONLY
+innings_phase_before,str,4,0,0.0,0,0.0,0,0.0,,,,EXACT_RELIABLE
+is_super_over,bool,2,0,0.0,0,0.0,0,0.0,False,0.0,True,EXACT_RELIABLE
+score_reconstruction_confidence,str,2,0,0.0,0,0.0,0,0.0,,,,EXACT_RELIABLE
+target_confidence,str,5,0,0.0,0,0.0,0,0.0,,,,EXACT_RELIABLE
