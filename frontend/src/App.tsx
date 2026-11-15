@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/layout/Navbar';
 import { Sidebar } from './components/layout/Sidebar';
+import { RouteTracker } from './components/RouteTracker';
 import { Overview } from './pages/Overview';
 import { Batters } from './pages/Batters';
 import { Bowlers } from './pages/Bowlers';
@@ -15,6 +16,7 @@ import { AuctionIntelligence } from './pages/AuctionIntelligence';
 export const App: React.FC = () => {
   return (
     <BrowserRouter>
+      <RouteTracker />
       <div className="min-h-screen bg-[#F7F8FA] text-[#17263C] flex flex-col font-sans">
         <Navbar />
         <div className="flex flex-1">
