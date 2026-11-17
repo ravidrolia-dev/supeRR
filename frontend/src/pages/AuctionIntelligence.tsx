@@ -28,8 +28,6 @@ export const AuctionIntelligence: React.FC = () => {
     'BATTER_TARGETS' | 
     'BOWLER_TARGETS' | 
     'ROLE_ALTERNATIVES' | 
-    'CONDITIONAL_WATCHLIST' | 
-    'CONFIRMED_TARGETS' | 
     'OVERVIEW' | 
     'SQUAD_2026' | 
     'WEAKNESSES'
@@ -149,23 +147,23 @@ export const AuctionIntelligence: React.FC = () => {
           </p>
         </div>
 
-        {/* Dynamic Retention Status Board */}
-        <div className="p-3 rounded-md bg-[#fffbeb] border border-[#fef3c7] text-left shrink-0 shadow-xs">
-          <div className="text-[10px] uppercase font-bold text-[#b45309] tracking-wider flex items-center justify-between gap-2">
+        {/* Official IPL 2027 Retentions Finalized Board */}
+        <div className="p-3 rounded-md bg-[#f0fdf4] border border-[#bbf7d0] text-left shrink-0 shadow-xs">
+          <div className="text-[10px] uppercase font-bold text-[#16845b] tracking-wider flex items-center justify-between gap-2">
             <span className="flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5" />
-              <span>Retention Window Status</span>
+              <CheckCircle2 className="w-3.5 h-3.5" />
+              <span>IPL 2027 Retentions Finalized</span>
             </span>
-            <span className="px-1.5 py-0.2 rounded bg-[#fef3c7] text-[#92400e] text-[9px] font-mono">
-              {timeRemainingText}
+            <span className="px-1.5 py-0.5 rounded bg-[#dcfce7] text-[#15803d] text-[9px] font-mono font-bold">
+              OFFICIAL REGISTER APPLIED
             </span>
           </div>
-          <div className="text-[11px] text-[#92400e] font-medium mt-1">
-            Deadline: <strong>{deadlineDate.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })} at 17:00 IST</strong>
+          <div className="text-[11px] text-[#15803d] font-medium mt-1">
+            All 10 Franchises Reconciled &bull; <strong>191 Retained Players Excluded</strong>
           </div>
-          <div className="text-[10px] text-[#b45309] mt-0.5 flex items-center gap-1">
-            <RefreshCw className="w-3 h-3 text-[#b45309]" />
-            <span>Reconciled: {formattedLastVerification}</span>
+          <div className="text-[10px] text-[#16845b] mt-0.5 flex items-center gap-1">
+            <Check className="w-3 h-3 text-[#16845b]" />
+            <span>Top 10 Batters &amp; Bowlers 100% Verified Auction-Eligible</span>
           </div>
         </div>
       </div>
@@ -185,10 +183,10 @@ export const AuctionIntelligence: React.FC = () => {
         <div className="p-4 rounded-md bg-white border border-[#e2e6ec] shadow-xs">
           <div className="text-xs font-bold text-[#17263c] flex items-center gap-2 mb-1">
             <Compass className="w-4 h-4 text-[#16845b]" />
-            <span>2. Comprehensive 10+10 Scouting Boards</span>
+            <span>2. Comprehensive 10+10 Verified Actionable Targets</span>
           </div>
           <p className="text-xs text-[#64748b] leading-relaxed">
-            Exactly 10 batters and 10 bowlers addressing RR's core failure modes. Andre Russell is excluded (IPL-retired), while contracted candidates are tracked with clear retention notices.
+            Exactly 10 batters and 10 bowlers entering the open auction, strictly cross-referenced against retain.xlsx. Retained players and IPL retirees are permanently eliminated.
           </p>
         </div>
       </div>
@@ -229,30 +227,6 @@ export const AuctionIntelligence: React.FC = () => {
         >
           <ArrowRightLeft className="w-4 h-4 text-[#d97706]" />
           <span>Dynamic Alternatives ({roleAlternatives.length})</span>
-        </button>
-
-        <button
-          onClick={() => setActiveTab('CONDITIONAL_WATCHLIST')}
-          className={`pb-2.5 transition-colors border-b-2 flex items-center gap-1.5 whitespace-nowrap ${
-            activeTab === 'CONDITIONAL_WATCHLIST'
-              ? 'border-[#be185d] text-[#be185d]'
-              : 'border-transparent text-[#64748b] hover:text-[#17263c]'
-          }`}
-        >
-          <Eye className="w-4 h-4 text-[#1d4ed8]" />
-          <span>Conditional Watchlist ({conditionalPending.length})</span>
-        </button>
-
-        <button
-          onClick={() => setActiveTab('CONFIRMED_TARGETS')}
-          className={`pb-2.5 transition-colors border-b-2 flex items-center gap-1.5 whitespace-nowrap ${
-            activeTab === 'CONFIRMED_TARGETS'
-              ? 'border-[#be185d] text-[#be185d]'
-              : 'border-transparent text-[#64748b] hover:text-[#17263c]'
-          }`}
-        >
-          <CheckCircle2 className="w-4 h-4 text-[#16845b]" />
-          <span>Confirmed Available ({confirmedList.length})</span>
         </button>
 
         <button
@@ -531,165 +505,6 @@ export const AuctionIntelligence: React.FC = () => {
         </div>
       )}
 
-      {/* TAB 4: CONDITIONAL WATCHLIST */}
-      {activeTab === 'CONDITIONAL_WATCHLIST' && (
-        <div className="space-y-4">
-          <div className="bg-white rounded-md border border-[#e2e6ec] shadow-xs p-4 flex flex-col md:flex-row md:items-center justify-between gap-3">
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-[#eff6ff] text-[#1d4ed8] border border-[#bfdbfe]">
-                  TIER 2 &bull; CONDITIONAL_RETENTION_PENDING
-                </span>
-                <h2 className="text-sm font-bold text-[#17263c]">
-                  Active Franchise Watchlist ({conditionalPending.length} Players Under Observation)
-                </h2>
-              </div>
-              <p className="text-xs text-[#64748b] mt-1">
-                Currently contracted to other IPL franchises. Tactical plans are pre-configured to execute immediately if released on November 17.
-              </p>
-            </div>
-
-            <div className="flex items-center gap-1 bg-[#f1f5f9] p-1 rounded-md text-xs font-semibold">
-              <button
-                onClick={() => setWatchlistRole('BATTERS')}
-                className={`px-3 py-1 rounded transition-colors flex items-center gap-1.5 ${
-                  watchlistRole === 'BATTERS'
-                    ? 'bg-white text-[#be185d] shadow-xs font-bold'
-                    : 'text-[#64748b] hover:text-[#17263c]'
-                }`}
-              >
-                <Award className="w-3.5 h-3.5" />
-                <span>Batters ({conditionalBatters.length})</span>
-              </button>
-              <button
-                onClick={() => setWatchlistRole('BOWLERS')}
-                className={`px-3 py-1 rounded transition-colors flex items-center gap-1.5 ${
-                  watchlistRole === 'BOWLERS'
-                    ? 'bg-white text-[#16845b] shadow-xs font-bold'
-                    : 'text-[#64748b] hover:text-[#17263c]'
-                }`}
-              >
-                <Zap className="w-3.5 h-3.5" />
-                <span>Bowlers ({conditionalBowlers.length})</span>
-              </button>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-md border border-[#e2e6ec] shadow-xs overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full text-left text-xs">
-                <thead>
-                  <tr className="border-b border-[#e2e6ec] bg-[#f8fafc] text-[11px] font-semibold text-[#64748b]">
-                    <th className="py-3 px-3">Player Name</th>
-                    <th className="py-3 px-3 text-right">ClutchIQ</th>
-                    <th className="py-3 px-2">Evidence Tier</th>
-                    <th className="py-3 px-3">2026 Franchise</th>
-                    <th className="py-3 px-3 font-semibold text-[#be185d]">RR Weakness Solved</th>
-                    <th className="py-3 px-4">Primary Tactical Role</th>
-                    <th className="py-3 px-3">Retention Status</th>
-                    <th className="py-3 px-4">Next Verification Requirement</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-[#f1f5f9]">
-                  {(watchlistRole === 'BATTERS' ? conditionalBatters : conditionalBowlers).map((c: any) => (
-                    <tr key={c.player_id} className="hover:bg-[#f8fafc]">
-                      <td className="py-3 px-3">
-                        <Link 
-                          to={`/players?id=${c.player_id}`}
-                          className="font-bold text-[#17263c] hover:text-[#be185d]"
-                        >
-                          {c.player_name}
-                        </Link>
-                        <div className="text-[10px] text-[#64748b]">{c.nationality} &bull; {c.role}</div>
-                      </td>
-                      <td className="py-3 px-3 text-right font-mono font-bold text-[#365e91]">
-                        {Number(c.clutch_iq_score).toFixed(2)}
-                      </td>
-                      <td className="py-3 px-2">
-                        <span className="px-1.5 py-0.5 rounded text-[10px] bg-[#f8fafc] border border-[#e2e6ec] text-[#475569]">
-                          {c.evidence_tier?.split('(')[0]?.trim()}
-                        </span>
-                      </td>
-                      <td className="py-3 px-3 text-[11px] font-medium text-[#17263c]">
-                        {c.franchise_2026}
-                      </td>
-                      <td className="py-3 px-3 text-[11px] font-bold text-[#be185d]">
-                        {c.rr_weakness_addressed}
-                      </td>
-                      <td className="py-3 px-4 text-[11px] text-[#17263c] max-w-xs leading-relaxed">
-                        {c.primary_tactical_role}
-                      </td>
-                      <td className="py-3 px-3">
-                        {getStatusBadge(c.status)}
-                      </td>
-                      <td className="py-3 px-4 text-[11px] text-[#64748b] max-w-xs leading-relaxed">
-                        {c.next_verification_requirement}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* TAB 5: CONFIRMED TARGETS ZERO STATE */}
-      {activeTab === 'CONFIRMED_TARGETS' && (
-        <div className="space-y-4">
-          <div className="bg-white rounded-md border border-[#e2e6ec] shadow-xs p-4">
-            <div className="flex items-center gap-2">
-              <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-[#f0fdf4] text-[#16845b] border border-[#bbf7d0]">
-                TIER 1 &bull; AVAILABLE_CONFIRMED
-              </span>
-              <h2 className="text-sm font-bold text-[#17263c]">
-                Confirmed Actionable Auction Targets ({confirmedList.length} Players)
-              </h2>
-            </div>
-            <p className="text-xs text-[#64748b] mt-1">
-              Active, IPL-eligible, and officially registered/released for the IPL 2027 Player Auction.
-            </p>
-          </div>
-
-          <div className="p-8 text-center bg-white rounded-md border border-[#e2e6ec] shadow-xs space-y-4">
-            <div className="w-12 h-12 rounded-full bg-[#f8fafc] border border-[#e2e6ec] flex items-center justify-center mx-auto text-[#17263c]">
-              <Compass className="w-6 h-6 text-[#365e91]" />
-            </div>
-            
-            <div className="space-y-1">
-              <div className="text-base font-bold text-[#17263c]">
-                Player Evaluation Complete.
-              </div>
-              <div className="text-xs font-semibold text-[#be185d]">
-                Final acquisition shortlist pending official IPL 2027 retention, release and auction registration verification.
-              </div>
-            </div>
-
-            <p className="text-xs text-[#64748b] max-w-2xl mx-auto leading-relaxed">
-              Zero confirmed targets does <strong>not</strong> mean zero suitable cricketing candidates. ClutchIQ has evaluated 700+ players and identified exactly 10 Batters and 10 Bowlers directly matching RR's 2026 campaign weaknesses. Because all candidates currently hold active contracts across the 10 franchises, BCCI regulations require waiting until the <strong>November 17, 2026</strong> deadline before confirmed acquisitions can be legally designated.
-            </p>
-
-            <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
-              <button
-                onClick={() => setActiveTab('BATTER_TARGETS')}
-                className="px-4 py-2 rounded bg-[#17263c] text-white text-xs font-semibold hover:bg-[#365e91] transition-colors flex items-center gap-1.5"
-              >
-                <Award className="w-4 h-4 text-[#be185d]" />
-                <span>View Top 10 Batters</span>
-              </button>
-              <button
-                onClick={() => setActiveTab('BOWLER_TARGETS')}
-                className="px-4 py-2 rounded bg-[#17263c] text-white text-xs font-semibold hover:bg-[#365e91] transition-colors flex items-center gap-1.5"
-              >
-                <Zap className="w-4 h-4 text-[#16845b]" />
-                <span>View Top 10 Bowlers</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* TAB 6: OVERVIEW & 2026 AUDIT */}
       {activeTab === 'OVERVIEW' && (
         <div className="space-y-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
